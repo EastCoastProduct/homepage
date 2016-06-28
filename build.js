@@ -23,7 +23,7 @@ Metalsmith(__dirname)
       metadata: {
         layout: 'service.ejs'
       }
-    },
+    }
     person: {
       pattern: '_person/*.md',
     }
