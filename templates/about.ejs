@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <% include partials/head %>
+  <body>
+    <% include partials/header %>
+    <section class="container">
+      <h2>Our people</h3>
+      <% collections.person.forEach(function(person){ %>
+        <div class="person-container">
+          <img class="person-container_picture" src="<%- person.image %>" />
+          <article class="person-container_info">
+            <h3><%- person.name %></h3>
+            <p><%- person.title %></p>
+            <p><%- person.bio %></p>
+          </article>
+        </div>
+      <% }) %>
+    </section>
+    <% include partials/footer %>
+  </body>
+</html>

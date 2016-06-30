@@ -1,0 +1,33 @@
+footer {
+  font-weight: 300;
+}
+
+.split-container {
+  margin: 0 0 5% 1%;
+  vertical-align: top;
+
+  * {
+    margin-bottom: 0;
+  }
+
+  button {
+    margin-top: 5%;
+  }
+
+  p {
+    word-break: break-all;
+  }
+}
+
+.footer--logo {
+  height: 80px;
+  background: url('../../images/footer-logo.svg') center no-repeat;
+  margin-bottom: 5%;
+}
+
+@media (min-width: 700px) {
+  .split-container {
+    display: inline-block;
+    width: 48%;
+  }
+}

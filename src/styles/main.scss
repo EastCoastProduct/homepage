@@ -1,3 +1,12 @@
 //Base styles
 @import 'defaults/normalize';
 @import 'defaults/base';
+
+//Component styles
+@import 'components/footer';
+@import 'components/header';
+
+
+//Shared styles
+@import 'shared/buttons';
+@import 'shared/icons';

@@ -11,7 +11,7 @@ var Metalsmith  = require('metalsmith'),
     watch       = require('metalsmith-watch');
 
 Metalsmith(__dirname)
-  .clean(false)
+  .clean(true)
   .destination('./build')
   .use(excerpts())
   .use(collections({
@@ -23,9 +23,12 @@ Metalsmith(__dirname)
       metadata: {
         layout: 'service.ejs'
       }
-    }
+    },
     person: {
       pattern: '_person/*.md',
+    },
+    clients: {
+      pattern: '_case/*.md'
     }
   }))
   .use(markdown())
@@ -40,9 +43,9 @@ Metalsmith(__dirname)
   .use(serve())
   .use(watch({
     paths: {
-      '${source}/**/*' : true,
-      "${source}/styles/**/*.scss": "styles/main.scss",
-      "templates/**/*": "**/*",
+      '${source}/**/*': true,
+      '${source}/styles/**/*.scss': 'styles/main.scss',
+      'templates/**/*': '**/*',
     },
     livereload: true,
   }))

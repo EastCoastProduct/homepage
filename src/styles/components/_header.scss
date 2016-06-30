@@ -1,0 +1,43 @@
+.main--navigation-logo {
+  display: inline-block;
+  vertical-align: top;
+  cursor: pointer;
+  width: 25%;
+  margin-left: 5%;
+
+  img {
+    width: 100%;
+  }
+
+  a {
+    border: none;
+    &:hover {
+      background-color: transparent;
+      color: none;
+    }
+  }
+}
+
+.navigation {
+  display: inline-block;
+
+  li {
+    @extend .navigation;
+    margin-left: 5%;
+  }
+}
+
+.page--title {
+  margin-top: 5%;
+  padding: 0 10% 0 5%;
+
+  font-weight: 300;
+}
+
+@media (min-width: 600px) {
+  .navigation-wide {
+    width: 50%;
+    margin-top: 2%;
+    margin-left: 15%
+  }
+}

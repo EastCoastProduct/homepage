@@ -1,6 +1,10 @@
 ---
 title: About
 directory: about
-template: page.ejs
+level: ../
+template: about.ejs
 ---
-Tell the world something about yourself here!
+<h1>About the team</h1>
+
+Great products are built by great people, and we've
+got some of the best in the business.

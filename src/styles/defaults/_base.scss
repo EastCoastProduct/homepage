@@ -1,13 +1,17 @@
+* { box-sizing: border-box; }
 
 body {
   font-family: Merriweather, serif;
   font-size: 100%;
+  padding: 1.125rem; // 18px
   color: #36383a;
   background-color: #F2F2F2;
 }
 
 .container {
+  max-width: 930px;
   padding: 0.9375rem;
+  margin: 1.625rem auto;
 }
 
 h1, h2, h3, p { margin: 0; } // cruddy reset
@@ -32,7 +36,6 @@ a {
   text-decoration: none;
   border-bottom: 2px solid rgba(#006D8C, 0.2);
   transition: all 0.2s linear;
-  cursor: pointer;
 
   &:hover {
     border-bottom-color: transparent;
@@ -55,7 +58,7 @@ a {
 
 .lede {
   font-family: Merriweather, serif;
-  font-weight: normal;
+  font-weight: 300;
   font-size: 1.5rem;       // 24px
   line-height: 1.25;       // 30px
   margin-bottom: 0.375rem; // 16px
@@ -93,7 +96,6 @@ h3 {
   a {
     color: #fff;
     border-bottom-color: #fff;
-    cursor: pointer;
 
     &:hover {
       border-bottom-color: transparent;
@@ -107,29 +109,8 @@ h3 {
   }
 }
 
-.main--navigation-logo {
-  display: inline-block;
-  vertical-align: top;
-  cursor: pointer;
-  width: 20%;
-
-  img {
-    width: 100%;
-  }
-
-  a {
-    border: none;
-    &:hover {
-      background-color: transparent;
-      color: none;
-    }
-  }
-}
-
-.navigation {
-  li {
+.inline {
   display: inline;
-  }
 }
 
 @media (min-width: 600px) {
@@ -178,12 +159,5 @@ h3 {
     font-size: 1.5rem;      // 24px
     line-height: 1.25;      // 30px
     margin-bottom: 0.75rem; // 12px
-  }
-
-  .navigation-wide {
-    display: inline-block;
-    width: 30%;
-    font-size: 2em;
-    margin-top: 3%;
   }
 }
