@@ -1,9 +1,9 @@
 .main--navigation-logo {
-  display: inline-block;
+  display: block;
   vertical-align: top;
   cursor: pointer;
-  width: 25%;
-  margin-left: 5%;
+  width: 60%;
+  margin: 0 auto;
 
   img {
     width: 100%;
@@ -20,24 +20,57 @@
 
 .navigation {
   display: inline-block;
+  margin: 24px 0 24px 0;
+  width: 100%;
+  text-align: center;
 
-  li {
-    @extend .navigation;
-    margin-left: 5%;
+
+  a {
+    margin-left: 15px;
+  }
+
+  button {
+    margin: 24px auto;
+    display: block;
+    width: 70%
   }
 }
 
 .page--title {
   margin-top: 5%;
-  padding: 0 10% 0 5%;
-
   font-weight: 300;
 }
 
-@media (min-width: 600px) {
+.header--image {
+  width: 100%;
+
+  img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 700px) {
+  .main--navigation-logo {
+  display: inline-block;
+  vertical-align: top;
+  cursor: pointer;
+  width: 40%;
+  margin: 0 auto;
+  }
+
+  .navigation {
+    display: inline-block;
+    margin: 0;
+
+    button {
+      display: inline-block;
+      margin-left: 15px;
+      width: auto;
+    }
+  }
+
   .navigation-wide {
-    width: 50%;
-    margin-top: 2%;
-    margin-left: 15%
+    width: 58%;
+    text-align: right;
   }
 }

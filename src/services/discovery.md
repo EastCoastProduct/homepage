@@ -1,7 +1,7 @@
 ---
 title: Discovery
 name: Discovery
-description: Nam eget odio vel nisl rhoncus viverra at eget nisi. Nullam eu justo ultricies ante venenatis aliquam at vitae nulla. Etiam nec gravida velit. Maecenas finibus enim ut mauris condimentum suscipit. Sed hendrerit metus sed erat placerat tempus. Pellentesque varius id purus at pellentesque. Nulla viverra lacus sed malesuada consectetur. Fusce a eleifend ligula.
+description: Our development and project management teams integrate with the client to collaboratively define project goals, features, and scope. We are involved in every aspect of planning and strategy. We make sure we understand the “Why?” behind what we build.
 image:
 template: partials/service.ejs
 ---

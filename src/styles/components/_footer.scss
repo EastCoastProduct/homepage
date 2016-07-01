@@ -3,31 +3,39 @@ footer {
 }
 
 .split-container {
-  margin: 0 0 5% 1%;
   vertical-align: top;
 
-  * {
-    margin-bottom: 0;
-  }
-
   button {
-    margin-top: 5%;
+    margin: 36px 0 60px 0;
   }
 
   p {
     word-break: break-all;
+    margin-bottom: 0;
+  }
+
+  h2 {
+    font-weight: 300;
   }
 }
 
 .footer--logo {
   height: 80px;
   background: url('../../images/footer-logo.svg') center no-repeat;
-  margin-bottom: 5%;
+  margin: 57px 0 32px 0;
 }
 
 @media (min-width: 700px) {
   .split-container {
     display: inline-block;
     width: 48%;
+  }
+
+  .left-container {
+    margin-right: 1.6129%;
+  }
+
+  .right-container {
+    margin-left: 1.6129%;
   }
 }

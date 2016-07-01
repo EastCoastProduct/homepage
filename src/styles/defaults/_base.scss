@@ -10,7 +10,7 @@ body {
 
 .container {
   max-width: 930px;
-  padding: 0.9375rem;
+  padding: 1.875rem;
   margin: 1.625rem auto;
 }
 
@@ -109,11 +109,24 @@ h3 {
   }
 }
 
+.blue-background {
+  background-color: #006D8C;
+  color: #fff;
+}
+
 .inline {
   display: inline;
 }
 
-@media (min-width: 600px) {
+.margin--bottom-60_narrow {
+  margin-bottom: 60px;
+}
+
+.margin--bottom-36 {
+  margin-bottom: 36px;
+}
+
+@media (min-width: 700px) {
 
   p {
     font-size: 1.25rem;      // 20px
@@ -159,5 +172,13 @@ h3 {
     font-size: 1.5rem;      // 24px
     line-height: 1.25;      // 30px
     margin-bottom: 0.75rem; // 12px
+  }
+
+  .margin--bottom-36 {
+    margin-bottom: 36px;
+  }
+
+  .margin--bottom-60 {
+    margin-bottom: 60px;
   }
 }

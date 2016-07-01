@@ -4,7 +4,6 @@ directory: about
 level: ../
 template: about.ejs
 ---
-<h1>About the team</h1>
+<h1>Meet the Team</h1>
 
-Great products are built by great people, and we've
-got some of the best in the business.
+17 people, 2 offices, 1000’s lines of code, 1 happy family.

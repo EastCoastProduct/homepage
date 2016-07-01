@@ -4,7 +4,7 @@
   <body>
     <% include partials/header %>
     <section class="container">
-      <h2>Our people</h3>
+      <h2>The dream team</h3>
       <% collections.person.forEach(function(person){ %>
         <div class="person-container">
           <img class="person-container_picture" src="<%- person.image %>" />
@@ -15,6 +15,13 @@
           </article>
         </div>
       <% }) %>
+    </section>
+    <section class="container">
+      <h2>We Like to Help</h2>
+      <p>There's an opportunity for a services company to be more inclusive of their clients, more customer-centric, more cognizant of how to partner with clients to create an awesome team that gets projects done fast. We are that company. We believe in going above and beyond for our clients. We use our years of experience and network to help us be the best help our clients can buy.</p>
+      <article>
+        <h3>Values</h3>
+      </article>
     </section>
     <% include partials/footer %>
   </body>

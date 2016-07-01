@@ -3,28 +3,26 @@
   <% include partials/head %>
   <body>
     <% include partials/header %>
-    <section class="container">
-      <h1>About the team</h1>
-      <p>We believe in small teams, working directly with you, focused on only
+    <section class="container blue-background">
+      <h1>Who we are</h1>
+      <p class="margin--bottom-36">We believe in small teams, working directly with you, focused on only
       your problems. We find solutions together.</p>
-      <button>Meet our team members</button>
+      <button class="button button-default">Meet the team</button>
     </section>
     <section class="container">
       <h1>Our clients and partners</h1>
       <img src="" alt="Our Partners"/>
       <p>Our clients are lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non nibh at tortor consequat mattis molestie placerat elit. Fusce dapibus urna nisi, vitae eleifend leo semper vel.</p>
-      <button>See their success stories</button>
+      <button class="button button-default">Hear their stories</button>
     </section>
     <section class="container">
-      <h1>How we work</h1>
-      <p>Too many projects end up drawn out and incomplete. Our process
-      is about short bursts of execution, so we can go from idea
-      to product faster</p>
+      <h1>How we can help</h1>
+      <p>From entrepreneurs to enterprises, everyone is looking to build the best products. Our process is about short bursts of execution, so we can go from idea to product faster</p>
       <% collections.services.forEach(function(servi){ %>
-        <article>
+        <article class="services-container">
           <h2><%- servi.name %></h2>
           <p><%- servi.description %></p>
-          <button>Learn more about <%- servi.name.toLowerCase() %></button>
+          <button class="button button-default">Learn more about <%- servi.name.toLowerCase() %></button>
           <img src="<%= servi.image %>" alt="picture" />
         </article>
       <% }) %>
