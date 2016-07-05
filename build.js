@@ -20,6 +20,8 @@ Metalsmith(__dirname)
     },
     services: {
       pattern: 'services/*.md',
+      sortBy: 'name',
+      reverse: 'true',
       metadata: {
         layout: 'service.ejs'
       }

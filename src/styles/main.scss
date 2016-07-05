@@ -1,4 +1,5 @@
 //Base styles
+@import 'defaults/variables';
 @import 'defaults/normalize';
 @import 'defaults/base';
 
@@ -6,6 +7,7 @@
 @import 'components/footer';
 @import 'components/header';
 @import 'components/home';
+@import 'components/services';
 
 
 //Shared styles

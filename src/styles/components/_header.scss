@@ -37,8 +37,11 @@
 }
 
 .page--title {
-  margin-top: 5%;
   font-weight: 300;
+
+  h2 {
+    margin-bottom: 24px;
+  }
 }
 
 .header--image {
@@ -72,5 +75,11 @@
   .navigation-wide {
     width: 58%;
     text-align: right;
+  }
+
+  .page--title {
+    h2 {
+      margin-bottom: 60px;
+    }
   }
 }

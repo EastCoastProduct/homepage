@@ -6,7 +6,7 @@ footer {
   vertical-align: top;
 
   button {
-    margin: 36px 0 60px 0;
+    margin-bottom: 18px;
   }
 
   p {
@@ -29,6 +29,10 @@ footer {
   .split-container {
     display: inline-block;
     width: 48%;
+
+    button {
+      margin-bottom: 60px;
+    }
   }
 
   .left-container {

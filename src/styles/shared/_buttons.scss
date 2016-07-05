@@ -1,5 +1,5 @@
 .button {
-  color: #FFF;
+  color: $white;
   font-family: Raleway, sans-serif;
   font-weight: 400;
   line-height: 36px;
@@ -15,25 +15,25 @@
 .button-major {
   @extends .button;
   font-size: 20px;
-  background-color: #00B968;
-  border-color: #00B968;
-  box-shadow: #1C9d3b;
+  background-color: $green;
+  border-color: $green;
+  box-shadow: $green-shade;
 }
 
 .button-default {
   @extends .button;
   font-size: 16px;
-  background-color: #3d4945;
-  border-color: #3d4945;
-  box-shadow: #1C2522 0 4px 0;
+  background-color: $dark-gray;
+  border-color: $dark-gray;
+  box-shadow: $darkest-gray 0 4px 0;
 }
 
 .button-default-reverse {
   @extends .button;
   font-size: 16px;
-  background-color: #00B968;
-  border-color: #00B968;
-  box-shadow: #1C9d3b 0 4px 0;
+  background-color: $green;
+  border-color: $green;
+  box-shadow: $green-shade 0 4px 0;
 }
 
 @media (min-width: 600px) {
