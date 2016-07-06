@@ -1,0 +1,31 @@
+@mixin top-right($color) {
+  &:before {
+    top: -30px;
+    background-image: linear-gradient(to bottom right, transparent 0, transparent 50%, $color 51%, $color 100%);
+    // 51% for first stop of second color helps smooth jagged edge in some browsers
+  }
+}
+
+@mixin top-left($color) {
+  &:before {
+    top: -30px;
+    background-image: linear-gradient(to bottom left, transparent 0, transparent 50%, $color 51%, $color 100%);
+    // 51% for first stop of second color helps smooth jagged edge in some browsers
+  }
+}
+
+@mixin bottom-left($color) {
+    &:after {
+    bottom: -30px;
+    background-image: linear-gradient(to top left, transparent 0, transparent 50%, $color 51%, $color 100%);
+    // 51% for first stop of second color helps smooth jagged edge in some browsers
+  }
+}
+
+@mixin bottom-right($color) {
+    &:after {
+    bottom: -30px;
+    background-image: linear-gradient(to top right, transparent 0, transparent 50%, $color 51%, $color 100%);
+    // 51% for first stop of second color helps smooth jagged edge in some browsers
+  }
+}

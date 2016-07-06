@@ -90,7 +90,7 @@ h3 {
 }
 
 .dark-background {
-  background-color: $dark;
+  background-color: $darker-gray;
   color: $white;
 
   a {
@@ -120,6 +120,18 @@ h3 {
 
 .margin--bottom-paragraph {
   margin-bottom: 24px !important;
+}
+
+.first_container {
+  margin-top: -70px;
+
+  h1 {
+    margin-top: -10px !important;
+  }
+
+  button {
+    margin-bottom: 10px !important;
+  }
 }
 
 @media (min-width: 700px) {
@@ -172,5 +184,15 @@ h3 {
 
   .margin--bottom-paragraph {
     margin-bottom: 36px !important;
+  }
+
+  .first_container {
+    h1 {
+      margin-top: 0 !important;
+    }
+
+    button {
+      margin-bottom: 10px !important;
+    }
   }
 }

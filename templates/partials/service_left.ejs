@@ -1,11 +1,14 @@
 <article class="services--container">
   <div class="services--container-image right">
-    <img src="<%= collections.services[i].image %>" alt="picture" />
+    <img src="<%= collections.services[i].image %>"
+      alt="<%= collections.services[i].name %>" />
   </div>
   <div class="services--container-info left">
     <h2><%= collections.services[i].name %></h2>
     <p><%= collections.services[i].description %></p>
-    <button class="button button-default">Learn more about
-    <%= collections.services[i].name.toLowerCase() %></button>
+    <form action="<%- level %>services">
+      <button class="button button-default">Learn more about
+        <%= collections.services[i].name.toLowerCase() %></button>
+    </form>
   </div>
 </article>

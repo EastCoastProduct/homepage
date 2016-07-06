@@ -1,0 +1,68 @@
+.angle-edge {
+  position: relative;
+
+  &:before,
+  &:after {
+    content: "";
+    display: block;
+    height: 30px;
+    position: absolute;
+    left: 0; right: 0;
+  }
+}
+
+.top-left {
+  &-blue {
+    @include top-left($blue);
+  }
+
+  &-dark {
+    @include top-left($darker-gray);
+  }
+
+  &-gray {
+    @include top-left($lightest-gray);
+  }
+}
+
+.top-right {
+  &-blue {
+    @include top-right($blue);
+  }
+
+  &-dark {
+    @include top-right($darker-gray);
+  }
+
+  &-gray {
+    @include top-right($lightest-gray);
+  }
+}
+
+.bottom-left {
+  &-blue {
+    @include bottom-left($blue);
+  }
+
+  &-dark {
+    @include bottom-left($darker-gray);
+  }
+
+  &-gray {
+    @include bottom-left($lightest-gray);
+  }
+}
+
+.bottom-right {
+  &-blue {
+    @include bottom-right($blue);
+  }
+
+  &-dark {
+    @include bottom-right($darker-gray);
+  }
+
+  &-gray {
+    @include bottom-right($lightest-gray);
+  }
+}

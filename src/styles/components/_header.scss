@@ -26,7 +26,18 @@
 
 
   a {
-    margin-left: 15px;
+    margin-right: 5%;
+    border-bottom-color: rgba($middle-gray, 0.4);
+
+    &:first-child{
+      margin-left: 5%;
+    }
+
+    &:hover {
+      border-bottom-color: #fff;
+      background-color: inherit;
+      color: inherit;
+    }
   }
 
   button {
@@ -65,9 +76,18 @@
     display: inline-block;
     margin: 0;
 
+    a {
+      margin-right: 1.6129%;
+      border-bottom-color: rgba($middle-gray, 0.4);
+
+      &:first-child{
+        margin-left: 1.6129%;
+      }
+    }
+
     button {
       display: inline-block;
-      margin-left: 15px;
+      margin-left: 1.6129%;
       width: auto;
     }
   }

@@ -1,5 +1,6 @@
 //Base styles
 @import 'defaults/variables';
+@import 'defaults/mixins';
 @import 'defaults/normalize';
 @import 'defaults/base';
 
@@ -8,8 +9,10 @@
 @import 'components/header';
 @import 'components/home';
 @import 'components/services';
+@import 'components/work';
 
 
 //Shared styles
 @import 'shared/buttons';
 @import 'shared/icons';
+@import 'shared/borders';
