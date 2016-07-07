@@ -1,15 +1,17 @@
-<header class="container dark-background">
-  <div class="main--navigation-logo">
-    <a href="<%- level %>"><img src="../images/logos/logo.svg" alt="ECP" /></a>
+<header class="dark-background">
+  <div class="container ">
+    <div class="main--navigation-logo">
+      <a href="<%- level %>"><img src="../images/logos/logo.svg" alt="ECP" /></a>
+    </div>
+    <nav class="navigation navigation-wide">
+      <!-- <a href="<%- level %>services">Services</a> -->
+      <a href="<%- level %>work">Work</a>
+      <a href="<%- level %>about">About</a>
+      <a href="#">Blog</a>
+      <button class="button button-default-reverse">Hire Us</button>
+    </nav>
+    <section class="page--title">
+      <%- contents %>
+    </section>
   </div>
-  <nav class="navigation navigation-wide">
-    <a href="<%- level %>services">Services</a>
-    <a href="<%- level %>work">Work</a>
-    <a href="<%- level %>about">About</a>
-    <a href="#">Blog</a>
-    <button class="button button-default-reverse">Hire Us</button>
-  </nav>
-  <section class="page--title">
-    <%- contents %>
-  </section>
 </header>

@@ -3,25 +3,58 @@
   <% include partials/head %>
   <body>
     <% include partials/header %>
-    <section class="container">
-      <h2>The dream team</h3>
-      <% collections.person.forEach(function(person){ %>
-        <div class="person-container">
-          <img class="person-container_picture" src="<%- person.image %>" />
-          <article class="person-container_info">
-            <h3><%- person.name %></h3>
-            <p><%- person.title %></p>
-            <p><%- person.bio %></p>
-          </article>
-        </div>
-      <% }) %>
+    <section class="angle-edge top-right-gray
+      bottom-right-gray">
+      <div class="container">
+        <h1>The dream team</h1>
+        <% collections.person.forEach(function(person){ %>
+          <div class="person-container">
+            <img class="person-container_picture" src="<%- person.image %>" />
+            <article class="person-container_info">
+              <h2><%- person.name %></h2>
+              <p><%- person.title %></p>
+              <p><%- person.bio %></p>
+            </article>
+          </div>
+        <% }) %>
+      </div>
     </section>
-    <section class="container">
-      <h2>We Like to Help</h2>
-      <p>There's an opportunity for a services company to be more inclusive of their clients, more customer-centric, more cognizant of how to partner with clients to create an awesome team that gets projects done fast. We are that company. We believe in going above and beyond for our clients. We use our years of experience and network to help us be the best help our clients can buy.</p>
-      <article>
-        <h3>Values</h3>
-      </article>
+    <section class="blue-background angle-edge top-left-blue bottom-left-blue">
+      <div class="container">
+        <h2>We Like to Help</h2>
+        <p>There's an opportunity for a services company to be more inclusive of their clients, more customer-centric, more cognizant of how to partner with clients to create an awesome team that gets projects done fast. We are that company. We believe in going above and beyond for our clients. We use our years of experience and network to help us be the best help our clients can buy.</p>
+        <article>
+          <h2 class="major">Values</h2>
+          <article class="block-column-3">
+            <h2>Be blahmun</h2>
+            <p>fhlsls fsdlklkgdfl sdfdfsg</p>
+            <div class="values-image-container">
+              <img src="../images/illustrations/services-design.png" alt="picture" />
+            </div>
+          </article>
+          <article class="block-column-3">
+            <h2>Be blahmun</h2>
+            <p>fhlsls fsdlklkgdfl sdfdfsg</p>
+            <div class="values-image-container">
+              <img src="../images/illustrations/services-design.png" alt="picture" />
+            </div>
+          </article>
+          <article class="block-column-3">
+            <h2>Be blahmun</h2>
+            <p>fhlsls fsdlklkgdfl sdfdfsg</p>
+            <div class="values-image-container">
+              <img src="../images/illustrations/services-design.png" alt="picture" />
+            </div>
+          </article>
+          <article class="block-column-3">
+            <h2>Be blahmun</h2>
+            <p>fhlsls fsdlklkgdfl sdfdfsg</p>
+            <div class="values-image-container">
+              <img src="../images/illustrations/services-design.png" alt="picture" />
+            </div>
+          </article>
+        </article>
+      </div>
     </section>
     <% include partials/footer %>
   </body>
