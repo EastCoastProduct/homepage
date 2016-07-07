@@ -1,68 +1,71 @@
 .angle-edge {
   position: relative;
-
-  &:before,
-  &:after {
-    content: "";
-    display: block;
-    height: 30px;
-    position: absolute;
-    left: 0; right: 0;
-  }
 }
 
 .top-left {
   &-blue {
     @include top-left($blue);
+    @include before;
   }
 
   &-dark {
     @include top-left($darker-gray);
+    @include before;
   }
 
   &-gray {
     @include top-left($lightest-gray);
+    @include before;
   }
 }
 
 .top-right {
   &-blue {
     @include top-right($blue);
+    @include before;
   }
 
   &-dark {
     @include top-right($darker-gray);
+    @include before;
   }
 
   &-gray {
     @include top-right($lightest-gray);
+    @include before;
   }
 }
 
 .bottom-left {
   &-blue {
     @include bottom-left($blue);
+    @include after;
   }
 
   &-dark {
     @include bottom-left($darker-gray);
+    @include after;
   }
 
   &-gray {
     @include bottom-left($lightest-gray);
+    @include after;
   }
 }
 
 .bottom-right {
   &-blue {
     @include bottom-right($blue);
+    @include after;
   }
 
   &-dark {
     @include bottom-right($darker-gray);
+    @include after;
   }
 
   &-gray {
     @include bottom-right($lightest-gray);
+    @include after;
   }
 }

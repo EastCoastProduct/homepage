@@ -113,6 +113,10 @@ h3 {
   color: $white;
 }
 
+.gray-background {
+  background-color: $lightest-gray;
+}
+
 .inline {
   display: inline;
 }
@@ -200,5 +204,6 @@ h3 {
   .block-column-3 {
     width: 46.7746%;
     display: inline-block;
+    vertical-align: top;
   }
 }

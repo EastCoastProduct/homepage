@@ -3,8 +3,10 @@
   <% include partials/head %>
   <body>
     <% include partials/header %>
-    <section class="angle-edge top-right-gray
-      bottom-right-gray">
+    <div class="about-main-image">
+        <img src="../images/photos/about-page-office-photo.png" />
+    </div>
+    <section class="angle-edge top-right-gray bottom-right-gray gray-background">
       <div class="container">
         <h1>The dream team</h1>
         <% collections.person.forEach(function(person){ %>
@@ -21,38 +23,22 @@
     </section>
     <section class="blue-background angle-edge top-left-blue bottom-left-blue">
       <div class="container">
-        <h2>We Like to Help</h2>
+        <h2>We like to help</h2>
         <p>There's an opportunity for a services company to be more inclusive of their clients, more customer-centric, more cognizant of how to partner with clients to create an awesome team that gets projects done fast. We are that company. We believe in going above and beyond for our clients. We use our years of experience and network to help us be the best help our clients can buy.</p>
         <article>
           <h2 class="major">Values</h2>
-          <article class="block-column-3">
-            <h2>Be blahmun</h2>
-            <p>fhlsls fsdlklkgdfl sdfdfsg</p>
+          <% collections.values.forEach(function(value) { %>
+            <figure class="block-column-3">
             <div class="values-image-container">
-              <img src="../images/illustrations/services-design.png" alt="picture" />
+              <img src="<%= value.image %>"
+                alt="picture" />
             </div>
-          </article>
-          <article class="block-column-3">
-            <h2>Be blahmun</h2>
-            <p>fhlsls fsdlklkgdfl sdfdfsg</p>
-            <div class="values-image-container">
-              <img src="../images/illustrations/services-design.png" alt="picture" />
-            </div>
-          </article>
-          <article class="block-column-3">
-            <h2>Be blahmun</h2>
-            <p>fhlsls fsdlklkgdfl sdfdfsg</p>
-            <div class="values-image-container">
-              <img src="../images/illustrations/services-design.png" alt="picture" />
-            </div>
-          </article>
-          <article class="block-column-3">
-            <h2>Be blahmun</h2>
-            <p>fhlsls fsdlklkgdfl sdfdfsg</p>
-            <div class="values-image-container">
-              <img src="../images/illustrations/services-design.png" alt="picture" />
-            </div>
-          </article>
+            <figcaption>
+              <h2><%= value.title %></h2>
+              <p><%= value.description %></p>
+            </figcaption>
+          </figure>
+          <% }) %>
         </article>
       </div>
     </section>

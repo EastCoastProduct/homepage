@@ -1,3 +1,19 @@
 .values-image-container {
   text-align: center;
 }
+
+.about-main-image {
+  img {
+    width: 100%;
+  }
+}
+
+figure {
+  margin-bottom: 36px;
+}
+
+@media (min-width: 700px) {
+  figure {
+    margin-bottom: 60px;
+  }
+}
