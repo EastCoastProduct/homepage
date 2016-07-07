@@ -3,22 +3,25 @@
   <% include partials/head %>
   <body>
     <% include partials/header %>
-    <section class="container">
-    <% collections.clients.forEach(function(client){ %>
-      <article class="clients--container-info">
-        <h1><a href=""><%- client.title %></a></h1>
-        <h2><%- client.name %></h2>
-        <div class="clients--image-container"></div>
-        <div class="angle-edge top-left-gray first-container">
-          <p><%- client.description %></p>
-          <form action="">
-            <button class="button button-default">
-              Learn more about <%- client.name %>
-            </button>
-          </form>
-        </div>
-      </article>
-    <% }) %>
+    <section class="angle-edge top-left-gray
+      bottom-left-gray">
+    <div class="container">
+      <% collections.clients.forEach(function(client){ %>
+        <article class="clients--container-info">
+          <h1><a href=""><%- client.title %></a></h1>
+          <h2><%- client.name %></h2>
+          <div class="clients--image-container"></div>
+          <div class="angle-edge top-left-gray first-container">
+            <p><%- client.description %></p>
+            <form action="">
+              <button class="button button-default">
+                Learn more about <%- client.name %>
+              </button>
+            </form>
+          </div>
+        </article>
+      <% }) %>
+    </div>
     </section>
     <% include partials/footer %>
   </body>
