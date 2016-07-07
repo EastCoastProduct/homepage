@@ -31,6 +31,9 @@ Metalsmith(__dirname)
     },
     clients: {
       pattern: '_case/*.md'
+    },
+    values: {
+      pattern: '_values/*.md'
     }
   }))
   .use(markdown())
