@@ -1,5 +1,9 @@
 footer {
   font-weight: 300;
+
+  a {
+    border-bottom-color: rgba($white, 0.2) !important;
+  }
 }
 
 .split-container {

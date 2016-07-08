@@ -2,11 +2,12 @@
   display: block;
   vertical-align: top;
   cursor: pointer;
-  width: 60%;
+  width: 100%;
   margin: 0 auto;
+  text-align: center;
 
   img {
-    width: 100%;
+    max-width: 250px;
   }
 
   a {
@@ -20,18 +21,15 @@
 
 .navigation {
   display: inline-block;
-  margin: 24px 0 24px 0;
+  margin: 1.5rem 0 1.5rem 0;
   width: 100%;
   text-align: center;
+  font: 1.2rem Raleway, sans-serif;
 
 
   a {
-    margin-right: 5%;
-    border-bottom-color: rgba($middle-gray, 0.4);
-
-    &:first-child{
-      margin-left: 5%;
-    }
+    margin: 0 0.9375rem 0 0.9375rem;
+    border-bottom-color: rgba($middle-gray, 0.2);
 
     &:hover {
       border-bottom-color: #fff;
@@ -68,8 +66,9 @@
   display: inline-block;
   vertical-align: top;
   cursor: pointer;
-  width: 40%;
+  width: 30%;
   margin: 0 auto;
+  text-align: left;
   }
 
   .navigation {
@@ -77,12 +76,7 @@
     margin: 0;
 
     a {
-      margin-right: 1.6129%;
       border-bottom-color: rgba($middle-gray, 0.4);
-
-      &:first-child{
-        margin-left: 1.6129%;
-      }
     }
 
     button {
@@ -93,11 +87,13 @@
   }
 
   .navigation-wide {
-    width: 58%;
+    width: 69%;
     text-align: right;
   }
 
   .page--title {
+    margin-top: 3.75rem;
+
     h2 {
       margin-bottom: 60px;
     }
@@ -106,6 +102,6 @@
 
 @media (max-width: 400px) {
   .navigation {
-    font-size: 0.8rem;
+    font-size: 0.84rem;
   }
 }

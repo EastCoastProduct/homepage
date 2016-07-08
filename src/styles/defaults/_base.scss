@@ -9,7 +9,7 @@ body {
 
 .container {
   max-width: 930px;
-  padding: 1.875rem;
+  padding: 1.875rem 0.9375rem 3.75rem 0.9375rem;
   margin: 0 auto; //1.625rem
 }
 
@@ -137,6 +137,10 @@ h3 {
   }
 }
 
+.button-margin-large {
+  margin-bottom: 36px;
+}
+
 @media (min-width: 700px) {
 
   p {
@@ -205,5 +209,9 @@ h3 {
     width: 46.7746%;
     display: inline-block;
     vertical-align: top;
+  }
+
+  .button-margin-large {
+    margin-bottom: 60px;
   }
 }
