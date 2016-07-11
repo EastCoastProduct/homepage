@@ -3,19 +3,29 @@
   <% include partials/head %>
   <body>
     <% include partials/header %>
-    <section class="angle-edge top-right-gray bottom-right-gray gray-background first-section-about">
+    <section class="angle-edge top-right-gray bottom-right-gray gray-background first-section-about overflow-hidden">
       <div class="container">
         <h1>The dream team</h1>
+        <ul class="team-container">
         <% collections.person.forEach(function(person){ %>
-          <div class="person-container">
-            <img class="person-container_picture" src="<%- person.image %>" />
-            <article class="person-container_info">
-              <h2><%- person.name %></h2>
-              <p><%- person.title %></p>
-              <p><%- person.bio %></p>
-            </article>
-          </div>
+           <li class="person-container">
+             <a href="#" class="open-info">
+               <img class="person-container_picture" src="../images/photos/team/dou.png" />
+               <h2><%- person.name %></h2>
+               <p><%- person.title %></p>
+             </a>
+             <div class="person-info-container is-active">
+               <p><%- person.bio %></p>
+               <ul>
+                 <li> </li>
+               </ul>
+               <button type="buttons" class="close-info">
+                 Close info
+               </button>
+             </div>
+           </li>
         <% }) %>
+        </ul>
       </div>
     </section>
     <section class="blue-background angle-edge top-left-blue bottom-left-blue">
