@@ -1,0 +1,180 @@
+.values-image-container {
+  text-align: center;
+}
+
+.about-main-image {
+  img {
+    width: 100%;
+  }
+}
+
+figure {
+  margin-bottom: 36px;
+}
+
+header {
+  .container {
+    padding: 1.875rem 0.9375rem 0 0.9375rem;
+  }
+}
+
+.first-section-about {
+  margin-top: -.3rem;
+}
+
+.about-header-image-container img {
+  width: 100%;
+}
+
+
+.info-container {
+  display: inline-block;
+  position: relative;
+  text-align: left;
+  vertical-align: top;
+  width: 30.1078%;
+  margin-right: 3.2258%;
+}
+
+.team-container {
+  width: 100%;
+  list-style-type: none;
+  margin: 0 auto 60px auto;
+  padding: 0;
+}
+
+.person-container {
+  width: 29%;
+  display: inline-block;
+  text-align: left;
+  margin: 0 0 1em 0;
+  vertical-align: top;
+  position: relative;
+  margin-right: 1.87rem;
+}
+
+.person-container a, h2, h3, p, ul, li {
+  box-sizing: border-box;
+  display: block;
+  border: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.open-info {
+  outline: none !important;
+  display: block;
+
+  &:hover, &:focus {
+    background-color: $lightest-gray !important;
+  }
+
+  h2 {
+    color: #006D8C;
+    text-decoration: none;
+    border-bottom: 4px solid rgba(0, 109, 140, 0.2);
+    transition: all 0.2s linear;
+    margin-bottom: 6px;
+
+    &:hover {
+      border-bottom-color: transparent;
+      background-color: $blue;
+      color: #fff;
+    }
+  }
+
+  p {
+    color: #36383a;
+    text-decoration: none;
+    margin-bottom: 24px;
+    cursor: default;
+  }
+
+  img {
+    margin: 12px 0 12px 0;
+    width: 100%;
+  }
+}
+
+.close-info {
+  display: block;
+  width: 2em;
+  height: 2em;
+  border: none !important;
+  padding: 0;
+  background: none;
+  text-indent: -9999px;
+  overflow: hidden;
+  position: absolute;
+  top: 25em;
+  left: 50em;
+  -webkit-transition: all 0.2s linear;
+     -moz-transition: all 0.2s linear;
+      -ms-transition: all 0.2s linear;
+       -o-transition: all 0.2s linear;
+          transition: all 0.2s linear;
+
+  &:before, &:after {
+    content: "";
+    display: block;
+    background-color: $white;
+    position: absolute;
+    transform: rotate(45deg);
+  }
+
+  &:before {
+    height: 4px;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin-top: -2px;
+  }
+
+  &:after {
+    width: 4px;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    margin-left: -2px;
+  }
+
+  &:hover, &:focus {
+    outline: none;
+    -webkit-transform: scale(1.2);
+       -moz-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+         -o-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+}
+
+.person-info-container {
+  width: 300%;
+}
+
+.is-active.person-info-container {
+
+}
+
+.is-active.person-info-container {
+
+}
+
+@media (min-width: 700px) {
+  figure {
+    margin-bottom: 60px;
+  }
+
+  .first-section-about {
+    margin-top: -1.5rem;
+  }
+
+  .person-container {
+    display: inline-block;
+  }
+
+  .descri {
+    max-width: 930px;
+  }
+}

@@ -5,10 +5,6 @@
   </div>
   <div class="services--container-info left">
     <h2><%= collections.services[i].name %></h2>
-    <p><%= collections.services[i].description %></p>
-    <form action="<%- level %>services">
-      <button class="button button-default">Learn more about
-        <%= collections.services[i].name.toLowerCase() %></button>
-    </form>
+    <p class="minor"><%= collections.services[i].description %></p>
   </div>
 </article>

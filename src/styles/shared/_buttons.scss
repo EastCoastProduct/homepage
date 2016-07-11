@@ -1,9 +1,9 @@
 .button {
-  color: $white;
+  color: $white !important;
   font-family: Raleway, sans-serif;
   font-weight: 400;
+  display: inline-block;
   line-height: 36px;
-  height: 36px;
   padding: 0 20px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -18,6 +18,16 @@
   background-color: $green;
   border-color: $green;
   box-shadow: $green-shade;
+
+  &:hover, :focus {
+    box-shadow: $green-shade 0 6px 0 !important;
+    background-color: $green-tint !important;
+  }
+
+  &:active {
+    box-shadow: $green-shade 0 2px 0 !important;
+    background-color: $green !important;
+  }
 }
 
 .button-default {
@@ -26,6 +36,16 @@
   background-color: $dark-gray;
   border-color: $dark-gray;
   box-shadow: $darkest-gray 0 4px 0;
+
+  &:hover, :focus {
+    box-shadow: $darkest-gray 0 6px 0 !important;
+    background-color: $middle-gray !important;
+  }
+
+  &:active {
+    box-shadow: $dark-gray 0 2px 0 !important;
+    background-color: $darker-gray !important;
+  }
 }
 
 .button-default-reverse {
@@ -34,12 +54,21 @@
   background-color: $green;
   border-color: $green;
   box-shadow: $green-shade 0 4px 0;
+
+  &:hover, :focus {
+    box-shadow: $green-shade 0 6px 0 !important;
+    background-color: $green-tint !important;
+  }
+
+  &:active {
+    box-shadow: $green-shade 0 2px 0 !important;
+    background-color: $green !important;
+  }
 }
 
 @media (min-width: 600px) {
   .button {
     line-height: 48px;
-    height: 48px;
   }
 
   .button-major {

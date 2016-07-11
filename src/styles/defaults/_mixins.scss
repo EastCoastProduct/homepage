@@ -29,3 +29,23 @@
     // 51% for first stop of second color helps smooth jagged edge in some browsers
   }
 }
+
+@mixin before {
+    &:before {
+    content: "";
+    display: block;
+    height: 30px;
+    position: absolute;
+    left: 0; right: 0;
+  }
+}
+
+@mixin after {
+  &:after {
+    content: "";
+    display: block;
+    height: 30px;
+    position: absolute;
+    left: 0; right: 0;
+  }
+}

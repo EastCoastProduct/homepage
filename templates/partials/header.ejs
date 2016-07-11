@@ -1,4 +1,4 @@
-<header class="dark-background">
+<header class="dark-background angle-edge bottom-right-dark">
   <div class="container ">
     <div class="main--navigation-logo">
       <a href="<%- level %>"><img src="../images/logos/logo.svg" alt="ECP" /></a>
@@ -8,10 +8,16 @@
       <a href="<%- level %>work">Work</a>
       <a href="<%- level %>about">About</a>
       <a href="#">Blog</a>
-      <button class="button button-default-reverse">Hire Us</button>
+      <a href="#" class="button button-default-reverse">Hire Us</a>
     </nav>
     <section class="page--title">
+      <%- description %>
       <%- contents %>
     </section>
   </div>
+  <% if(title == 'About') { %>
+      <div class="about-header-image-container">
+        <img src="../images/photos/about-page-office-photo@2x.png" alt="Our office"/>
+      </div>
+    <% } %>
 </header>
