@@ -12,8 +12,20 @@ figure {
   margin-bottom: 36px;
 }
 
+.first-section-about {
+  margin-top: -.3rem;
+}
+
+.about-header-image-container img {
+  width: 100%;
+}
+
 @media (min-width: 700px) {
   figure {
     margin-bottom: 60px;
+  }
+
+  .first-section-about {
+    margin-top: -1.5rem;
   }
 }
