@@ -6,22 +6,29 @@
     <section class="angle-edge top-right-gray bottom-right-gray gray-background first-section-about overflow-hidden">
       <div class="container">
         <h1>The dream team</h1>
-        <ul class="team-container">
+        <ul class="alumni employees-list">
         <% collections.person.forEach(function(person){ %>
-           <li class="person-container">
-             <a href="#" class="open-info">
-               <img class="person-container_picture" src="../images/photos/team/dou.png" />
-               <h2><%- person.name %></h2>
-               <p><%- person.title %></p>
+           <li class="alumnus" class="open-bio" tabindex="-1"
+            id="<%= person.id %>">
+             <a href="#<%= person.id %>" class="open-bio">
+               <img src="../images/photos/team/dou.png" alt="Potrait of <%= person.name %>" class="portrait" />
+               <h2 class="name"><%- person.name %></h2>
+               <p class="employment-details minor"><%- person.title %></p>
              </a>
-             <div class="person-info-container is-active">
-               <p><%- person.bio %></p>
-               <ul>
-                 <li> </li>
+             <div class="bio">
+               <div class="border-top"></div>
+               <p class="minor"><%- person.bio %></p>
+               <ul class="social">
+                 <li><span class="icon icon--phone-black"></span><a href="#"> Email</a> or <a href="#">Call</a></li>
+                 <li><span class="icon icon--facebook-black"></span><a href="#"> Facebook</a></li>
+                 <li><span class="icon icon--twitter-black"></span><a href="#"> Twitter</a></li>
+                 <li><span class="icon icon--phone-black"></span><a href="#">Dribbble</a></li>
+                 <li><span class="icon icon--github-black"></span><a href="#"> Github</a></li>
                </ul>
-               <button type="buttons" class="close-info">
+               <button type="buttons" class="close-bio">
                  Close info
                </button>
+               <div class="border-bottom"></div>
              </div>
            </li>
         <% }) %>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="18px" height="28px" viewBox="0 0 18 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>phone-black</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="color-palette" transform="translate(-276.000000, -531.000000)" fill="#1C2522">
+            <path d="M291.4,531 L278.6,531 C277.164,531 276,532.165 276,533.6 L276,556.401 C276,557.836 277.164,559 278.6,559 L291.4,559 C292.836,559 294,557.836 294,556.401 L294,533.6 C294,532.165 292.836,531 291.4,531 L291.4,531 Z M282,533 L288,533 L288,534 L282,534 L282,533 L282,533 Z M285.001,557.5 C284.171,557.499 283.499,556.829 283.499,555.999 C283.499,555.171 284.169,554.5 284.995,554.5 L284.999,554.5 L285.003,554.5 C285.831,554.5 286.499,555.171 286.499,555.999 C286.499,556.827 285.829,557.499 285.001,557.5 L285.001,557.5 Z M292,553 L278,553 L278,536 L292,536 L292,553 L292,553 Z" id="phone-black"></path>
+        </g>
+    </g>
+</svg>
