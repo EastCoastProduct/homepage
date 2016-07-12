@@ -10,6 +10,15 @@
   border-radius: 3px;
   border: none;
   text-decoration: none;
+  transition: all 0.1s linear;
+
+  &:hover, &:focus {
+    transform: translate3d(0, -2px, 0);
+  }
+
+  &:active {
+    transform: translate3d(0, 2px, 0);
+  }
 }
 
 .button-major {
@@ -19,7 +28,7 @@
   border-color: $green;
   box-shadow: $green-shade;
 
-  &:hover, :focus {
+  &:hover, &:focus {
     box-shadow: $green-shade 0 6px 0 !important;
     background-color: $green-tint !important;
   }
@@ -37,7 +46,7 @@
   border-color: $dark-gray;
   box-shadow: $darkest-gray 0 4px 0;
 
-  &:hover, :focus {
+  &:hover, &:focus {
     box-shadow: $darkest-gray 0 6px 0 !important;
     background-color: $middle-gray !important;
   }
@@ -55,7 +64,7 @@
   border-color: $green;
   box-shadow: $green-shade 0 4px 0;
 
-  &:hover, :focus {
+  &:hover, &:focus {
     box-shadow: $green-shade 0 6px 0 !important;
     background-color: $green-tint !important;
   }
