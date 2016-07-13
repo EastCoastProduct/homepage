@@ -1,8 +1,10 @@
 footer {
   font-weight: 300;
+  padding-top: 2rem;
 
   a {
     border-bottom-color: rgba($white, 0.2) !important;
+    line-height: 1.8;
   }
 }
 
@@ -15,11 +17,12 @@ footer {
 
   p {
     word-break: break-all;
-    margin-bottom: 0;
+    margin-bottom: 0.375rem;
   }
 
   h2 {
     font-weight: 300;
+    margin-bottom: 0.5rem;
   }
 }
 
