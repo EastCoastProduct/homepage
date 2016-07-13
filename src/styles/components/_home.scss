@@ -1,33 +1,38 @@
-button {
+.button {
   margin-bottom: 40px;
-}
-
-.services-margin-top {
-  margin-top: 18px;
 }
 
 .clients--container {
   margin: 12px 0 18px 0;
   text-align: center;
-}
 
-.clients--container {
   li {
     display: block;
-      width: 50%;
-      height: 80px;
-      color: transparent;
-      margin-bottom: 12px !important;
-      margin: 0 auto;
+    width: 50%;
+    min-width: 250px;
+    height: 0;
+    padding-bottom: 45%;
+    margin-bottom: 12px !important;
+    margin: 0 auto;
+    text-indent: -9999px;
+    overflow: hidden;
+    background-position: center center;
+    background-repeat: no-repeat;
   }
 }
+
+#innovationWomen { background-image: url("../../images/client-logos/innovation-women-logo.png"); }
+#velir {           background-image: url("../../images/client-logos/velir-logo.png"); }
+#resilientCoders { background-image: url("../../images/client-logos/resilient-coders-logo.png"); }
+#snapx {           background-image: url("../../images/client-logos/safety-net-access-logo.png"); }
+#cityAwake {       background-image: url("../../images/client-logos/city-awake-logo.png"); }
 
 .clients-section {
   p {
     margin-top: 6px;
   }
 
-  a {
+  .button {
     margin-bottom: 36px;
   }
 }
@@ -38,26 +43,32 @@ button {
   }
 }
 
-@media (min-width: 700px) {
-  button {
-    margin-bottom: 60px;
+@media (min-width: 500px) {
+  .clients--container {
+    li {
+      padding-bottom: 30%;
+    }
   }
+}
 
-  .services-margin-top {
-    margin-top: 60px;
-  }
-
+@media (min-width: 600px) {
   .clients--container {
     width: 100%;
     margin: 15px 0 60px 0;
 
     li {
       display: inline-block;
+      margin-left: 1.4%;
+      margin-right: 1.4%;
       width: 30.12%;
-      height: 80px;
-      color: transparent;
-      margin-bottom: 0;
+      padding-bottom: 21%;
     }
+  }
+}
+
+@media (min-width: 700px) {
+  .button {
+    margin-bottom: 60px;
   }
 
   .clients-section {
@@ -65,7 +76,7 @@ button {
       margin-top: 30px;
     }
 
-    a {
+    .button {
       margin-bottom: 30px;
     }
   }
@@ -76,38 +87,3 @@ button {
     }
   }
 }
-
-@media (min-width: 900px) {
-  .clients--container-block {
-    width: 26.882%;
-  }
-}
-
-#innovationWomen {
-  background: url("../../images/client-logos/innovation-women-logo@2x.png") center no-repeat;
-  background-size: contain;
-  margin-bottom: 30px;
-}
-
-#velir {
-  background: url("../../images/client-logos/velir-logo@2x.png") center no-repeat;
-  background-size: contain;
-  margin-bottom: 30px;
-}
-
-#resilientCoders {
-  background: url("../../images/client-logos/resilient-coders-logo@2x.png") center no-repeat;
-  background-size: contain;
-  margin-bottom: 30px;
-}
-
-#snapx {
-  background: url("../../images/client-logos/safety-net-access-logo@2x.png") center no-repeat;
-  background-size: contain;
-}
-
-#cityAwake {
-  background: url("../../images/client-logos/city-awake-logo@2x.png") center no-repeat;
-  background-size: contain;
-}
-
