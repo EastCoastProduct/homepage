@@ -16,7 +16,7 @@ templateConf = {
 };
 
 Metalsmith(__dirname)
-  .clean(false)
+  .clean(true)
   .destination('./build')
   .use(excerpts())
   .use(collections({
