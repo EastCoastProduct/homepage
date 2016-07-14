@@ -1,5 +1,5 @@
 ---
-name: Carla Corneko
+name: Carla Cornejo
 id: carla-cornejo
 numberId: 4
 title: Operations Manager
