@@ -3,8 +3,8 @@ name: Ivan Blazevic
 id: ivan-blazevic
 numberId: 2
 title: CTO & Cofounder
-bio: Nam eget odio vel nisl rhoncus viverra at eget nisi. Nullam eu justo ultricies ante venenatis aliquam at vitae nulla. Etiam nec gravida velit. Maecenas finibus enim ut mauris condimentum suscipit.
+bio: Resident funny croatian coder who happened to co-found East Coast Product.
 image:
 areas:
-contact: { email: jd@email.email, tel: +32351324234, spotlight: link for jd goes here }
+contact: { email: ivan@eastcoastproduct.com, tel: +32351324234, linkedin: https://www.linkedin.com/in/blazevic, github: https://github.com/iblazevic, facebook: https://www.facebook.com/ivan.blazevic.391, twitter: https://twitter.com/iBlaze17 }
 ---

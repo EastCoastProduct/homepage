@@ -3,8 +3,8 @@ name: Steve Hickey
 id: steve-hickey
 numberId: 3
 title: Director of Product Design & Strategy
-bio: Nam eget odio vel nisl rhoncus viverra at eget nisi. Nullam eu justo ultricies ante venenatis aliquam at vitae nulla. Etiam nec gravida velit. Maecenas finibus enim ut mauris condimentum suscipit.
+bio: Steve is a designer, UX strategist and product design educator cultivating a simple, no-bullshit approach to building things that matter.
 image:
 areas:
-contact: { email: marc@email.email, tel: +1532524235, spotlight: link for marco goes here, facebook: facebook,twitter: asasf,linkedin: asfasf,github: gsgfd,dribble: dfgfdg,scheduling: gdfgfd}
+contact: { email: steve@eastcoastproduct.com, tel: +17742696542, twitter: https://twitter.com/stevehickeydsgn, linkedin: https://www.linkedin.com/in/stevehickeydesign, github: https://github.com/javasteve99 }
 ---
