@@ -4,14 +4,19 @@ var Metalsmith  = require('metalsmith'),
     excerpts    = require('metalsmith-excerpts'),
     branch      = require('metalsmith-branch'),
     markdown    = require('metalsmith-markdown'),
-    templates   = require('metalsmith-templates'),
+    layouts     = require('metalsmith-layouts'),
+    inplace     = require('metalsmith-in-place'),
     collections = require('metalsmith-collections'),
     permalinks  = require('metalsmith-permalinks'),
     sass        = require('metalsmith-sass'),
-    watch       = require('metalsmith-watch');
+
+templateConf = {
+  engine: 'ejs',
+  directory: './templates/'
+};
 
 Metalsmith(__dirname)
-  .clean(true)
+  .clean(false)
   .destination('./build')
   .use(excerpts())
   .use(collections({
@@ -41,17 +46,12 @@ Metalsmith(__dirname)
     pattern: './:directory',
     relative: false
   }))
-  .use(templates('ejs'))
+  .use(inplace(templateConf))
+  .use(layouts(templateConf))
   .use(sass({
     outputStyle: 'expanded',
   }))
   .use(serve())
-  .use(watch({
-    paths: {
-      '${source}/**/*': true,
-      '${source}/styles/**/*.scss': 'styles/main.scss',
-      'templates/**/*': '**/*',
-    },
-    livereload: true,
-  }))
-  .build(function (err) { if(err) console.log(err) })
+  .build(function (err, files) {
+    if(err) console.log(err);
+  })
