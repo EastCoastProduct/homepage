@@ -9,7 +9,9 @@
         <article class="clients--container-info">
           <h1><a href=""><%- client.title %></a></h1>
           <h2><%- client.name %></h2>
-          <div class="clients--image-container"></div>
+          <div class="clients--image-container">
+            <img src="<%= client.image %>" alt="<%= client.name %>" />
+          </div>
           <div>
             <p><%- client.description %></p>
             <a href="#" class="button button-default">
