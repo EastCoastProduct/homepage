@@ -3,12 +3,64 @@
   <% include partials/head %>
   <body>
     <% include partials/header %>
-    <section>
+    <section class="contact--main-title">
       <div class="container">
         <h1>General inquiries</h1>
-        <p>Send us an email: <a href="mailto: hello@eastcoastproduct.com"> hello@eastcoastproduct.com</a></p>
-        <p>Give us a call: <a href="tel:+18667777459"> (866) 777-7459</p>
+        <p class="major">Send us an email: <a href="mailto: hello@eastcoastproduct.com"> hello@eastcoastproduct.com</a></p>
+        <p class="major">Give us a call: <a href="tel:+18667777459"> (866) 777-7459</a></p>
       </div>
+    </section>
+    <section>
+     <div class="container contact--professionals">
+        <h1>Speak with an expert</h1>
+        <p class="minor">Do you want to take things a bit more slowly? We’re happy to have a quick chat and offer our advice if that’s more your speed.</p>
+        <% collections.person.forEach(function(person){ %>
+          <% if(person.numberId == 1 || person.numberId == 2 || person.numberId == 3) { %>
+            <article class="contact--professionals-details">
+              <img src="../images/photos/team/dou.png" alt="Potrait of <%= person.name %>" class="professionals-potrait" />
+              <div class="professionals-info">
+                <h2><%= person.name %></h2>
+                <p><%= person.title %></p>
+                <p class="minor">564564435457456</p>
+                <ul class="social">
+                   <li><span class="icon icon--phone-black"></span>
+                     <% if(person.contact.email) { %>
+                      <a href="mailto:<%= person.contact.email %>">Email</a>
+                     <% } %>
+                     <% if(person.contact.tel) { %>
+                      or <a href="tel:<%= person.contact.tel %>">Call</a>
+                     <% } %>
+                   </li>
+                   <% if(person.contact.facebook) { %>
+                     <li><span class="icon icon--facebook-black"></span>
+                       <a href="#">Facebook</a>
+                     </li>
+                   <% } %>
+                   <% if(person.contact.twitter) { %>
+                     <li><span class="icon icon--twitter-black"></span>
+                     <a href="#">Twitter</a></li>
+                   <% } %>
+                   <% if(person.contact.linkedin) { %>
+                     <li><span class="icon icon--phone-black"></span><a href="#">LinkedIn</a></li>
+                   <% } %>
+                   <% if(person.contact.github) { %>
+                     <li><span class="icon icon--github-black"></span><a href="#">Github</a></li>
+                   <% } %>
+                   <% if(person.contact.spotlight) { %>
+                     <li><span class="icon icon--phone-black"></span><a href="#">Spotlight</a></li>
+                   <% } %>
+                   <% if(person.contact.dribble) { %>
+                     <li><span class="icon icon--phone-black"></span><a href="#">Dribble</a></li>
+                   <% } %>
+                   <% if(person.contact.scheduling) { %>
+                     <li><span class="icon icon--phone-black"></span><a href="#">Scheduling</a></li>
+                   <% } %>
+                 </ul>
+              </div>
+            </article>
+          <% } %>
+        <% }) %>
+     </div>
     </section>
     <% include partials/footer %>
   </body>
