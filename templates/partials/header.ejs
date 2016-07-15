@@ -9,7 +9,10 @@
       <a href="<%- level %>contact" class="button button-default-reverse">Hire Us</a>
     </nav>
     <section class="page--title">
-      <% if(layout != "case-study.ejs") { %>
+      <% if(layout == "case-study.ejs") { %>
+        <h1 class="lede"><%- title %></h1>
+        <p class="major"><em><%- name %></em></p>
+      <% } else { %>
         <%- description %>
         <%- contents %>
       <% } %>

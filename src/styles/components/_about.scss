@@ -19,7 +19,7 @@ header {
 }
 
 .first-section-about {
-  margin-top: -.3rem;
+  margin-top: -1.5rem;
 }
 
 .about-header-image-container {
@@ -161,7 +161,7 @@ header {
       height: 30px;
       background-color: $yellow-tint;
       position: absolute;
-      bottom: -21%;
+      bottom: -23%;
       left: 50%;
       margin-left: -10px;
       transform: rotate(45deg);
@@ -258,6 +258,10 @@ header {
     &:nth-child(3n-1).is-active .bio { left: -113%; }
     &:nth-child(3n).is-active .bio { left: -227%; }
   }
+
+  li {
+    margin-left: 0%;
+  }
 }
 
 /* create separation for text columns if there's no javascript */
@@ -320,7 +324,7 @@ header {
   }
 
   .first-section-about {
-    margin-top: -1.5rem;
+    margin-top: -3rem;
   }
 
 /*  .person-container {
@@ -379,7 +383,7 @@ header {
       }
 
       &:before {
-        bottom: -18%;
+        bottom: -20%;
       }
     }
     .employees-list {
@@ -396,9 +400,10 @@ header {
 
   .employees-list {
     .alumnus {
-      &:nth-child(3n-2).is-active .bio { left: 0%; }
-      &:nth-child(3n-1).is-active .bio { left: -115%; }
       &:nth-child(3n).is-active .bio { left: 0%; }
+      &:nth-child(3n - 1).is-active .bio { left: 0%; }
+
+      &:nth-child(2n+2).is-active .bio { left: -117%;  };
     }
   }
 }
