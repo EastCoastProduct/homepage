@@ -41,11 +41,7 @@ Metalsmith(__dirname)
       pattern: '_values/*.md'
     }
   }))
-  .use(markdown({
-    smartypants: true,
-    gfm: true,
-    tables: true
-  }))
+  .use(markdown())
   .use(permalinks({
     pattern: './:directory',
     relative: false
