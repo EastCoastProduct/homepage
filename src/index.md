@@ -1,6 +1,6 @@
 ---
 title: Home
-directorty: /
+directory: /
 level: ./
 description: <h2 class="lede">We are a <strong>digital product firm</strong> that will help you get to your next strategic milestone faster.</h2>
 layout: home.ejs

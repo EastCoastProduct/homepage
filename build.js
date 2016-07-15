@@ -35,13 +35,17 @@ Metalsmith(__dirname)
       pattern: '_person/*.md',
     },
     clients: {
-      pattern: '_case/*.md'
+      pattern: 'case_study/*.md'
     },
     values: {
       pattern: '_values/*.md'
     }
   }))
-  .use(markdown())
+  .use(markdown({
+    smartypants: true,
+    gfm: true,
+    tables: true
+  }))
   .use(permalinks({
     pattern: './:directory',
     relative: false

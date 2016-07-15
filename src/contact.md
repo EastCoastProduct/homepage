@@ -1,6 +1,6 @@
 ---
 title: Hire us
-directorty: contact
+directory: contact
 level: ../
 description: <h1 class="lede">Hire us</h1>
 layout: contact.ejs

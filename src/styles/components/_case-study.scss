@@ -1,0 +1,63 @@
+.case_image {
+  margin-top: -2%;
+
+  img {
+    width: 100%;
+  }
+}
+
+.case--content-container {
+  margin-bottom: 24px;
+}
+
+.case--comment-container-person {
+  p {
+    margin-bottom: 0 !important;
+    text-align: right;
+  }
+}
+
+.case--content-download {
+  padding: 36px 0 36px 0;
+
+  h2 {
+    font-family: Merriweather, serif;
+  }
+
+  a {
+    margin: 10px 30px 0 0;
+  }
+}
+
+.case--content-download-pdf_button {
+  display: none !important;
+}
+
+.case--comment-container{
+  background-image: url("../../images/left-quotes/left-quotes.svg");
+  background-repeat: no-repeat;
+  background-position: 30% 0;
+  background-size: contain;
+}
+
+@media (min-width: 700px) {
+  .case--content-container {
+    margin-bottom: 36px;
+  }
+
+  .case--content-download {
+    padding: 60px 0 60px 0;
+
+    a {
+        margin-top: 0;
+    }
+  }
+
+  .case--comment-container {
+    .container {
+      p {
+          margin-bottom: 42px;
+      }
+    }
+  }
+}
