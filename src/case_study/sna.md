@@ -4,8 +4,11 @@ name: Safety Net Access
 id: sna
 level: ../../
 listingImage: ../images/case-study-shots/sna-listing-screenshot.png
-leadImage: ../images/case-study-shots/sna-lead-image.png
+leadImage: ../images/case-study-shots/sna-lead-image@2x.png
 description: Safety Net Access' SNAP is a hotel wifi and internet management platform. We helped them rebuild and consolidate a product with three different generations of users  and prepared it for a SaaS offering.
+testimonialPerson: Ivan Blazevic
+testimonialPosition: CTO & Cofounder of East Coast Product
+testimonialContent: It was awesome partnering with such a talented and knowledgable team. We were able to learn a lot from them and vice versa which helped us collaborate better and build the best product SNAPx could be.
 layout: case-study.ejs
 ---
 

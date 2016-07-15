@@ -11,18 +11,20 @@
         <%- contents %>
       </div>
     </section>
+    <% if(testimonialContent) { %>
     <div class="case--comment-container yellow-background angle-edge top-left-yellow-tint bottom-left-yellow-tint">
       <div class="container">
-        <p>some comment</p>
+        <p><%= testimonialContent %></p>
         <div class="case--comment-container-person">
-          <p>person full name</p>
-          <p>persons company</p>
+          <p><%= testimonialPerson %></p>
+          <p><%= testimonialPosition %></p>
         </div>
       </div>
     </div>
+    <% } %>
     <div class="case--content-download">
       <div class="container">
-        <h2>Looking for more?</h2>
+        <h2>Want to learn more?</h2>
         <a href="#" class="button button-default“-reverse case--content-download-pdf_button">Download a detailed case study (PDF)</a>
         <a href="<%= level %>contact" class="button button-default-reverse">Get in touch</a>
       </div>

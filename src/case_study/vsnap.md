@@ -4,8 +4,11 @@ name: Vsnap
 id: vsnap
 level: ../../
 listingImage: ../images/case-study-shots/vsnap-listing-screenshot.png
-leadImage: ../images/case-study-shots/vsnap-lead-image.png
+leadImage: ../images/case-study-shots/vsnap-lead-image@2x.png
 description: Vsnap is a video messaging platform for inside sales. We helped Vsnap take it's MVP to a scalable product by rebuilding its existing platform, which eventually led to its acquisition.
+testimonialPerson: Dave Maclaughlin
+testimonialPosition: Founder and CEO of Vsnap
+testimonialContent: I spent two and a half years trying to get a clear path on tech – all of which was wrong. Chris got his head around the product quickly and gave me a roadmap to where we wanted to be.
 layout: case-study.ejs
 ---
 
