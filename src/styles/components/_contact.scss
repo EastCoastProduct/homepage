@@ -21,10 +21,9 @@
 
 .social {
   li {
-    display: inline-block;
-    margin-right: 15px;
-    margin-bottom: 5px;
     font-size: 0.85rem;
+    list-style-type: none;
+    margin: 0 0 5px 0;
   }
 }
 
@@ -74,9 +73,8 @@
 
   .social {
     li {
-      display: inline-block;
-      margin-right: 15px;
-      margin-bottom: 5px;
+      list-style-type: none;
+      margin: 0 0 5px 0;
       font-size: 1rem;
     }
   }
