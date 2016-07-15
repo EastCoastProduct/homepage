@@ -33,11 +33,15 @@
   display: none !important;
 }
 
-.case--comment-container{
+.case--comment-container .container {
   background-image: url("../../images/left-quotes/left-quotes.svg");
   background-repeat: no-repeat;
-  background-position: 30% 0;
+  background-position: 0 0;
   background-size: contain;
+
+  p {
+    font-family: Raleway, sans-serif;
+  }
 }
 
 @media (min-width: 700px) {
@@ -54,10 +58,8 @@
   }
 
   .case--comment-container {
-    .container {
-      p {
-          margin-bottom: 42px;
-      }
+    p {
+        margin-bottom: 42px;
     }
   }
 }

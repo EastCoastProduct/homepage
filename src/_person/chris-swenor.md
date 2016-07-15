@@ -4,7 +4,6 @@ id: chris-swenor
 numberId: 1
 title: CEO & Cofounder
 bio: Ringleader of this circus. Passionate about all things software, and lean startup evangelist.
-image:
-areas:
-contact: { email: chris@eastcoastproduct.com }
+areas: Javascript, product, dev managment, sock
+contact: { email: chris@eastcoastproduct.com , linkedin: https://www.linkedin.com/in/chrisswenor}
 ---

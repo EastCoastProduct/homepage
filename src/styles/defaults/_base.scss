@@ -15,7 +15,7 @@ body {
 
 h1, h2, h3, p { margin: 0; } // cruddy reset
 
-p {
+p, ul {
   font-size: 0.9375rem;  // 15px
   line-height: 1.6;      // 24px
   margin-bottom: 1.5rem; // 24px
@@ -23,6 +23,12 @@ p {
      -moz-hyphens: auto;
           hyphens: auto;
   max-width: 800px;
+}
+
+li {
+  list-style-type: disc;
+  margin-left: 1.5rem;
+  margin-bottom: 6px;
 }
 
 em {
@@ -151,7 +157,7 @@ h3 {
 
 @media (min-width: 700px) {
 
-  p {
+  p, ul {
     font-size: 1.25rem;      // 20px
     line-height: 1.8;        // 30px
     margin-bottom: 1.875rem; // 30px

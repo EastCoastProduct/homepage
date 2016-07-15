@@ -17,11 +17,11 @@
         <% collections.person.forEach(function(person){ %>
           <% if(person.numberId == 1 || person.numberId == 2 || person.numberId == 3) { %>
             <article class="contact--professionals-details">
-              <img src="../images/photos/team/dou.png" alt="Potrait of <%= person.name %>" class="professionals-potrait" />
+              <img src="../images/photos/team/<%= person.id %>.jpg" alt="Potrait of <%= person.name %>" class="professionals-potrait" />
               <div class="professionals-info">
                 <h2><%= person.name %></h2>
                 <p><%= person.title %></p>
-                <p class="minor">564564435457456</p>
+                <p class="minor"><%= person.name.split(" ")[0] %> is an expert in: <%= person.areas %>.</p>
                 <ul class="social">
                    <li><span class="icon icon--phone-black"></span>
                      <% if(person.contact.email) { %>
@@ -33,27 +33,27 @@
                    </li>
                    <% if(person.contact.facebook) { %>
                      <li><span class="icon icon--facebook-black"></span>
-                       <a href="#">Facebook</a>
+                       <a href="<%= person.contact.facebook %>" target="_blank">Facebook</a>
                      </li>
                    <% } %>
                    <% if(person.contact.twitter) { %>
                      <li><span class="icon icon--twitter-black"></span>
-                     <a href="#">Twitter</a></li>
+                     <a href="<%= person.contact.twitter %>" target="_blank">Twitter</a></li>
                    <% } %>
                    <% if(person.contact.linkedin) { %>
-                     <li><span class="icon icon--phone-black"></span><a href="#">LinkedIn</a></li>
+                     <li><span class="icon icon--phone-black"></span><a href="<%= person.contact.linkedin %>" target="_blank">LinkedIn</a></li>
                    <% } %>
                    <% if(person.contact.github) { %>
-                     <li><span class="icon icon--github-black"></span><a href="#">Github</a></li>
+                     <li><span class="icon icon--github-black"></span><a href="<%= person.contact.github %>" target="_blank">Github</a></li>
                    <% } %>
                    <% if(person.contact.spotlight) { %>
-                     <li><span class="icon icon--phone-black"></span><a href="#">Spotlight</a></li>
+                     <li><span class="icon icon--phone-black"></span><a href="<%= person.contact.spotlight %>" target="_blank">Spotlight</a></li>
                    <% } %>
                    <% if(person.contact.dribble) { %>
-                     <li><span class="icon icon--phone-black"></span><a href="#">Dribble</a></li>
+                     <li><span class="icon icon--phone-black"></span><a href="<%= person.contact.dribble %>" target="_blank">Dribble</a></li>
                    <% } %>
                    <% if(person.contact.scheduling) { %>
-                     <li><span class="icon icon--phone-black"></span><a href="#">Scheduling</a></li>
+                     <li><span class="icon icon--phone-black"></span><a href="<%= person.contact.scheduling %>" target="_blank">Scheduling</a></li>
                    <% } %>
                  </ul>
               </div>

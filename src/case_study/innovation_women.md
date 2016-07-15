@@ -4,8 +4,11 @@ name: Innovation Women
 id: innovation_women
 level: ../../
 listingImage: ../images/case-study-shots/innovation-women-listing-screenshot.png
-leadImage: ../images/case-study-shots/innovation-women-lead-image.png
+leadImage: ../images/case-study-shots/innovation-women-lead-image@2x.png
 description: Innovation Women set out to solve the glaring problem of male-dominated panels at technical and entrepreneurial events. Bobbie Carlton, founder of Innovation Women, realized that the key to promoting gender balance was creating a marketing tool that allows qualified women to promote their expertise and stories and for event planners to find and book them. With a deadline for launch 3 weeks away, our team outlined the key challenges, objectives and required features for the Innovation Women MVP.
+testimonialPerson: Bobbie Carlton
+testimonialPosition: Founder of Innovation Women
+testimonialContent: I loved being intimately tied to the process. I knew what was going on every step of the way. It wasn’t a black box you put time, money, and effort into.
 layout: case-study.ejs
 ---
 
