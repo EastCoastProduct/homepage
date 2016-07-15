@@ -9,8 +9,10 @@
       <a href="<%- level %>contact" class="button button-default-reverse">Hire Us</a>
     </nav>
     <section class="page--title">
-      <%- description %>
-      <%- contents %>
+      <% if(layout != "case-study.ejs") { %>
+        <%- description %>
+        <%- contents %>
+      <% } %>
     </section>
   </div>
   <% if(title == 'About') { %>

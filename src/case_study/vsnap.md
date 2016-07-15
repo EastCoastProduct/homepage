@@ -1,9 +1,12 @@
 ---
 title: Rebuilding for scale
 name: Vsnap
+id: vsnap
+level: ../../
 listingImage: ../images/case-study-shots/vsnap-listing-screenshot.png
 leadImage: ../images/case-study-shots/vsnap-lead-image.png
 description: Vsnap is a video messaging platform for inside sales. We helped Vsnap take it's MVP to a scalable product by rebuilding its existing platform, which eventually led to its acquisition.
+layout: case-study.ejs
 ---
 
 ## Intro

@@ -1,9 +1,12 @@
 ---
 title: Future-proofing a SaaS platform
 name: Safety Net Access
+id: sna
+level: ../../
 listingImage: ../images/case-study-shots/sna-listing-screenshot.png
 leadImage: ../images/case-study-shots/sna-lead-image.png
 description: Safety Net Access' SNAP is a hotel wifi and internet management platform. We helped them rebuild and consolidate a product with three different generations of users  and prepared it for a SaaS offering.
+layout: case-study.ejs
 ---
 
 ## Intro
