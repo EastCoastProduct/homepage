@@ -10,6 +10,7 @@ testimonialPerson: Dave Maclaughlin
 testimonialPosition: Founder and CEO of Vsnap
 testimonialContent: I spent two and a half years trying to get a clear path on tech – all of which was wrong. Chris got his head around the product quickly and gave me a roadmap to where we wanted to be.
 layout: case-study.ejs
+pdf: ../images/case-study-pdfs/vsnap-case-study.pdf
 ---
 
 ## Intro

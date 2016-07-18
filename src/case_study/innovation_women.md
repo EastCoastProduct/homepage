@@ -10,6 +10,7 @@ testimonialPerson: Bobbie Carlton
 testimonialPosition: Founder of Innovation Women
 testimonialContent: I loved being intimately tied to the process. I knew what was going on every step of the way. It wasn’t a black box you put time, money, and effort into.
 layout: case-study.ejs
+pdf: ../images/case-study-pdfs/innovation-women-case-study.pdf
 ---
 
 ## Intro

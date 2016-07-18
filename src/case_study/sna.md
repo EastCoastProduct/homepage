@@ -10,6 +10,7 @@ testimonialPerson: Ivan Blazevic
 testimonialPosition: CTO & Cofounder of East Coast Product
 testimonialContent: It was awesome partnering with such a talented and knowledgable team. We were able to learn a lot from them and vice versa which helped us collaborate better and build the best product SNAPx could be.
 layout: case-study.ejs
+pdf: ../images/case-study-pdfs/sna-case-study.pdf
 ---
 
 ## Intro
