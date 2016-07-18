@@ -49,7 +49,7 @@ Metalsmith(__dirname)
   .use(inplace(templateConf))
   .use(layouts(templateConf))
   .use(sass({
-    outputStyle: 'expanded',
+    outputStyle: 'compressed',
   }))
   .use(serve())
   .build(function (err, files) {
