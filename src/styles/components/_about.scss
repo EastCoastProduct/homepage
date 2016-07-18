@@ -35,6 +35,10 @@ header {
   list-style-type: none;
   margin: 30px auto 25px auto;
   padding: 0;
+
+  li {
+    margin-bottom: 24px;
+  }
 }
 .alumnus {
   display: inline-block;
@@ -42,6 +46,7 @@ header {
   width: 30.1078%;
   vertical-align: top;
   position: relative;
+
 
   /* reset contents of alumnus list items */
   .open-bio, h3, h4, p, ul, li {
@@ -61,7 +66,6 @@ header {
   .portrait {
     width: 100% !important;
     max-width: 100%;
-    margin-bottom: .5em;
   }
 
   h3 {
@@ -73,7 +77,6 @@ header {
 
   h4 {
     font-weight: normal;
-    color: #7F7977;
     font-size: .9em;
     line-height: 1.3;
     margin-bottom: 1.3em;
@@ -81,15 +84,8 @@ header {
 }
 
 .name {
-  color: $blue;
-  text-decoration: none;
-  border-bottom: 4px solid rgba($blue, 0.2);
-  transition: all 0.2s linear;
-
-  &:hover {
-    border-bottom-color: transparent;
-    color: #fff;
-  }
+  font-size: 2rem;
+  margin-bottom: 0;
 }
 
 .employment-details {
@@ -216,7 +212,7 @@ header {
   .bio p {
     padding: 50px 0 0 0;
     margin-bottom: 36px;
-    width: 97%;
+    width: 80%;
   }
   .bio ul {
     background-color: $yellow-tint;
@@ -226,12 +222,6 @@ header {
     right: 0;
     bottom: 0;
     margin-bottom: 36px;
-
-    li {
-      display: inline-block;
-      width: 24%;
-      margin-bottom: 24px;
-    }
   }
 
 /* size employees and apprentices differently */
@@ -326,14 +316,6 @@ header {
   .first-section-about {
     margin-top: -3rem;
   }
-
-/*  .person-container {
-    display: inline-block;
-  }
-
-  .descri {
-    max-width: 930px;
-  }*/
 }
 
 @media (max-width: 770px) {
