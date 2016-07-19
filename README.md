@@ -8,3 +8,11 @@ While you are positioned in the same directory run <code><b>sudo nodemon build</
 and run the server and enable live reloading of the project. Now you'll be able to access the homepage by opening
 your browser and going to this address
 <code><b>localhost:8080</b></code>.
+
+## Generating minifyed css file
+
+After running server, open new terminal and run <code>sudo gulp watch</code>.
+This will automatically generate minifyed css on every change.
+If you want just to generate minifyed css you need to run <code>sudo gulp generate-css</code>.
+
+
