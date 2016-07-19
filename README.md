@@ -11,8 +11,8 @@ your browser and going to this address
 
 ## Generating minifyed css file
 
-After running server, open new terminal and run <code>sudo gulp watch</code>.
+After running server, open new terminal and run <code><b>sudo gulp watch</b></code>.
 This will automatically generate minifyed css on every change.
-If you want just to generate minifyed css you need to run <code>sudo gulp generate-css</code>.
+If you want just to generate minifyed css you need to run <code><b>sudo gulp generate-css</b></code>.
 
 
