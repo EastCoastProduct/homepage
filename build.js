@@ -49,7 +49,8 @@ Metalsmith(__dirname)
   .use(inplace(templateConf))
   .use(layouts(templateConf))
   .use(sass({
-    outputStyle: 'compressed',
+    outputStyle: 'expanded',
+    outputDir: '../src/css/'
   }))
   .use(serve())
   .build(function (err, files) {
