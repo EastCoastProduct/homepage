@@ -9,7 +9,7 @@ and run the server and enable live reloading of the project. Now you'll be able 
 your browser and going to this address
 <code><b>localhost:8080</b></code>.
 
-## Generating minifyed css file
+## Generating minified css file
 
 After running server, open new terminal and run <code><b>sudo gulp watch</b></code>.
 This will automatically generate minifyed css on every change.
