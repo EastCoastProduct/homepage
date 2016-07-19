@@ -1,10 +1,15 @@
 {
-  "name": "East Coast Product website",
+  "name": "east-coast-product-website",
   "version": "1.0.0",
   "description": "new ECP website",
   "main": "build.js",
   "dependencies": {
+    "del": "^2.2.1",
     "ejs": "^2.4.2",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.11",
+    "gulp-rename": "^1.2.2",
+    "gulp-watch": "^4.3.8",
     "metalsmith": "^2.1.0",
     "metalsmith-branch": "0.0.4",
     "metalsmith-collections": "^0.7.0",
@@ -19,7 +24,6 @@
     "node-neat": "^1.7.2",
     "nodemon": "^1.9.2"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
