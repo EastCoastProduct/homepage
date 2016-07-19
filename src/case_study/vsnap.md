@@ -5,11 +5,12 @@ id: vsnap
 level: ../../
 listingImage: ../images/case-study-shots/vsnap-listing-screenshot.png
 leadImage: ../images/case-study-shots/vsnap-lead-image@2x.png
-description: Vsnap is a video messaging platform for inside sales. We helped Vsnap take it's MVP to a scalable product by rebuilding its existing platform, which eventually led to its acquisition.
+description: Vsnap is a video messaging platform for inside sales. We helped Vsnap take it’s MVP to a scalable product by rebuilding its existing platform, which eventually led to its acquisition.
 testimonialPerson: Dave Maclaughlin
 testimonialPosition: Founder and CEO of Vsnap
 testimonialContent: I spent two and a half years trying to get a clear path on tech – all of which was wrong. Chris got his head around the product quickly and gave me a roadmap to where we wanted to be.
 layout: case-study.ejs
+pdf: ../images/case-study-pdfs/vsnap-case-study.pdf
 ---
 
 ## Intro
@@ -22,7 +23,7 @@ As Vsnap grew and the user-base became more defined, it became clearer to CEO, D
 
 ## Solution
 
-After careful research and deliberation, the development team unilaterally decided that the best approach was to rewrite the entire application. The Vsnap product in its current didn’t have any code that was worth recycling and was written in a language that was losing popularity - Grails. Using an API-first, modularized approach to development, the team decided the application would be rebuilt in JavaScript because of the abundance of resources and ability to scale for the future. The application was relaunched and resulted in the successful acquisition of Vsnap in April 2015
+After careful research and deliberation, the development team unilaterally decided that the best approach was to rewrite the entire application. The Vsnap product in its current didn’t have any code that was worth recycling and was written in a language that was losing popularity - Grails. Using an API-first, modularized approach to development, the team decided the application would be rebuilt in JavaScript because of the abundance of resources and ability to scale for the future. The application was relaunched and resulted in the successful acquisition of Vsnap in April 2015.
 
 ## Key Tech
 
