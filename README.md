@@ -22,6 +22,3 @@ gulp publish
 ```
 
 This takes care of building the metalsmith site, minimizing css and deploying changes to S3.
-
-
-
