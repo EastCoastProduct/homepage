@@ -54,5 +54,10 @@ Metalsmith(__dirname)
   }))
   .use(serve())
   .build(function (err, files) {
-    if(err) console.log(err);
+    if(err) {
+      console.log(err);
+      process.exit(1);
+    }
+    console.log('Build success!');
+    if (process.argv[2] && process.argv[2] === '--exit') process.exit(0);
   })

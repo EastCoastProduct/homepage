@@ -25,8 +25,13 @@
     "nodemon": "^1.9.2"
   },
   "scripts": {
+    "build": "node build.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "ECP",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "gulp-s3": "^0.3.0",
+    "gulp-shell": "^0.5.2"
+  }
 }
