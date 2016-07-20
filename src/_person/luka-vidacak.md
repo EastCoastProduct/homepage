@@ -1,7 +1,7 @@
 ---
 name: Luka Vidačak
 id: luka-vidacak
-numberId: 16
+numberId: 14
 title: Developer
 bio: Luka works hard, plays harder, and hacks everything in between.
 image:

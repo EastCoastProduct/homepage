@@ -1,7 +1,7 @@
 ---
 name: Taylor Aldredge
 id: taylor-aldredge
-numberId: 6
+numberId: 15
 title: Relationship Manager
 bio: Taylor is a sagittarius who likes handstands, CrossFit and talking all about business development with companies that love helping their customers.
 areas:

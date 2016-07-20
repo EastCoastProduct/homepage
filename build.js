@@ -33,6 +33,7 @@ Metalsmith(__dirname)
     },
     person: {
       pattern: '_person/*.md',
+      sortBy: 'numberId'
     },
     clients: {
       pattern: 'case_study/*.md'

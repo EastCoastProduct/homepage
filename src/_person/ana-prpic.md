@@ -1,9 +1,9 @@
 ---
 name: Ana Prpić
 id: ana-prpic
-numberId: 13
+numberId: 12
 title: Quality Assurance Engineer
-bio: Ana is behind the scenes testing apps and squashing bugs to make sure our customers have an amazing experience.
+bio: Lover of all things coffee especially when paired with a good book.. Ana lives by the one rule of good QA’s, “when you’re good at your job, most people shouldn’t know you exist.”
 image:
 areas:
 contact: { email: ana@eastcoastproduct.com, linkedin: https://hr.linkedin.com/in/ana-prpić-a0991160 }
