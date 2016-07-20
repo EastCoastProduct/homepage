@@ -1,9 +1,9 @@
 ---
 name: Martina Prgomet
 id: martina-prgomet
-numberId: 17
+numberId: 10
 title: Developer
-bio: By day, Martina is an incredible front-end dev, by night, she is a diehard Guns N’ Roses fan.
+bio: 75% Coffee, 15% Cheeseburgers 10% Guns N’ Roses. 100% kickass dev
 image:
 areas:
 contact: { email: martina@eastcoastproduct.com, linkedin: https://hr.linkedin.com/in/martina-prgomet-01a9823a }

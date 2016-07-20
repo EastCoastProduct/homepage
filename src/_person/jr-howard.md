@@ -1,7 +1,7 @@
 ---
 name: JR Howard
 id: jr-howard
-numberId: 14
+numberId: 6
 title: CFO
 bio: JR helps start-ups navigate and excel in choppy financial waters, by providing innovative, seasoned CFO services.
 image:
