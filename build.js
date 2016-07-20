@@ -50,7 +50,6 @@ Metalsmith(__dirname)
   .use(layouts(templateConf))
   .use(sass({
     outputStyle: 'expanded',
-    outputDir: '../src/css/'
   }))
   .use(serve())
   .build(function (err, files) {
