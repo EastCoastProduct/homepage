@@ -1,44 +1,81 @@
-//js for team container actions
-$(document).ready(function() {
-  var lastFocus;
-  $('.bio').attr('aria-hidden', 'true');
-  $('.open-bio').removeAttr('tabIndex');
-  $('.open-bio').on('click', function(e) {
-    var bioHeight = $(this).nextAll('.bio').height();
-    e.preventDefault();
-    if ( $(this).closest('.alumnus').hasClass('is-active') ) {
-      $(this).nextAll('.bio').fadeOut(200, function(){
-        $(this).removeAttr('style').closest('.alumnus').removeClass('is-active').removeAttr('style');
-        $(this).attr('aria-hidden', 'true');
-      });
-      lastFocus.focus();
-    } else {
-      $('.alumnus').removeClass('is-active').removeAttr('style');
-      $(this).closest('.alumnus').addClass('is-active').css('margin-bottom', (bioHeight+73) + 'px');
-      $('.bio').attr('aria-hidden', 'true');
-      $(this).nextAll('.bio').attr('aria-hidden', 'false');
-      lastFocus = document.activeElement;
-    }
-  });
-  $(window).on('resize', function(){
-    var bioHeightNew = $('.alumnus.is-active .bio').height();
-    $('.alumnus.is-active').css('margin-bottom', (bioHeightNew+73) + 'px')
-  });
-  $('.close-bio').click(function(e) {
-    e.preventDefault();
-    $(this).closest('.bio').fadeOut(200, function(){
-      $(this).removeAttr('style').closest('.alumnus').removeClass('is-active').removeAttr('style');
-      $(this).attr('aria-hidden', 'true');
+document.addEventListener('DOMContentLoaded', function() {
+
+  var bioElements = document.getElementsByClassName('bio'),
+      alumnusElements = document.getElementsByClassName('alumnus'),
+      openBioElements = document.getElementsByClassName('open-bio');
+
+  setAriaBioTrue();
+
+  for(var i= 0; i < openBioElements.length; i++) {
+    openBioElements[i].removeAttribute('tabIndex');
+  }
+
+  for(var i = 0; i < openBioElements.length; i++) {
+    openBioElements[i].addEventListener('click', function(e) {
+      var thiseElement = e.target.parentNode,
+          bioHeight = thiseElement.parentNode.getElementsByClassName('bio')[0].clientHeight;
+
+      e.preventDefault();
+      if(thiseElement.parentNode.classList.contains('is-active')) {
+        var activeElement = thiseElement.parentNode;
+        activeElement.removeAttribute('style');
+        activeElement.classList.remove('is-active')
+        setAriaBioTrue();
+      } else {
+        for(var i = 0; i < alumnusElements.length; i++) {
+          if(alumnusElements[i].classList.contains('is-active')) {
+            alumnusElements[i].removeAttribute('style');
+            alumnusElements[i].classList.remove('is-active');
+            setAriaBioTrue();
+          }
+      }
+
+        var addActive = thiseElement.parentNode;
+        addActive.classList.add('is-active');
+        addActive.style.marginBottom = (bioHeight+73) + 'px';
+
+        addActive.getElementsByClassName('bio')[0].setAttribute('aria-hidden', 'false');
+      }
     });
-    lastFocus.focus();
-  });
-  $(document).keyup(function(e) {
-    if (e.keyCode == 27) {
-      $('.alumnus.is-active .bio').fadeOut(200, function(){
-        $(this).removeAttr('style').closest('.alumnus').removeClass('is-active').removeAttr('style');
-        $(this).attr('aria-hidden', 'true');
-      });
-      lastFocus.focus();
+  }
+
+  window.addEventListener('resize', function() {
+
+    for(var i = 0; i < alumnusElements.length; i++) {
+      if(alumnusElements[i].classList.contains('is-active')) {
+       var newBioHeight = alumnusElements[i].getElementsByClassName('bio')[0].clientHeight;
+
+       alumnusElements[i].style.marginBottom = (newBioHeight+74) + 'px';
+      }
     }
   });
+
+  var closeBioElements = document.getElementsByClassName('close-bio');
+  for(var i = 0; i < closeBioElements.length; i++) {
+    closeBioElements[i].addEventListener('click', function(e) {
+      e.preventDefault();
+
+      var thiseElement = e.target.parentNode;
+      thiseElement.parentNode.removeAttribute('style');
+      thiseElement.parentNode.classList.remove('is-active');
+      setAriaBioTrue();
+    });
+  }
+
+  document.addEventListener('keyup', function(e) {
+    if(e.keyCode == 27) {
+      for(var i = 0; i < alumnusElements.length; i++) {
+        if(alumnusElements[i].classList.contains('is-active')) {
+          alumnusElements[i].removeAttribute('style');
+          alumnusElements[i].classList.remove('is-active');
+          setAriaBioTrue();
+        }
+      }
+  }});
+
+  function setAriaBioTrue() {
+    for(var i = 0; i < bioElements.length; i++) {
+      bioElements[i].setAttribute('aria-hidden', 'true');
+    }
+  }
 });

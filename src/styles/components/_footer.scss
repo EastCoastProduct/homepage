@@ -32,6 +32,24 @@ footer {
   margin: 57px 0 32px 0;
 }
 
+.map {
+  width: 100%;
+  border: 0;
+
+  a {
+      border: none;
+
+      &:hover {
+        border: none;
+        background-color: transparent;
+      }
+
+      img {
+        width: 100%;
+      }
+  }
+}
+
 @media (min-width: 700px) {
   .split-container {
     display: inline-block;

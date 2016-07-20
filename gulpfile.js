@@ -7,6 +7,26 @@ var gulp     = require('gulp'),
     fs       = require('fs'),
     del      = require('del');
 
+
+/* local working on css  */
+gulp.task('minify-css', function() {
+  return gulp.src('build/styles/main.css')
+    .pipe(cleanCSS())
+    .pipe(rename({
+      suffix: '.min'
+    }))
+    .pipe(gulp.dest('build/styles/'));
+});
+
+gulp.task('generate-css', ['minify-css']);
+
+gulp.task('watch', function() {
+  watch('build/styles/main.css', function() {
+    gulp.start('generate-css');
+  })
+});
+
+/* publishing site */
 gulp.task('delete-build', function() {
   return del([
     'build/'
@@ -14,7 +34,7 @@ gulp.task('delete-build', function() {
 });
 
 gulp.task('build', ['metalsmith'], function() {
-  return gulp.src('src/css/*.css')
+  return gulp.src('build/styles/*.css')
     .pipe(cleanCSS())
     .pipe(rename({
       suffix: '.min'
