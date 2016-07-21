@@ -59,10 +59,9 @@ header {
     color: $blue;
   }
 
-  /* responivize portraits and space them from text */
+  /* responsive portraits and space them from text */
   .portrait {
     width: 100% !important;
-    max-width: 100%;
   }
 }
 
@@ -133,18 +132,31 @@ header {
 
   .alumnus.is-active {
     /* tan arrow pointing from alumnus to their bio when opened */
+
     &:before {
       content: "";
       display: block;
       width: 30px;
       height: 30px;
+      bottom: -22%;
       background-color: $yellow-tint;
       position: absolute;
-      bottom: -23%;
       left: 50%;
       margin-left: -10px;
       transform: rotate(45deg);
       z-index: 200;
+    }
+
+    &:nth-child(3n-2):before {
+     bottom: -22%;
+    }
+
+    &:nth-child(3n-1):before {
+      bottom: -23%;
+    }
+
+    &:nth-child(3n):before {
+      bottom: -24%;
     }
 
     /* position active bio relative to alumnus portrait */
@@ -208,7 +220,7 @@ header {
     }
   }
 
-/* size employees and apprentices differently */
+/* size employees differently */
   .employees-list {
     .alumnus {
       width: 29.2%;
@@ -219,7 +231,7 @@ header {
     .bio {
       width: 330%;
 
-      /* size differently for employees and apprentices for better visual alignment */
+      /* size differently for employees for better visual alignment */
       ul { width: 33.33333%; }
     }
   }
@@ -354,6 +366,18 @@ header {
         }
       }
     }
+
+    .alumnus.is-active {
+    /* tan arrow pointing from alumnus to their bio when opened */
+
+      &:nth-child(2n):before {
+       bottom: -21%;
+      }
+
+      &:nth-child(2n-1):before {
+       bottom: -19%;
+      }
+    }
   }
 
   .employees-list {
@@ -418,4 +442,24 @@ header {
       &:nth-child(3n).is-active .bio { left: 0%; }
     }
   }
+}
+
+@media (max-width: 800px) and (min-width: 700px) {
+
+    .js {
+      .alumnus.is-active {
+        /* tan arrow pointing from alumnus to their bio when opened */
+        &:nth-child(3n-2):before {
+          bottom: -23%;
+        }
+
+        &:nth-child(3n-1):before {
+          bottom: -24%;
+        }
+
+        &:nth-child(3n):before {
+          bottom: -26%;
+        }
+      }
+    }
 }
