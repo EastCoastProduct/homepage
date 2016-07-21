@@ -6,6 +6,7 @@
     <section>
     <div class="container">
       <% collections.clients.forEach(function(client){ %>
+       <% if(client.id == 'sna') {} else { %>
         <article class="clients--container-info">
           <h1><a href="../case_study/<%= client.id %>"><%- client.title %></a></h1>
           <h2><%- client.name %></h2>
@@ -19,6 +20,7 @@
             </a>
           </div>
         </article>
+        <% } %>
       <% }) %>
     </div>
     </section>
