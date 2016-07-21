@@ -1,7 +1,7 @@
 ---
 title: Strategy
 name: Strategy
-description: Our development and project management teams integrate with the client to collaboratively define project goals, features, and scope. We are involved in every aspect of planning and strategy. We make sure we understand the “Why?” behind what we build.
+description: We make sure we understand the “Why?” behind what we build. We’ll work collaboratively with your team to focus on your core challenges and your customers' needs, to develop laser-focused product strategy.
 image: ../images/illustrations/services-strategy.png
 template: partials/service.ejs
 ---
