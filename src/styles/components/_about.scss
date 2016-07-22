@@ -161,15 +161,15 @@ header {
     }
 
     &:nth-child(3n-2):before {
-     bottom: -22%;
+     bottom: -22.8%;
     }
 
     &:nth-child(3n-1):before {
-      bottom: -23%;
+      bottom: -24%;
     }
 
     &:nth-child(3n):before {
-      bottom: -24%;
+      bottom: -25.8%;
     }
 
     /* position active bio relative to alumnus portrait */
@@ -224,7 +224,6 @@ header {
 
     ul {
       background-color: $yellow-tint;
-      width: 100% !important;
       display: inline-block !important;
       top: 0;
       right: 0;
@@ -409,11 +408,11 @@ header {
     /* tan arrow pointing from alumnus to their bio when opened */
 
       &:nth-child(2n):before {
-       bottom: -21%;
+       bottom: -24%;
       }
 
       &:nth-child(2n-1):before {
-       bottom: -19%;
+       bottom: -21%;
       }
     }
   }
@@ -492,7 +491,7 @@ header {
         }
 
         &:nth-child(3n-1):before {
-          bottom: -24%;
+          bottom: -25%;
         }
 
         &:nth-child(3n):before {
