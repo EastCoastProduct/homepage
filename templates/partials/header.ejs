@@ -3,8 +3,16 @@
     <a href="<%- level %>" class="main--navigation-logo">East Coast Product</a>
     <nav class="navigation navigation-wide">
       <!-- <a href="<%- level %>services">Services</a> -->
-      <a href="<%- level %>work">Work</a>
-      <a href="<%- level %>about">About</a>
+      <% if(title == "Work") { %>
+        <a href="<%- level %>work" class="current">Work</a>
+      <% } else { %>
+        <a href="<%- level %>work">Work</a>
+      <% } %>
+      <% if(title == "About") { %>
+        <a href="<%- level %>about" class="current">About</a>
+      <% } else { %>
+        <a href="<%- level %>about">About</a>
+      <% } %>
       <a href="https://medium.com/east-coast-product" target="_blank">Blog</a>
       <a href="<%- level %>contact" class="button button-default-reverse">Hire Us</a>
     </nav>
