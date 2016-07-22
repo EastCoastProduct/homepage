@@ -30,6 +30,15 @@
   }
 }
 
+/* mixin used on about picture */
+@mixin top-right-fliped($color) {
+  &:after {
+    top: 0;
+    background-image: linear-gradient(to top right, transparent 0, transparent 50%, $color 51%, $color 100%);
+    // 51% for first stop of second color helps smooth jagged edge in some browsers
+  }
+}
+
 @mixin before {
     &:before {
     content: "";

@@ -1,11 +1,11 @@
 ---
 title: Future-proofing a SaaS platform
-name: Safety Net Access
+name: Safety NetAccess
 id: sna
 level: ../../
 listingImage: ../images/case-study-shots/sna-listing-screenshot.png
 leadImage: ../images/case-study-shots/sna-lead-image@2x.png
-description: Safety Net Access’ SNAP is a hotel wifi and internet management platform. We helped them rebuild and consolidate a product with three different generations of users  and prepared it for a SaaS offering.
+description: Safety NetAccess’ SNAP is a hotel WiFi and internet management platform. We helped them rebuild and consolidate a product with three different generations of users  and prepared it for a SaaS offering.
 testimonialPerson: Ivan Blazevic
 testimonialPosition: CTO & Cofounder of East Coast Product
 testimonialContent: It was awesome partnering with such a talented and knowledgable team. We were able to learn a lot from them and vice versa which helped us collaborate better and build the best product SNAPx could be.
@@ -23,7 +23,7 @@ After 14 years and three completely different iterations of SNAP, CEO Sean Gorma
 
 ## Solution
 
-By utilizing the API-first development methodology, we rebuilt SNAPx from the ground up in 28 weeks. The platform is much more scalable and additional features and services can be bolted on. This new product will allow SNA to grow their business in a new way. Not only can they provide a world-class wifi experience to customers like Hilton and Marriott, SNA can begin generating revenue from companies seeking to license the technology for their existing products. The platform rebuild of SNAPx positions SNA to grow for the long-term, and we’re excited to be part of their future growth.
+By utilizing the API-first development methodology, we rebuilt SNAPx from the ground up in 28 weeks. The platform is much more scalable and additional features and services can be bolted on. This new product will allow SNA to grow their business in a new way. Not only can they provide a world-class WiFi experience to customers like Hilton and Marriott, SNA can begin generating revenue from companies seeking to license the technology for their existing products. The platform rebuild of SNAPx positions SNA to grow for the long-term, and we’re excited to be part of their future growth.
 
 ## Key Tech
 
