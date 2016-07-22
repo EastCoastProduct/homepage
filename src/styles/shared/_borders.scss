@@ -46,6 +46,14 @@
   }
 }
 
+.top-right-fliped {
+  /* this border is used for about picture */
+  &-dark {
+    @include top-right-fliped($darker-gray);
+    @include after;
+  }
+}
+
 .bottom-left {
   &-blue {
     @include bottom-left($blue);

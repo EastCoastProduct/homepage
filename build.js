@@ -9,6 +9,8 @@ var Metalsmith  = require('metalsmith'),
     collections = require('metalsmith-collections'),
     permalinks  = require('metalsmith-permalinks'),
     sass        = require('metalsmith-sass'),
+    sitemap     = require('metalsmith-mapsite'),
+    ignore      = require('metalsmith-ignore'),
 
 templateConf = {
   engine: 'ejs',
@@ -43,9 +45,19 @@ Metalsmith(__dirname)
     }
   }))
   .use(markdown())
+  .use(ignore([
+    '**/_person/**',
+    '**/_values/**',
+    '**/services/**',
+    '**/_subservices/**'
+  ]))
   .use(permalinks({
     pattern: './:directory',
     relative: false
+  }))
+  .use(sitemap({
+    hostname:  'https://eastcoastproduct.com',
+    omitIndex: true
   }))
   .use(inplace(templateConf))
   .use(layouts(templateConf))

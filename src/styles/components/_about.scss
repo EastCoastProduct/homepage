@@ -44,6 +44,17 @@ header {
   vertical-align: top;
   position: relative;
 
+  &:hover {
+    background-color: $white;
+    -webkit-box-shadow: 0px 0px 0px 10px rgba(255,255,255,1);
+    -moz-box-shadow:    0px 0px 0px 10px rgba(255,255,255,1);
+    box-shadow:         0px 0px 0px 10px rgba(255,255,255,1);
+  }
+
+  &:nth-child(3n) {
+    margin-right: 0 !important;
+  }
+
 
   /* reset contents of alumnus list items */
   .open-bio p, ul, li {
@@ -72,6 +83,8 @@ header {
 
 .employment-details {
   color: #36383a;
+  font-size: .85rem;
+  line-height: 1.5;
 
   &:hover {
     color: #36383a;
@@ -126,7 +139,7 @@ header {
     /* indicate additional content if javascript has loaded */
     &:hover, &:focus, .alumnus.is-active .open-bio {
       outline: none;
-      background-color: $lightest-gray;
+      background-color: transparent;
     }
   }
 
@@ -148,15 +161,15 @@ header {
     }
 
     &:nth-child(3n-2):before {
-     bottom: -22%;
+     bottom: -22.8%;
     }
 
     &:nth-child(3n-1):before {
-      bottom: -23%;
+      bottom: -24%;
     }
 
     &:nth-child(3n):before {
-      bottom: -24%;
+      bottom: -25.8%;
     }
 
     /* position active bio relative to alumnus portrait */
@@ -211,7 +224,6 @@ header {
 
     ul {
       background-color: $yellow-tint;
-      width: 100% !important;
       display: inline-block !important;
       top: 0;
       right: 0;
@@ -301,6 +313,11 @@ header {
   }
 }
 
+.name {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
 @media (min-width: 700px) {
   figure {
     margin-bottom: 60px;
@@ -308,6 +325,16 @@ header {
 
   .first-section-about {
     margin-top: -3rem;
+  }
+
+  .employment-details {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  .name {
+    font-size: 1.5rem;
+    line-height: 1;
   }
 }
 
@@ -346,6 +373,16 @@ header {
     margin-top: 18px;
   }
 
+  .alumnus {
+    &:nth-child(2n) {
+      margin-right: 0 !important;
+    }
+
+    &:nth-child(2n + 1) {
+      margin-right: 3.2258% !important;
+    }
+  }
+
   .js {
     .alumnus.is-active {
       .bio {
@@ -371,11 +408,11 @@ header {
     /* tan arrow pointing from alumnus to their bio when opened */
 
       &:nth-child(2n):before {
-       bottom: -21%;
+       bottom: -24%;
       }
 
       &:nth-child(2n-1):before {
-       bottom: -19%;
+       bottom: -21%;
       }
     }
   }
@@ -454,7 +491,7 @@ header {
         }
 
         &:nth-child(3n-1):before {
-          bottom: -24%;
+          bottom: -25%;
         }
 
         &:nth-child(3n):before {
