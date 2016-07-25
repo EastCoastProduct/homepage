@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', function() {
 
-  var bioElements = document.getElementsByClassName('bio'),
-      alumnusElements = document.getElementsByClassName('alumnus'),
-      openBioElements = document.getElementsByClassName('open-bio');
+  var bioElements = document.getElementsByClassName('employee-about'),
+      alumnusElements = document.getElementsByClassName('employee-info'),
+      openBioElements = document.getElementsByClassName('open-about');
 
   setAriaBioTrue();
 
@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
   for(var i = 0; i < openBioElements.length; i++) {
     openBioElements[i].addEventListener('click', function(e) {
       var thiseElement = e.target.parentNode,
-          bioHeight = thiseElement.parentNode.getElementsByClassName('bio')[0].clientHeight;
+          bioHeight = thiseElement.parentNode.getElementsByClassName('employee-about')[0].clientHeight;
 
       e.preventDefault();
       if(thiseElement.parentNode.classList.contains('is-active')) {
@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function() {
         addActive.classList.add('is-active');
         addActive.style.marginBottom = (bioHeight+73) + 'px';
 
-        addActive.getElementsByClassName('bio')[0].setAttribute('aria-hidden', 'false');
+        addActive.getElementsByClassName('employee-about')[0].setAttribute('aria-hidden', 'false');
       }
     });
   }
@@ -43,14 +43,14 @@ document.addEventListener('DOMContentLoaded', function() {
 
     for(var i = 0; i < alumnusElements.length; i++) {
       if(alumnusElements[i].classList.contains('is-active')) {
-       var newBioHeight = alumnusElements[i].getElementsByClassName('bio')[0].clientHeight;
+       var newBioHeight = alumnusElements[i].getElementsByClassName('employee-about')[0].clientHeight;
 
        alumnusElements[i].style.marginBottom = (newBioHeight+74) + 'px';
       }
     }
   });
 
-  var closeBioElements = document.getElementsByClassName('close-bio');
+  var closeBioElements = document.getElementsByClassName('close-about');
   for(var i = 0; i < closeBioElements.length; i++) {
     closeBioElements[i].addEventListener('click', function(e) {
       e.preventDefault();
