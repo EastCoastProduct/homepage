@@ -29,6 +29,25 @@
   }
 }
 
+.service-info {
+
+  p {
+    margin-bottom: 36px !important;
+  }
+}
+
+.subservice-container {
+  margin-bottom: 36px;
+
+  h2 {
+    margin-bottom: 6px !important;
+  }
+
+  p {
+    margin-bottom: 18px !important;
+  }
+}
+
 @media (min-width: 700px) {
   .services--container {
     p {
@@ -51,6 +70,36 @@
 
   .right {
     float: right;
+  }
+
+  .service-info {
+
+    &:target {
+      background-color: $yellow-tint;
+    }
+
+    p {
+      margin-bottom: 60px !important;
+    }
+  }
+
+  .subservice-container {
+    display: inline-block;
+    width: 45.7746%;
+    margin: 0 1.6129% 0 1.6129%;
+    vertical-align: top;
+
+    &:nth-child(3n) {
+      margin-left: 0 !important;
+    }
+
+    &:nth-child(2n) {
+      margin-right: 0 !important;
+    }
+
+    p {
+      margin-bottom: 30px !important;
+    }
   }
 }
 
