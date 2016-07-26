@@ -320,6 +320,10 @@ header {
   line-height: 1.5;
 }
 
+.email {
+  cursor: pointer;
+}
+
 @media (min-width: 700px) {
   figure {
     margin-bottom: 60px;

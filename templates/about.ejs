@@ -23,7 +23,8 @@
                  <ul class="employee-contact">
                    <li><span class="icon icon--phone-black"></span>
                      <% if(person.contact.email) { %>
-                      <a href="mailto:<%= person.contact.email %>"> Email</a>
+                      <a class="email" onclick="location.href='mailto:<%= person.contact.email %>' + '@eastcoastproduct.com';"> Email</a>
+                      <noscript>This email is scripted to prevent spam. Please enable JavaScript to be able to send an email </noscript>
                      <% } %>
                      <% if(person.contact.tel) { %>
                       or <a href="tel:<%= person.contact.tel %>">Call</a>
