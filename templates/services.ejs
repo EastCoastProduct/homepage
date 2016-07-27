@@ -4,22 +4,22 @@
   <body>
     <% include partials/header %>
       <div class="service-list">
-      <% collections.services.forEach(function(servi){ %>
-        <section class="service-info angle-edge bottom-left-gray" id="<%= servi.name.toLowerCase() %>">
+      <% collections.services.forEach(function(service) { %>
+        <section class="service-info angle-edge top-right-fliped-gray bottom-right-fliped-gray" id="<%= service.name.toLowerCase() %>">
          <div class="container">
-          <h1><%- servi.name %></h1>
-          <p><%- servi.description %></p>
-
-          <article class="subservice-container">
-            <img src="" alt="subserviceName" />
-            <h2 class="major">Sub-Service 1</h2>
-            <p class="minor">Tail ham hock t-bone strip steak filet mignon bacon chuck, leberkas brisket turkey ribeye meatball swine biltong bresaola. Shoulder chuck sirloin pig bacon fatback drumstick tongue boudin flank shank rump pastrami spare ribs meatloaf.</p>
-          </article>
-          <article class="subservice-container">
-            <img src="" alt="subserviceName" />
-            <h2 class="major">Sub-Service 2</h2>
-            <p class="minor">Alcatra tenderloin tail, filet mignon tri-tip andouille t-bone pancetta pork jerky venison bacon. Filet mignon chuck strip steak cow shoulder.</p>
-          </article>
+          <h1><%- service.name %></h1>
+          <p><%- service.description %></p>
+            <div class="align-subservice">
+            <% collections.subservices.forEach(function(subservice) { %>
+              <% if(subservice.service == service.name) { %>
+                <article class="subservice-container">
+                  <img src="<%= subservice.image %>" alt="<%= subservice.title %>" />
+                  <h2 class="major"><%= subservice.title %></h2>
+                  <p class="minor"><%= subservice.description %></p>
+              </article>
+              <% } %>
+            <% }) %>
+            </div>
           </div>
         </section>
       <% }) %>

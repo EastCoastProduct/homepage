@@ -47,10 +47,50 @@
 }
 
 .top-right-fliped {
-  /* this border is used for about picture */
   &-dark {
     @include top-right-fliped($darker-gray);
     @include after;
+  }
+
+  &-gray {
+    @include top-right-fliped($lightest-gray);
+    @include after;
+  }
+}
+
+.top-left-fliped {
+  &-dark {
+    @include top-left-fliped($darker-gray);
+    @include after;
+  }
+
+  &-gray {
+    @include top-left-fliped($lightest-gray);
+    @include after;
+  }
+}
+
+.bottom-left-fliped {
+  &-dark {
+    @include bottom-left-fliped($darker-gray);
+    @include before;
+  }
+
+  &-gray {
+    @include bottom-left-fliped($lightest-gray);
+    @include before;
+  }
+}
+
+.bottom-right-fliped {
+  &-dark {
+    @include bottom-right-fliped($darker-gray);
+    @include before;
+  }
+
+  &-gray {
+    @include bottom-right-fliped($lightest-gray);
+    @include before;
   }
 }
 

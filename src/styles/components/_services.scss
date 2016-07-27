@@ -30,6 +30,16 @@
 }
 
 .service-info {
+  padding-top: 18px;
+
+  &:first-child {
+    margin-top: -5%;
+    z-index: -1;
+  }
+
+  &:target {
+    background-color: $yellow-tint;
+  }
 
   p {
     margin-bottom: 36px !important;
@@ -37,16 +47,27 @@
 }
 
 .subservice-container {
-  margin-bottom: 36px;
-
+  margin-bottom: 30px;
+  display: block;
   h2 {
     margin-bottom: 6px !important;
+    text-align: left;
   }
 
   p {
     margin-bottom: 18px !important;
+    text-align: left;
+  }
+
+  img {
+    width: 100%;
   }
 }
+
+.align-subservice {
+  text-align: center;
+}
+
 
 @media (min-width: 700px) {
   .services--container {
@@ -73,9 +94,10 @@
   }
 
   .service-info {
+    padding-top: 30px;
 
-    &:target {
-      background-color: $yellow-tint;
+    &:first-child {
+      margin-top: -2%;
     }
 
     p {
@@ -85,20 +107,12 @@
 
   .subservice-container {
     display: inline-block;
-    width: 45.7746%;
-    margin: 0 1.6129% 0 1.6129%;
+    width: 44.7746%;
+    margin-right: 4%;
     vertical-align: top;
 
-    &:nth-child(3n) {
-      margin-left: 0 !important;
-    }
-
-    &:nth-child(2n) {
-      margin-right: 0 !important;
-    }
-
     p {
-      margin-bottom: 30px !important;
+      margin-bottom: 0 !important;
     }
   }
 }
