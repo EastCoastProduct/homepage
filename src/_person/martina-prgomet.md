@@ -6,5 +6,5 @@ title: Developer
 bio: 75% Coffee, 15% Cheeseburgers 10% Guns N’ Roses. 100% kickass dev
 image:
 areas:
-contact: { email: martina@eastcoastproduct.com, linkedin: https://hr.linkedin.com/in/martina-prgomet-01a9823a }
+contact: { email: martina, linkedin: https://hr.linkedin.com/in/martina-prgomet-01a9823a }
 ---

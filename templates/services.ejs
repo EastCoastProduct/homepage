@@ -3,14 +3,27 @@
   <% include partials/head %>
   <body>
     <% include partials/header %>
-    <section class="container">
-      <% collections.services.forEach(function(servi){ %>
-        <article>
-          <h2><%- servi.name %></h2>
-          <p><%- servi.description %></p>
-        </article>
+      <div class="service-list">
+      <% collections.services.forEach(function(service) { %>
+        <section class="service-info angle-edge top-right-fliped-gray bottom-right-fliped-gray" id="<%= service.name.toLowerCase() %>">
+         <div class="container">
+          <h1><%- service.name %></h1>
+          <p><%- service.description %></p>
+            <div class="align-subservice">
+            <% collections.subservices.forEach(function(subservice) { %>
+              <% if(subservice.service == service.name) { %>
+                <article class="subservice-container">
+                  <img src="<%= subservice.image %>" alt="<%= subservice.title %>" />
+                  <h2 class="major"><%= subservice.title %></h2>
+                  <p class="minor"><%= subservice.description %></p>
+              </article>
+              <% } %>
+            <% }) %>
+            </div>
+          </div>
+        </section>
       <% }) %>
-    </section>
+      </div>
     <% include partials/footer %>
     <% include partials/includes %>
   </body>

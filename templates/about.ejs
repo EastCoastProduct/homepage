@@ -8,22 +8,23 @@
       <div class="overflow-hidden">
         <div class="container">
           <h1>The dream team</h1>
-          <ul class="alumni employees-list">
+          <ul class="employees-container employees-list">
           <% collections.person.forEach(function(person){ %>
-             <li class="alumnus" class="open-bio" tabindex="-1"
-              id="<%= person.id %>">
-               <a href="#<%= person.id %>" class="open-bio">
-                 <img src="../images/photos/team/<%- person.id%>.jpg" alt="Potrait of <%= person.name %>" class="portrait" />
-                 <h2 class="name"><%- person.name %></h2>
-                 <p class="employment-details minor"><%- person.title %></p>
+             <li class="employee-info" tabindex="-1" id="<%= person.id %>">
+               <a href="#<%= person.id %>" class="open-about">
+                 <img src="../images/photos/team/<%- person.id%>.jpg"
+                  alt="Potrait of <%= person.name %>" class="employee-photo" />
+                 <h2 class="employee-name"><%- person.name %></h2>
+                 <p class="employee-field minor"><%- person.title %></p>
                </a>
-               <div class="bio">
+               <div class="employee-about">
                  <div class="border-top"></div>
                  <p class="minor"><%- person.bio %></p>
-                 <ul class="social">
+                 <ul class="employee-contact">
                    <li><span class="icon icon--phone-black"></span>
                      <% if(person.contact.email) { %>
-                      <a href="mailto:<%= person.contact.email %>"> Email</a>
+                      <a class="email" onclick="location.href='mailto:<%= person.contact.email %>' + '@eastcoastproduct.com';"> Email</a>
+                      <noscript>This email is scripted to prevent spam. Please enable JavaScript to be able to send an email </noscript>
                      <% } %>
                      <% if(person.contact.tel) { %>
                       or <a href="tel:<%= person.contact.tel %>">Call</a>
@@ -54,7 +55,7 @@
                      <li><span class="icon icon--phone-black"></span><a href="<%= person.contact.scheduling %>" target=_blank> Scheduling</a></li>
                    <% } %>
                  </ul>
-                 <button type="buttons" class="close-bio">
+                 <button type="buttons" class="close-about">
                    Close info
                  </button>
                  <div class="border-bottom"></div>

@@ -42,6 +42,9 @@ Metalsmith(__dirname)
     },
     values: {
       pattern: '_values/*.md'
+    },
+    subservices: {
+      pattern: '_subservices/*.md'
     }
   }))
   .use(markdown())
