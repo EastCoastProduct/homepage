@@ -59,3 +59,15 @@
     }
   }
 }
+
+@media (max-width: 700px){
+  .case_image {
+    margin-top: -3%;
+  }
+}
+
+@media (max-width: 500px) {
+  .case_image {
+    margin-top: -5%;
+  }
+}
