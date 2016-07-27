@@ -6,7 +6,7 @@ After cloning/downloading repository on your local machine, navigate to that dir
 npm install
 ```
 
-While you are positioned in the same directory run `npm run build`, this command will build the site
+While you are positioned in the same directory run `gulp watch` and `npm run build` in second terminal, this commands will build the site
 and run the server and enable live reloading of the project. Now you'll be able to access the homepage by opening
 your browser and going to this address
 [https://localhost:8080](https://localhost:8080)
