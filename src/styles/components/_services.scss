@@ -29,6 +29,46 @@
   }
 }
 
+.service-info {
+  padding-top: 18px;
+
+  &:first-child {
+    margin-top: -5%;
+    z-index: -1;
+  }
+
+  &:target {
+    background-color: $yellow-tint;
+  }
+
+  p {
+    margin-bottom: 36px !important;
+  }
+}
+
+.subservice-container {
+  margin-bottom: 30px;
+  display: block;
+  h2 {
+    margin-bottom: 6px !important;
+    text-align: left;
+  }
+
+  p {
+    margin-bottom: 18px !important;
+    text-align: left;
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
+.align-subservice {
+  text-align: center;
+}
+
+
 @media (min-width: 700px) {
   .services--container {
     p {
@@ -51,6 +91,29 @@
 
   .right {
     float: right;
+  }
+
+  .service-info {
+    padding-top: 30px;
+
+    &:first-child {
+      margin-top: -2%;
+    }
+
+    p {
+      margin-bottom: 60px !important;
+    }
+  }
+
+  .subservice-container {
+    display: inline-block;
+    width: 44.7746%;
+    margin-right: 4%;
+    vertical-align: top;
+
+    p {
+      margin-bottom: 0 !important;
+    }
   }
 }
 

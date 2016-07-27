@@ -50,6 +50,10 @@ footer {
   }
 }
 
+.reverse-email {
+  unicode-bidi: bidi-override; direction: rtl;
+}
+
 @media (min-width: 700px) {
   .split-container {
     display: inline-block;

@@ -6,5 +6,5 @@ title: Developer
 bio: Luka works hard, plays harder, and hacks everything in between.
 image:
 areas:
-contact: { email: luka@eastcoastproduct.com, linkedin: https://www.linkedin.com/in/luka-vidačak-8864b664 }
+contact: { email: luka, linkedin: https://www.linkedin.com/in/luka-vidačak-8864b664 }
 ---

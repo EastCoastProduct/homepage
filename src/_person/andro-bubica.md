@@ -6,5 +6,5 @@ title: Developer
 bio: Andro comes, he sees, he debugs.
 image:
 areas:
-contact: { email: andro@eastcoastproduct.com }
+contact: { email: andro }
 ---

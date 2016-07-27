@@ -6,7 +6,7 @@
     <section class="contact--main-title angle-edge bottom-left-gray">
       <div class="container">
         <h1>General inquiries</h1>
-        <p class="major">Send us an email: <a href="mailto: hello@eastcoastproduct.com"> hello@eastcoastproduct.com</a></p>
+        <p class="major">Send us an email: <a class="email reverse-email" onclick="location.href='mailto:' + 'hello' + '@' + 'eastcoastproduct.com';"> moc.tcudorptsaoctsae@olleh</a></p>
         <p class="major">Give us a call: <a href="tel:+18667777459"> (866) 777-7459</a></p>
       </div>
     </section>
@@ -22,7 +22,7 @@
                 <h2><%= person.name %></h2>
                 <p><%= person.title %></p>
                 <p class="minor"><%= person.name.split(" ")[0] %> is an expert in: <%= person.areas %>.</p>
-                <ul class="social">
+                <ul class="employee-contact">
                    <li><span class="icon icon--phone-black"></span>
                      <% if(person.contact.email) { %>
                       <a href="mailto:<%= person.contact.email %>">Email</a>
@@ -41,7 +41,7 @@
                      <a href="<%= person.contact.twitter %>" target="_blank">Twitter</a></li>
                    <% } %>
                    <% if(person.contact.linkedin) { %>
-                     <li><span class="icon icon--phone-black"></span><a href="<%= person.contact.linkedin %>" target="_blank">LinkedIn</a></li>
+                     <li><span class="icon icon--linkedin-black"></span><a href="<%= person.contact.linkedin %>" target="_blank">LinkedIn</a></li>
                    <% } %>
                    <% if(person.contact.github) { %>
                      <li><span class="icon icon--github-black"></span><a href="<%= person.contact.github %>" target="_blank">Github</a></li>

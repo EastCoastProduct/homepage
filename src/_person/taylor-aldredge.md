@@ -5,5 +5,5 @@ numberId: 15
 title: Relationship Manager
 bio: Taylor is a sagittarius who likes handstands, CrossFit and talking all about business development with companies that love helping their customers.
 areas:
-contact: { email: ta@eastcoastproduct.com, linkedin: http://linkedin.com/in/tayloraldredge, twitter: http://twitter.com/tayloraldredge }
+contact: { email: ta, linkedin: http://linkedin.com/in/tayloraldredge, twitter: http://twitter.com/tayloraldredge }
 ---

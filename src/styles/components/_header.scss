@@ -22,6 +22,10 @@ header {
   }
 }
 
+.current {
+  border-bottom-color: $white !important;
+}
+
 .navigation {
   display: inline-block;
   margin: 1.5rem 0 1.5rem 0;
@@ -35,7 +39,7 @@ header {
     border-bottom-color: rgba($middle-gray, 0.2);
 
     &:hover {
-      border-bottom-color: #fff;
+      border-bottom-color: $white;
       background-color: inherit;
       color: inherit;
     }
