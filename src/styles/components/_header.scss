@@ -77,7 +77,8 @@ header {
   }
 }
 
-@media (min-width: 600px) {
+@media (min-width: 770px) {
+
   .main--navigation-logo {
     display: inline-block;
     width: 30%;
@@ -99,9 +100,6 @@ header {
       width: auto;
     }
   }
-}
-
-@media (min-width: 700px) {
 
   .page--title {
     margin-top: 3.75rem;
