@@ -1,12 +1,1 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="17px" height="26px" viewBox="0 0 17 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
-    <title>phone-black</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="images-for-export" transform="translate(-2732.000000, -1759.000000)" fill="#1C2522">
-            <path d="M2732,1760.997 C2732,1759.89409 2732.89006,1759 2734.00011,1759 L2746.99989,1759 C2748.10452,1759 2749,1759.89498 2749,1760.997 L2749,1783.003 C2749,1784.10591 2748.10994,1785 2746.99989,1785 L2734.00011,1785 C2732.89548,1785 2732,1784.10502 2732,1783.003 L2732,1760.997 Z M2734,1764 L2747,1764 L2747,1780 L2734,1780 L2734,1764 Z M2737,1761 L2744,1761 L2744,1762 L2737,1762 L2737,1761 Z M2740.5,1784 C2741.32843,1784 2742,1783.32843 2742,1782.5 C2742,1781.67157 2741.32843,1781 2740.5,1781 C2739.67157,1781 2739,1781.67157 2739,1782.5 C2739,1783.32843 2739.67157,1784 2740.5,1784 Z" id="phone-black"></path>
-        </g>
-    </g>
-</svg>
+<svg width="17" height="26" viewBox="0 0 17 26" xmlns="http://www.w3.org/2000/svg"><title>phone-black</title><path d="M0 1.997C0 .894.89 0 2 0h13a2 2 0 0 1 2 1.997v22.006C17 25.106 16.11 26 15 26H2a2 2 0 0 1-2-1.997V1.997zM2 5h13v16H2V5zm3-3h7v1H5V2zm3.5 23a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" fill="#1C2522" fill-rule="evenodd"/></svg>
