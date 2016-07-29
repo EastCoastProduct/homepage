@@ -27,7 +27,7 @@ gulp.task('watch', function() {
   })
 });
 
-/* minify svg files */
+/* minifying svg files */
 gulp.task('minify-svg', function() {
     return gulp.src('./src/images/**/*.svg')
       .pipe(svgmin())
