@@ -6,5 +6,5 @@ description: <h2 class="lede">We are a <strong>digital product firm</strong> tha
 layout: home.ejs
 ---
 <div class="header--image">
-  <img src="./images/illustrations/header.svg" />
+  <img src="./images/illustrations/header.svg" alt="Header Illustration"/>
 </div>
