@@ -11,6 +11,8 @@ and run the server and enable live reloading of the project. Now you'll be able 
 your browser and going to this address
 [https://localhost:8080](https://localhost:8080)
 
+Note: After adding new svg files to the project just run `gulp minify-svg` command to generate minified svg files.
+
 ## Building and deploying project
 
 Site is hosted on Amazon, to be able to deploy you need to create `.aws.json` configuration file based on provided `.aws.json.example` with your own keys.
