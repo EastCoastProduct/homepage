@@ -1,12 +1,1 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
-    <title>monitor-white</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="images-for-export" transform="translate(-2538.000000, -1724.000000)" fill="#FFFFFF">
-            <path d="M2538,1725.99742 C2538,1724.89428 2538.89703,1724 2540.00495,1724 L2559.99505,1724 C2561.10235,1724 2562,1724.89093 2562,1725.99742 L2562,1741.00258 C2562,1742.10572 2561.10297,1743 2559.99505,1743 L2540.00495,1743 C2538.89765,1743 2538,1742.10907 2538,1741.00258 L2538,1725.99742 Z M2540,1726 L2560,1726 L2560,1738 L2540,1738 L2540,1726 Z M2547,1744 L2553,1744 L2553,1747 L2547,1747 L2547,1744 Z M2545,1747 L2555,1747 L2555,1748 L2545,1748 L2545,1747 Z" id="monitor-white"></path>
-        </g>
-    </g>
-</svg>
+<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>monitor-white</title><path d="M0 1.997A2 2 0 0 1 2.005 0h19.99A2 2 0 0 1 24 1.997v15.006A2 2 0 0 1 21.995 19H2.005A2 2 0 0 1 0 17.003V1.997zM2 2h20v12H2V2zm7 18h6v3H9v-3zm-2 3h10v1H7v-1z" fill="#FFF" fill-rule="evenodd"/></svg>

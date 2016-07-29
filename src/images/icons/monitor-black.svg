@@ -1,12 +1,1 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
-    <title>monitor-black</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="images-for-export" transform="translate(-2728.000000, -1724.000000)" fill="#1C2522">
-            <path d="M2728,1725.99742 C2728,1724.89428 2728.89703,1724 2730.00495,1724 L2749.99505,1724 C2751.10235,1724 2752,1724.89093 2752,1725.99742 L2752,1741.00258 C2752,1742.10572 2751.10297,1743 2749.99505,1743 L2730.00495,1743 C2728.89765,1743 2728,1742.10907 2728,1741.00258 L2728,1725.99742 Z M2730,1726 L2750,1726 L2750,1738 L2730,1738 L2730,1726 Z M2737,1744 L2743,1744 L2743,1747 L2737,1747 L2737,1744 Z M2735,1747 L2745,1747 L2745,1748 L2735,1748 L2735,1747 Z" id="monitor-black"></path>
-        </g>
-    </g>
-</svg>
+<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>monitor-black</title><path d="M0 1.997A2 2 0 0 1 2.005 0h19.99A2 2 0 0 1 24 1.997v15.006A2 2 0 0 1 21.995 19H2.005A2 2 0 0 1 0 17.003V1.997zM2 2h20v12H2V2zm7 18h6v3H9v-3zm-2 3h10v1H7v-1z" fill="#1C2522" fill-rule="evenodd"/></svg>

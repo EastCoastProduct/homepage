@@ -5,7 +5,8 @@ var gulp     = require('gulp'),
     s3       = require('gulp-s3'),
     shell    = require('gulp-shell'),
     fs       = require('fs'),
-    del      = require('del');
+    del      = require('del'),
+    svgmin   = require('gulp-svgmin');
 
 
 /* local working on css  */
@@ -24,6 +25,13 @@ gulp.task('watch', function() {
   watch('build/styles/main.css', function() {
     gulp.start('generate-css');
   })
+});
+
+/* minify svg files */
+gulp.task('minify-svg', function() {
+    return gulp.src('./src/images/**/*.svg')
+      .pipe(svgmin())
+      .pipe(gulp.dest('./src/images/'));
 });
 
 /* publishing site */
