@@ -32,6 +32,7 @@ header {
 /* set up employees-container grid */
 .employees-container {
   margin: 30px auto 25px auto;
+  max-width: 100%;
 
   li {
     margin-bottom: 24px;
@@ -241,7 +242,7 @@ header {
 /* size employees differently */
   .employees-list {
     .employee-info {
-      width: 29.2%;
+      width: 30.6%;
       margin-right: 3.2%;
     }
 
@@ -405,8 +406,8 @@ header {
     }
     .employees-list {
       .employee-info {
-        width: 43%;
-        margin: 0 3.2258% 24px 3.2258%;
+        width: 47.8%;
+        margin: 0 3.2258% 24px 0;
 
         .employee-about {
           width: 220%;
@@ -462,7 +463,7 @@ header {
       .employee-info {
         display: block;
         width: 70%;
-        margin: 0 auto !important;
+        margin: 0 auto 24px auto !important;
         margin-bottom: 12px;
 
         .employee-about {
