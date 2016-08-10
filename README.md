@@ -17,6 +17,12 @@ Note: After adding new svg files to the project just run `gulp minify-svg` comma
 
 Site is hosted on Amazon, to be able to deploy you need to create `.aws.json` configuration file based on provided `.aws.json.example` with your own keys.
 
+If you don't have your own keys head up to the aws [https://console.aws.amazon.com](web page) and go to Services->IAM->Users and click on Security Credentials tab.
+There you'll see "Create Access Key" button. After you have clicked on the button box will pop out, click on "Show User Security Credentials".
+
+Copy "Access Key ID" and paste it to
+`.aws.json` "key" section and copy "Secret Access Key" and paste it to "secret" section, "bucket" and "region" sections are like in example file.
+
 After that full build and deploy is done by simply running:
 
 ```
