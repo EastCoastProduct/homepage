@@ -7,9 +7,8 @@
       bottom-left-blue first_container">
       <div class="container">
         <h1>Who we are</h1>
-        <p class="margin--bottom-paragraph">We believe in small teams, working directly with you, focused on only your challenges. We find solutions together.</p>
-        <a href="<%- level %>about" class="button button-default">
-          Meet the team</a>
+        <p class="margin--bottom-paragraph">We are a group of expert designers, developers, and strategists. We work in small teams focused on only your project. We’ll find the right solutions to your challenges, together.</p>
+        <a href="<%- level %>about" class="button button-default">Meet the team</a>
       </div>
     </section>
     <section class="gray-background angle-edge top-right-gray
@@ -31,7 +30,7 @@
       top-left-blue bottom-left-blue">
       <div class="container">
         <h1>How we can help</h1>
-        <p class="margin--bottom-paragraph">From entrepreneurs to enterprises, everyone is looking to build the best apps. Our process is about short bursts of execution, so we can get you from idea to launch faster.</p>
+        <p class="margin--bottom-paragraph">From entrepreneurs to enterprises, everyone is looking to build the best products. Our process is about short bursts of execution, so we can go from idea to product faster.</p>
         <div class="services-list services-margin-top">
           <% collections.services.forEach(function(service){ %>
             <article class="services--container">
@@ -40,7 +39,7 @@
                   <img src="<%= service.image %>" alt="<%= service.title %>" />
                 </div>
                 <h2><%= service.title %></h2>
-                <p class="minor"><%= service.shortDescription %></p>
+                <p><%= service.shortDescription %></p>
                 <a class="button button-default" href="./services/#<%= service.name.toLowerCase() %>">Learn more <span class="hidden">about <%= service.name.toLowerCase() %></span></a>
               </div>
             </article>

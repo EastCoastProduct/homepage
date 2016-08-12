@@ -27,8 +27,7 @@ Metalsmith(__dirname)
     },
     services: {
       pattern: 'services/*.md',
-      sortBy: 'name',
-      reverse: 'true',
+      sortBy: 'sortOrder',
       metadata: {
         layout: 'service.ejs'
       }
@@ -44,7 +43,8 @@ Metalsmith(__dirname)
       pattern: '_values/*.md'
     },
     subservices: {
-      pattern: '_subservices/*.md'
+      pattern: '_subservices/*.md',
+      sortBy: 'sortOrder'
     },
     faq: {
       pattern: '_faq/*.md'
