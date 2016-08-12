@@ -45,14 +45,18 @@ Metalsmith(__dirname)
     },
     subservices: {
       pattern: '_subservices/*.md'
-    }
+    },
+    faq: {
+      pattern: '_faq/*.md'
+    },
   }))
   .use(markdown())
   .use(ignore([
     '**/_person/**',
     '**/_values/**',
     '**/services/**',
-    '**/_subservices/**'
+    '**/_subservices/**',
+    '**/_faq/**'
   ]))
   .use(permalinks({
     pattern: './:directory',

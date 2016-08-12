@@ -33,13 +33,18 @@
         <h1>How we can help</h1>
         <p class="margin--bottom-paragraph">From entrepreneurs to enterprises, everyone is looking to build the best apps. Our process is about short bursts of execution, so we can get you from idea to launch faster.</p>
         <div class="services-list services-margin-top">
-        <% for(var i = 0; i < collections.services.length; i++) { %>
-            <% if (i % 2 == 0){ %>
-              <% include partials/service_left %>
-            <% } else { %>
-              <% include partials/service_right %>
-            <% } %>
-        <% } %>
+          <% collections.services.forEach(function(service){ %>
+            <article class="services--container">
+              <div class="services--container-info">
+                <div class="services--container-image right">
+                  <img src="<%= service.image %>" alt="<%= service.title %>" />
+                </div>
+                <h2><%= service.title %></h2>
+                <p class="minor"><%= service.shortDescription %></p>
+                <a class="button button-default" href="./services/#<%= service.name.toLowerCase() %>">Learn more <span class="hidden">about <%= service.name.toLowerCase() %></span></a>
+              </div>
+            </article>
+          <% }) %>
         </div>
       </div>
     </section>

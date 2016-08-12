@@ -39,7 +39,9 @@
 
 .services-list {
   article {
-    margin-top: 36px;
+    &:first-child {
+      margin-top: 36px;
+    }
   }
 }
 
@@ -82,7 +84,9 @@
 
   .services-list {
     article {
-      margin-top: 60px;
+      &:first-child {
+        margin-top: 60px;
+      }
     }
   }
 }

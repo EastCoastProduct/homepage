@@ -1,7 +1,8 @@
 ---
-title: Strategy
+title: MVP Definition & Creation
 name: Strategy
-description: We make sure we understand the “Why?” behind what we build. We’ll work collaboratively with your team to focus on your core challenges and your customers' needs, to develop laser-focused product strategy.
-image: ../images/illustrations/services-strategy.png
+description: Rump brisket swine cupim bresaola boudin chuck venison landjaeger beef chicken pancetta pig kielbasa. Shoulder fatback filet mignon, leberkas strip steak swine ribeye pork loin turducken prosciutto short loin pork chop cow boudin. Kevin chicken ground round, hamburger alcatra ham hock spare ribs meatball strip steak ball tip. Cupim shank tongue, hamburger biltong drumstick salami bacon rump pancetta pork belly. Pork sirloin kevin pork loin.Kevin chicken ground round, hamburger alcatra ham hock spare ribs meatball strip steak ball tip. Cupim shank tongue, hamburger biltong drumstick salami bacon rump pancetta pork belly. Pork sirloin kevin pork loin.
+shortDescription: Rump brisket swine cupim bresaola boudin chuck venison landjaeger beef chicken pancetta pig kielbasa. Shoulder fatback filet mignon, leberkas strip steak swine ribeye pork loin turducken prosciutto short loin pork chop cow boudin. Kevin chicken ground round, hamburger alcatra ham hock spare ribs meatball strip steak ball tip. Cupim shank tongue, hamburger biltong drumstick salami bacon rump pancetta pork belly. Pork sirloin kevin pork loin.
+image: ../images/services-illustrations/services-mvp-definition-and-creation.svg
 template: partials/service.ejs
 ---

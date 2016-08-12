@@ -1,7 +1,8 @@
 ---
-title: Design
+title: Product Design
 name: Design
-description: User experience is everything. We validate our designs through extensive user testing and experimentation before development.Through user testing and research, we design elegant user experiences for the features we’re building.
-image: ../images/illustrations/services-design.png
+description: Pastrami doner bacon chicken landjaeger pig hamburger. Pork belly jerky brisket ham hock, meatball pastrami ground round bacon spare ribs venison turkey shoulder filet mignon. Turducken kielbasa frankfurter, spare ribs beef ribs rump pig tail sausage bresaola hamburger capicola pork leberkas. Boudin meatball cupim landjaeger, filet mignon ham hock sausage chuck tongue ribeye shank flank ground round pork belly shoulder. Alcatra swine bresaola kielbasa turducken filet mignon. Sirloin boudin turkey turducken capicola jerky t-bone ham hock ball tip doner filet mignon chicken short loin.Turducken kielbasa frankfurter, spare ribs beef ribs rump pig tail sausage bresaola hamburger capicola pork leberkas. Boudin meatball cupim landjaeger, filet mignon ham hock sausage chuck tongue ribeye shank flank ground round pork belly shoulder. Alcatra swine bresaola kielbasa turducken filet mignon. Sirloin boudin turkey turducken capicola jerky t-bone ham hock ball tip doner filet mignon chicken short loin.
+shortDescription: Pastrami doner bacon chicken landjaeger pig hamburger. Pork belly jerky brisket ham hock, meatball pastrami ground round bacon spare ribs venison turkey shoulder filet mignon. Turducken kielbasa frankfurter, spare ribs beef ribs rump pig tail sausage bresaola hamburger capicola pork leberkas. Boudin meatball cupim landjaeger, filet mignon ham hock sausage chuck tongue ribeye shank flank ground round pork belly shoulder. Alcatra swine bresaola kielbasa turducken filet mignon. Sirloin boudin turkey turducken capicola jerky t-bone ham hock ball tip doner filet mignon chicken short loin.
+image: ../images/services-illustrations/services-product-design.svg
 template: partials/service.ejs
 ---
