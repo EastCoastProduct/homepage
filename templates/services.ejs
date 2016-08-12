@@ -7,22 +7,38 @@
       <% collections.services.forEach(function(service) { %>
         <section class="service-info angle-edge top-right-fliped-gray bottom-right-fliped-gray" id="<%= service.name.toLowerCase() %>">
          <div class="container">
-          <h1><%- service.name %></h1>
+          <h1><%- service.title %></h1>
+          <% if(service.name == "Augmentation") { %>
+            <div class="services-main-image-container">
+              <img class="services-main-image left" src="<%- service.serviceImage %>" />
+            </div>
+          <% } %>
           <p><%- service.description %></p>
-            <div class="align-subservice">
             <% collections.subservices.forEach(function(subservice) { %>
               <% if(subservice.service == service.name) { %>
                 <article class="subservice-container">
-                  <img src="<%= subservice.image %>" alt="<%= subservice.title %>" />
                   <h2 class="major"><%= subservice.title %></h2>
-                  <p class="minor"><%= subservice.description %></p>
+                  <% if(subservice.image) { %>
+                  <div class="subservice-image-container">
+                    <img src="<%= subservice.image %>" alt="<%= subservice.title %>" />
+                  </div>
+                  <% } %>
+                  <p class="minor"><%- subservice.description %></p>
               </article>
               <% } %>
             <% }) %>
-            </div>
           </div>
         </section>
       <% }) %>
+        <div class="container faq-container">
+          <h1>Frequently Asked Questions</h1>
+            <% collections.faq.forEach(function(question) { %>
+              <h2 class="major">
+                <span class="yellow-background-dark"><%= question.title %></span>
+              </h2>
+              <p class="minor"><%- question.description %></p>
+            <% }) %>
+        </div>
       </div>
     <% include partials/footer %>
   </body>

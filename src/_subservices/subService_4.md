@@ -1,6 +1,6 @@
 ---
-title: Sub-Service 1
-service: Strategy
+title: Design Sprints
+service: Design
 description: Alcatra tenderloin tail, filet mignon tri-tip andouille t-bone pancetta pork jerky venison bacon. Filet mignon chuck strip steak cow shoulder.
-image:
+image: ../images/services-illustrations/icon-design-sprint.svg
 ---

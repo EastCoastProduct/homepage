@@ -127,6 +127,10 @@ h3 {
   background-color: $yellow-tint;
 }
 
+.yellow-background-dark {
+  background-color: $yellow;
+}
+
 .inline {
   display: inline;
 }
@@ -153,6 +157,10 @@ h3 {
 
 .overflow-hidden {
   overflow: hidden;
+}
+
+.hidden {
+  display: none;
 }
 
 @media (min-width: 700px) {
