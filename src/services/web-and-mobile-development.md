@@ -1,8 +1,8 @@
 ---
 title: Web & Mobile Development
-name: Web & Mobile Development
-description: Tongue cupim short loin beef ribs tail jowl meatloaf jerky bresaola sausage hamburger. Beef ribs ham short ribs kevin brisket, turkey pastrami alcatra strip steak bacon doner pork loin jerky meatloaf. Ground round tongue beef ribs, chuck picanha short ribs hamburger ribeye pork belly chicken. Ham jerky ball tip beef ribs, pork loin porchetta shoulder turducken alcatra strip steak jowl swine biltong cupim. Ground round tongue beef ribs, chuck picanha short ribs hamburger ribeye pork belly chicken. Ham jerky ball tip beef ribs.
-shortDescription: Tongue cupim short loin beef ribs tail jowl meatloaf jerky bresaola sausage hamburger. Beef ribs ham short ribs kevin brisket, turkey pastrami alcatra strip steak bacon doner pork loin jerky meatloaf. Ground round tongue beef ribs, chuck picanha short ribs hamburger ribeye pork belly chicken. Ham jerky ball tip beef ribs.
+id: web-and-mobile-development
+description: Our team of expert designers & developers bring decades of experience to the table, building winning end-to-end web and mobile applications for your team. We can handle user research & initial strategy, human-centered UX/UI design, and full-stack web development with Node.js and React. Our process and our team are tried-and-true. The knowledge we’ve accumulated over decades of building product is what separates us from the crowd, and we’ll bring that mastery to you and your product.
+shortDescription: We’ve put together the right team for building winning JavaScript applications for web and mobile, from day one to deployment. Our decades of collective experience help us understand and build your product.
 image: ../images/services-illustrations/services-web-and-mobile-development.svg
 template: partials/service.ejs
 sortOrder: 1

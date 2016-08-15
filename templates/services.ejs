@@ -5,17 +5,17 @@
     <% include partials/header %>
       <div class="service-list">
       <% collections.services.forEach(function(service) { %>
-        <section class="service-info angle-edge top-right-fliped-gray bottom-right-fliped-gray" id="<%= service.name.toLowerCase() %>">
+        <section class="service-info angle-edge top-right-fliped-gray bottom-right-fliped-gray" id="<%= service.id %>">
          <div class="container">
           <h1><%- service.title %></h1>
-          <% if(service.name == "Staff Augmentation") { %>
+          <% if(service.title == "Staff Augmentation") { %>
             <div class="services-main-image-container">
               <img class="services-main-image left" src="<%- service.serviceImage %>" />
             </div>
           <% } %>
           <p><%- service.description %></p>
             <% collections.subservices.forEach(function(subservice) { %>
-              <% if(subservice.service == service.name) { %>
+              <% if(subservice.serviceId == service.id) { %>
                 <article class="subservice-container">
                   <h2 class="major"><%= subservice.title %></h2>
                   <% if(subservice.image) { %>
