@@ -32,11 +32,6 @@
 .service-info {
   padding-top: 18px;
 
-  &:first-child {
-    margin-top: -5%;
-    z-index: -1;
-  }
-
   &:target {
     background-color: $yellow-tint;
   }
