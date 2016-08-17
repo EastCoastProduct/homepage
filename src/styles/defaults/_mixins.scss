@@ -1,72 +1,40 @@
-@mixin top-right($color) {
-  &:before {
-    top: -30px;
-    background-image: linear-gradient(to bottom right, transparent 0, transparent 50%, $color 51%, $color 100%);
-    // 51% for first stop of second color helps smooth jagged edge in some browsers
-  }
-}
-
 @mixin top-left($color) {
   &:before {
     top: -30px;
-    background-image: linear-gradient(to bottom left, transparent 0, transparent 50%, $color 51%, $color 100%);
-    // 51% for first stop of second color helps smooth jagged edge in some browsers
+    background-image:
+      url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 31" preserveAspectRatio="none" fill="#{$color}"><polygon points="0,0 100,30 100,31 0,31 "/></svg>');
+  }
+}
+
+@mixin top-right($color) {
+  &:before {
+    top: -30px;
+    background-image:
+      url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 31" preserveAspectRatio="none" fill="#{$color}"><polygon points="0,30 100,0 100,31 0,31 "/></svg>');
   }
 }
 
 @mixin bottom-left($color) {
-    &:after {
+  &:after {
     bottom: -30px;
-    background-image: linear-gradient(to top left, transparent 0, transparent 50%, $color 51%, $color 100%);
-    // 51% for first stop of second color helps smooth jagged edge in some browsers
+    background-image:
+      url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 31" preserveAspectRatio="none" fill="#{$color}"><polygon points="0,0 100,0 100,1 0,31 "/></svg>');
   }
 }
 
 @mixin bottom-right($color) {
-    &:after {
+  &:after {
     bottom: -30px;
-    background-image: linear-gradient(to top right, transparent 0, transparent 50%, $color 51%, $color 100%);
-    // 51% for first stop of second color helps smooth jagged edge in some browsers
-  }
-}
-
-@mixin top-right-fliped($color) {
-  &:after {
-    top: 0;
-    background-image: linear-gradient(to top right, transparent 0, transparent 50%, $color 51%, $color 100%);
-    // 51% for first stop of second color helps smooth jagged edge in some browsers
-  }
-}
-
-@mixin top-left-fliped($color) {
-  &:after {
-    top: 0;
-    background-image: linear-gradient(to top left, transparent 0, transparent 50%, $color 51%, $color 100%);
-    // 51% for first stop of second color helps smooth jagged edge in some browsers
-  }
-}
-
-@mixin bottom-left-fliped($color) {
-  &:before {
-    bottom: 0;
-    background-image: linear-gradient(to bottom left, transparent 0, transparent 50%, $color 51%, $color 100%);
-    // 51% for first stop of second color helps smooth jagged edge in some browsers
-  }
-}
-
-@mixin bottom-right-fliped($color) {
-  &:before {
-    bottom: 0;
-    background-image: linear-gradient(to bottom right, transparent 0, transparent 50%, $color 51%, $color 100%);
-    // 51% for first stop of second color helps smooth jagged edge in some browsers
+    background-image:
+      url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 31" preserveAspectRatio="none" fill="#{$color}"><polygon points="0,0 100,0 100,31 0,1 "/></svg>');
   }
 }
 
 @mixin before {
-    &:before {
+  &:before {
     content: "";
     display: block;
-    height: 30px;
+    height: 31px;
     position: absolute;
     left: 0; right: 0;
   }
@@ -76,7 +44,7 @@
   &:after {
     content: "";
     display: block;
-    height: 30px;
+    height: 31px;
     position: absolute;
     left: 0; right: 0;
   }

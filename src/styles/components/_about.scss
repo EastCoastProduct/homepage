@@ -70,12 +70,12 @@ header {
 }
 
 .employee-field {
-  color: #36383a;
+  color: $darkest-gray;
   font-size: .85rem;
   line-height: 1.5;
 
   &:hover {
-    color: #36383a;
+    color: $darkest-gray;
   }
 }
 
@@ -84,11 +84,11 @@ header {
 
   a {
     border-bottom: 4px solid rgba($dark-gray, 0.2);
-    color: #36383a;
+    color: $darkest-gray;
 
     &:hover {
-      color: $white;
       background-color: transparent;
+      border-bottom: 4px solid $dark-gray;
     }
   }
 

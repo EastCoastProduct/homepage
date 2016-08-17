@@ -1,139 +1,36 @@
-.angle-edge {
-  position: relative;
-}
+.svg {
+  .angle-edge {
+    position: relative;
+    margin-bottom: 29px;
+  }
 
-.top-left {
-  &-blue {
-    @include top-left($blue);
+  .top-left {
     @include before;
+    &.blue-background {        @include top-left($blue); }
+    &.dark-background {        @include top-left($darker-gray); }
+    &.yellow-tint-background { @include top-left($yellow-tint); }
+    &.targetable {             @include top-left($yellow-tint); }
   }
 
-  &-dark {
-    @include top-left($darker-gray);
+  .top-right {
     @include before;
+    &.blue-background {        @include top-right($blue); }
+    &.dark-background {        @include top-right($darker-gray); }
+    &.yellow-tint-background { @include top-right($yellow-tint); }
   }
 
-  &-gray {
-    @include top-left($lightest-gray);
-    @include before;
-  }
-
-  &-yellow-tint {
-    @include top-left($yellow-tint);
-    @include before;
-  }
-}
-
-.top-right {
-  &-blue {
-    @include top-right($blue);
-    @include before;
-  }
-
-  &-dark {
-    @include top-right($darker-gray);
-    @include before;
-  }
-
-  &-gray {
-    @include top-right($lightest-gray);
-    @include before;
-  }
-
-  &-yellow-tint {
-    @include top-right($yellow-tint);
-    @include before;
-  }
-}
-
-.top-right-fliped {
-  &-dark {
-    @include top-right-fliped($darker-gray);
+  .bottom-left {
     @include after;
+    &.blue-background {        @include bottom-left($blue); }
+    &.dark-background {        @include bottom-left($darker-gray); }
+    &.yellow-tint-background { @include bottom-left($yellow-tint); }
+    &.targetable {             @include bottom-left($yellow-tint); }
   }
 
-  &-gray {
-    @include top-right-fliped($lightest-gray);
+  .bottom-right {
     @include after;
-  }
-}
-
-.top-left-fliped {
-  &-dark {
-    @include top-left-fliped($darker-gray);
-    @include after;
-  }
-
-  &-gray {
-    @include top-left-fliped($lightest-gray);
-    @include after;
-  }
-}
-
-.bottom-left-fliped {
-  &-dark {
-    @include bottom-left-fliped($darker-gray);
-    @include before;
-  }
-
-  &-gray {
-    @include bottom-left-fliped($lightest-gray);
-    @include before;
-  }
-}
-
-.bottom-right-fliped {
-  &-dark {
-    @include bottom-right-fliped($darker-gray);
-    @include before;
-  }
-
-  &-gray {
-    @include bottom-right-fliped($lightest-gray);
-    @include before;
-  }
-}
-
-.bottom-left {
-  &-blue {
-    @include bottom-left($blue);
-    @include after;
-  }
-
-  &-dark {
-    @include bottom-left($darker-gray);
-    @include after;
-  }
-
-  &-gray {
-    @include bottom-left($lightest-gray);
-    @include after;
-  }
-
-  &-yellow-tint {
-    @include bottom-left($yellow-tint);
-    @include after;
-  }
-}
-
-.bottom-right {
-  &-blue {
-    @include bottom-right($blue);
-    @include after;
-  }
-
-  &-dark {
-    @include bottom-right($darker-gray);
-    @include after;
-  }
-
-  &-gray {
-    @include bottom-right($lightest-gray);
-    @include after;
-  }
-
-  &-yellow-tint {
-    @include bottom-right($yellow-tint);
-    @include after;
+    &.blue-background {        @include bottom-right($blue); }
+    &.dark-background {        @include bottom-right($darker-gray); }
+    &.yellow-tint-background { @include bottom-right($yellow-tint); }
   }
 }
