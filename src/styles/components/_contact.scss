@@ -27,14 +27,6 @@
           box-shadow:         0px 0px 0px 10px rgba(255,255,255,1);
 }
 
-.professionals-info {
-  .employee-contact li {
-    margin-left: 0;
-    margin-right: 30px;
-    display: inline-block;
-  }
-}
-
 @media (min-width: 700px) {
   .contact--main-title {
     p {
@@ -80,14 +72,6 @@
 
     h2 {
       margin-bottom: 6px !important;
-    }
-  }
-
-  .social {
-    li {
-      list-style-type: none;
-      margin: 0 0 5px 0;
-      font-size: 1rem;
     }
   }
 }
