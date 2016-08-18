@@ -9,13 +9,16 @@ figure {
 .employees-list {
   margin: 0 auto;
   max-width: 100%;
+  font-size: 0;
+  text-align: center;
 }
 
 .employee {
   display: inline-block;
   vertical-align: top;
-  width: 30.6%;
+  width: 31.2%;
   margin: 0 3.2% 2rem 0;
+  text-align: left;
 
   &:nth-child(3n) { margin-right: 0; }
 }
@@ -33,7 +36,7 @@ figure {
 
 .employee-name {
   font-size: 1.5rem;
-  line-height: 1;
+  line-height: 1.5;
   margin-bottom: 0;
 }
 
@@ -63,11 +66,15 @@ figure {
 }
 
 @media (max-width: 800px) {
+  .employees-list {
+    padding-top: 0.5rem;
+  }
+
   .employee {
     width: 48%;
 
     &:nth-child(2n) { margin-right: 0 !important; }
-    &:nth-child(2n + 1) { margin-right: 3.2258% !important; }
+    &:nth-child(2n + 1) { margin-right: 4% !important; }
   }
 }
 
