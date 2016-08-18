@@ -11,7 +11,7 @@
 }
 
 .icon--phone {
-  background: url('../../images/icons/icons-white.svg') no-repeat -5px -35px;
+  background: url('../../images/icons/icons-white.svg') no-repeat -1px -35px;
 }
 
 .icon--facebook {
@@ -30,12 +30,16 @@
   background: url('../../images/icons/icons-white.svg') no-repeat 0 -143px;
 }
 
+.icon--spotlight {
+  background: url('../../images/icons/icons-white.svg') no-repeat 0 -212px;
+}
+
 .icon--monitor-black {
   background: url('../../images/icons/icons-black.svg') no-repeat -1px 0;
 }
 
 .icon--phone-black {
-  background: url('../../images/icons/icons-black.svg') no-repeat -5px -35px;
+  background: url('../../images/icons/icons-black.svg') no-repeat -1px -35px;
 }
 
 .icon--facebook-black {
@@ -52,4 +56,8 @@
 
 .icon--github-black {
   background: url('../../images/icons/icons-black.svg') no-repeat 0 -143px;
+}
+
+.icon--spotlight-black {
+  background: url('../../images/icons/icons-black.svg') no-repeat 0 -212px;
 }

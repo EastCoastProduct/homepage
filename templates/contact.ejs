@@ -29,7 +29,6 @@
                   <% if(person.contact.tel) { %>
                   <li><span class="icon icon--phone-black"></span><a href="tel:<%= person.contact.tel %>">Call</a></li>
                   <% } %>
-                  </li>
                   <% if(person.contact.facebook) { %>
                   <li><span class="icon icon--facebook-black"></span><a href="<%= person.contact.facebook %>" target="_blank">Facebook</a></li>
                   <% } %>
@@ -43,7 +42,7 @@
                   <li><span class="icon icon--github-black"></span><a href="<%= person.contact.github %>" target="_blank">Github</a></li>
                   <% } %>
                   <% if(person.contact.spotlight) { %>
-                  <li><span class="icon icon--phone-black"></span><a href="<%= person.contact.spotlight %>" target="_blank">Spotlight</a></li>
+                  <li><span class="icon icon--spotlight-black"></span><a href="<%= person.contact.spotlight %>" target="_blank">Spotlight</a></li>
                   <% } %>
                   <% if(person.contact.scheduling) { %>
                   <li><span class="icon icon--phone-black"></span><a href="<%= person.contact.scheduling %>" target="_blank">Scheduling</a></li>
