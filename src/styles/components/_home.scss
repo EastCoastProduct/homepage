@@ -2,10 +2,10 @@
   margin-bottom: 40px;
 }
 
-.home-about { z-index: 2; }
-.clients-section { z-index: 3; }
-.home-services { z-index: 4; }
-.home-services + footer { z-index: 5; }
+.who-we-are {
+  position: relative;
+  z-index: 3;
+}
 
 .clients--container {
   margin: 12px 0 18px 0;

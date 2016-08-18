@@ -6,495 +6,87 @@ figure {
   margin-bottom: 36px;
 }
 
-header {
-  .container {
-    padding: 1.875rem 0.9375rem 0 0.9375rem;
-  }
-}
-
-.first-section-about {
-  margin-top: -1.5rem;
-}
-
-/* set up employees-container grid */
-.employees-container {
-  margin: 30px auto 25px auto;
+.employees-list {
+  margin: 0 auto;
   max-width: 100%;
-
-  li {
-    margin-bottom: 24px;
-  }
+  font-size: 0;
+  text-align: center;
 }
-.employee-info {
+
+.employee {
   display: inline-block;
-  text-align: left;
-  width: 30.1078%;
   vertical-align: top;
-  position: relative;
+  width: 31.2%;
+  margin: 0 3.2% 2rem 0;
+  text-align: left;
 
-  &:hover {
-    background-color: $white;
-    -webkit-box-shadow: 0px 0px 0px 10px rgba(255,255,255,1);
-    -moz-box-shadow:    0px 0px 0px 10px rgba(255,255,255,1);
-    box-shadow:         0px 0px 0px 10px rgba(255,255,255,1);
-  }
+  &:nth-child(3n) { margin-right: 0; }
+}
 
-  &:nth-child(3n) {
-    margin-right: 0 !important;
-  }
+.employee-vitals {
+  background-color: $white;
+  -webkit-box-shadow: 0px 0px 0px 6px rgba(255,255,255,1);
+  -moz-box-shadow:    0px 0px 0px 6px rgba(255,255,255,1);
+  box-shadow:         0px 0px 0px 6px rgba(255,255,255,1);
+}
 
-
-  /* reset contents of employee-info list items */
-  .open-about p, ul, li {
-    box-sizing: border-box;
-    display: block;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-  }
-
-  a {
-    border-bottom: none;
-    color: $blue;
-  }
-
-  /* responsive employee-photos and space them from text */
-  .employee-photo {
-    width: 100% !important;
-  }
+.employee-photo {
+  width: 100% !important;
 }
 
 .employee-name {
-  font-size: 2rem;
+  font-size: 1.5rem;
+  line-height: 1.5;
   margin-bottom: 0;
 }
 
 .employee-field {
-  color: #36383a;
-  font-size: .85rem;
-  line-height: 1.5;
-
-  &:hover {
-    color: #36383a;
-  }
-}
-
-.employee-contact {
-  font-size: .9375rem;
-
-  a {
-    border-bottom: 4px solid rgba($dark-gray, 0.2);
-    color: #36383a;
-
-    &:hover {
-      color: $white;
-      background-color: transparent;
-    }
-  }
-
-  li {
-    list-style-type: none;
-  }
-}
-
-.border-top {
-  height: 30px;
-  width: 300%;
-  position: absolute;
-  top: 0;
-  background-image: linear-gradient(to top right, transparent 0, transparent 50%, $lightest-gray 51%, $lightest-gray 100%);
-  left: -100%;
-}
-
-.border-bottom {
-   height: 30px;
-   width: 300%;
-   position: absolute;
-   bottom: 0;
-   background-image: linear-gradient(to bottom right, transparent 0, transparent 50%, $lightest-gray 51%, $lightest-gray 100%);
-   left: -100%;
- }
-
-/* transition nicely */
-.open-about {
-  pointer-events: none; /* for no javascript */
-  -webkit-transition: all 0.2s linear;
-     -moz-transition: all 0.2s linear;
-      -ms-transition: all 0.2s linear;
-       -o-transition: all 0.2s linear;
-          transition: all 0.2s linear;
-}
-
-.js {
-   /* restore link behavior if javascript has loaded */
-  .open-about {
-    pointer-events: auto;
-
-    /* indicate additional content if javascript has loaded */
-    &:hover, &:focus, .employee-info.is-active .open-about {
-      outline: none;
-      background-color: transparent;
-    }
-  }
-
-  .employee-info.is-active {
-    /* tan arrow pointing from employee-info to their employee-about when opened */
-
-    &:before {
-      content: "";
-      display: block;
-      width: 30px;
-      height: 30px;
-      bottom: -22%;
-      background-color: $yellow-tint;
-      position: absolute;
-      left: 50%;
-      margin-left: -10px;
-      transform: rotate(45deg);
-      z-index: 200;
-    }
-
-    &:nth-child(3n-2):before {
-     bottom: -22.8%;
-    }
-
-    &:nth-child(3n-1):before {
-      bottom: -24%;
-    }
-
-    &:nth-child(3n):before {
-      bottom: -25.8%;
-    }
-
-    /* position active employee-about relative to employee-info employee-photo */
-    .employee-about {
-      top: 111%;
-      background-color: $yellow-tint;
-      opacity: 1;
-
-      ul, .close-about {
-        display: block;
-      }
-
-      &:before {
-        content: "";
-        position: absolute;
-        top: 0; bottom: 0;
-        right: -1000%; left: -1000%;
-        background-color: $yellow-tint;
-        z-index: -1;
-      }
-    }
-  }
-
-  .employee-info {
-    .employee-about {
-      ul, .close-about {
-        display: none;
-      }
-    }
-  }
-
-  /* if javascript is available, hide the employee-about */
-  .employee-about {
-    padding: 0;
-    position: absolute;
-    top: -9999px;
-    left: -9999px;
-    z-index: 99;
-    opacity: 0;
-    -webkit-transition: opacity 0.2s linear;
-       -moz-transition: opacity 0.2s linear;
-        -ms-transition: opacity 0.2s linear;
-         -o-transition: opacity 0.2s linear;
-            transition: opacity 0.2s linear;
-
-    /* size employee-about information appropriately for reveal panel if javascript is available */
-    p {
-      padding: 50px 0 0 0;
-      margin-bottom: 36px;
-      width: 80%;
-    }
-
-    ul {
-      background-color: $yellow-tint;
-      display: inline-block !important;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      margin-bottom: 36px;
-    }
-  }
-
-/* size employees differently */
-  .employees-list {
-    .employee-info {
-      width: 30.6%;
-      margin-right: 3.2%;
-    }
-
-    /* size employee-about container if javascript is available */
-    .employee-about {
-      width: 330%;
-
-      /* size differently for employees for better visual alignment */
-      ul { width: 33.33333%; }
-    }
-  }
-}
-
-/* position active employee-about container based on placement in list */
-.employees-list {
-  .employee-info {
-    &:nth-child(3n-2).is-active .employee-about { left: 0%; }
-    &:nth-child(3n-1).is-active .employee-about { left: -113%; }
-    &:nth-child(3n).is-active .employee-about { left: -227%; }
-  }
-
-  li {
-    margin-left: 0%;
-  }
-}
-
-/* don't show close employee-about button unless js is enabled */
-.close-about { display: none; }
-
-/* create close button cross effect */
-.close-about {
-  width: 2rem;
-  height: 2rem;
-  border: none !important;
-  padding: 0;
-  background: none;
-  text-indent: -9999px;
-  overflow: hidden;
-  position: absolute;
-  top: 3.3rem; right: 0;
-  -webkit-transition: all 0.2s linear;
-     -moz-transition: all 0.2s linear;
-      -ms-transition: all 0.2s linear;
-       -o-transition: all 0.2s linear;
-          transition: all 0.2s linear;
-
-  &:before, &:after {
-    content: "";
-    display: block;
-    background-color: #fff;
-    position: absolute;
-    transform: rotate(45deg);
-  }
-
-  &:before {
-    height: 4px;
-    top: 50%; left: 0; right: 0;
-    margin-top: -2px;
-  }
-
-  &:after {
-    width: 4px;
-    left: 50%; top: 0; bottom: 0;
-    margin-left: -2px;
-  }
-
-  /* interaction effect for close button */
-  &:hover, &:focus {
-    outline: none;
-    -webkit-transform: scale(1.2);
-       -moz-transform: scale(1.2);
-        -ms-transform: scale(1.2);
-         -o-transform: scale(1.2);
-            transform: scale(1.2);
-  }
-}
-
-.employee-name {
   font-size: 1rem;
   line-height: 1.5;
 }
 
-.email {
-  cursor: pointer;
-}
+.employee-contact {
 
-@media (min-width: 700px) {
-  figure {
-    margin-bottom: 60px;
-  }
-
-  .first-section-about {
-    margin-top: -3rem;
-  }
-
-  .employee-field {
+  li {
+    list-style-type: none;
     font-size: 1rem;
-    line-height: 1.5;
+    margin: 0;
+    width: auto;
   }
 
-  .employee-name {
-    font-size: 1.5rem;
-    line-height: 1;
-  }
-}
+  a {
+    border-bottom: 4px solid rgba($dark-gray, 0.2);
+    color: $darkest-gray;
 
-@media (max-width: 770px) {
-  .close-about {
-    right: 0;
-  }
-
-  .js {
-    .employee-info.is-active {
-      .employee-about {
-        ul {
-          font-size: 1rem !important;
-        }
-      }
+    &:hover {
+      background-color: transparent;
+      border-bottom: 4px solid $dark-gray;
     }
   }
 }
 
-@media (max-width: 700px) {
-  .js {
-    .employee-info.is-active {
-      .employee-about {
-        top: 107%;
-
-        ul {
-          font-size: 0.75rem !important;
-        }
-      }
-    }
-  }
-}
-
-@media (max-width: 680px) {
-  .employees-container {
-    margin-top: 18px;
-  }
-
-  .employee-info {
-    &:nth-child(2n) {
-      margin-right: 0 !important;
-    }
-
-    &:nth-child(2n + 1) {
-      margin-right: 3.2258% !important;
-    }
-  }
-
-  .js {
-    .employee-info.is-active {
-      .employee-about {
-        top: 107%;
-      }
-
-      &:before {
-        bottom: -20%;
-      }
-    }
-    .employees-list {
-      .employee-info {
-        width: 47.8%;
-        margin: 0 3.2258% 24px 0;
-
-        .employee-about {
-          width: 200%;
-        }
-      }
-    }
-
-    .employee-info.is-active {
-    /* tan arrow pointing from employee-info to their employee-about when opened */
-
-      &:nth-child(2n):before {
-       bottom: -24%;
-      }
-
-      &:nth-child(2n-1):before {
-       bottom: -21%;
-      }
-    }
-  }
-
+@media (max-width: 800px) {
   .employees-list {
-    .employee-info {
-      &:nth-child(3n).is-active .employee-about { left: 0%; }
-      &:nth-child(3n - 1).is-active .employee-about { left: 0%; }
+    padding-top: 0.5rem;
+  }
 
-      &:nth-child(2n+2).is-active .employee-about { left: -109%;  };
-    }
+  .employee {
+    width: 48%;
+
+    &:nth-child(2n) { margin-right: 0 !important; }
+    &:nth-child(2n + 1) { margin-right: 4% !important; }
   }
 }
 
-@media (max-width: 500px) {
-
-  .close-about {
-    right: -2rem;
-  }
-
-  .js {
-    .employee-about {
-      p {
-        margin-bottom: 24px;
-      }
-
-      ul {
-        li {
-          display: block;
-          width: 300%;
-          margin-bottom: 12px;
-        }
-      }
-    }
-
-    .employees-list {
-      .employee-info {
-        display: block;
-        width: 70%;
-        margin: 0 auto 24px auto !important;
-        margin-bottom: 12px;
-
-        .employee-about {
-          width: 100%;
-        }
-      }
-    }
-
-    .employee-info.is-active {
-      &:before {
-        bottom: -3rem !important;
-      }
-
-      .employee-about {
-        top: 105%;
-      }
-    }
-  }
-
-  .employees-list {
-    .employee-info {
-      &:nth-child(3n-2).is-active .employee-about { left: 0%; }
-      &:nth-child(3n-1).is-active .employee-about { left: 0%; }
-      &:nth-child(3n).is-active .employee-about { left: 0%; }
-    }
+@media (max-width: 550px) {
+  .employee {
+    width: 80%;
+    margin-right: 0 !important;
   }
 }
 
-@media (max-width: 800px) and (min-width: 700px) {
-
-    .js {
-      .employee-info.is-active {
-        /* tan arrow pointing from employee-info to their employee-about when opened */
-        &:nth-child(3n-2):before {
-          bottom: -23%;
-        }
-
-        &:nth-child(3n-1):before {
-          bottom: -25%;
-        }
-
-        &:nth-child(3n):before {
-          bottom: -26%;
-        }
-      }
-    }
+@media (max-width: 400px) {
+  .employee {
+    width: 100%;
+  }
 }

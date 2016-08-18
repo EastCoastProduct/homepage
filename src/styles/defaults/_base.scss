@@ -3,11 +3,12 @@
 body {
   font-family: Merriweather, serif;
   font-size: 100%;
-  color: #36383a;
+  color: $darkest-gray;
   background-color: $lightest-gray;
 }
 
 .container {
+  width: 100%;
   max-width: 930px;
   padding: 1.875rem 0.9375rem 3.75rem 0.9375rem;
   margin: 0 auto; //1.625rem
@@ -15,7 +16,8 @@ body {
 
 h1, h2, h3, p { margin: 0; } // cruddy reset
 
-p, ul {
+p,
+ul {
   font-size: 0.9375rem;  // 15px
   line-height: 1.6;      // 24px
   margin-bottom: 1.5rem; // 24px
@@ -119,16 +121,16 @@ h3 {
   color: $white;
 }
 
-.gray-background {
-  background-color: $lightest-gray;
-}
-
-.yellow-background {
+.yellow-tint-background {
   background-color: $yellow-tint;
 }
 
-.yellow-background-dark {
-  background-color: $yellow;
+.targetable:target {
+  background-color: $yellow-tint;
+  position: relative;
+  z-index: 2;
+  @extend .top-left;
+  @extend .bottom-left;
 }
 
 .inline {
@@ -137,18 +139,6 @@ h3 {
 
 .margin--bottom-paragraph {
   margin-bottom: 24px !important;
-}
-
-.first_container {
-  margin-top: -70px;
-
-  h1 {
-    margin-top: -10px !important;
-  }
-
-  button {
-    margin-bottom: 10px !important;
-  }
 }
 
 .button-margin-large {
