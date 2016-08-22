@@ -1,6 +1,7 @@
-footer {
+∏footer {
   font-weight: 300;
   padding-top: 2rem;
+  margin-bottom: 0 !important;
 
   a {
     border-bottom-color: rgba($white, 0.2) !important;
@@ -51,7 +52,9 @@ footer {
 }
 
 .reverse-email {
-  unicode-bidi: bidi-override; direction: rtl;
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  white-space: nowrap;
 }
 
 @media (min-width: 700px) {

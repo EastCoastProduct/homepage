@@ -4,68 +4,51 @@
   <body>
     <% include partials/header %>
     <section>
-      <div class="overflow-hidden">
-        <div class="container">
-          <h1>The dream team</h1>
-          <ul class="employees-container employees-list">
-          <% collections.person.forEach(function(person){ %>
-             <li class="employee-info" tabindex="-1" id="<%= person.id %>">
-               <a href="#<%= person.id %>" class="open-about">
-                 <img src="../images/photos/team/<%- person.id%>.jpg"
-                  alt="Potrait of <%= person.name %>" class="employee-photo" />
-                 <h2 class="employee-name"><%- person.name %></h2>
-                 <p class="employee-field minor"><%- person.title %></p>
-               </a>
-               <div class="employee-about">
-                 <div class="border-top"></div>
-                 <p class="minor"><%- person.bio %></p>
-                 <ul class="employee-contact">
-                   <li><span class="icon icon--phone-black"></span>
-                     <% if(person.contact.email) { %>
-                      <a class="email" onclick="location.href='mailto:<%= person.contact.email %>' + '@' + 'eastcoastproduct.com';"> Email</a>
-                      <noscript>This email is scripted to prevent spam. Please enable JavaScript to be able to send an email </noscript>
-                     <% } %>
-                     <% if(person.contact.tel) { %>
-                      or <a href="tel:<%= person.contact.tel %>">Call</a>
-                     <% } %>
-                   </li>
-                   <% if(person.contact.facebook) { %>
-                     <li><span class="icon icon--facebook-black"></span>
-                       <a href="<%= person.contact.facebook %>" target=_blank> Facebook</a>
-                     </li>
-                   <% } %>
-                   <% if(person.contact.twitter) { %>
-                     <li><span class="icon icon--twitter-black"></span>
-                     <a href="<%= person.contact.twitter %>" target=_blank> Twitter</a></li>
-                   <% } %>
-                   <% if(person.contact.linkedin) { %>
-                     <li><span class="icon icon--linkedin-black"></span><a href="<%= person.contact.linkedin %>" target=_blank> LinkedIn</a></li>
-                   <% } %>
-                   <% if(person.contact.github) { %>
-                     <li><span class="icon icon--github-black"></span><a href="<%= person.contact.github %>" target=_blank> Github</a></li>
-                   <% } %>
-                   <% if(person.contact.spotlight) { %>
-                     <li><span class="icon icon--phone-black"></span><a href="<%= person.contact.spotlight %>" target=_blank> Spotlight</a></li>
-                   <% } %>
-                   <% if(person.contact.dribble) { %>
-                     <li><span class="icon icon--phone-black"></span><a href="<%= person.contact.dribble %>" target=_blank> Dribble</a></li>
-                   <% } %>
-                   <% if(person.contact.scheduling) { %>
-                     <li><span class="icon icon--phone-black"></span><a href="<%= person.contact.scheduling %>" target=_blank> Scheduling</a></li>
-                   <% } %>
-                 </ul>
-                 <button class="close-about">
-                   Close info
-                 </button>
-                 <div class="border-bottom"></div>
-               </div>
-             </li>
-          <% }) %>
-          </ul>
-        </div>
+      <div class="container">
+        <h1>The dream team</h1>
+        <ul class="employees-list">
+        <% collections.person.forEach(function(person){ %>
+          <li class="employee">
+            <div class="employee-vitals">
+              <img src="../images/photos/team/<%- person.id%>.jpg" alt="Potrait of <%= person.name %>" class="employee-photo" />
+              <h2 class="employee-name"><%- person.name %></h2>
+              <p class="employee-field minor"><%- person.title %></p>
+            </div>
+            <div class="employee-about">
+              <p class="minor"><%- person.bio %></p>
+              <ul class="employee-contact">
+                <% if(person.contact.email) { %>
+                <li><span class="icon icon--monitor-black"></span><a class="email" onclick="location.href='mailto:<%= person.contact.email %>' + '@' + 'eastcoastproduct.com';" target="_blank">Email</a><noscript>This email is scripted to prevent spam. Please enable JavaScript to be able to send an email.</noscript></li>
+                <% } %>
+                <% if(person.contact.tel) { %>
+                <li><span class="icon icon--phone-black"></span><a href="tel:<%= person.contact.tel %>">Call</a></li>
+                <% } %>
+                <% if(person.contact.facebook) { %>
+                <li><span class="icon icon--facebook-black"></span><a href="<%= person.contact.facebook %>" target="_blank">Facebook</a></li>
+                <% } %>
+                <% if(person.contact.twitter) { %>
+                <li><span class="icon icon--twitter-black"></span><a href="<%= person.contact.twitter %>" target="_blank">Twitter</a></li>
+                <% } %>
+                <% if(person.contact.linkedin) { %>
+                <li><span class="icon icon--linkedin-black"></span><a href="<%= person.contact.linkedin %>" target="_blank">LinkedIn</a></li>
+                <% } %>
+                <% if(person.contact.github) { %>
+                <li><span class="icon icon--github-black"></span><a href="<%= person.contact.github %>" target="_blank">Github</a></li>
+                <% } %>
+                <% if(person.contact.spotlight) { %>
+                <li><span class="icon icon--spotlight-black"></span><a href="<%= person.contact.spotlight %>" target="_blank">Spotlight</a></li>
+                <% } %>
+                <% if(person.contact.scheduling) { %>
+                <li><span class="icon icon--phone-black"></span><a href="<%= person.contact.scheduling %>" target="_blank">Scheduling</a></li>
+                <% } %>
+              </ul>
+            </div>
+          </li>
+        <% }) %>
+        </ul>
       </div>
     </section>
-    <section class="blue-background angle-edge top-left-blue bottom-left-blue">
+    <section class="blue-background angle-edge top-left bottom-left">
       <div class="container">
         <h2>We like to help</h2>
         <p>There's an opportunity for a services company to be more inclusive of their clients, more customer-centric, more cognizant of how to partner with clients to create an awesome team that gets projects done fast. We are that company. We believe in going above and beyond for our clients. We use our years of experience and network to help us be the best help our clients can buy.</p>
@@ -87,6 +70,5 @@
       </div>
     </section>
     <% include partials/footer %>
-    <script src="<%=level %>js/about.js"></script>
   </body>
 </html>

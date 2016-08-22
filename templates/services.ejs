@@ -5,7 +5,7 @@
     <% include partials/header %>
       <div class="service-list">
       <% collections.services.forEach(function(service) { %>
-        <section class="service-info angle-edge top-right-fliped-gray bottom-right-fliped-gray" id="<%= service.id %>">
+        <section class="service-info targetable" id="<%= service.id %>">
          <div class="container">
           <h1><%- service.title %></h1>
           <% if(service.title == "Staff Augmentation") { %>
