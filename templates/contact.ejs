@@ -6,7 +6,9 @@
     <section class="contact--main-title angle-edge bottom-left-gray">
       <div class="container">
         <h1>General inquiries</h1>
-        <p class="major">Send us an email: <a class="email reverse-email" onclick="location.href='mailto:' + 'hello' + '@' + 'eastcoastproduct.com';"> moc.tcudorptsaoctsae@olleh</a></p>
+        <p class="major">Send us an email: <a class="email reverse-email" onclick="location.href='mailto:' + 'hello' + '@' + 'eastcoastproduct.com';">
+          moc.tcudorptsaoctsae@olleh
+        </a>
         <p class="major">Give us a call: <a href="tel:+18667777459"> (866) 777-7459</a></p>
       </div>
     </section>
@@ -25,7 +27,8 @@
                 <ul class="employee-contact">
                    <li><span class="icon icon--phone-black"></span>
                      <% if(person.contact.email) { %>
-                      <a href="mailto:<%= person.contact.email %>">Email</a>
+                      <a class="email" onclick="location.href='mailto:<%= person.contact.email %>' + '@' + 'eastcoastproduct.com';"> Email</a>
+                      <noscript>This email is scripted to prevent spam. Please enable JavaScript to be able to send an email </noscript>
                      <% } %>
                      <% if(person.contact.tel) { %>
                       or <a href="tel:<%= person.contact.tel %>">Call</a>
