@@ -5,7 +5,6 @@ var Metalsmith  = require('metalsmith'),
     branch      = require('metalsmith-branch'),
     markdown    = require('metalsmith-markdown'),
     layouts     = require('metalsmith-layouts'),
-    inplace     = require('metalsmith-in-place'),
     collections = require('metalsmith-collections'),
     permalinks  = require('metalsmith-permalinks'),
     sass        = require('metalsmith-sass'),
@@ -27,10 +26,7 @@ Metalsmith(__dirname)
     },
     services: {
       pattern: 'services/*.md',
-      sortBy: 'sortOrder',
-      metadata: {
-        layout: 'service.ejs'
-      }
+      sortBy: 'sortOrder'
     },
     person: {
       pattern: '_person/*.md',
@@ -66,7 +62,6 @@ Metalsmith(__dirname)
     hostname:  'https://eastcoastproduct.com',
     omitIndex: true
   }))
-  .use(inplace(templateConf))
   .use(layouts(templateConf))
   .use(sass({
     outputStyle: 'expanded',
