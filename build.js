@@ -52,7 +52,7 @@ Metalsmith(__dirname)
     '**/_values/**',
     '**/services/**',
     '**/_subservices/**',
-    '**/_faq/**'
+    '**/_faq/**',
   ]))
   .use(permalinks({
     pattern: './:directory',
@@ -68,7 +68,7 @@ Metalsmith(__dirname)
   }))
   .use(serve({
     http_error_files: {
-      404: "/404/index.html"
+      404: "/error.html"
     }
   }))
   .build(function (err, files) {
