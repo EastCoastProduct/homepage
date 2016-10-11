@@ -52,7 +52,7 @@ Metalsmith(__dirname)
     '**/_values/**',
     '**/services/**',
     '**/_subservices/**',
-    '**/_faq/**',
+    '**/_faq/**'
   ]))
   .use(permalinks({
     pattern: './:directory',
