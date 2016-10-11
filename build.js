@@ -66,7 +66,11 @@ Metalsmith(__dirname)
   .use(sass({
     outputStyle: 'expanded',
   }))
-  .use(serve())
+  .use(serve({
+    http_error_files: {
+      404: "/error.html"
+    }
+  }))
   .build(function (err, files) {
     if(err) {
       console.log(err);
