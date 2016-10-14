@@ -1,17 +1,25 @@
 .icon {
   display: inline-block;
   vertical-align: top;
-  height: 30px;
-  width: 30px;
+  height: 26px;
+  width: 26px;
   margin-right: 5px;
+  position: relative;
+  top: 6px;
+}
+
+@media (max-width: 700px) {
+  .icon {
+    top: 2px;
+  }
 }
 
 .icon--monitor {
-  background: url('../../images/icons/icons-white.svg') no-repeat -1px 0;
+  background: url('../../images/icons/icons-white.svg') no-repeat -1px 0px;
 }
 
 .icon--phone {
-  background: url('../../images/icons/icons-white.svg') no-repeat -1px -35px;
+  background: url('../../images/icons/icons-white.svg') no-repeat -2px -35px;
 }
 
 .icon--facebook {
@@ -23,23 +31,23 @@
 }
 
 .icon--twitter {
-  background: url('../../images/icons/icons-white.svg') no-repeat 0 -109px;
+  background: url('../../images/icons/icons-white.svg') no-repeat -1px -108px;
 }
 
 .icon--github {
-  background: url('../../images/icons/icons-white.svg') no-repeat 0 -143px;
+  background: url('../../images/icons/icons-white.svg') no-repeat 0px -143px;
 }
 
 .icon--spotlight {
-  background: url('../../images/icons/icons-white.svg') no-repeat 0 -212px;
+  background: url('../../images/icons/icons-white.svg') no-repeat -1px -215px;
 }
 
 .icon--monitor-black {
-  background: url('../../images/icons/icons-black.svg') no-repeat -1px 0;
+  background: url('../../images/icons/icons-black.svg') no-repeat -1px 0px;
 }
 
 .icon--phone-black {
-  background: url('../../images/icons/icons-black.svg') no-repeat -1px -35px;
+  background: url('../../images/icons/icons-black.svg') no-repeat -2px -35px;
 }
 
 .icon--facebook-black {
@@ -51,13 +59,13 @@
 }
 
 .icon--twitter-black {
-  background: url('../../images/icons/icons-black.svg') no-repeat 0 -109px;
+  background: url('../../images/icons/icons-black.svg') no-repeat -1px -108px;
 }
 
 .icon--github-black {
-  background: url('../../images/icons/icons-black.svg') no-repeat 0 -143px;
+  background: url('../../images/icons/icons-black.svg') no-repeat 0px -143px;
 }
 
 .icon--spotlight-black {
-  background: url('../../images/icons/icons-black.svg') no-repeat 0 -212px;
+  background: url('../../images/icons/icons-black.svg') no-repeat -1px -215px;
 }

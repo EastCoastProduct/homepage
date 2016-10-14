@@ -6,7 +6,6 @@
 
   .top-left {
     @include before;
-    &.blue-background {        @include top-left($blue); }
     &.dark-background {        @include top-left($darker-gray); }
     &.yellow-tint-background { @include top-left($yellow-tint); }
     &.targetable {             @include top-left($yellow-tint); }
@@ -14,14 +13,12 @@
 
   .top-right {
     @include before;
-    &.blue-background {        @include top-right($blue); }
     &.dark-background {        @include top-right($darker-gray); }
     &.yellow-tint-background { @include top-right($yellow-tint); }
   }
 
   .bottom-left {
     @include after;
-    &.blue-background {        @include bottom-left($blue); }
     &.dark-background {        @include bottom-left($darker-gray); }
     &.yellow-tint-background { @include bottom-left($yellow-tint); }
     &.targetable {             @include bottom-left($yellow-tint); }
@@ -29,7 +26,6 @@
 
   .bottom-right {
     @include after;
-    &.blue-background {        @include bottom-right($blue); }
     &.dark-background {        @include bottom-right($darker-gray); }
     &.yellow-tint-background { @include bottom-right($yellow-tint); }
   }
