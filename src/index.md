@@ -2,7 +2,7 @@
 title: Home
 directory: /
 level: ./
-description: <h2 class="lede">Our team of <strong>product designers &amp; developers</strong> gets you to your next strategic milestone, faster.</h2>
+description: <h2 class="lede">Our team of product designers &amp; developers gets you to your next strategic milestone, faster.</h2>
 layout: home.ejs
 ---
 <div class="header--image">
