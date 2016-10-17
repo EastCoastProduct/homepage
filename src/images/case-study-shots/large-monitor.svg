@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="582px" height="484px" viewBox="0 0 582 484" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>large-monitor</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="images-for-export" transform="translate(-5358.000000, -191.000000)">
+            <g id="large-monitor" transform="translate(5358.000000, 191.000000)">
+                <path d="M401,484 L401,475 C401,470.029437 396.898199,466 391.826966,466 L190.173034,466 C185.106907,466 181,470.039551 181,475 L181,484 L401,484 Z" id="base" fill="#E6E6E6"></path>
+                <polygon id="shadow" fill="#B3B3B3" points="213.157895 422 344.842105 422 328 466 204 466"></polygon>
+                <polygon id="stand" fill="#CCCCCC" points="345.157895 422 368.842105 422 378 466 328 466"></polygon>
+                <path d="M0,368.003684 L582,368.003684 L582,406.996316 C582,415.282622 575.287915,422 566.991628,422 L15.0083719,422 C6.71947698,422 0,415.286182 0,406.996316 L0,368.003684 Z" id="case" fill="#D8D8D8"></path>
+                <path d="M12.4590007,0 L569.540999,0 C576.421915,0 582,5.59470803 582,12.4839983 L582,368 L0,368 L0,12.4839983 C0,5.58927642 5.5736235,0 12.4590007,0 Z" id="bezel" fill="#666666"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,8 +1,21 @@
 .case_image {
-  margin-top: -2%;
+  margin-top: -29px;
+  background-image: url("../../images/case-study-shots/large-monitor.svg");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  z-index: -1;
+  height: 0;
+  padding-top: 80%;
+  background-size: 85%;
 
   img {
-    width: 100%;
+    display: block;
+    margin: 0 auto;
+    width: 78%;
+    position: absolute;
+    top: 16.1%;
+    left: 50%;
+    margin-left: -39%;
   }
 }
 
@@ -38,6 +51,18 @@
 }
 
 @media (min-width: 700px) {
+  .case_image {
+    background-size: auto;
+    height: 540px;
+    padding-top: 1px;
+
+    img {
+      width: 534px;
+      top: 80px;
+      margin-left: -267px;
+    }
+  }
+
   .case--content-container {
     margin-bottom: 36px;
   }
@@ -54,17 +79,5 @@
     p {
         margin-bottom: 42px;
     }
-  }
-}
-
-@media (max-width: 700px){
-  .case_image {
-    margin-top: -3%;
-  }
-}
-
-@media (max-width: 500px) {
-  .case_image {
-    margin-top: -5%;
   }
 }
