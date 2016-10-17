@@ -10,8 +10,8 @@
         <article class="clients--container-info">
           <h1><a href="../case_study/<%= client.id %>"><%- client.title %></a></h1>
           <h2><%- client.name %></h2>
-          <div class="clients--image-container">
-            <img src="<%= client.listingImage %>" alt="<%= client.name %>" />
+          <div class="clients--image-container light-gray-mask angle-edge-mask bottom-left" style="background-color: #<%= client.brandColor %>;">
+            <img src="<%= client.leadImage %>" alt="A screenshot from the <%= client.name %> project." />
           </div>
           <div>
             <p><%- client.description %></p>

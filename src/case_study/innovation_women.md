@@ -4,7 +4,6 @@ name: Innovation Women
 id: innovation_women
 brandColor: EE1B19
 level: ../../
-listingImage: ../images/case-study-shots/innovation-women-listing-screenshot.png
 leadImage: ../images/case-study-shots/innovation-women-screenshot@2x.png
 description: Innovation Women set out to solve the glaring issue of male-dominated panels at tech events. Their marketing platform connects amazing women in tech and enterprise with event planners. Our team nailed down MVP feature requirement and delivered the Innovation Women platform in 3 weeks.
 testimonialPerson: Bobbie Carlton

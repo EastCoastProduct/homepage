@@ -4,7 +4,6 @@ name: Vsnap
 id: vsnap
 brandColor: 7FB22A
 level: ../../
-listingImage: ../images/case-study-shots/vsnap-listing-screenshot.png
 leadImage: ../images/case-study-shots/vsnap-screenshot@2x.png
 description: Vsnap is a video messaging platform for inside sales. We helped Vsnap take it’s MVP to a scalable product by rebuilding its existing platform, which eventually led to its acquisition.
 testimonialPerson: Dave Maclaughlin

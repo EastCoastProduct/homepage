@@ -4,7 +4,6 @@ name: Safety NetAccess
 id: sna
 brandColor: 8E2030
 level: ../../
-listingImage: ../images/case-study-shots/sna-listing-screenshot.png
 leadImage: ../images/case-study-shots/sna-screenshot@2x.png
 description: Safety NetAccess’ SNAP is a hotel WiFi and internet management platform. We helped them rebuild and consolidate a product with three different generations of users  and prepared it for a SaaS offering.
 testimonialPerson: Ivan Blazevic
