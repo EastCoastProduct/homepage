@@ -4,6 +4,10 @@
     margin-bottom: 29px;
   }
 
+  .angle-edge-mask {
+    position: relative;
+  }
+
   .top-left {
     @include before;
     &.dark-background {        @include top-left($darker-gray); }
@@ -22,11 +26,13 @@
     &.dark-background {        @include bottom-left($darker-gray); }
     &.yellow-tint-background { @include bottom-left($yellow-tint); }
     &.targetable {             @include bottom-left($yellow-tint); }
+    &.light-gray-mask {        @include bottom-left-mask($lightest-gray); }
   }
 
   .bottom-right {
     @include after;
     &.dark-background {        @include bottom-right($darker-gray); }
     &.yellow-tint-background { @include bottom-right($yellow-tint); }
+    &.light-gray-mask {        @include bottom-right-mask($lightest-gray); }
   }
 }

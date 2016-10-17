@@ -41,6 +41,24 @@
   }
 }
 
+@mixin bottom-left-mask($color) {
+  $svg: str-replace("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 31' preserveAspectRatio='none' fill='#{$color}'%3e%3cpolygon points='0,0 100,30 100,31 0,31'/%3e%3c/svg%3e", "#", "%23");
+
+  &:after {
+    bottom: 0px;
+    background-image: url($svg);
+  }
+}
+
+@mixin bottom-right-mask($color) {
+  $svg: str-replace("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 31' preserveAspectRatio='none' fill='#{$color}'%3e%3cpolygon points='0,30 100,0 100,31 0,31'/%3e%3c/svg%3e", "#", "%23");
+
+  &:after {
+    bottom: 0px;
+    background-image: url($svg);
+  }
+}
+
 @mixin before {
   &:before {
     content: "";
