@@ -6,5 +6,5 @@ description: <h2 class="lede">Our team of product designers &amp; developers get
 layout: home.ejs
 ---
 <div class="header--image">
-  <img src="./images/illustrations/header.svg" alt="Header Illustration"/>
+  <img src="./images/illustrations/header@2x.png" alt="Header Illustration"/>
 </div>
