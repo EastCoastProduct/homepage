@@ -17,7 +17,7 @@ pdf: ../images/case-study-pdfs/sna-case-study.pdf
 
 Since 2001, Safety NetAccess(SNA) has been designing, building and supporting wireless networks for hotels, resorts and other public properties. Their flagship product, SNAP, is a hotel internet management software responsible for connecting millions of users and thousands of hotels every year.
 
-## Problem
+## Challenge
 
 After 14 years and three completely different iterations of SNAP, CEO Sean Gorman, realized that over the years, SNAP became increasingly difficult to manage. Clients were using different versions of the software, and this legacy product had outgrown itself. Even then, competitors have been unable to catch up to SNA, and they decided to take advantage of this by rebuilding their product into a SaaS platform that could be sold to competitors.
 

@@ -17,7 +17,7 @@ pdf: ../images/case-study-pdfs/vsnap-case-study.pdf
 
 Vsnap is a video messaging platform for inside sales. The app’s mission is to humanize sales interactions to build sustained business relationships. To use the app, sales representatives record up to a 60-second video message that can include attachments or a note to the recipient. Sales reps just need to know the email address of the recipient to make sure the video message is received.
 
-## Problem
+## Challenge
 
 As Vsnap grew and the user-base became more defined, it became clearer to CEO, Dave McLaughlin, that the prototype application in its current state was not scalable. The original Vsnap application was intended to be a prototype only. Because of this, the technology became outdated and the application monolithic very quickly. Any code updates required careful planning because it was unclear how changes would reverberate in other parts of the application. Updates took several hours of developer time and significant downtime that inconvenienced customers. Leaving things as-is with the Vsnap prototype was not sustainable for the long-term.
 

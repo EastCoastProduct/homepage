@@ -17,7 +17,7 @@ pdf: ../images/case-study-pdfs/innovation-women-case-study.pdf
 
 Innovation Women is a speaker’s bureau for qualified women to promote their expertise and stories and for event planners to find and book those women for events. Innovation Women rose out of the glaring problem of male-dominated panels at technical and entrepreneurial events.
 
-## Problem
+## Challenge
 
 The founder of Innovation Women, Bobbie Carlton, wanted to get an application up and running for women seeking out speaking opportunities, but she didn’t have the technical expertise to make the application a reality. Additionally, she had a three week deadline to design and build an MVP for Innovation Women. Despite a successful Kickstarter campaign to raise funds for development, a couple of false starts and the lack of a technical cofounder were barriers to translating the vision into a tangible product.
 
