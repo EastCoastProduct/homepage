@@ -1,6 +1,7 @@
 ---
 title: Rebuilding for scale
 name: Vsnap
+projectName: Vsnap
 id: vsnap
 brandColor: 7FB22A
 level: ../../

@@ -1,6 +1,7 @@
 ---
 title: Future-proofing a SaaS platform
 name: Safety NetAccess
+projectName: Safety NetAccess
 id: sna
 brandColor: 8E2030
 level: ../../

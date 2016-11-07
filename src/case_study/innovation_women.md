@@ -1,6 +1,7 @@
 ---
 title: From vision to MVP in 3 weeks
 name: Innovation Women
+projectName: Innovation Women
 id: innovation_women
 brandColor: EE1B19
 level: ../../
