@@ -6,9 +6,9 @@ brandColor: 43AEE6
 level: ../../
 leadImage: ../images/case-study-shots/tsn-screenshot@2x.png
 description: East Coast Product partnered with Timothy Smith Network to create a discovery platform for social impact events in the Greater Boston area. The Social Impact Calendar drives community engagement and increases the reach of the community organizations that serve Boston’s black and latino youth.
-testimonialPerson:
-testimonialPosition:
-testimonialContent:
+testimonialPerson: Justin Kang
+testimonialPosition: Executive Director of City Awake
+testimonialContent: East Coast Product delivered. They are exceptional partners in building a product. Responsive, professional, honest, customer-centric and creative. They ask the right questions and set the right expectations. I look forward to our next adventure.
 layout: case-study.ejs
 pdf: ../images/case-study-pdfs/tsn-case-study.pdf
 ---
