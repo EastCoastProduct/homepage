@@ -1,17 +1,18 @@
 ---
-title: Rebuilding for scale
-name: Vsnap
+level: ../../
+titleTag: Vsnap
+pageHeading: Rebuilding for scale
+pageDescription: Vsnap
+clientName: Vsnap
 projectName: Vsnap
+leadImage: ../images/case-study-shots/vsnap-screenshot@2x.png
 id: vsnap
 brandColor: 7FB22A
-level: ../../
-leadImage: ../images/case-study-shots/vsnap-screenshot@2x.png
-description: Vsnap is a video messaging platform for inside sales. We helped Vsnap take it’s MVP to a scalable product by rebuilding its existing platform, which eventually led to its acquisition.
 testimonialPerson: Dave Maclaughlin
 testimonialPosition: Founder and CEO of Vsnap
 testimonialContent: I spent two and a half years trying to get a clear path on tech – all of which was wrong. Chris got his head around the product quickly and gave me a roadmap to where we wanted to be.
-layout: case-study.ejs
 pdf: ../images/case-study-pdfs/vsnap-case-study.pdf
+layout: case-study.ejs
 ---
 
 ## Intro

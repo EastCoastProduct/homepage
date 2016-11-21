@@ -1,17 +1,19 @@
 ---
-title: From vision to MVP in 3 weeks
-name: Innovation Women
+level: ../../
+titleTag: Innovation Women
+pageHeading: From vision to MVP in 3 weeks
+pageDescription: Innovation Women
+listingDescription: Innovation Women set out to solve the glaring issue of male-dominated panels at tech events. Their marketing platform connects amazing women in tech and enterprise with event planners. Our team nailed down MVP feature requirement and delivered the Innovation Women platform in 3 weeks.
+clientName: Innovation Women
 projectName: Innovation Women
+leadImage: ../images/case-study-shots/innovation-women-screenshot@2x.png
 id: innovation_women
 brandColor: EE1B19
-level: ../../
-leadImage: ../images/case-study-shots/innovation-women-screenshot@2x.png
-description: Innovation Women set out to solve the glaring issue of male-dominated panels at tech events. Their marketing platform connects amazing women in tech and enterprise with event planners. Our team nailed down MVP feature requirement and delivered the Innovation Women platform in 3 weeks.
 testimonialPerson: Bobbie Carlton
 testimonialPosition: Founder of Innovation Women
 testimonialContent: I loved being intimately tied to the process. I knew what was going on every step of the way. It wasn’t a black box you put time, money, and effort into.
-layout: case-study.ejs
 pdf: ../images/case-study-pdfs/innovation-women-case-study.pdf
+layout: case-study.ejs
 ---
 
 ## Intro

@@ -1,10 +1,10 @@
 ---
-title: Home
 directory: /
 level: ./
-description: <h2 class="lede">We design &amp; develop modern JavaScript apps for entrepreneurs, enterprises, and everyone in between.</h2>
+titleTag: Home
+pageHeading: We design &amp; develop modern JavaScript apps for entrepreneurs, enterprises, and everyone in between.
+pageDescription:
+pageHeadingImage: ../images/illustrations/header@2x.png
+pageHeadingImageAlt: Illustration of the workstation of a designer or developer.
 layout: home.ejs
 ---
-<div class="header--image">
-  <img src="./images/illustrations/header@2x.png" alt="Header Illustration"/>
-</div>

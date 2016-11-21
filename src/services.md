@@ -1,7 +1,10 @@
 ---
-title: Services
 directory: services
 level: ../
-description: <h1 class="lede">How we can help</h1><p class="major">From entrepreneurs to enterprises, everyone is looking to build the best products. Our process is about short bursts of execution, so we can go <em>from idea to product faster</em>.</p>
+titleTag: Services
+pageHeading: How we can help
+pageDescription: From entrepreneurs to enterprises, everyone is looking to build the best products. Our process is about short bursts of execution, so we can go from idea to product faster.
+pageHeadingImage:
+pageHeadingImageAlt:
 layout: services.ejs
 ---

@@ -1,17 +1,19 @@
 ---
-title: Future-proofing a SaaS platform
-name: Safety NetAccess
+level: ../../
+titleTag: Safety NetAccess
+pageHeading: Future-proofing a SaaS platform
+pageDescription: Safety NetAccess
+listingDescription: Safety NetAccess’ SNAP is a hotel WiFi and internet management platform. We helped them rebuild and consolidate a product with three different generations of users  and prepared it for a SaaS offering.
+clientName: Safety NetAccess
 projectName: Safety NetAccess
+leadImage: ../images/case-study-shots/sna-screenshot@2x.png
 id: sna
 brandColor: 8E2030
-level: ../../
-leadImage: ../images/case-study-shots/sna-screenshot@2x.png
-description: Safety NetAccess’ SNAP is a hotel WiFi and internet management platform. We helped them rebuild and consolidate a product with three different generations of users  and prepared it for a SaaS offering.
 testimonialPerson: Ivan Blazevic
 testimonialPosition: CTO & Cofounder of East Coast Product
 testimonialContent: It was awesome partnering with such a talented and knowledgable team. We were able to learn a lot from them and vice versa which helped us collaborate better and build the best product SNAPx could be.
-layout: case-study.ejs
 pdf: ../images/case-study-pdfs/sna-case-study.pdf
+layout: case-study.ejs
 ---
 
 ## Intro
