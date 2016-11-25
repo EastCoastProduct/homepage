@@ -80,6 +80,10 @@ header {
     width: 100%;
     display: block;
   }
+
+  .lede + & {
+    margin-top: 3rem;
+  }
 }
 
 @media (min-width: 400px) {
