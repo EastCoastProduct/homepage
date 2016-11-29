@@ -31,45 +31,11 @@
 
 .service-info {
   padding-top: 18px;
-
-  p {
-    margin-bottom: 36px !important;
-  }
-}
-
-.subservice-container {
-  margin-bottom: 30px;
-  display: block;
-
-  h2 {
-    margin-bottom: 6px !important;
-    text-align: left;
-  }
-
-  p {
-    margin-bottom: 18px !important;
-    text-align: left;
-  }
 }
 
 .services-main-image-container {
   text-align: center;
 }
-
-.subservice-image-container {
-  text-align: center;
-
-  img {
-    width: 50%;
-  }
-}
-
-.faq-container {
-  h2 {
-    margin-bottom: 6px !important;
-  }
-}
-
 
 @media (min-width: 700px) {
   .services--container {
@@ -102,39 +68,11 @@
     &:first-child {
       margin-top: -2%;
     }
-
-    p {
-      margin-bottom: 60px !important;
-    }
-  }
-
-  .subservice-container {
-    display: inline-block;
-    width: 44.7746%;
-    margin-right: 4%;
-    vertical-align: top;
-
-    p {
-      margin-bottom: 0 !important;
-      display: inline-block;
-      width: 65%;
-    }
   }
 
   .services-main-image {
     width: 30%;
     margin-right: 3.3%;
-  }
-
-  .subservice-image-container {
-    display: inline-block;
-    width: 30%;
-    margin-right: 3.3%;
-    vertical-align: top;
-
-    img {
-      width: 100%;
-    }
   }
 }
 
@@ -142,12 +80,6 @@
   .services--container-image {
     img {
       max-width: 70% !important;
-    }
-  }
-
-  .subservice-image-container {
-    img {
-      width: 40%;
     }
   }
 }

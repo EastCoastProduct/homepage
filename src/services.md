@@ -2,8 +2,8 @@
 directory: services
 level: ../
 titleTag: Services
-pageHeading: How we can help
-pageDescription: From entrepreneurs to enterprises, everyone is looking to build the best products. Our process is about short bursts of execution, so we can go from idea to product faster.
+pageHeading: Services we offer
+pageDescription: We use continuous short bursts of execution to bring our clients quickly from new ideas to great experiences.
 pageHeadingImage:
 pageHeadingImageAlt:
 layout: services.ejs

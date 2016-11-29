@@ -6,39 +6,13 @@
       <div class="service-list">
       <% collections.services.forEach(function(service) { %>
         <section class="service-info targetable" id="<%= service.id %>">
-         <div class="container">
-          <h1><%- service.title %></h1>
-          <% if(service.title == "Staff Augmentation") { %>
-            <div class="services-main-image-container">
-              <img class="services-main-image left" src="<%- service.serviceImage %>" />
-            </div>
-          <% } %>
-          <p><%- service.description %></p>
-            <% collections.subservices.forEach(function(subservice) { %>
-              <% if(subservice.serviceId == service.id) { %>
-                <article class="subservice-container">
-                  <h2 class="major"><%= subservice.title %></h2>
-                  <% if(subservice.image) { %>
-                  <div class="subservice-image-container">
-                    <img src="<%= subservice.image %>" alt="<%= subservice.title %>" />
-                  </div>
-                  <% } %>
-                  <p class="minor"><%- subservice.description %></p>
-              </article>
-              <% } %>
-            <% }) %>
+          <div class="container">
+            <h1><%- service.title %></h1>
+            <p><%- service.description %></p>
+            <%- service.contents %>
           </div>
         </section>
       <% }) %>
-        <!-- <div class="container faq-container">
-          <h1>Frequently Asked Questions</h1>
-            <% collections.faq.forEach(function(question) { %>
-              <h2 class="major">
-                <span class="yellow-background-dark"><%= question.title %></span>
-              </h2>
-              <p class="minor"><%- question.description %></p>
-            <% }) %>
-        </div>-->
       </div>
     <% include partials/footer %>
   </body>
