@@ -28,13 +28,15 @@
       <div class="container">
         <h1>Services we offer</h1>
         <p class="margin--bottom-paragraph">We use continuous short bursts of execution to bring our clients quickly from new ideas to great experiences.</p>
-        <div class="services-list services-margin-top">
+        <div class="services--list">
           <% collections.services.forEach(function(service){ %>
             <article class="services--container">
               <div class="services--container-info">
+                <% if(service.leadImage) { %>
                 <div class="services--container-image right">
-                  <img src="<%= service.image %>" alt="<%= service.title %>" />
+                  <img src="<%= service.leadImage %>" alt="<%= service.title %>" />
                 </div>
+                <% } %>
                 <h2><%= service.title %></h2>
                 <p><%= service.description %></p>
                 <a class="button button-default" href="./services/#<%= service.id %>">Learn more <span class="hidden">about <%= service.title %></span></a>
