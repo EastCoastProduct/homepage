@@ -8,7 +8,10 @@ sortOrder: 1
 ---
 
 <div class="process-graph-container">
-  <img src="../../images/services-illustrations/process-graph.svg" alt="A graph of our process and how responsibility shifts from design to development.">
+  <picture>
+    <source media="(min-width: 700px)" srcset="../../images/services-illustrations/process-graph-wide.svg">
+    <img src="../../images/services-illustrations/process-graph-narrow.svg" alt="A graph of our process and how responsibility shifts from design to development.">
+  </picture>
 </div>
 
 <h2>The discovery process</h2>
