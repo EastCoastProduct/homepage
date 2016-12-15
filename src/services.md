@@ -3,7 +3,7 @@ directory: services
 level: ../
 titleTag: Services
 pageHeading: Services we offer
-pageDescription: We use continuous short bursts of execution to bring our clients quickly from new ideas to great experiences.
+pageDescription: Our teams use continuous short bursts of execution to bring you quickly from new ideas to great experiences, delivering successful products for web and mobile.
 pageHeadingImage:
 pageHeadingImageAlt:
 layout: services.ejs

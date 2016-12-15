@@ -1,7 +1,7 @@
 ---
 title: Expert staff augmentation
 id: staff-augmentation
-description: If you’ve already got a plan and most of the right team members in place for the app you want to build, we can still help by filling in any gaps that must be addressed quickly. We’ll work with you to identify missing capabilities, and then enlist the right members of our team to provide added muscle you need. Our people will be embedded into your team’s existing workflow to make sure it’s a seamless integration and help you get your project completed on schedule.
+description: If you’ve already got a plan and a team in place for your project, we can still help by filling in any gaps that need to be addressed. We’ll work with you to identify missing capabilities, and then enlist the right members of our team to provide added muscle you need. Our people will be embedded into your team’s existing workflow to make sure it’s a seamless integration and help you get your project completed on schedule.
 leadImage: ../images/services-illustrations/staff-augmentation.svg
 template: partials/service.ejs
 sortOrder: 2

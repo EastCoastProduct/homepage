@@ -1,7 +1,7 @@
 ---
 title: Managed digital product discovery, design & development
 id: managed-project
-description: We’ve created a company with the collective expertise necessary to build and ship great products for web and mobile. Whether you’re a small team getting your first app out the door or a larger organization that needs an outside perspective, our expert designers and developers have a track record of delivering great work efficiently.
+description: Our teams have the collective expertise necessary to manage, build and ship great products for web and mobile. Whether you’re getting your first app out the door or you need an outside team’s perspective and focus, our people have a track record of delivering great work efficiently.
 leadImage: ../images/services-illustrations/development.svg
 template: partials/service.ejs
 sortOrder: 1
@@ -22,9 +22,7 @@ sortOrder: 1
 
 <p>A successful project starts with understanding. Together, we take a deep look at the business and your users to fully understand what needs to be built and why.</p>
 
-<p>Our designers practice a variety of user experience and strategy activities that have been formulated to quickly identify the real problem and the right approach to solving it. By communicating directly with the potential users of your product we can work out a plan to help your business succeed by meeting their unexpressed needs. Our team is also adept with Google Ventures’ <a href="http://www.gv.com/sprint/">Design Sprint</a> process, a method for quickly and accurately answering vital business questions.</p>
-
-<p>On the development side, our team will guide you to the right technology for getting your app into the market quickly, with the ability to scale as your knowledge grows. During the discovery process we’ll formalize the right architecture for your product offering as we learn the true user needs behind it.</p>
+<p>Our designers practice a variety of user experience and strategy activities that have been formulated to quickly identify the real problem and the right approach to solving it. Utilizing tools like the Design Sprint, <a href="http://www.gv.com/sprint/">created by the team at Google Ventures</a>, we can get to high-confidence answers to tricky problems as fast as possible. By communicating directly with the potential users of your product we can work out a plan to help your business succeed by meeting their unexpressed needs.</p>
 
 <h2>User experience and user interface design</h2>
 
@@ -32,9 +30,7 @@ sortOrder: 1
   <img src="../../images/services-illustrations/design.svg" alt="Illustration of a designer's desktop." />
 </div>
 
-<p>Your app needs to be aimed at the right users and solve the problems that are most meaningful to them. It also needs to be easy to use, not just beautiful. We know how to tackle these challenges. Over the course of a project we’ll continually refine our user research, and test prototypes of new functionality to better understand its impact before building. By approaching user experience iteratively we can lower expenses and the risk associated with building the wrong product.</p>
-
-<p>As we further refine the features being built we’ll also develop a scalable design system to accommodate your future updates. We know that your business is going to change over time and the user interface has to be constructed so that you aren’t fighting it whenever the thinking behind it evolves.</p>
+<p>Not only does your app need to be use easy to use, it needs to be built with the right users in mind and solve the problems that are most meaningful to them. With our proven process, we know exactly how to tackle these challenges efficiently. Over the course of a project, we’ll continually refine our user research, and test prototypes of new functionality to better understand its impact before building. By approaching user experience iteratively we can lower expenses and the risk associated with building the wrong product.</p>
 
 <h2>Full-stack JavaScript web development</h2>
 
@@ -42,8 +38,16 @@ sortOrder: 1
   <img src="../../images/services-illustrations/development.svg" alt="Illustration of a developer's laptop." />
 </div>
 
-<p>Our developers build flexible, fast and scalable web applications using <a href="https://nodejs.org/en/">Node.js</a>, <a href="http://expressjs.com/">Express</a> and <a href="https://facebook.github.io/react/">React</a>. Why did we choose to go with JavaScript for our entire tech stack? Simply put, hiring developers with deep client-side JS proficiency allows them to take their existing knowledge to the server-side. The result is a quicker path to expertise based on fluency in one language instead of many.</p>
+<p>Our developers build flexible, fast and scalable web applications using Node.js, Express and React. Why did we choose to go with JavaScript for our entire tech stack? Simply put, hiring developers with deep JS proficiency creates a quicker path to full-stack expertise based on fluency in one language instead of many.</p>
 
-<p>Using React to render the user interface helps the designers and developers approach the build of an application in a more modular and systematic way. Over time this results in a more scalable and adaptable visual language, and lays the groundwork for a web whose future is tied to custom components.</p>
+<h3>Node.js</h3>
 
-<p>We can even use these skills to build apps for iOS and Android using the <a href="https://facebook.github.io/react-native/">React Native</a> framework. Developers can use the language and tools they’re already proficient in to output code suitable for building rich native app experiences for today’s smartphones.</p>
+<p><a href="https://nodejs.org/">Node.js</a> allows our devs to take their mastery of client-side JavaScript to the server-side, creating efficient experts in full-stack web development. Its emphasis on scalability and speed (among <a href="http://blog.modulus.io/top-10-reasons-to-use-node">many other advantages</a>) allow us to build the best experience for your users.</p>
+
+<h3>React</h3>
+
+<p>We use <a href="https://facebook.github.io/react/">React</a> to help maintain consistency in our user interfaces. It helps our designers and developers think about systems built on stateful components instead of pages, and we think the techniques it encourages are <a href="https://facebook.github.io/react/docs/why-react.html">the future of building web UIs</a>.</p>
+
+<h3>React Native</h3>
+
+<p><a href="https://facebook.github.io/react-native/">React Native</a> lets our devs bring their expertise in JavaScript to iOS and Android. This means your native app can share code with your web app and receive updates live instead of waiting for app store approval. And you’ll benefit from everything the incredibly active JavaScript community has to offer.</p>
