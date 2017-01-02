@@ -36,11 +36,15 @@ header {
   width: 100%;
   text-align: center;
   font-family: Raleway, sans-serif;
-  font-size: 0.84rem;
+  font-size: 0.8rem;
 
   a {
-    margin: 0 0.9375rem 0 0.9375rem;
+    margin: 0 0.5rem;
     border-bottom-color: rgba($middle-gray, 0.2);
+
+    &.link {
+      line-height: 1.5;
+    }
 
     &:hover {
       border-bottom-color: $white;
