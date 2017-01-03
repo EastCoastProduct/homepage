@@ -25,34 +25,28 @@ Metalsmith(__dirname)
         pattern: '*.md'
     },
     services: {
-      pattern: 'services/*.md',
+      pattern: '_services/*.md',
       sortBy: 'sortOrder'
     },
     person: {
       pattern: '_person/*.md',
       sortBy: 'numberId'
     },
-    clients: {
-      pattern: 'case_study/*.md'
-    },
     values: {
       pattern: '_values/*.md'
     },
-    subservices: {
-      pattern: '_subservices/*.md',
-      sortBy: 'sortOrder'
+    clients: {
+      pattern: 'case_study/*.md'
     },
-    faq: {
-      pattern: '_faq/*.md'
-    },
+    jobs: {
+      pattern: 'jobs/*.md'
+    }
   }))
   .use(markdown())
   .use(ignore([
     '**/_person/**',
     '**/_values/**',
-    '**/services/**',
-    '**/_subservices/**',
-    '**/_faq/**'
+    '**/_services/**'
   ]))
   .use(permalinks({
     pattern: './:directory',

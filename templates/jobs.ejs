@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <% include partials/head %>
+  <body>
+    <% include partials/header %>
+    <section>
+      <div class="container">
+        <% collections.jobs.forEach(function(job){ %>
+        <% if(job.published == 'false') {} else { %>
+          <article class="jobs--container-info">
+            <h1><a href="../jobs/<%= job.id %>"><%- job.pageHeading %></a></h1>
+            <h3>Location: <%- job.pageDescription %></h3>
+            <a href="../jobs/<%= job.id %>" class="button button-default">
+              Learn more about the <span class="hidden"> <%= job.pageHeading %></span> position
+            </a>
+          </article>
+          <% } %>
+        <% }) %>
+      </div>
+    </section>
+    <% include partials/footer %>
+  </body>
+</html>
