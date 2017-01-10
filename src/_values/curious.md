@@ -1,5 +1,5 @@
 ---
 title: Be curious
-description: Focus on how you can grow and learn, as an individual and as a member of the team.
+description: Don’t be afraid to explore new territory. Break out of routine, try a creative solution, and learn something new.
 image: ../images/illustrations/rover.png
 ---

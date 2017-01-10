@@ -1,5 +1,5 @@
 ---
 title: Be human
-description: Smile, breathe, share what you love. People want to work together with people they like.
+description: Be personable and more importantly, just be yourself. Aim for the stars but stay down to earth.
 image: ../images/illustrations/robot.png
 ---
