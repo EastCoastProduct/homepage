@@ -1,6 +1,7 @@
 ---
 level: ../../
 titleTag: Product Designer
+url: jobs/product_designer/index.html
 pageHeading: Product Designer
 pageDescription: Boston, MA
 pageHeadingImage:

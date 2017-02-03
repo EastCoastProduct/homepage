@@ -1,6 +1,7 @@
 ---
 level: ../../
 titleTag: City Awake and Timothy Smith Network
+url: case_study/social_good_calendar/index.html
 pageHeading: Harnessing discoverability to drive social engagement
 pageDescription: The Social Good Calendar
 listingDescription: East Coast Product partnered with City Awake and the Timothy Smith Network to create a discovery platform for social impact events in the Greater Boston area. The Social Impact Calendar drives community engagement and increases the reach of the community organizations that serve Boston’s black and latino youth.

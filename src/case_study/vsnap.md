@@ -1,6 +1,7 @@
 ---
 level: ../../
 titleTag: Vsnap
+url: case_study/vsnap/index.html
 pageHeading: Rebuilding for scale
 pageDescription: Vsnap
 clientName: Vsnap

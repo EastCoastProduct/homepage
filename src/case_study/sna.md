@@ -1,6 +1,7 @@
 ---
 level: ../../
 titleTag: Safety NetAccess
+url: case_study/sna/index.html
 pageHeading: Future-proofing a SaaS platform
 pageDescription: Safety NetAccess
 listingDescription: Safety NetAccess’ SNAP is a hotel WiFi and internet management platform. We helped them rebuild and consolidate a product with three different generations of users  and prepared it for a SaaS offering.

@@ -1,6 +1,7 @@
 ---
 level: ../../
 titleTag: Innovation Women
+url: case_study/innovation_women/index.html
 pageHeading: From vision to MVP in 3 weeks
 pageDescription: Innovation Women
 listingDescription: Innovation Women set out to solve the glaring issue of male-dominated panels at tech events. Their marketing platform connects amazing women in tech and enterprise with event planners. Our team nailed down MVP feature requirement and delivered the Innovation Women platform in 3 weeks.
