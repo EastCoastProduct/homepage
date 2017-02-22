@@ -1,7 +1,7 @@
 {
   "name": "east-coast-product-website",
   "version": "1.0.0",
-  "description": "new ECP website",
+  "description": "East Coast Product website",
   "main": "build.js",
   "dependencies": {
     "del": "^2.2.1",

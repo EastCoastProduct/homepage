@@ -40,6 +40,9 @@ Metalsmith(__dirname)
     },
     jobs: {
       pattern: 'jobs/*.md'
+    },
+    technologies: {
+      pattern: 'technologies/*.md'
     }
   }))
   .use(markdown())
