@@ -1,9 +1,9 @@
 ---
 level: ../../
-titleTag: React.js
+titleTag: React
 url: technologies/react/index.html
-pageHeading: React.js
-pageDescription: Building the best product means using the best tools.
+pageHeading: React
+pageDescription: You need great tools to build great apps.
 pageHeadingImage: null
 pageHeadingImageAlt: null
 listingDescription: null
@@ -12,7 +12,9 @@ id: react
 layout: technology.ejs
 ---
 
-There seems to be new Javascript libraries popping up weekly if not daily. It’s crazy out there. We definitely have eyes for only one library at the moment: <a href="https://facebook.github.io/react/">React</a>. React allows us to build highly performant, client-side web applications quickly and efficiently - like way, way faster . By working with a component-based frontend with an easy-to-read syntax, React makes collaboration both internally with our development team and externally with your team as smooth as silk. React is integral to our design philosophy because it can efficiently translate component-based UX/UI design and lets us reuse components. When it comes to frontend libraries, our first choice is React and we wouldn’t have it any other way.
+It feels like there's a new JavaScript UI library to learn every week now. But we only have eyes for one: <a href="https://facebook.github.io/react/">React</a>.
+
+React allows us to build highly performant, client-side web applications quickly and efficiently. The component-based structure and easy-to-read syntax makes collaboration between our developers and yours as smooth as can be. React is also integral to our design philosophy because it encourages our designers to create scalable systems, not pages.
 
 ## Projects we've used it on
 
