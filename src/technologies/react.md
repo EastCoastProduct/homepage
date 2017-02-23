@@ -36,7 +36,7 @@ layout: technology.ejs
 
 <h3>Component-based architecture</h3>
 
-<p>Components are the future of front-end web development. Using React helps us stay ahead of that curve. The underlying architecture helps our team think about the state and context of the components in their UI, letting them build fully considered experiences.</p>
+<p>Components are the future of frontend web development. Using React helps us stay ahead of that curve. The underlying architecture helps our team think about the state and context of the components in their UI, letting them build fully considered experiences.</p>
 
 <h3>Community</h3>
 

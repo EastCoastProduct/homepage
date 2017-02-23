@@ -43,4 +43,4 @@ layout: technology.ejs
 
 <h3>Angular</h3>
 
-<p><a href="https://angular.io/">Angular</a> is an industry-proven and tested front-end framework, built and maintained by Google.</p>
+<p><a href="https://angular.io/">Angular</a> is an industry-proven and tested frontend framework, built and maintained by Google.</p>

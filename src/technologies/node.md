@@ -16,7 +16,7 @@ layout: technology.ejs
   <img src="../../images/technology-icons/node-logo.svg" alt="The logo for the Node.js project." />
 </div>
 
-<p>We’re big believers in JavaScript. It’s our language of choice for building progressive, modern web applications. And the best way to tie it all together is with <a href="https://nodejs.org/en/">Node.js</a>. Since JavaScript is already our language of choice on the front-end, Node lets us bring our existing expertise to the rest of the stack. With it’s event driven, I/O model, Node.js allows us to build fast, scalable applications for clients with a few users, or with thousands.</p>
+<p>We’re big believers in JavaScript. It’s our language of choice for building progressive, modern web applications. And the best way to tie it all together is with <a href="https://nodejs.org/en/">Node.js</a>. Since JavaScript is already our language of choice on the frontend, Node lets us bring our existing expertise to the rest of the stack. With it’s event driven, I/O model, Node.js allows us to build fast, scalable applications for clients with a few users, or with thousands.</p>
 
 <h2>Projects we've used it on</h2>
 

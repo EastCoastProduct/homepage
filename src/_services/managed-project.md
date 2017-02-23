@@ -38,7 +38,7 @@ sortOrder: 1
   <img src="../../images/services-illustrations/development.svg" alt="Illustration of a developer's laptop." />
 </div>
 
-<p>Our developers build flexible, fast and scalable web applications using <a href="/technologies/node/">Node.js</a>, Express and <a href="/technologies/react/">React</a>. Why did we choose to go with <a href="/technologies/javascript/">JavaScript</a> for our entire tech stack? Simply put, hiring developers with deep JS proficiency creates a quicker path to full-stack expertise based on fluency in one language instead of many.</p>
+<p>Our developers build flexible, fast and scalable web applications using <a href="/technologies/node/">Node.js</a>, Express and <a href="/technologies/react/">React</a>. Why did we choose to go with <a href="/technologies/javascript/">JavaScript</a> for our entire tech stack? Simply put, hiring developers with deep JavaScript proficiency creates a quicker path to full-stack expertise based on fluency in one language instead of many.</p>
 
 <h3>Node.js</h3>
 
