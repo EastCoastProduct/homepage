@@ -3,7 +3,7 @@ level: ../../
 titleTag: Angular
 url: technologies/angular/index.html
 pageHeading: Angular
-pageDescription: Complete front-end framework.
+pageDescription: A complete front-end framework, maintained by Google.
 pageHeadingImage: null
 pageHeadingImageAlt: null
 listingDescription: null
@@ -12,7 +12,7 @@ id: angular
 layout: technology.ejs
 ---
 
-When you are looking for a one stop shop consistent framework, we turn to <a href="https://angularjs.org/">Angular</a>. With the recent launch of Angular 2.0, Angular is a complete frontend framework that is incredibly reliable. Angular is great for enterprise clients that are looking for consistency without relying too heavily on third-party modules. Too many third-party modules, and you’re gonna have a bad time.
+When looking for an all-in-one solution for our clients, we turn to <a href="https://angular.io/">Angular</a>. It’s a complete front-end framework that is incredibly reliable. Angular is great for clients that are looking for consistency without relying too heavily on third-party modules for necessary functionality. Its opinionated stance on how to do many common tasks means our team (and yours) doesn’t have to re-invent the wheel on every project, giving them the flexibility to prioritize work that will have the most meaningful impact on your users.
 
 ## Projects we've used it on
 
@@ -23,12 +23,12 @@ When you are looking for a one stop shop consistent framework, we turn to <a hre
 
 ### Templating
 
-Angular lets us be efficient when it comes to reusing feature blocks. Templating is great when you need to get from nothing to something fast.
+Angular lets us be more efficient when it comes to building UI code that integrates seamlessly with a back-end. This makes it great for when you need to get from nothing to something fast.
 
 ### Testing
 
-Angular was built with testing in mind. Out-of-the-box, Angular comes with end-to-end testing tools that make testing a breeze.
+Angular was built to support testing smoothly, right out of the box. Its end-to-end testing tools make efficiently producing quality code a breeze.
 
 ### The best tool for enterprise jobs
 
-Since Angular’s m.o. is all about consistency, it is the perfect solution for large enterprise projects. If there are too many third party add-ons on a given platform, there will be a large risk of breaking all the things with a simple update. Using Angular’s full framework, we can mitigate the risk of broken features because there’s less reliance on third party add-ons.
+Since Angular is all about consistency, speed, and tooling it is the perfect solution for large enterprise projects. Using too many third party add-ons creates a risk of breaking your application with a simple update. Angular helps us mitigate the risk of broken features because there’s less reliance on third party add-ons.

@@ -3,7 +3,7 @@ level: ../../
 titleTag: React Native
 url: technologies/react-native/index.html
 pageHeading: React Native
-pageDescription: Everything we love about React, but for mobile.
+pageDescription: Building native experiences with the web tech we’re already experts in.
 pageHeadingImage: null
 pageHeadingImageAlt: null
 listingDescription: null
@@ -12,7 +12,9 @@ id: react_native
 layout: technology.ejs
 ---
 
-<a href="https://facebook.github.io/react-native/">React Native</a> allows us to build native Android and iOS applications using JavaScript...and we love JavaScript. We can use a single codebase without having to change a lot of logic as well as easily release cross-platform applications.  As an agency, we need to stay efficient. React Native lets us to do exactly that. React Native takes everything we love about React and applies it to native mobile development. Who doesn’t love easy, awesome translations like that?
+<a href="https://facebook.github.io/react-native/">React Native</a> lets us build native Android and iOS apps, but with the JavaScript we already know and love. As an agency we need to stay efficient and React Native lets us to do exactly that using a single codebase to release cross-platform mobile applications.
+
+React Native takes everything we love about our favorite web framework and applies it to native mobile development. Who doesn’t love an easy, awesome translation like that?
 
 ## Projects we've used it on
 
@@ -20,14 +22,14 @@ layout: technology.ejs
 
 ## Why we use React Native
 
-### Native experience
+### True native experience
 
-With React Native, all mobile experiences are truly native. When you are building for mobile, your users will not be able to tell the difference.
+With React Native, we’re using JavaScript but still building a truly native mobile experience. Your users won’t even be able to tell the difference.
 
-### Two platforms in much less time
+### Dual-platform dev
 
-Building for both iOS and Android has never been easier. React Native lets us to build once and push to both platforms. We can ensure you’re meeting your customers whether they primarily use an iOS or Android device.
+Building for both iOS and Android is incredibly easy. React Native lets us to code once and still push to both platforms. This ensures we’re reaching as many of your customers as possible.
 
-### Popularity
+### Support
 
-React Native is backed by companies like Facebook and AirBnB, just like the React. And, just like React, there is an extensive ecosystem around React Native. It’s here for the long haul. You can build with confidence knowing that you are building for the future.
+React Native is used and maintained by companies like Facebook and AirBnB. And, just like React, there is an extensive ecosystem around React Native. It’s here for the long haul. You can build with confidence knowing that you are building for the future.

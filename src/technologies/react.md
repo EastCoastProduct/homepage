@@ -3,7 +3,7 @@ level: ../../
 titleTag: React
 url: technologies/react/index.html
 pageHeading: React
-pageDescription: You need great tools to build great apps.
+pageDescription: Helping us build truly great user interfaces.
 pageHeadingImage: null
 pageHeadingImageAlt: null
 listingDescription: null
@@ -26,16 +26,16 @@ React allows us to build highly performant, client-side web applications quickly
 
 ### Flexibility
 
-React can be implemented gradually, swapped in or out as you see fit, and it’s compatible with a variety of technology stacks.
+React can be implemented in your UI gradually, moved into place over time as your product scales and changes. And it’s compatible with a wide-variety of technology stacks.
 
-### Components &amp; the future of web development
+### Component-based architecture
 
-Component-based development is the future. By using React, we can stay agile while designing and developing for the web. React forces our designers to consider the state and nature of React components, streamlining the translation from initial design to User Experience and User Interface.
+Components are the future of front-end web development. Using React helps us stay ahead of that curve. The underlying architecture helps our team think about the state and context of the components in their UI, letting them build fully considered experiences.
 
-### Development tools
+### Community
 
-An out-of-the-box development tool, with the official React Chrome extension, makes debugging your application much simpler. These tools allow you to take a look at a virtual dom as if it were a full DOM tree right in the elements panel.
+Did we mention that the Facebook engineering team created and maintains the React library? We want to use the languages, libraries, and frameworks that have the best support from technology companies. React definitely meets that requirement.
 
-### Facebook engineers maintain React
+### Developer tools
 
-Did we mention that the Facebook engineering team created and maintains the React library that’s now an open-source project? All of Instagram was built on React. We want to the languages, libraries, and frameworks that have the best support from technology companies. React definitely meets that requirement.
+A Chrome extension released and supported by Facebook, the official <a href="https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en">React Developer Tools</a> make debugging your application much simpler. These tools allow you to take a look at a virtual dom as if it were a full DOM tree right in the elements panel.

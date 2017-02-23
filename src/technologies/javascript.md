@@ -3,7 +3,7 @@ level: ../../
 titleTag: JavaScript
 url: technologies/javascript/index.html
 pageHeading: JavaScript
-pageDescription: Future-forward. Modern. Sexy.
+pageDescription: Lightweight, powerful, and ubiquitous.
 pageHeadingImage: null
 pageHeadingImageAlt: null
 listingDescription: null
@@ -12,7 +12,7 @@ id: javascript
 layout: technology.ejs
 ---
 
-At East Coast Product, we <3 efficiency and getting our clients to solutions as quickly as possible. <a href="https://www.javascript.com/">JavaScript</a> is the best tool for the job, in our opinion. We believe that JavaScript builds the best future-forward applications that scale with the modern web. Why? Well, tons of large tech companies support and use JavaScript, like Microsoft, Facebook, Google, Accenture, and many others. It’s fast. It’s agile. It has a large ecosystem and community of support. It’s scalable. By focusing on mastering vanilla JavaScript, we are able to move efficiently into other JS technologies like React.js and Node.js. We could go on and on about JavaScript’s merits, but that’s what happens when you have a crush...
+We believe <a href="https://www.javascript.com/">JavaScript</a> is the best tool for getting our clients to solutions as quickly as possible. It allows us to build the best future-forward applications that scale with the modern web. Why? Well, tons of large tech companies support and use JavaScript, like Microsoft, Facebook, Google, Accenture, and many others. It’s fast, agile, and has a robust ecosystem and network of support. By focusing on mastering JavaScript, we’re also able to move efficiently into related technologies like React and Node.
 
 ## Projects we've used it on
 
@@ -25,16 +25,16 @@ At East Coast Product, we <3 efficiency and getting our clients to solutions as 
 
 ### React
 
-The go-to choice for frontend JavaScript libraries
+React is our favorite option among many JavaScript UI libraries.
 
 ### React Native
 
-Our choice for building mobile JavaScript experiences, natively
+React Native is the best solution for building native mobile experiences with the JavaScript we know and love.
 
 ### Node
 
-The performance on the backend when you need it
+Node is lightweight, efficient and scalable. It let us use JavaScript on the server, not just the client side.
 
 ### Angular
 
-An industry-proven and tested frontend framework
+Angular is an industry-proven and tested front-end framework, built and maintained by Google.
