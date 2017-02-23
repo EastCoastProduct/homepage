@@ -1,8 +1,8 @@
 ---
 level: ../../
-titleTag: Node.js
+titleTag: Node
 url: technologies/node/index.html
-pageHeading: Node.js
+pageHeading: Node
 pageDescription: It’s JavaScript, all the way down.
 pageHeadingImage: null
 pageHeadingImageAlt: null
@@ -16,10 +16,10 @@ We’re big believers in JavaScript. It’s our language of choice for building 
 
 ## Projects we've used it on
 
-* Vsnap
+* <a href="../../case_study/vsnap">Vsnap</a>
 * Startup Rounds
 * Human Condition
-* Timothy Smith Network
+* <a href="../../case_study/social_good_calendar">City Awake and Timothy Smith Network</a>
 
 ## Why we use Node
 
@@ -29,4 +29,4 @@ We’re big believers in JavaScript. It’s our language of choice for building 
 
 ### Full-stack JavaScript
 
-Combined with our expertise in React and Angular, Node makes it easy for us us to build full-stack JavaScript applications.
+Combined with our expertise in <a href="https://facebook.github.io/react/">React</a> and <a href="https://angular.io/">Angular</a>, Node makes it easy for us us to build full-stack JavaScript applications.

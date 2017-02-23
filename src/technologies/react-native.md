@@ -32,4 +32,4 @@ Building for both iOS and Android is incredibly easy. React Native lets us to co
 
 ### Support
 
-React Native is used and maintained by companies like Facebook and AirBnB. And, just like React, there is an extensive ecosystem around React Native. It’s here for the long haul. You can build with confidence knowing that you are building for the future.
+React Native is used and maintained by companies like Facebook and AirBnB. And, just like <a href="https://facebook.github.io/react/">React</a>, there is an extensive ecosystem around React Native. It’s here for the long haul. You can build with confidence knowing that you are building for the future.

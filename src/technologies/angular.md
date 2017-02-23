@@ -16,7 +16,7 @@ When looking for an all-in-one solution for our clients, we turn to <a href="htt
 
 ## Projects we've used it on
 
-* Vsnap
+* <a href="../../case_study/vsnap">Vsnap</a>
 * Startup Rounds
 
 ## Why we use Angular

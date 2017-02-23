@@ -18,7 +18,7 @@ React allows us to build highly performant, client-side web applications quickly
 
 ## Projects we've used it on
 
-* TSN
+* <a href="../../case_study/social_good_calendar">City Awake and Timothy Smith Network</a>
 * Human Condition Safety
 * Resilient Coders
 
