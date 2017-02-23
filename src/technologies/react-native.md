@@ -12,6 +12,10 @@ id: react_native
 layout: technology.ejs
 ---
 
+<div class="services--container-image right">
+  <img src="../../images/technology-icons/react-native-icon.svg" alt="Icon for a React Native project running on a smartphone." />
+</div>
+
 <a href="https://facebook.github.io/react-native/">React Native</a> lets us build native Android and iOS apps, but with the JavaScript we already know and love. As an agency we need to stay efficient and React Native lets us to do exactly that using a single codebase to release cross-platform mobile applications.
 
 React Native takes everything we love about our favorite web framework and applies it to native mobile development. Who doesn’t love an easy, awesome translation like that?

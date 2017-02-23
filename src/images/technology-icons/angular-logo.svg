@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="280px" height="298px" viewBox="0 0 280 298" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>angular-logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="angular-logo" fill-rule="nonzero">
+            <g id="Shape">
+                <polygon fill="#DD0031" points="140 0 140 0 140 0 1.34042553 49.4468085 22.4893617 232.787234 140 297.87234 140 297.87234 140 297.87234 257.510638 232.787234 278.659574 49.4468085"></polygon>
+                <polygon fill="#C3002F" points="140 0 140 33.0638298 140 32.9148936 140 183.787234 140 183.787234 140 297.87234 140 297.87234 257.510638 232.787234 278.659574 49.4468085"></polygon>
+                <path d="M140,32.9148936 L53.3191489,227.276596 L53.3191489,227.276596 L85.6382979,227.276596 L85.6382979,227.276596 L103.06383,183.787234 L176.638298,183.787234 L194.06383,227.276596 L194.06383,227.276596 L226.382979,227.276596 L226.382979,227.276596 L140,32.9148936 L140,32.9148936 L140,32.9148936 L140,32.9148936 L140,32.9148936 Z M165.319149,156.978723 L114.680851,156.978723 L140,96.0638298 L165.319149,156.978723 Z" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -12,6 +12,10 @@ id: react
 layout: technology.ejs
 ---
 
+<div class="services--container-image right">
+  <img src="../../images/technology-icons/react-logo.svg" alt="Logo for the React project." />
+</div>
+
 It feels like there's a new JavaScript UI library to learn every week now. But we only have eyes for one: <a href="https://facebook.github.io/react/">React</a>.
 
 React allows us to build highly performant, client-side web applications quickly and efficiently. The component-based structure and easy-to-read syntax makes collaboration between our developers and yours as smooth as can be. React is also integral to our design philosophy because it encourages our designers to create scalable systems, not pages.

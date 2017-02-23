@@ -12,6 +12,10 @@ id: angular
 layout: technology.ejs
 ---
 
+<div class="services--container-image right">
+  <img src="../../images/technology-icons/angular-logo.svg" alt="The logo for the Angular project." />
+</div>
+
 When looking for an all-in-one solution for our clients, we turn to <a href="https://angular.io/">Angular</a>. It’s a complete front-end framework that is incredibly reliable. Angular is great for clients that are looking for consistency without relying too heavily on third-party modules for necessary functionality. Its opinionated stance on how to do many common tasks means our team (and yours) doesn’t have to re-invent the wheel on every project, giving them the flexibility to prioritize work that will have the most meaningful impact on your users.
 
 ## Projects we've used it on
