@@ -38,16 +38,16 @@ sortOrder: 1
   <img src="../../images/services-illustrations/development.svg" alt="Illustration of a developer's laptop." />
 </div>
 
-<p>Our developers build flexible, fast and scalable web applications using Node.js, Express and React. Why did we choose to go with JavaScript for our entire tech stack? Simply put, hiring developers with deep JS proficiency creates a quicker path to full-stack expertise based on fluency in one language instead of many.</p>
+<p>Our developers build flexible, fast and scalable web applications using <a href="/technologies/node/">Node.js</a>, Express and <a href="/technologies/react/">React</a>. Why did we choose to go with <a href="/technologies/javascript/">JavaScript</a> for our entire tech stack? Simply put, hiring developers with deep JS proficiency creates a quicker path to full-stack expertise based on fluency in one language instead of many.</p>
 
 <h3>Node.js</h3>
 
-<p><a href="https://nodejs.org/">Node.js</a> allows our devs to take their mastery of client-side JavaScript to the server-side, creating efficient experts in full-stack web development. Its emphasis on scalability and speed (among <a href="http://blog.modulus.io/top-10-reasons-to-use-node">many other advantages</a>) allow us to build the best experience for your users.</p>
+<p><a href="/technologies/node/">Node.js</a> allows our devs to take their mastery of client-side <a href="/technologies/javascript/">JavaScript</a> to the server-side, creating efficient experts in full-stack web development. Its emphasis on scalability and speed (among <a href="http://blog.modulus.io/top-10-reasons-to-use-node">many other advantages</a>) allow us to build the best experience for your users.</p>
 
 <h3>React</h3>
 
-<p>We use <a href="https://facebook.github.io/react/">React</a> to help maintain consistency in our user interfaces. It helps our designers and developers think about systems built on stateful components instead of pages, and we think the techniques it encourages are <a href="https://facebook.github.io/react/docs/why-react.html">the future of building web UIs</a>.</p>
+<p>We use <a href="/technologies/react/">React</a> to help maintain consistency in our user interfaces. It helps our designers and developers think about systems built on stateful components instead of pages, and we think the techniques it encourages are <a href="https://facebook.github.io/react/docs/why-react.html">the future of building web UIs</a>.</p>
 
 <h3>React Native</h3>
 
-<p><a href="https://facebook.github.io/react-native/">React Native</a> lets our devs bring their expertise in JavaScript to iOS and Android. This means your native app can share code with your web app and receive updates live instead of waiting for app store approval. And you’ll benefit from everything the incredibly active JavaScript community has to offer.</p>
+<p><a href="/technologies/react-native/">React Native</a> lets our devs bring their expertise in JavaScript to iOS and Android. This means your native app can share code with your web app and receive updates live instead of waiting for app store approval. And you’ll benefit from everything the incredibly active JavaScript community has to offer.</p>
