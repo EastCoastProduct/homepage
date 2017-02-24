@@ -1,7 +1,7 @@
 ---
 name: Tricia Ravelo
 id: tricia-ravelo
-numberId: 17
+numberId: 15
 title: Product Designer
 bio: Tricia designs elegant and purposeful digital experiences that are based more on research than assumptions.
 areas:

@@ -1,7 +1,7 @@
 ---
 name: Kate Gallagher
 id: kate-gallagher
-numberId: 18
+numberId: 16
 title: Product Designer
 bio: Kate is a UX pro and fixer of all the things.
 areas:

@@ -1,7 +1,7 @@
 ---
 name: Petar Ivančević
 id: petar-ivancevic
-numberId: 13
+numberId: 12
 title: Developer
 bio: Petar (a.k.a. Goose) loves developing games, apps, and eating tacos.
 areas:
