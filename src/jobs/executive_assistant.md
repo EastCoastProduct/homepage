@@ -1,13 +1,13 @@
 ---
 level: ../../
-titleTag: Executive Sales Assistant
-url: jobs/executive_sales_assistant/index.html
-pageHeading: Executive Sales Assistant
+titleTag: Executive Assistant
+url: jobs/executive_assistant/index.html
+pageHeading: Executive Assistant
 pageDescription: Boston, MA
 pageHeadingImage: null
 pageHeadingImageAlt: null
 listingDescription: null
-id: executive_sales_assistant
+id: executive_assistant
 hiringContactFirstName: Chris
 hiringContactLastName: Swenor
 hiringContactPosition: CEO & Cofounder
@@ -16,7 +16,7 @@ published: true
 layout: job.ejs
 ---
 
-<p>East Coast Product is looking for an Executive Sales Assistant to join our Boston team and directly support the CEO with administrative work relating to his day-to-day activities. Primary functions include coordinating his schedule, personal brand development, and top-of-the-funnel sales support.</p>
+<p>East Coast Product is looking for an Executive Assistant to join our Boston team and directly support the CEO with administrative work relating to his day-to-day activities. Primary functions include coordinating his schedule, personal brand development, and content development.</p>
 
 <h2>Primary Responsibilities</h2>
 
@@ -26,7 +26,7 @@ layout: job.ejs
   <li>Arrange internal team and management meetings. Prepare agendas and manage logistics.</li>
   <li>Develop and execute social media strategy that promotes CEO’s personal brand through Twitter, Facebook, Instagram, LinkedIn etc.</li>
   <li>Scope out and book speaking engagements, manage preparation and follow-up for these events.</li>
-  <li>Aid in outbound lead generation and goal tracking. Responsible for maintaining the CRM in order to maximize efficiency and support the sales team.</li>
+  <li>Create content for the ECP blog.</li>
 </ul>
 
 <h2>Qualifications</h2>
