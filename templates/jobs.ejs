@@ -6,7 +6,7 @@
     <section>
       <div class="container">
         <% collections.jobs.forEach(function(job){ %>
-        <% if(job.published == 'false') {} else { %>
+        <% if(job.published == true) { %>
           <article class="jobs--container-info">
             <h1><a href="../jobs/<%= job.id %>"><%- job.pageHeading %></a></h1>
             <h3>Location: <%- job.pageDescription %></h3>
