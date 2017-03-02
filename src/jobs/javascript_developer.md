@@ -8,10 +8,10 @@ pageHeadingImage: null
 pageHeadingImageAlt: null
 listingDescription: null
 id: javascript_developer
-hiringContactFirstName: Monika
-hiringContactLastName: Souček
-hiringContactPosition: Human Resources Manager
-hiringContactEmail: monika@eastcoastproduct.com
+hiringContactFirstName: Ivan
+hiringContactLastName: Blazevic
+hiringContactPosition: CTO & Cofounder
+hiringContactEmail: ivan@eastcoastproduct.com
 published: true
 layout: job.ejs
 ---
