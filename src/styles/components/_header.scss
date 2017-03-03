@@ -2,7 +2,8 @@ header {
   background-color: $dark-gray;
   background-image: linear-gradient(to bottom, $dark-gray, $light-gray);
   color: $lightest;
-  padding-bottom: 1px;
+  padding-bottom: 1px; // janky margin-negating hack
+  -webkit-font-smoothing: antialiased;
 
   .container {
     padding: 1.875rem 0.9375rem 0 0.9375rem;

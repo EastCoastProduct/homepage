@@ -1,10 +1,10 @@
 footer {
-  font-weight: 300;
-  padding-top: 2rem;
-  margin-bottom: 0 !important;
   background-color: $dark-gray;
   background-image: linear-gradient(to top, $dark-gray, $light-gray);
   color: $lightest;
+  padding-bottom: 1px; // janky margin-negating hack
+  -webkit-font-smoothing: antialiased;
+
 
   a {
     border-bottom-color: rgba($lightest, 0.2) !important;
