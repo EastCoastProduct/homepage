@@ -4,32 +4,38 @@ body {
   font-family: Merriweather, serif;
   font-size: 100%;
   font-weight: 300;
-  color: $darkest-gray;
+  color: $darkest;
   background-color: $lightest-gray;
 }
 
 .container {
   width: 100%;
   max-width: 930px;
-  padding: 1.875rem 0.9375rem 3.75rem 0.9375rem;
-  margin: 0 auto; //1.625rem
+  padding: 0.9375rem 0.9375rem 0rem 0.9375rem;
+  margin: 0 auto;
 }
 
 h1, h2, h3, h4, h5, h6,
 p, ul { // cruddy reset
-  margin: 0;
-  font-size: 1rem;
-  line-height: 1.5;
-}
-
-p,
-ul {
-  font-size: 1rem;         // 16px
-  line-height: 1.875;      // 30px
-  margin-bottom: 1.875rem; // 30px
+  font-size: 0.8125rem; // 13px
+  line-height: 1.846;   // 24px
+  margin: 0 0 1.5rem 0; // 24px
+  font-weight: normal;
   -webkit-hyphens: auto;
      -moz-hyphens: auto;
           hyphens: auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 2px solid rgba($green, 0.5);
+  transition: all 0.2s linear;
+  border-radius: 2px;
+
+  &:hover {
+    border-bottom: 2px solid rgba($green, 1);
+  }
 }
 
 li > ul {
@@ -42,48 +48,22 @@ li {
   margin-bottom: 0.75rem; // 12px
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-  border-bottom: 2px solid $green;
-  transition: all 0.2s linear;
-  border-radius: 2px;
-
-  &:hover {
-    border-bottom-color: transparent;
-    background-color: $green;
-    color: #fff;
-  }
-}
-
 .page-heading--title {
-  font-size: 3rem;   // 48px
-  line-height: 1.25; // 60px
+  font-size: 1.875rem; // 30px
+  line-height: 1.2;    // 36px
   margin-bottom: 0;
 }
 
 .page-heading--subtitle {
-  font-size: 1.5rem;      // 30px
-  line-height: 1.25;      // 48px
-  margin-bottom: 3.75rem; // 60px
+  font-size: 1.25rem;      // 20px
+  line-height: 1.5;        // 30px
+  margin-bottom: 1.875rem; // 30px
 }
 
 .page-heading--solo-paragraph {
-  font-size: 2.25rem;  // 36px
-  line-height: 1.333;  // 48px
-  margin-bottom: 3rem; // 48px
-}
-
-.paragraph--major {
-  font-size: 1.25rem;      // 20px
-  line-height: 1.8;        // 36px
-  margin-bottom: 1.8rem;   // 36px
-}
-
-.paragraph--minor {
-  font-size: 0.8125rem;      // 13px
-  line-height: 1.846;        // 24px
-  margin-bottom: 1.846rem;   // 24px
+  font-size: 1.5rem;       // 24px
+  line-height: 1.25;       // 30px
+  margin-bottom: 1.875rem; // 30px
 }
 
 .text-heading-one,
@@ -94,49 +74,33 @@ a {
 }
 
 .text-heading-one {
-  font-size: 1.5rem;       // 24px
-  line-height: 1.25;       // 30px
-  margin-bottom: 0.375rem; // 6px
+  font-size: 1.5rem;        // 24px
+  line-height: 1.25;        // 30px
+  margin-bottom: 0.9375rem; // 15px
 }
 
 .text-heading-two {
-  font-size: 1.25rem;      // 20px
-  line-height: 1.2;        // 24px
-  margin-bottom: 0.375rem; // 6px
+  font-size: 1.25rem;     // 20px
+  line-height: 1.2;       // 24px
+  margin-bottom: 0.75rem; // 12px
 }
 
 .text-heading-three {
-  font-size: 1rem;         // 16px
-  line-height: 1.5;        // 24pxmo
-  margin-bottom: 0.375rem; // 6px
+  font-size: 1rem;        // 16px
+  line-height: 1.5;       // 24px
+  margin-bottom: 0.75rem; // 12px
 }
 
 img {
   max-width: 100%;
 }
 
-.yellow-tint-background {
-  background-color: $yellow-tint;
-}
-
 .targetable:target {
-  background-color: $yellow-tint;
-  position: relative;
-  z-index: 2;
-  @extend .top-left;
-  @extend .bottom-left;
+  border: 4px solid $yellow;
 }
 
 .inline {
   display: inline;
-}
-
-.margin--bottom-paragraph {
-  margin-bottom: 24px !important;
-}
-
-.button-margin-large {
-  margin-bottom: 36px;
 }
 
 .overflow-hidden {
@@ -147,77 +111,66 @@ img {
   display: none;
 }
 
-.email {
-  cursor: pointer;
-}
-
 @media (min-width: 700px) {
 
-  p, ul {
-    font-size: 1.25rem;      // 20px
-    line-height: 1.8;        // 30px
-    margin-bottom: 1.875rem; // 30px
-  }
-
-  .major {
-    font-size: 1.875rem; // 30px
-    line-height: 1.6;    // 48px
-    margin-bottom: 3rem; // 48px
-  }
-
-  .minor {
+  p,
+  ul {
     font-size: 1rem;         // 16px
     line-height: 1.875;      // 30px
     margin-bottom: 1.875rem; // 30px
   }
 
-  .lede {
-    font-size: 3rem;         // 48px
-    line-height: 1.25;       // 60px
-    margin-bottom: 0.75rem;  // 12px
-  }
-
-  h1 {
-    font-size: 3rem;        // 48px
-    line-height: 1.25;      // 60px
+  li {
+    list-style-type: disc;
+    margin-left: 1.5rem;    // 24px
     margin-bottom: 0.75rem; // 12px
   }
 
-  h2 {
-    font-size: 2.25rem;     // 36px
-    line-height: 1.16667;   // 42px
-    margin-bottom: 0.75rem; // 12px
+  .page-heading--title {
+    font-size: 3rem;   // 48px
+    line-height: 1.25; // 60px
+    margin-bottom: 0;
   }
 
-  h3 {
-    font-size: 1.5rem;      // 24px
-    line-height: 1.25;      // 30px
-    margin-bottom: 0.75rem; // 12px
+  .page-heading--subtitle {
+    font-size: 1.875rem;    // 30px
+    line-height: 1.6;       // 48px
+    margin-bottom: 3.75rem; // 60px
   }
 
-  .margin--bottom-paragraph {
-    margin-bottom: 36px !important;
+  .page-heading--solo-paragraph {
+    font-size: 2.25rem;  // 36px
+    line-height: 1.333;  // 48px
+    margin-bottom: 3rem; // 48px
   }
 
-  .first_container {
-    margin-top: -80px;
-
-    h1 {
-      margin-top: 0 !important;
-    }
-
-    button {
-      margin-bottom: 10px !important;
-    }
+  .paragraph--major {
+    font-size: 1.25rem;     // 20px
+    line-height: 1.8;       // 36px
+    margin-bottom: 2.25rem; // 36px
   }
 
-  .block-column-3 {
-    width: 46.7746%;
-    display: inline-block;
-    vertical-align: top;
+  .paragraph--minor {
+    font-size: 0.8125rem;  // 13px
+    line-height: 1.846;    // 24px
+    margin-bottom: 1.5rem; // 24px
   }
 
-  .button-margin-large {
-    margin-bottom: 60px;
+  .text-heading-one {
+    font-size: 2.25rem;       // 36px
+    line-height: 1.333;       // 48px
+    margin-bottom: 0.9375rem; // 15px
+  }
+
+  .text-heading-two {
+    font-size: 1.5rem;        // 24px
+    line-height: 1.25;        // 30px
+    margin-bottom: 0.9375rem; // 15px
+  }
+
+  .text-heading-three {
+    font-size: 1.25rem;       // 20px
+    line-height: 1.5;         // 30px
+    margin-bottom: 0.5625rem; // 9px
   }
 }

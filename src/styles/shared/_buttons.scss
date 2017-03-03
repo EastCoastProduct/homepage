@@ -1,5 +1,5 @@
 .button {
-  color: $white !important;
+  color: $lightest !important;
   font-family: Raleway, sans-serif;
   font-weight: 400;
   display: inline-block;
@@ -29,49 +29,27 @@
   box-shadow: $green-shade;
 
   &:hover, &:focus {
-    box-shadow: $green-shade 0 6px 0 !important;
-    background-color: $green-tint !important;
+    background-color: $green-shade !important;
   }
 
   &:active {
-    box-shadow: $green-shade 0 2px 0 !important;
-    background-color: $green !important;
+    background-color: $green-tint !important;
   }
 }
 
 .button-default {
   @extends .button;
   font-size: 16px;
-  background-color: $dark-gray;
-  border-color: $dark-gray;
-  box-shadow: $darkest-gray 0 4px 0;
+  background-color: $blue;
+  border-color: $blue;
+  box-shadow: $blue-shade 0 4px 0;
 
   &:hover, &:focus {
-    box-shadow: $darkest-gray 0 6px 0 !important;
-    background-color: $middle-gray !important;
+    background-color: $blue-shade !important;
   }
 
   &:active {
-    box-shadow: $dark-gray 0 2px 0 !important;
-    background-color: $darker-gray !important;
-  }
-}
-
-.button-default-reverse {
-  @extends .button;
-  font-size: 16px;
-  background-color: $green;
-  border-color: $green;
-  box-shadow: $green-shade 0 4px 0;
-
-  &:hover, &:focus {
-    box-shadow: $green-shade 0 6px 0 !important;
-    background-color: $green-tint !important;
-  }
-
-  &:active {
-    box-shadow: $green-shade 0 2px 0 !important;
-    background-color: $green !important;
+    background-color: $blue-tint !important;
   }
 }
 
@@ -86,9 +64,5 @@
 
   .button-default {
     font-size: 20px;
-  }
-
-  .button-default-reverse {
-    font-size: 20px
   }
 }

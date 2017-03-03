@@ -25,15 +25,22 @@
       <a href="https://blog.eastcoastproduct.com" target="_blank" class="link">Blog</a>
       <a href="<%- level %>contact" class="button button-default-reverse">Hire Us</a>
     </nav>
-    <div class="page--title">
-      <h1 class="lede"><%- pageHeading %></h1>
-      <% if(pageDescription) { %>
-      <p class="major"><%- pageDescription %></p>
-      <% } %>
-      <% if(layout != "case-study.ejs" && pageHeadingImage) { %>
-      <div class="header--image">
-        <img src="<%- pageHeadingImage %>" alt="<%- pageHeadingImageAlt %>"/>
-      </div>
+    <div class="page-heading">
+      <% if(layout == "home.ejs") { %>
+        <h1 class="page-heading--solo-paragraph"><%- pageHeading %></h1>
+        <div class="header--image">
+          <img src="<%- pageHeadingImage %>" alt="<%- pageHeadingImageAlt %>"/>
+        </div>
+      <% } else{ %>
+        <h1 class="page-heading--title"><%- pageHeading %></h1>
+        <% if(pageDescription) { %>
+          <p class="page-heading--subtitle"><%- pageDescription %></p>
+        <% } %>
+        <% if(layout != "case-study.ejs" && pageHeadingImage) { %>
+          <div class="header--image">
+            <img src="<%- pageHeadingImage %>" alt="<%- pageHeadingImageAlt %>"/>
+          </div>
+        <% } %>
       <% } %>
     </div>
   </div>
