@@ -8,8 +8,8 @@
         <% collections.jobs.forEach(function(job){ %>
         <% if(job.published == true) { %>
           <article class="jobs--container-info">
-            <h1><a href="../jobs/<%= job.id %>"><%- job.pageHeading %></a></h1>
-            <h3>Location: <%- job.pageDescription %></h3>
+            <h1 class="text-heading-one"><a href="../jobs/<%= job.id %>"><%- job.pageHeading %></a></h1>
+            <h3 class="text-heading-three">Location: <%- job.pageDescription %></h3>
             <a href="../jobs/<%= job.id %>" class="button button-default">
               Learn more about the <span class="hidden"> <%= job.pageHeading %></span> position
             </a>

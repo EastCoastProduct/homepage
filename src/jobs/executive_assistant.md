@@ -18,7 +18,7 @@ layout: job.ejs
 
 <p>East Coast Product is looking for an Executive Assistant to join our Boston team and directly support the CEO with administrative work relating to his day-to-day activities. Primary functions include coordinating his schedule, personal brand development, and content development.</p>
 
-<h2>Primary Responsibilities</h2>
+<h2 class="text-heading-two">Primary Responsibilities</h2>
 
 <ul>
   <li>Execute diverse administrative duties including: calendar management, managing internal and external communications, and arranging travel plans and itineraries.</li>
@@ -29,7 +29,7 @@ layout: job.ejs
   <li>Create content for the ECP blog.</li>
 </ul>
 
-<h2>Qualifications</h2>
+<h2 class="text-heading-two">Qualifications</h2>
 
 <p>The ideal candidate will have a year or two of experience under their belt in a high-pressure administrative role. An unflappable can-do attitude and rigorous organizational skills are a must.</p>
 
@@ -43,7 +43,7 @@ layout: job.ejs
   <li>The ability to shift focus and priorities as needed, under pressure and on time.</li>
 </ul>
 
-<h2>Bonus Qualifications</h2>
+<h2 class="text-heading-two">Bonus Qualifications</h2>
 
 <ul>
   <li>Social media or PR experience.</li>
@@ -51,7 +51,7 @@ layout: job.ejs
   <li>A deep love of JavaScript or a demonstrated interest in learning more.</li>
 </ul>
 
-<h2>Benefits</h2>
+<h2 class="text-heading-two">Benefits</h2>
 
 <ul>
   <li>Competitive salary commensurate with experience.</li>

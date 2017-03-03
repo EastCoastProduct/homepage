@@ -20,7 +20,7 @@ layout: job.ejs
 
 <p>We are looking to bring on motivated, talented individuals who share our passion for learning and JavaScript. At East Coast Product, building a diverse team with a positive work culture has always been a top priority. Since our founding, we have fostered a stimulating and motivating work environment. With our sights set on employee satisfaction, we provide our team members with everything they will need grow their skills and expand their career.</p>
 
-<h2>Responsibilities</h2>
+<h2 class="text-heading-two">Responsibilities</h2>
 
 <ul>
   <li>Develop new product features and new applications within an Agile environment.</li>
@@ -32,7 +32,7 @@ layout: job.ejs
   <li>Strive to continuously improve the development process.</li>
 </ul>
 
-<h2>Skills and Qualifications</h2>
+<h2 class="text-heading-two">Skills and Qualifications</h2>
 
 <ul>
   <li>Strong proficiency in JavaScript.</li>
@@ -45,7 +45,7 @@ layout: job.ejs
   <li>Proficient understanding of code versioning tools, such as Git.</li>
 </ul>
 
-<h2>Benefits</h2>
+<h2 class="text-heading-two">Benefits</h2>
 
 <ul>
   <li>Competitive salary commensurate on experience.</li>

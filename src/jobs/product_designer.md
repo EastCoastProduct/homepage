@@ -26,11 +26,11 @@ layout: job.ejs
 
 <p>As we grow we’ll be prioritizing individual learning. We’re creating a curriculum focused on advancing UX, behavioral design, visual design, and product management principles. We believe that mentoring is required for effective growth and will be running every project in a way that emphasizes learning directly from the Director of Product Design and your fellow designers, and returning the favor by sharing what you learn with them. Dedicate yourself to trying new things on every project and you’ll advance quickly here. If you work with us we’re going to show you how to be the best product designer you can be.</p>
 
-<h2>Skills and Qualifications</h2>
+<h2 class="text-heading-two">Skills and Qualifications</h2>
 
 <p>You’re a perfect candidate if you check off most of the boxes under two of our three primary skill areas. Experience in a third skill area or in the bonus skills will move you to the top of our list.</p>
 
-<h3>Primary Skills</h3>
+<h3 class="text-heading-three">Primary Skills</h3>
 
 <p>User experience design principles, including:</p>
 
@@ -63,7 +63,7 @@ layout: job.ejs
   <li>Accessibility/universal design principles</li>
 </ul>
 
-<h3>Bonus Skills</h3>
+<h3 class="text-heading-three">Bonus Skills</h3>
 
 <ul>
   <li>An understanding of HTML/CSS to facilitate communication with the development team.</li>
@@ -72,7 +72,7 @@ layout: job.ejs
   <li>User experience strategy and business principles.</li>
 </ul>
 
-<h2>Benefits</h2>
+<h2 class="text-heading-two">Benefits</h2>
 
 <ul>
   <li>Competitive salary commensurate with experience.</li>

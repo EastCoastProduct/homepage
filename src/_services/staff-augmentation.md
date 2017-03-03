@@ -7,7 +7,7 @@ template: partials/service.ejs
 sortOrder: 2
 ---
 
-<h2>What’s different about staff augmentation?</h2>
+<h2 class="text-heading-two">What’s different about staff augmentation?</h2>
 
 <div class="services--container-image right">
   <img src="../../images/services-illustrations/staff-augmentation.svg" alt="Illustration of a drop-in team member." />

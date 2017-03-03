@@ -5,14 +5,14 @@
     <% include partials/header %>
     <section>
       <div class="container">
-        <h1>The dream team</h1>
+        <h1 class="text-heading-one">The dream team</h1>
         <ul class="employees-list">
         <% collections.person.forEach(function(person){ %>
           <li class="employee">
             <div class="employee-vitals">
               <img src="../images/photos/team/<%= person.id%>.jpg" alt="Potrait of <%= person.name %>" class="employee-photo" />
-              <h2 class="employee-name"><%= person.name %></h2>
-              <p class="employee-field minor"><%= person.title %></p>
+              <h2 class="text-heading-three"><%= person.name %></h2>
+              <p class="major"><%= person.title %></p>
             </div>
             <div class="employee-about">
               <p class="minor"><%= person.bio %></p>
@@ -45,12 +45,16 @@
         </ul>
       </div>
     </section>
-    <section class="yellow-tint-background angle-edge top-left bottom-left">
+    <section>
       <div class="container">
-        <h2>We like to help</h2>
+        <h1 class="text-heading-one">We like to help</h1>
         <p>There's an opportunity for a services company to be more inclusive of their clients, more customer-centric, more cognizant of how to partner with clients to create an awesome team that gets projects done fast. We are that company. We believe in going above and beyond for our clients. We use our years of experience and network to help us be the best help our clients can buy.</p>
+      </div>
+    </section>
+    <section>
+      <div class="container">
         <article>
-          <h2 class="major">Values</h2>
+          <h1 class="text-heading-one">Values</h1>
           <% collections.values.forEach(function(value) { %>
             <figure class="block-column-3">
             <div class="values-image-container">
@@ -58,7 +62,7 @@
                 alt="picture" />
             </div>
             <figcaption>
-              <h3><%= value.title %></h3>
+              <h2 class="text-heading-two"><%= value.title %></h2>
               <p class="minor"><%= value.description %></p>
             </figcaption>
           </figure>

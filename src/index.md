@@ -3,7 +3,7 @@ directory: /
 level: ./
 titleTag: Home
 url:
-pageHeading: We design &amp; develop modern JavaScript apps for entrepreneurs, enterprises, and everyone in between.
+pageHeading: We create JavaScript apps for entrepreneurs, enterprises, and everyone in between.
 pageDescription:
 pageHeadingImage: ../images/illustrations/header@2x.png
 pageHeadingImageAlt: Illustration of the workstation of a designer or developer.

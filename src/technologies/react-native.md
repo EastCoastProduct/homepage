@@ -20,22 +20,22 @@ layout: technology.ejs
 
 <p>React Native takes everything we love about our favorite web framework and applies it to native mobile development. Who doesn’t love an easy, awesome translation like that?</p>
 
-<h2>Projects we've used it on</h2>
+<h2 class="text-heading-two">Projects we've used it on</h2>
 
 <ul>
   <li>Human Condition Safety</li>
 </ul>
 
-<h2>Why we use React Native</h2>
+<h2 class="text-heading-two">Why we use React Native</h2>
 
-<h3>True native experience</h3>
+<h3 class="text-heading-three">True native experience</h3>
 
 <p>With React Native, we’re using JavaScript but still building a truly native mobile experience. Your users won’t even be able to tell the difference.</p>
 
-<h3>Dual-platform dev</h3>
+<h3 class="text-heading-three">Dual-platform dev</h3>
 
 <p>Building for both iOS and Android is incredibly easy. React Native lets us to code once and still push to both platforms. This ensures we’re reaching as many of your customers as possible.</p>
 
-<h3>Support</h3>
+<h3 class="text-heading-three">Support</h3>
 
 <p>React Native is used and maintained by companies like Facebook and AirBnB. And, just like <a href="https://facebook.github.io/react/">React</a>, there is an extensive ecosystem around React Native. It’s here for the long haul. You can build with confidence knowing that you are building for the future.</p>

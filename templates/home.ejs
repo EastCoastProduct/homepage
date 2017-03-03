@@ -3,17 +3,17 @@
   <% include partials/head %>
   <body>
     <% include partials/header %>
-    <section class="yellow-tint-background angle-edge top-left bottom-left who-we-are">
+    <section>
       <div class="container">
-        <h1>Who we are</h1>
-        <p class="margin--bottom-paragraph">We are a group of expert designers, developers, and strategists. We work in small teams focused on only your project. We’ll find the right solutions to your challenges, together.</p>
-        <a href="<%- level %>about" class="button button-default">Meet the team</a>
+        <h1 class="text-heading-one">Who we are</h1>
+        <p class="major">We are a group of expert designers, developers, and strategists. We work in small teams focused on only your project. We’ll find the right solutions to your challenges, together.</p>
+        <a href="<%- level %>about" class="button--default">Meet the team</a>
       </div>
     </section>
     <section>
       <div class="container">
-        <h1>Our clients and partners</h1>
-        <p class="margin--bottom-paragraph">Our clients rock. We believe that you’re the sum of the people you surround yourself with, and we’ve had the privilege to surround ourselves with some of the best.</p>
+        <h1 class="text-heading-one">Our clients and partners</h1>
+        <p class="major">Our clients rock. We believe that you’re the sum of the people you surround yourself with, and we’ve had the privilege to surround ourselves with some of the best.</p>
         <ul class="clients--container">
           <li id="innovationWomen">Innovation Women</li>
           <li id="velir">Velir</li>
@@ -21,13 +21,13 @@
           <li id="snapx">SNAPX</li>
           <li id="cityAwake">City Awake</li>
         </ul>
-        <a href="<%- level %>work" class="button button-default">Hear their stories</a>
+        <a href="<%- level %>work" class="button--default">Hear their stories</a>
       </div>
     </section>
-    <section class="yellow-tint-background angle-edge top-left bottom-left">
+    <section>
       <div class="container">
-        <h1>Services we offer</h1>
-        <p class="margin--bottom-paragraph">Our teams use continuous short bursts of execution to bring you quickly from new ideas to great experiences, delivering successful products for web and mobile.</p>
+        <h1 class="text-heading-one">Services we offer</h1>
+        <p class="major">Our teams use continuous short bursts of execution to bring you quickly from new ideas to great experiences, delivering successful products for web and mobile.</p>
         <div class="services--list">
           <% collections.services.forEach(function(service){ %>
             <article class="services--container">
@@ -39,7 +39,7 @@
                 <% } %>
                 <h2><%= service.title %></h2>
                 <p><%= service.description %></p>
-                <a class="button button-default" href="./services/#<%= service.id %>">Learn more <span class="hidden">about <%= service.title %></span></a>
+                <a class="button--default" href="./services/#<%= service.id %>">Learn more <span class="hidden">about <%= service.title %></span></a>
               </div>
             </article>
           <% }) %>

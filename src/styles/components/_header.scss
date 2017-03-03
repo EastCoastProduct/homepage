@@ -1,6 +1,8 @@
 header {
-  padding-bottom: 0.875rem;
-  margin-bottom: 0.875rem;
+  background-color: $dark-gray;
+  background-image: linear-gradient(to bottom, $dark-gray, $light-gray);
+  color: $lightest;
+  padding-bottom: 1px;
 
   .container {
     padding: 1.875rem 0.9375rem 0 0.9375rem;
@@ -22,6 +24,7 @@ header {
   overflow: hidden;
 
   &:hover {
+    border: none;
     background-color: transparent !important;
   }
 }
@@ -36,11 +39,11 @@ header {
   width: 100%;
   text-align: center;
   font-family: Raleway, sans-serif;
-  font-size: 0.8rem;
+  font-size: 1rem;
 
   a {
     margin: 0 0.5rem;
-    border-bottom-color: rgba($middle-gray, 0.2);
+    border-bottom-color: rgba($lightest, 0.2);
 
     &.link {
       line-height: 1.5;
@@ -48,55 +51,31 @@ header {
 
     &:hover {
       border-bottom-color: $lightest;
-      background-color: inherit;
-      color: inherit;
     }
   }
 
-  .button {
+  .button--major {
     margin: 24px auto 0 auto;
     display: block;
     width: 70%
   }
 }
 
-.page--title {
+.page-heading {
   margin-top: 1.875rem;
-  font-weight: 300;
-  margin-bottom: 3rem;
-
-  h2 {
-    margin-bottom: 24px;
-  }
-
-  .major {
-    max-width: none;
-  }
 }
 
 .header--image {
   width: 100%;
   position: relative;
-  z-index: 2;
-  margin-bottom: -5.5rem;
 
   img {
     width: 100%;
     display: block;
   }
-
-  .lede + & {
-    margin-top: 3rem;
-  }
 }
 
-@media (min-width: 400px) {
-  .navigation {
-    font-size: 1.2rem;
-  }
-}
-
-@media (min-width: 770px) {
+@media (min-width: 700px) {
 
   .main--navigation-logo {
     display: inline-block;
@@ -113,27 +92,14 @@ header {
     float: right;
     text-align: right;
 
-    .button {
+    .button--major {
       display: inline-block;
-      margin: 0 0 0 1.6129%;
+      margin: 0 0 0 0.5rem;
       width: auto;
     }
   }
 
-  .page--title {
+  .page-heading {
     margin-top: 3.75rem;
-
-    h2 {
-      margin-bottom: 60px;
-    }
-  }
-}
-
-@media (max-width: 400px) {
-  .navigation {
-    a {
-        font-size: 1.1rem;
-        margin: 0 0.5375rem 0 0.5375rem;
-    }
   }
 }

@@ -5,7 +5,7 @@
     <% include partials/header %>
     <section class="contact--main-title">
       <div class="container">
-        <h1>I have a question</h1>
+        <h1 class="text-heading-one">I have a question</h1>
         <p class="major">Email: <a class="email" onclick="location.href='mailto:' + 'hello' + '@' + 'eastcoastproduct.com';">
           hello@<span class="hidden">null</span>eastcoastproduct.com
         </a></p>
@@ -15,7 +15,7 @@
 
     <section class="contact--form yellow-tint-background angle-edge top-right bottom-right">
       <div class="container">
-        <h1>I'd like to talk about a project</h1>
+        <h1 class="text-heading-one">I'd like to talk about a project</h1>
         <!--[if lte IE 8]>
         <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
         <![endif]-->
@@ -30,8 +30,8 @@
       </div>
     </section>
     <section id="experts">
-     <div class="container contact--professionals">
-        <h1>I'd like to speak with an expert</h1>
+      <div class="container contact--professionals">
+        <h1 class="text-heading-one">I'd like to speak with an expert</h1>
         <p>Wanna take things slow? We’re happy to have a quick chat and offer expert advice if that’s more your speed.</p>
         <ul class="employees-list">
           <% collections.person.forEach(function(person){ %>
@@ -39,11 +39,11 @@
             <li class="employee">
             <div class="employee-vitals">
               <img src="../images/photos/team/<%= person.id%>.jpg" alt="Potrait of <%= person.name %>" class="employee-photo" />
-              <h2 class="employee-name"><%= person.name %></h2>
-              <p class="employee-field minor"><%= person.title %></p>
+              <h2 class="text-heading-three"><%= person.name %></h2>
+              <p class="major"><%= person.title %></p>
             </div>
             <div class="employee-about">
-              <p class="minor"><strong><%= person.name.split(" ")[0] %> is an expert in:</strong> <br><%= person.areas %>.</p>
+              <p><strong><%= person.name.split(" ")[0] %> is an expert in:</strong> <br><%= person.areas %>.</p>
               <ul class="employee-contact">
                 <% if(person.contact.email) { %>
                 <li><span class="icon icon--monitor-black"></span><a class="email" onclick="location.href='mailto:<%= person.contact.email %>' + '@' + 'eastcoastproduct.com';" target="_blank">Email</a><noscript>This email is scripted to prevent spam. Please enable JavaScript to be able to send an email.</noscript></li>

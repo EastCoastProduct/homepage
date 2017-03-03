@@ -8,8 +8,8 @@
         <% collections.clients.forEach(function(client){ %>
         <% if(client.id == 'sna') {} else { %>
           <article class="clients--container-info">
-            <h1><a href="../case_study/<%= client.id %>"><%- client.pageHeading %></a></h1>
-            <h2><%- client.clientName %></h2>
+            <h1 class="text-heading-one"><a href="../case_study/<%= client.id %>"><%- client.pageHeading %></a></h1>
+            <h2 class="text-heading-two"><%- client.clientName %></h2>
             <div class="clients--image-container light-gray-mask angle-edge-mask bottom-left" style="background-color: #<%= client.brandColor %>;">
               <img src="<%= client.leadImage %>" alt="A screenshot from the <%= client.clientName %> project." />
             </div>
