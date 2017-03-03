@@ -45,6 +45,7 @@ header {
   a {
     margin: 0 0.5rem;
     border-bottom-color: rgba($lightest, 0.2);
+    text-shadow: rgba($darkest, 1) 0 10px 20px;
 
     &.link {
       line-height: 1.5;
@@ -64,6 +65,10 @@ header {
 
 .page-heading {
   margin-top: 1.875rem;
+
+  h1, p {
+    text-shadow: rgba($darkest, 1) 0 10px 20px;
+  }
 }
 
 .header--image {
