@@ -6,53 +6,13 @@
 }
 
 @mixin bottom-left($color) {
-  $svg: str-replace("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 31' preserveAspectRatio='none' fill='#{$color}'%3e%3cpolygon points='0,0 100,30 100,31 0,31'/%3e%3c/svg%3e", "#", "%23");
+  $svg: str-replace("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 30' preserveAspectRatio='none' fill='#{$color}'%3e%3cpolygon points='0,0 100,30 0,30'/%3e%3c/svg%3e", "#", "%23");
 
   background-image: url($svg);
 }
 
 @mixin top-left($color) {
-  $svg: str-replace("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 31' preserveAspectRatio='none' fill='#{$color}'%3e%3cpolygon points='0,0 100,0 100,1 0,31'/%3e%3c/svg%3e", "#", "%23");
+  $svg: str-replace("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 30' preserveAspectRatio='none' fill='#{$color}'%3e%3cpolygon points='0,0 100,0 0,30'/%3e%3c/svg%3e", "#", "%23");
 
   background-image: url($svg);
-}
-
-@mixin bottom-left-mask($color) {
-  $svg: str-replace("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 31' preserveAspectRatio='none' fill='#{$color}'%3e%3cpolygon points='0,0 100,30 100,31 0,31'/%3e%3c/svg%3e", "#", "%23");
-
-  &:after {
-    bottom: 0px;
-    background-image: url($svg);
-  }
-}
-
-@mixin bottom-right-mask($color) {
-  $svg: str-replace("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 31' preserveAspectRatio='none' fill='#{$color}'%3e%3cpolygon points='0,30 100,0 100,31 0,31'/%3e%3c/svg%3e", "#", "%23");
-
-  &:after {
-    bottom: 0px;
-    background-image: url($svg);
-  }
-}
-
-@mixin before {
-  &:before {
-    content: "";
-    display: block;
-    height: 31px;
-    position: absolute;
-    left: 0; right: 0;
-    background-size: 100% 31px;
-  }
-}
-
-@mixin after {
-  &:after {
-    content: "";
-    display: block;
-    height: 31px;
-    position: absolute;
-    left: 0; right: 0;
-    background-size: 100% 31px;
-  }
 }

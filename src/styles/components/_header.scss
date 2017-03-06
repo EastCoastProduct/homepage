@@ -15,6 +15,7 @@ header {
     left: 0; right: 0;
     bottom: 0;
     @include bottom-left($lightest-gray);
+    background-size: cover;
     -webkit-filter: drop-shadow( rgba($darkest, 0.5) 0 -10px 20px );
             filter: drop-shadow( rgba($darkest, 0.5) 0 -10px 20px );
   }
