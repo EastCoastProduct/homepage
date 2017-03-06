@@ -15,24 +15,11 @@
     &.targetable {             @include top-left($yellow); }
   }
 
-  .top-right {
-    @include before;
-    &.dark-background {        @include top-right($dark-gray); }
-    &.yellow-tint-background { @include top-right($yellow); }
-  }
-
   .bottom-left {
     @include after;
     &.dark-background {        @include bottom-left($dark-gray); }
     &.yellow-tint-background { @include bottom-left($yellow); }
     &.targetable {             @include bottom-left($yellow); }
     &.light-gray-mask {        @include bottom-left-mask($light-gray); }
-  }
-
-  .bottom-right {
-    @include after;
-    &.dark-background {        @include bottom-right($dark-gray); }
-    &.yellow-tint-background { @include bottom-right($yellow); }
-    &.light-gray-mask {        @include bottom-right-mask($light-gray); }
   }
 }

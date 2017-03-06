@@ -3,8 +3,21 @@ header {
   background-image: linear-gradient(to bottom, $dark-gray, $light-gray);
   color: $lightest;
   padding-top: 1.875rem;
-  padding-bottom: 1px; // janky margin-negating hack
   -webkit-font-smoothing: antialiased;
+  position: relative;
+
+  &:after {
+    content: "";
+    display: inline-block;
+    height: 1.875rem;
+    position: absolute;
+    z-index: 1;
+    left: 0; right: 0;
+    bottom: 0;
+    @include bottom-left($lightest-gray);
+    -webkit-filter: drop-shadow( rgba($darkest, 0.5) 0 -10px 20px );
+            filter: drop-shadow( rgba($darkest, 0.5) 0 -10px 20px );
+  }
 }
 
 .main--navigation-logo {
@@ -14,9 +27,9 @@ header {
   width: 100%;
   max-width: 250px;
   padding-bottom: 20%;
-  margin: 0 auto;
+  margin: 0;
   border: none;
-  background: url(../images/logos/logo.svg) center center no-repeat;
+  background: url(../images/logos/logo.svg) left center no-repeat;
   background-size: contain;
   text-indent: -9999px;
   overflow: hidden;
@@ -35,7 +48,6 @@ header {
   display: inline-block;
   margin: 1.5rem 0 1.5rem 0;
   width: 100%;
-  text-align: center;
   font-family: Raleway, sans-serif;
   font-size: 1rem;
 
@@ -45,7 +57,7 @@ header {
     text-shadow: rgba($darkest, 1) 0 10px 20px;
 
     &.link {
-      line-height: 1.5;
+      line-height: 2;
     }
 
     &:hover {
@@ -54,7 +66,7 @@ header {
   }
 
   .button--major {
-    margin: 24px auto 0 auto;
+    margin: 24px 0 0 0;
     display: block;
     width: 70%
   }
@@ -79,6 +91,13 @@ header {
 }
 
 @media (min-width: 700px) {
+
+  header {
+
+    &:after {
+      height: 3.75rem;
+    }
+  }
 
   .main--navigation-logo {
     display: inline-block;

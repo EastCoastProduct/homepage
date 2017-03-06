@@ -5,40 +5,16 @@
   @return $string;
 }
 
-@mixin top-left($color) {
+@mixin bottom-left($color) {
   $svg: str-replace("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 31' preserveAspectRatio='none' fill='#{$color}'%3e%3cpolygon points='0,0 100,30 100,31 0,31'/%3e%3c/svg%3e", "#", "%23");
 
-  &:before {
-    top: -30px;
-    background-image: url($svg);
-  }
+  background-image: url($svg);
 }
 
-@mixin top-right($color) {
-  $svg: str-replace("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 31' preserveAspectRatio='none' fill='#{$color}'%3e%3cpolygon points='0,30 100,0 100,31 0,31'/%3e%3c/svg%3e", "#", "%23");
-
-  &:before {
-    top: -30px;
-    background-image: url($svg);
-  }
-}
-
-@mixin bottom-left($color) {
+@mixin top-left($color) {
   $svg: str-replace("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 31' preserveAspectRatio='none' fill='#{$color}'%3e%3cpolygon points='0,0 100,0 100,1 0,31'/%3e%3c/svg%3e", "#", "%23");
 
-  &:after {
-    bottom: -30px;
-    background-image: url($svg);
-  }
-}
-
-@mixin bottom-right($color) {
-  $svg: str-replace("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 31' preserveAspectRatio='none' fill='#{$color}'%3e%3cpolygon points='0,0 100,0 100,31 0,1'/%3e%3c/svg%3e", "#", "%23");
-
-  &:after {
-    bottom: -30px;
-    background-image: url($svg);
-  }
+  background-image: url($svg);
 }
 
 @mixin bottom-left-mask($color) {
