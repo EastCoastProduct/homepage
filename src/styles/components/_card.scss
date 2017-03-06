@@ -8,4 +8,38 @@
   p:last-child {
     margin-bottom: 0;
   }
+
+  img {
+    margin: 0.9375rem 0;
+    width: 100%;
+    max-width: 48.5%;
+  }
+}
+
+@media (min-width: 500px) {
+  .card {
+
+    img {
+      max-width: 31.333%;
+    }
+  }
+}
+
+@media (min-width: 700px) {
+  .card {
+
+    img {
+      max-width: 22.75%;
+    }
+
+    .card--hang-image-left {
+      margin: 0.375rem 3% 0.9375rem 0;
+      float: left;
+    }
+
+    .card--hang-image-right {
+      margin: 0.375rem 0 0.9375rem 3%;
+      float: right;
+    }
+  }
 }
