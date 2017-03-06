@@ -1,4 +1,4 @@
-footer {
+.footer--global {
   background-color: $dark-gray;
   background-image: linear-gradient(to top, $dark-gray, $light-gray);
   color: $lightest;
@@ -74,14 +74,8 @@ footer {
   }
 }
 
-.reverse-email {
-  unicode-bidi: bidi-override;
-  direction: rtl;
-  white-space: nowrap;
-}
-
 @media (min-width: 700px) {
-  footer {
+  .footer--global {
     padding-top: 7.5rem;
     &:before {
       height: 3.75rem;

@@ -85,7 +85,7 @@
   /* Submit buttons (selectors for all non-CTA buttons)
      ========================================================================== */
   .hs-form input[type="submit"] {
-    @extend .button;
+    @extend .button--default;
   }
 }
 

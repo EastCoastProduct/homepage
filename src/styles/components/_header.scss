@@ -1,4 +1,4 @@
-header {
+.header--global {
   background-color: $dark-gray;
   background-image: linear-gradient(to bottom, $dark-gray, $light-gray);
   color: $lightest;
@@ -45,7 +45,7 @@ header {
   border-bottom-color: $lightest !important;
 }
 
-.navigation {
+.navigation--global {
   display: inline-block;
   margin: 1.5rem 0 1.5rem 0;
   width: 100%;
@@ -63,6 +63,11 @@ header {
 
     &:hover {
       border-bottom-color: $lightest;
+    }
+
+    &.button--major {
+      text-shadow: none;
+      -webkit-font-smoothing: subpixel-antialiased;
     }
   }
 
@@ -93,7 +98,7 @@ header {
 
 @media (min-width: 700px) {
 
-  header {
+  .header--global {
 
     &:after {
       height: 3.75rem;
@@ -108,7 +113,7 @@ header {
     text-align: left;
   }
 
-  .navigation {
+  .navigation--global {
     display: block;
     width: 69%;
     margin: 2% 0 0 0;

@@ -1,0 +1,11 @@
+.card {
+  background-color: $lightest;
+  padding: 0.9375rem 0.9375rem 1.125rem 0.9375rem;
+  margin-bottom: 1.875rem;
+  border-radius: 6px;
+  box-shadow: rgba($darkest, 0.15) 0 10px 20px;
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
