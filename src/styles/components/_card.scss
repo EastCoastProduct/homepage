@@ -4,6 +4,8 @@
   margin-bottom: 1.875rem;
   border-radius: 6px;
   box-shadow: rgba($darkest, 0.15) 0 10px 20px;
+  list-style-type: none; // if <li>
+  margin-left: 0; // if <li>
 
   p:last-child {
     margin-bottom: 0;

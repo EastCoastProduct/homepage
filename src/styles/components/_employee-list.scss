@@ -1,0 +1,53 @@
+.employee-list {
+  margin: 0 auto;
+  max-width: 100%;
+  font-size: 0;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+
+  .employee {
+    display: block;
+    vertical-align: top;
+    width: 100%;
+    margin: 0 0 3% 0;
+    text-align: left;
+  }
+
+  .employee-photo {
+    width: 100% !important;
+  }
+
+  .employee-name {
+    margin-bottom: 0;
+  }
+
+  .employee-bio {
+    width: 100%;
+  }
+}
+
+@media (min-width: 550px) {
+  .employee-list {
+
+    .employee {
+      width: 48.5%;
+
+      &:nth-child(2n) { margin-right: 0 !important; }
+    }
+  }
+}
+
+@media (min-width: 800px) {
+  .employee-list {
+
+    .employee {
+      width: 31.333%;
+      margin-right: 3%;
+
+      &:nth-child(3n) {
+        margin-right: 0;
+      }
+    }
+  }
+}

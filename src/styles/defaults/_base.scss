@@ -222,6 +222,17 @@ section {
     margin-bottom: 1.5rem; // 24px
   }
 
+  .list--minor {
+    font-size: 0.8125rem;  // 13px
+    line-height: 1.846;    // 24px
+    margin-bottom: 1.5rem; // 24px
+
+    li {
+      margin-left: 0.8125rem;    // 16px
+      margin-bottom: 0.1875rem; // 3px
+    }
+  }
+
   .text-heading-one {
     font-size: 2.25rem;       // 36px
     line-height: 1.333;       // 48px
