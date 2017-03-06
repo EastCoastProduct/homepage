@@ -7,4 +7,4 @@ template: partials/service.ejs
 sortOrder: 3
 ---
 
-<a class="button button-default" href="../contact#experts">Talk to us</a>
+<a class="button--default" href="../contact#experts">Talk to an expert</a>
