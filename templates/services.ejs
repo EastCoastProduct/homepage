@@ -3,7 +3,8 @@
   <% include partials/head %>
   <body>
     <% include partials/header %>
-      <div class="services--list">
+    <main>
+      <section class="services--list">
       <% collections.services.forEach(function(service) { %>
         <article class="services--container targetable" id="<%= service.id %>">
           <div class="container">
@@ -13,7 +14,8 @@
           </div>
         </article>
       <% }) %>
-      </div>
+      </section>
+    </main>
     <% include partials/footer %>
   </body>
 </html>

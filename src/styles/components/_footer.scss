@@ -2,13 +2,18 @@ footer {
   background-color: $dark-gray;
   background-image: linear-gradient(to top, $dark-gray, $light-gray);
   color: $lightest;
+  padding-top: 1.875rem;
   padding-bottom: 1px; // janky margin-negating hack
   -webkit-font-smoothing: antialiased;
-
 
   a {
     border-bottom-color: rgba($lightest, 0.2) !important;
     line-height: 1.8;
+  }
+
+  li {
+    list-style-type: none;
+    margin-left: 0;
   }
 }
 
@@ -61,6 +66,10 @@ footer {
 }
 
 @media (min-width: 700px) {
+  footer {
+    padding-top: 4.375rem;
+  }
+
   .split-container {
     display: inline-block;
     width: 48%;
