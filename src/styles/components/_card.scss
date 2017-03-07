@@ -21,6 +21,10 @@
     width: 100%;
     max-width: 48.5%;
   }
+
+  .button--default:last-child {
+    margin-bottom: 0.9375rem;
+  }
 }
 
 @media (min-width: 500px) {
