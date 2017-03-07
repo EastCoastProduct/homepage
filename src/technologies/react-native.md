@@ -12,7 +12,7 @@ id: react_native
 layout: technology.ejs
 ---
 
-<div class="services--container-image right">
+<div class="card-image--hang-right-wide">
   <img src="../../images/technology-icons/react-native-icon.svg" alt="Icon for a React Native project running on a smartphone." />
 </div>
 
