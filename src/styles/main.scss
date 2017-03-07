@@ -1,13 +1,13 @@
-//Fonts
-@import 'shared/fonts';
-
 //Base styles
+@import 'defaults/fonts';
 @import 'defaults/variables';
 @import 'defaults/mixins';
 @import 'defaults/normalize';
 @import 'defaults/base';
 
 //Component styles
+@import 'components/buttons';
+@import 'components/icons';
 @import 'components/footer';
 @import 'components/header';
 @import 'components/card';
@@ -17,10 +17,6 @@
 @import 'components/value-list';
 @import 'components/job-list';
 
-@import 'components/work';
 @import 'components/contact-form';
+@import 'components/work';
 @import 'components/case-study';
-
-//Shared styles
-@import 'shared/buttons';
-@import 'shared/icons';
