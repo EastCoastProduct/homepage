@@ -26,14 +26,14 @@
         <div class="header--image">
           <img src="<%- pageHeadingImage %>" alt="<%- pageHeadingImageAlt %>"/>
         </div>
-      <% } else{ %>
+      <% } else { %>
         <h1 class="page-heading--title"><%- pageHeading %></h1>
         <% if(pageDescription) { %>
           <p class="page-heading--subtitle"><%- pageDescription %></p>
         <% } %>
-        <% if(layout != "case-study.ejs" && pageHeadingImage) { %>
+        <% if(pageHeadingImage) { %>
           <div class="header--image">
-            <img src="<%- pageHeadingImage %>" alt="<%- pageHeadingImageAlt %>"/>
+            <img src="<%- level %>/<%- pageHeadingImage %>" alt="<%- pageHeadingImageAlt %>"/>
           </div>
         <% } %>
       <% } %>

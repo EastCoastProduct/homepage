@@ -14,7 +14,7 @@
             <% if(work.id == 'sna') {} else { %>
             <li class="work card">
               <div class="work-image-wrap">
-                <img src="<%= work.leadImage %>" alt="picture" class="work-image" />
+                <img src="<%= work.pageHeadingImage %>" alt="A screenshot from the <%- work.projectName %> project." class="work-image" />
               </div>
               <h2 class="text-heading-two work-project-tagline"><a href="../work/<%= work.id %>"><%- work.pageHeading %></a></h2>
               <p class="work-client-name"><%- work.clientName %></p>

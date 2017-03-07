@@ -5,8 +5,9 @@ url: work/social-good-calendar/index.html
 pageHeading: Driving social engagement
 pageDescription: The Social Good Calendar
 clientName: City Awake and Timothy Smith Network
-projectName: The Social Good Calendar
-leadImage: ../images/work-shots/tsn-screenshot@2x.png
+projectName: Social Good Calendar
+pageHeadingImage: ../images/work-shots/tsn-screenshot@2x.png
+pageHeadingImageAlt: A screenshot from the Social Good Calendar project.
 id: social-good-calendar
 brandColor: 43AEE6
 introduction: East Coast Product partnered with a City of Boston community initiative led by City Awake and the Timothy Smith Network (TSN) to build out a Social Impact Calendar, an app that serves to connect the people of Boston, especially black and latino youth with community events and services.

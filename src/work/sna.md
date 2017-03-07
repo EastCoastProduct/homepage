@@ -6,7 +6,8 @@ pageHeading: Future-proofing a SaaS platform
 pageDescription: Safety NetAccess
 clientName: Safety NetAccess
 projectName: Safety NetAccess
-leadImage: ../images/work-shots/sna-screenshot@2x.png
+pageHeadingImage: ../images/work-shots/sna-screenshot@2x.png
+pageHeadingImageAlt: A screenshot from the Safety NetAccess project.
 id: sna
 brandColor: 8E2030
 introduction: Since 2001, Safety NetAccess(SNA) has been designing, building and supporting wireless networks for hotels, resorts and other public properties. Their flagship product, SNAP, is a hotel internet management software responsible for connecting millions of users and thousands of hotels every year.

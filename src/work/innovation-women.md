@@ -6,7 +6,8 @@ pageHeading: From vision to MVP in 3 weeks
 pageDescription: Innovation Women
 clientName: Innovation Women
 projectName: Innovation Women
-leadImage: ../images/work-shots/innovation-women-screenshot@2x.png
+pageHeadingImage: ../images/work-shots/innovation-women-screenshot@2x.png
+pageHeadingImageAlt: A screenshot from the Innovation Women project.
 id: innovation-women
 brandColor: EE1B19
 introduction: Innovation Women is a speaker’s bureau for qualified women to promote their expertise and stories and for event planners to find and book those women for events. Innovation Women rose out of the glaring problem of male-dominated panels at technical and entrepreneurial events.

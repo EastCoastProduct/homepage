@@ -6,7 +6,8 @@ pageHeading: Rebuilding for scale
 pageDescription: Vsnap
 clientName: Vsnap
 projectName: Vsnap
-leadImage: ../images/work-shots/vsnap-screenshot@2x.png
+pageHeadingImage: ../images/work-shots/vsnap-screenshot@2x.png
+pageHeadingImageAlt: A screenshot from the Vsnap project.
 id: vsnap
 brandColor: 7FB22A
 introduction: Vsnap is a video messaging platform for inside sales. The app’s mission is to humanize sales interactions to build sustained business relationships. To use the app, sales representatives record up to a 60-second video message that can include attachments or a note to the recipient. Sales reps just need to know the email address of the recipient to make sure the video message is received.
