@@ -16,7 +16,7 @@ published: true
 layout: job.ejs
 ---
 
-<p>If you are interested in becoming part of a growing team of JavaScript experts, growing your career, and building innovative and modern web applications for clients around the world: consider joining our office in <a href="https://www.google.com/maps/place/Krbavska+ul.+29,+21000,+Split,+Croatia/@43.514593,16.4737064,17z/data=!3m1!4b1!4m5!3m4!1s0x13355e39fd8c4791:0xce7e5e471f917427!8m2!3d43.514593!4d16.4758951" target="_blank">Split, Croatia</a>!</p>
+<p>If you are interested in becoming part of a growing team of JavaScript experts, growing your career, and building innovative and modern web applications for clients around the world: consider joining our office in Split, Croatia!</p>
 
 <p>We are looking to bring on motivated, talented individuals who share our passion for learning and JavaScript. At East Coast Product, building a diverse team with a positive work culture has always been a top priority. Since our founding, we have fostered a stimulating and motivating work environment. With our sights set on employee satisfaction, we provide our team members with everything they will need grow their skills and expand their career.</p>
 

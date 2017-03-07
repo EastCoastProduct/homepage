@@ -16,7 +16,7 @@ published: true
 layout: job.ejs
 ---
 
-<p>We want to meet junior Product Designers in <a href="https://www.google.com/maps/place/51+Melcher+St,+Boston,+MA+02210/@42.3492404,-71.0522346,17z/data=!3m1!4b1!4m5!3m4!1s0x89e37a7fd91a79e3:0xcd8cefbf58725cf!8m2!3d42.3492404!4d-71.0500459" target="_blank">Boston, MA</a> as we build our design team.</p>
+<p>We want to meet junior Product Designers in Boston, MA as we build our design team.</p>
 
 <p>The ideal candidate is still near the beginning of their career in design. They have a background in visual design or UX and some experience designing and building for the modern web. A fascination with the practices and processes of human-centered design are a must.</p>
 

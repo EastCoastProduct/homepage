@@ -36,13 +36,15 @@
 @media (min-width: 700px) {
   .card {
 
-    p {
+    p,
+    ul {
       width: 74.25%;
-
-      &.paragraph--major {
-        width: 100%;
-      }
     }
+
+    .paragraph--major {
+      width: 100%;
+    }
+
 
     img {
       margin: 0 0 1.875rem 0;
