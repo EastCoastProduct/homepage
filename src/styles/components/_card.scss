@@ -6,6 +6,7 @@
   box-shadow: rgba($darkest, 0.15) 0 10px 20px;
   list-style-type: none; // if <li>
   margin-left: 0; // if <li>
+  overflow: hidden; // mask images that run to edges
 
   p:last-child {
     margin-bottom: 0;

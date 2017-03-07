@@ -22,7 +22,9 @@
           <ul class="employee-list">
             <% collections.person.forEach(function(person){ %>
             <li class="employee card">
-              <img src="../images/photos/team/<%= person.id%>.jpg" alt="Potrait of <%= person.name %>" class="employee-photo" />
+              <div class="employee-photo-wrap">
+                <img src="../images/photos/team/<%= person.id%>.jpg" alt="Potrait of <%= person.name %>" class="employee-photo" />
+              </div>
               <h2 class="text-heading-two employee-name"><%= person.name %></h2>
               <h3 class="paragraph--minor employee-title"><%= person.title %></h3>
               <p class="paragraph--minor employee-bio"><%= person.bio %></p>
