@@ -25,6 +25,13 @@
   .employee-bio {
     width: 100%;
   }
+
+  .employee-contact {
+    li {
+      list-style-type: none;
+      margin-left: 0;
+    }
+  }
 }
 
 @media (min-width: 550px) {
@@ -34,6 +41,14 @@
       width: 48.5%;
 
       &:nth-child(2n) { margin-right: 0 !important; }
+    }
+  }
+}
+
+@media (min-width: 700px) {
+  .employee-contact {
+    li .icon {
+      top: 2px;
     }
   }
 }
