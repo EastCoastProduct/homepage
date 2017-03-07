@@ -49,8 +49,17 @@
           <header class="section--header">
             <h1 class="text-heading-one">Our Values</h1>
           </header>
-          <div class="card">
-          </div>
+          <ul class="value-list">
+            <% collections.values.forEach(function(value) { %>
+            <li class="value card">
+              <div class="value-image-wrap">
+                <img src="<%= value.image %>" alt="picture" class="value-image" />
+              </div>
+              <h2 class="text-heading-two"><%= value.title %></h2>
+              <p><%= value.description %></p>
+            </li>
+            <% }) %>
+          </ul>
         </div><!-- end of .container -->
       </section>
       <section>
@@ -70,25 +79,6 @@
           <div class="card">
           </div>
         </div><!-- end of .container -->
-      </section>
-      <section>
-        <div class="container">
-          <article>
-            <h1 class="text-heading-one">Values</h1>
-            <% collections.values.forEach(function(value) { %>
-              <figure class="block-column-3">
-              <div class="values-image-container">
-                <img src="<%= value.image %>"
-                  alt="picture" />
-              </div>
-              <figcaption>
-                <h2 class="text-heading-two"><%= value.title %></h2>
-                <p class="minor"><%= value.description %></p>
-              </figcaption>
-            </figure>
-            <% }) %>
-          </article>
-        </div>
       </section>
     </main>
     <% include partials/footer %>
