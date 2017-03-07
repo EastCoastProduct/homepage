@@ -64,11 +64,6 @@
     &:hover {
       border-bottom-color: $lightest;
     }
-
-    &.button--major {
-      text-shadow: none;
-      -webkit-font-smoothing: subpixel-antialiased;
-    }
   }
 
   .button--major {
