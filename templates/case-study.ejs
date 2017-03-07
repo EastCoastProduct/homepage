@@ -3,33 +3,49 @@
   <% include partials/head %>
   <body>
     <% include partials/header %>
-    <div class="case_image light-gray-mask angle-edge-mask bottom-right" style="background-color: #<%= brandColor %>;">
-      <img src="../<%= leadImage %>" alt="A screenshot from the  <%= clientName %> project." />
-    </div>
     <main>
-      <section class="case--content-container">
+      <div style="background-color: #<%= brandColor %>;">
+        <img src="../<%= leadImage %>" alt="A screenshot from the  <%= clientName %> project." />
+      </div>
+      <section>
         <div class="container">
-          <%- contents %>
+          <header class="section--header">
+            <h1 class="text-heading-one">Project introduction</h1>
+          </header>
+          <div class="card">
+            <p class="paragraph--major"><%- introduction %></p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container">
+          <div class="card">
+            <%- contents %>
+          </div>
         </div>
       </section>
       <% if(testimonialContent) { %>
-      <section class="case--comment-container">
+      <section>
         <div class="container">
-          <p><%= testimonialContent %></p>
-          <div class="case--comment-container-person">
-            <p><%= testimonialPerson %></p>
-            <p><%= testimonialPosition %></p>
+          <div class="card">
+            <p class="paragraph--major">“<%= testimonialContent %>”</p>
+            <div class="case--comment-container-person">
+              <p><%= testimonialPerson %><br>
+              &mdash; <%= testimonialPosition %></p>
+            </div>
           </div>
         </div>
       </section>
       <% } %>
-      <section class="case--content-download">
+      <section>
         <div class="container">
-          <h2 class="text-heading-two">Want to learn more?</h2>
-          <% if(pdf) { %>
-          <a href="../<%= pdf %>" class="button button-default-reverse case--content-download-pdf_button" target="_blank">Download a detailed case study (PDF)</a>
-          <% } %>
-          <a href="<%= level %>contact" class="button button-default-reverse">Get in touch</a>
+          <div class="card">
+            <h2 class="text-heading-two">Want to learn more?</h2>
+            <% if(pdf) { %>
+            <a href="../<%= pdf %>" class="button--default" target="_blank">Download a detailed case study (PDF)</a>
+            <% } %>
+            <a href="<%= level %>contact" class="button--default">Get in touch</a>
+          </div>
         </div>
       </section>
     </main>

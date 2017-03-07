@@ -4,7 +4,7 @@ level: ../
 titleTag: Work
 url: work/index.html
 pageHeading: Our clients and partners
-pageDescription: We believe that you’re the sum of the people you surround yourself with, and we’ve had the privilege to surround ourselves with some of the best.
+pageDescription: We’ve had the privilege to work with some amazing people. Here are our favorites.
 pageHeadingImage:
 pageHeadingImageAlt:
 layout: work.ejs

@@ -64,11 +64,13 @@
     font-size: 1.25rem;
   }
 
-  .button--default {
-    .text-heading-one + &,
-    .text-heading-two + &,
-    .text-heading-three + & {
-      float: right;
+  .section--heading { // move buttons to right of heading on home page
+    .button--default {
+      .text-heading-one + &,
+      .text-heading-two + &,
+      .text-heading-three + & {
+        float: right;
+      }
     }
   }
 }

@@ -1,25 +1,21 @@
 ---
 level: ../../
 titleTag: Innovation Women
-url: case_study/innovation_women/index.html
+url: work/innovation-women/index.html
 pageHeading: From vision to MVP in 3 weeks
 pageDescription: Innovation Women
-listingDescription: Innovation Women set out to solve the glaring issue of male-dominated panels at tech events. Their marketing platform connects amazing women in tech and enterprise with event planners. Our team nailed down MVP feature requirement and delivered the Innovation Women platform in 3 weeks.
 clientName: Innovation Women
 projectName: Innovation Women
-leadImage: ../images/case-study-shots/innovation-women-screenshot@2x.png
-id: innovation_women
+leadImage: ../images/work-shots/innovation-women-screenshot@2x.png
+id: innovation-women
 brandColor: EE1B19
+introduction: Innovation Women is a speaker’s bureau for qualified women to promote their expertise and stories and for event planners to find and book those women for events. Innovation Women rose out of the glaring problem of male-dominated panels at technical and entrepreneurial events.
 testimonialPerson: Bobbie Carlton
 testimonialPosition: Founder of Innovation Women
 testimonialContent: I loved being intimately tied to the process. I knew what was going on every step of the way. It wasn’t a black box you put time, money, and effort into.
-pdf: ../images/case-study-pdfs/innovation-women-case-study.pdf
+pdf: ../images/work-pdfs/innovation-women-case-study.pdf
 layout: case-study.ejs
 ---
-
-<h2 class="text-heading-two">Intro</h2>
-
-<p class="paragraph--major">Innovation Women is a speaker’s bureau for qualified women to promote their expertise and stories and for event planners to find and book those women for events. Innovation Women rose out of the glaring problem of male-dominated panels at technical and entrepreneurial events.</p>
 
 <h2 class="text-heading-two">Challenge</h2>
 

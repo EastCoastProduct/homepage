@@ -35,8 +35,8 @@ Metalsmith(__dirname)
     values: {
       pattern: '_values/*.md'
     },
-    clients: {
-      pattern: 'case_study/*.md'
+    work: {
+      pattern: 'work/*.md'
     },
     jobs: {
       pattern: 'jobs/*.md'
