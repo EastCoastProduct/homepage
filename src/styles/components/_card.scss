@@ -8,7 +8,8 @@
   margin-left: 0; // if <li>
   overflow: hidden; // mask images that run to edges
 
-  p:last-child {
+  p:last-child,
+  ul:last-child {
     margin-bottom: 0;
   }
 

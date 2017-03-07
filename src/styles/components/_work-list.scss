@@ -23,10 +23,6 @@
     margin: 0;
   }
 
-  .work-project-tagline {
-    margin-bottom: 0;
-  }
-
   p,
   ul {
     width: 100%;
@@ -40,18 +36,6 @@
       width: 48.5%;
 
       &:nth-child(2n) { margin-right: 0; }
-    }
-  }
-}
-
-@media (min-width: 700px) {
-  .work-list {
-
-    .work {
-      width: 31.333%;
-
-      &:nth-child(2n) { margin-right: auto; }
-      &:nth-child(3n) { margin-right: 0; }
     }
   }
 }
