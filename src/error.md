@@ -7,6 +7,6 @@ pageHeading: Lost?
 pageDescription: That's ok, let's get you back on track.
 pageHeadingImage:
 pageHeadingImageAlt:
-layout: 404.ejs
+layout: error.ejs
 permalink: false
 ---
