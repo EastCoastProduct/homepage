@@ -4,7 +4,7 @@
   <body>
     <% include partials/header %>
     <main>
-      <section>
+      <section id="introduction">
         <div class="container">
           <header class="section--header">
             <h1 class="text-heading-one">Project introduction</h1>
@@ -14,7 +14,7 @@
           </div>
         </div>
       </section>
-      <section>
+      <section id="contents">
         <div class="container">
           <div class="card">
             <%- contents %>
@@ -22,7 +22,7 @@
         </div>
       </section>
       <% if(testimonialContent) { %>
-      <section>
+      <section id="testimonial">
         <div class="container">
           <div class="card">
             <p class="paragraph--major">“<%= testimonialContent %>”</p>
@@ -34,7 +34,7 @@
         </div>
       </section>
       <% } %>
-      <section>
+      <section id="download">
         <div class="container">
           <div class="card">
             <h2 class="text-heading-two">Want to learn more?</h2>
