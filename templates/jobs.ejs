@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <% include partials/head %>
+  <body>
+    <% include partials/header %>
+    <main>
+      <section id="jobs">
+        <div class="container">
+          <header class="section--header">
+            <h1 class="text-heading-one">Jobs</h1>
+          </header>
+          <ul>
+            <% collections.jobs.forEach(function(job) { %>
+            <% if(job.published == true) { %>
+            <li class="job card">
+              <h2 class="text-heading-two"><a href="../jobs/<%= job.id %>"><%= job.pageHeading %></a></h2>
+              <p>Location: <%- job.pageDescription %></p>
+            </li>
+            <% } %>
+            <% }) %>
+          </ul>
+      </section>
+    </main>
+    <% include partials/footer %>
+  </body>
+</html>
