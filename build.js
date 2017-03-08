@@ -1,20 +1,18 @@
-var Metalsmith  = require('metalsmith'),
-    serve       = require('metalsmith-serve'),
-    metadata    = require('metalsmith-metadata'),
-    excerpts    = require('metalsmith-excerpts'),
-    branch      = require('metalsmith-branch'),
-    markdown    = require('metalsmith-markdown'),
-    layouts     = require('metalsmith-layouts'),
-    collections = require('metalsmith-collections'),
-    permalinks  = require('metalsmith-permalinks'),
-    sass        = require('metalsmith-sass'),
-    sitemap     = require('metalsmith-mapsite'),
-    ignore      = require('metalsmith-ignore'),
-
-templateConf = {
-  engine: 'ejs',
-  directory: './templates/'
-};
+const Metalsmith = require('metalsmith')
+const serve = require('metalsmith-serve')
+const metadata = require('metalsmith-metadata')
+const excerpts = require('metalsmith-excerpts')
+const branch = require('metalsmith-branch')
+const markdown = require('metalsmith-markdown')
+const layouts = require('metalsmith-layouts')
+const collections = require('metalsmith-collections')
+const permalinks = require('metalsmith-permalinks')
+const sass = require('metalsmith-sass')
+const sitemap = require('metalsmith-mapsite')
+const ignore = require('metalsmith-ignore')
+const fingerprint = require('metalsmith-fingerprint')
+const cleanCSS = require('metalsmith-clean-css')
+const htmlMinifier = require('metalsmith-html-minifier')
 
 Metalsmith(__dirname)
   .clean(true)
@@ -59,10 +57,23 @@ Metalsmith(__dirname)
     hostname:  'https://eastcoastproduct.com',
     omitIndex: true
   }))
-  .use(layouts(templateConf))
   .use(sass({
     outputStyle: 'expanded',
   }))
+  .use(cleanCSS({
+    files: 'styles/*.css',
+    cleanCSS: {
+      rebase: false
+    }
+  }))
+  .use(fingerprint({
+    pattern: 'styles/*.css'
+  }))
+  .use(layouts({
+    engine: 'ejs',
+    directory: './templates/'
+  }))
+  .use(htmlMinifier())
   .use(serve({
     http_error_files: {
       404: "/error.html"
