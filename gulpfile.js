@@ -41,14 +41,7 @@ gulp.task('delete-build', function() {
   ]);
 });
 
-gulp.task('build', ['metalsmith'], function() {
-  return gulp.src('build/styles/*.css')
-    .pipe(cleanCSS())
-    .pipe(rename({
-      suffix: '.min'
-    }))
-    .pipe(gulp.dest('build/styles/'));
-});
+gulp.task('build', ['metalsmith']);
 
 gulp.task('metalsmith', ['delete-build'], shell.task([
   'node build.js --exit'
