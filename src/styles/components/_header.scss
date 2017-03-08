@@ -12,10 +12,11 @@
     height: 1.875rem;
     position: absolute;
     z-index: 1;
-    left: 0; right: 0;
+    left: 0;
+    right: 0;
     bottom: 0;
     @include bottom-left($lightest-gray);
-    background-size: cover;
+    background-size: 100% 100%;
     -webkit-filter: drop-shadow( rgba($darkest, 0.5) 0 -10px 20px );
             filter: drop-shadow( rgba($darkest, 0.5) 0 -10px 20px );
   }
