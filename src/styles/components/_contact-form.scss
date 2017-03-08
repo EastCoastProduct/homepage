@@ -33,22 +33,22 @@
   .hs-form input[type="tel"],
   .hs-form textarea,
   .hs-form select {
-      line-height: 3rem;
+      -webkit-appearance:none;
       height: 3rem;
-      padding: 0 !important;
+      padding: 0 0.5rem !important;
       background-color: #fff;
       border-radius: 6px;
       border: 6px solid rgba($blue, 0.3);
       font-family: inherit;
       font-size: 1rem;
-      text-indent: 0.5em;
       width: 100%;
       transition: all 0.2s linear;
   }
 
   .hs-form textarea {
-    line-height: 1.5;
+    line-height: 1.846;
     min-height: 10rem;
+    padding: 0.5rem important;
   }
 
   .hs-form select {
