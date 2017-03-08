@@ -24,17 +24,23 @@
             filter: drop-shadow( rgba($darkest, 0.5) 0 10px 20px );
   }
 
-  a {
-    border-bottom-color: rgba($lightest, 0.2);
-
-    &:hover {
-      border-bottom-color: $lightest;
-    }
+  .text-heading-two,
+  p,
+  li a {
+    text-shadow: rgba($darkest, 1) 0 10px 20px;
   }
 
   li {
     list-style-type: none;
     margin-left: 0;
+
+    a {
+      border-bottom-color: rgba($lightest, 0.2);
+
+      &:hover {
+        border-bottom-color: $lightest;
+      }
+    }
   }
 
   section {
