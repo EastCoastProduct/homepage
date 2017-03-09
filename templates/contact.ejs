@@ -42,7 +42,7 @@
           </header>
           <ul class="employee-list">
             <% collections.person.forEach(function(person){ %>
-            <% if(person.numberId == 1 || person.numberId == 2 || person.numberId == 3) { %>
+            <% if(person.id == "chris-swenor" || person.id == "ivan-blazevic" || person.id == "steve-hickey") { %>
             <li class="employee card">
               <div class="employee-photo-wrap">
                 <img src="../images/photos/team/<%= person.id%>.jpg" alt="Potrait of <%= person.name %>" class="employee-photo" />

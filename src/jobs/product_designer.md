@@ -7,10 +7,7 @@ pageDescription: Boston, MA
 pageHeadingImage: null
 pageHeadingImageAlt: null
 id: product_designer
-hiringContactFirstName: Steve
-hiringContactLastName: Hickey
-hiringContactPosition: Director of Product Design & Experience
-hiringContactEmail: steve@eastcoastproduct.com
+hiringContactId: steve-hickey
 published: true
 layout: job.ejs
 ---

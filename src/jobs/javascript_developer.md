@@ -7,10 +7,7 @@ pageDescription: Split, Croatia
 pageHeadingImage: null
 pageHeadingImageAlt: null
 id: javascript_developer
-hiringContactFirstName: Ivan
-hiringContactLastName: Blazevic
-hiringContactPosition: CTO & Cofounder
-hiringContactEmail: ivan@eastcoastproduct.com
+hiringContactId: ivan-blazevic
 published: true
 layout: job.ejs
 ---

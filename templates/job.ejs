@@ -15,8 +15,12 @@
         <div class="container">
           <div class="card">
             <h2 class="text-heading-two">How To Apply</h2>
-            <p>Please email our <%= hiringContactPosition %>, <%= hiringContactFirstName %> <%= hiringContactLastName %></a>, if you’re interested in applying for the position.</p>
-            <a href="mailto:<%= hiringContactEmail %>" class="button--default" target="_blank">Email <%= hiringContactFirstName %></a>
+            <% collections.person.forEach(function(person){ %>
+            <% if(person.id == hiringContactId) { %>
+            <p>Please email our <%= person.title %>, <%= person.name %></a>, if you’re interested in applying for the position.</p>
+            <a href="mailto:<%= person.contact.email %>@eastcoastproduct.com" class="button--default" target="_blank">Email <%= person.name %></a>
+            <% } %>
+            <% }) %>
           </div>
         </div>
       </section>

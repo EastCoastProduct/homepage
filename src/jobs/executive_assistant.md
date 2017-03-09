@@ -7,10 +7,7 @@ pageDescription: Boston, MA
 pageHeadingImage: null
 pageHeadingImageAlt: null
 id: executive_assistant
-hiringContactFirstName: Chris
-hiringContactLastName: Swenor
-hiringContactPosition: CEO & Cofounder
-hiringContactEmail: chris@eastcoastproduct.com
+hiringContactId: chris-swenor
 published: true
 layout: job.ejs
 ---
