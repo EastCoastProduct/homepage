@@ -4,44 +4,10 @@
   <body>
     <% include partials/header %>
     <main>
-      <section id="introduction">
-        <div class="container">
-          <header class="section--header">
-            <h1 class="text-heading-one">Project introduction</h1>
-          </header>
-          <div class="card">
-            <p class="paragraph--major"><%- introduction %></p>
-          </div>
-        </div>
-      </section>
       <section id="contents">
         <div class="container">
           <div class="card">
             <%- contents %>
-          </div>
-        </div>
-      </section>
-      <% if(testimonialContent) { %>
-      <section id="testimonial">
-        <div class="container">
-          <div class="card">
-            <p class="paragraph--major">“<%= testimonialContent %>”</p>
-            <div class="case--comment-container-person">
-              <p><%= testimonialPerson %><br>
-              &mdash; <%= testimonialPosition %></p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <% } %>
-      <section id="download">
-        <div class="container">
-          <div class="card">
-            <h2 class="text-heading-two">Want to learn more?</h2>
-            <% if(pdf) { %>
-            <a href="../<%= pdf %>" class="button--default" target="_blank">Download the PDF</a>
-            <% } %>
-            <a href="<%= level %>contact" class="button--default">Get in touch</a>
           </div>
         </div>
       </section>

@@ -11,14 +11,13 @@
           </header>
           <ul class="work-list">
             <% collections.work.forEach(function(work) { %>
-            <% if(work.id == 'sna') {} else { %>
+            <% if(work.published == true) { %>
             <li class="work card">
               <div class="work-image-wrap">
-                <img src="<%= work.pageHeadingImage %>" alt="A screenshot from the <%- work.projectName %> project." class="work-image" />
+                <img src="<%= work.pageHeadingImage %>" alt="A screenshot from the <%- work.pageHeading %> project." class="work-image" />
               </div>
               <h2 class="text-heading-two work-project-tagline"><a href="../work/<%= work.id %>"><%- work.pageHeading %></a></h2>
-              <p class="work-client-name"><%- work.clientName %></p>
-              <p class="paragraph--minor work-description"><%= work.introduction %></p>
+              <p class="paragraph--minor work-client-name"><%- work.pageDescription %></p>
             </li>
             <% } %>
             <% }) %>

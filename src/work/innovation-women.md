@@ -2,34 +2,33 @@
 level: ../../
 titleTag: Innovation Women
 url: work/innovation-women/index.html
-pageHeading: From vision to MVP in 3 weeks
-pageDescription: Innovation Women
-clientName: Innovation Women
-projectName: Innovation Women
+pageHeading: Innovation Women
+pageDescription: From vision to MVP in 3 weeks
 pageHeadingImage: ../images/work-shots/innovation-women-screenshot@2x.png
 pageHeadingImageAlt: A screenshot from the Innovation Women project.
 id: innovation-women
-brandColor: EE1B19
-introduction: Innovation Women is a speaker’s bureau for qualified women to promote their expertise and stories and for event planners to find and book those women for events. Innovation Women rose out of the glaring problem of male-dominated panels at technical and entrepreneurial events.
-testimonialPerson: Bobbie Carlton
-testimonialPosition: Founder of Innovation Women
-testimonialContent: I loved being intimately tied to the process. I knew what was going on every step of the way. It wasn’t a black box you put time, money, and effort into.
-pdf: ../images/work-pdfs/innovation-women-case-study.pdf
+published: true
 layout: case-study.ejs
 ---
 
-<h2 class="text-heading-two">Challenge</h2>
+<p class="paragraph--major">Innovation Women set out to solve the glaring problem of male-dominated panels at technical and entrepreneurial events. With a tight deadline but no tech team, Bobbie Carlton, founder of Innovation Women, approached East Coast Product to build out her dream. We worked closely with the Innovation Women team to fully understand the business plan and vision before diving directly into development. Working fast and staying agile through the development process was critical to the successful completion of the application. Together, we were able to beat the deadline with enough extra time to further test market fit and ensure all of the necessary features.</p>
 
-<p>The founder of Innovation Women, Bobbie Carlton, wanted to get an application up and running for women seeking out speaking opportunities, but she didn’t have the technical expertise to make the application a reality. Additionally, she had a three week deadline to design and build an MVP for Innovation Women. Despite a successful Kickstarter campaign to raise funds for development, a couple of false starts and the lack of a technical cofounder were barriers to translating the vision into a tangible product.</p>
+<h1 class="text-heading-one">MVP Development</h1>
 
-<h2 class="text-heading-two">Solution</h2>
+<p>We needed to ensure the feature set we were building was the feature set that users would both want and need. Performing a deep dive on the platform and the potential users helped us outline exactly what we needed to build.</p>
 
-<p>East Coast Product and Innovation Women worked closely with Bobbie to understand her business plan and vision because getting this application to MVP meant having a very open dialogue about the project. Working fast and being agile through design sprints and the development process was critical to the successful completion of the application. Open communication was critical to the success of the project. Additionally, the fast turn-around meant more time to test the overall concept and product-market-fit.</p>
+<h1 class="text-heading-one">Transparency</h1>
 
-<h2 class="text-heading-two">Key Tech</h2>
+<p>Bobbie Carlton and the her team at innovation women were not technology savvy. To address this and make them feel connected to the process we fostered completely transparent communication channels throughout the entire development cycle.</p>
+
+<h1 class="text-heading-one">Ruby on Rails</h1>
+
+<p>With a tight deadline, we had to work with the existing code base which was built primarily Ruby on Rails, a language that was out of our tech wheelhouse. By running lean, we had enough time to build the application all while training our staff to get up to speed on Ruby.</p>
+
+<h1 class="text-heading-one">Key Tech</h1>
 
 <ul>
-  <li>JavaScript</li>
+  <li><a href="../../technologies/javascript">JavaScript</a></li>
   <li>Rails 4.2</li>
   <li>Ruby 2.2.0</li>
   <li>Vagrant</li>
