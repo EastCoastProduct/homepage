@@ -42,10 +42,6 @@
   }
 }
 
-.current {
-  border-bottom-color: $lightest !important;
-}
-
 .navigation--global {
   display: inline-block;
   margin: 1.5rem 0 1.5rem 0;
@@ -72,6 +68,13 @@
     display: block;
     width: 70%
   }
+}
+
+.area-services .link-services,
+.area-work .link-work,
+.area-about .link-about,
+.area-jobs .link-jobs {
+  border-bottom-color: $lightest !important;
 }
 
 .page-heading {

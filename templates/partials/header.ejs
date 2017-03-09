@@ -2,26 +2,10 @@
   <div class="container ">
     <a href="<%- level %>" class="main--navigation-logo">East Coast Product</a>
     <nav class="navigation navigation--global">
-      <% if(titleTag == "Services") { %>
-        <a href="<%- level %>services" class="link current">Services</a>
-      <% } else { %>
-        <a href="<%- level %>services" class="link">Services</a>
-      <% } %>
-      <% if(titleTag == "Work") { %>
-        <a href="<%- level %>work" class="link current">Work</a>
-      <% } else { %>
-        <a href="<%- level %>work" class="link">Work</a>
-      <% } %>
-      <% if(titleTag == "About") { %>
-        <a href="<%- level %>about" class="link current">About</a>
-      <% } else { %>
-        <a href="<%- level %>about" class="link">About</a>
-      <% } %>
-      <% if(titleTag == "Jobs") { %>
-        <a href="<%- level %>jobs" class="link current">Jobs</a>
-      <% } else { %>
-        <a href="<%- level %>jobs" class="link">Jobs</a>
-      <% } %>
+      <a href="<%- level %>services" class="link link-services">Services</a>
+      <a href="<%- level %>work" class="link link-work">Work</a>
+      <a href="<%- level %>about" class="link link-about">About</a>
+      <a href="<%- level %>jobs" class="link link-jobs">Jobs</a>
       <a href="https://blog.eastcoastproduct.com" target="_blank" class="link">Blog</a>
       <a href="<%- level %>contact" class="button--major">Hire Us</a>
     </nav>
