@@ -6,9 +6,8 @@ pageHeading: React Native
 pageDescription: Building native experiences with the web tech we’re already experts in.
 pageHeadingImage: null
 pageHeadingImageAlt: null
-listingDescription: null
-leadImage: null
 id: react_native
+published: true
 layout: technology.ejs
 ---
 

@@ -6,9 +6,8 @@ pageHeading: Angular
 pageDescription: A complete frontend framework, maintained by Google.
 pageHeadingImage: null
 pageHeadingImageAlt: null
-listingDescription: null
-leadImage: null
 id: angular
+published: true
 layout: technology.ejs
 ---
 

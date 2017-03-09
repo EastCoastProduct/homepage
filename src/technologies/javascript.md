@@ -6,9 +6,8 @@ pageHeading: JavaScript
 pageDescription: Lightweight, powerful, and ubiquitous.
 pageHeadingImage: null
 pageHeadingImageAlt: null
-listingDescription: null
-leadImage: null
 id: javascript
+published: true
 layout: technology.ejs
 ---
 

@@ -6,7 +6,6 @@ pageHeading: Product Designer
 pageDescription: Boston, MA
 pageHeadingImage: null
 pageHeadingImageAlt: null
-listingDescription: null
 id: product_designer
 hiringContactFirstName: Steve
 hiringContactLastName: Hickey

@@ -6,9 +6,8 @@ pageHeading: React
 pageDescription: Helping us build truly great user interfaces.
 pageHeadingImage: null
 pageHeadingImageAlt: null
-listingDescription: null
-leadImage: null
 id: react
+published: true
 layout: technology.ejs
 ---
 

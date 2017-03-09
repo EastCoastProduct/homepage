@@ -1,11 +1,10 @@
 ---
-directory: services
 level: ../
 titleTag: Services
 url: services/index.html
 pageHeading: Services we offer
 pageDescription: We use continuous short bursts of execution to bring you quickly from a new idea to a great experience.
-pageHeadingImage:
-pageHeadingImageAlt:
+pageHeadingImage: null
+pageHeadingImageAlt: null
 layout: services.ejs
 ---

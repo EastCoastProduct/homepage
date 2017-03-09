@@ -6,7 +6,6 @@ pageHeading: JavaScript Developer
 pageDescription: Split, Croatia
 pageHeadingImage: null
 pageHeadingImageAlt: null
-listingDescription: null
 id: javascript_developer
 hiringContactFirstName: Ivan
 hiringContactLastName: Blazevic

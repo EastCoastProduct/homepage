@@ -6,9 +6,8 @@ pageHeading: Node.js
 pageDescription: It’s JavaScript, all the way down.
 pageHeadingImage: null
 pageHeadingImageAlt: null
-listingDescription: null
-leadImage: null
 id: node
+published: true
 layout: technology.ejs
 ---
 

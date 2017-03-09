@@ -6,7 +6,6 @@ pageHeading: Executive Assistant
 pageDescription: Boston, MA
 pageHeadingImage: null
 pageHeadingImageAlt: null
-listingDescription: null
 id: executive_assistant
 hiringContactFirstName: Chris
 hiringContactLastName: Swenor
