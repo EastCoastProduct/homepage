@@ -22,7 +22,11 @@
         <% } %>
         <% if(pageHeadingImage) { %>
           <div class="header--image">
-            <img src="<%- level %>/<%- pageHeadingImage %>" alt="<%- pageHeadingImageAlt %>"/>
+            <picture class="browser-chrome">
+              <span class="browser-buttons"></span>
+              <span class="browser-url-bar"></span>
+              <img src="<%- level %>/<%- pageHeadingImage %>" alt="<%- pageHeadingImageAlt %>"/>
+            </picture>
           </div>
         <% } %>
       <% } %>
