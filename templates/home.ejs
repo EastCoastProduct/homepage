@@ -40,10 +40,10 @@
           <div class="card targetable" id="<%= service.id %>">
             <h2 class="text-heading-two"><%= service.title %></h2>
             <% if(service.leadImage) { %>
-            <img src="<%= service.leadImage %>" alt="<%= service.title %>" class="card-image--hang-right-wide" />
+            <img src="<%= service.leadImage %>" alt="Illustration of equipment used for <%= service.title %>" class="card-image--hang-right-wide" />
             <% } %>
             <p><%= service.description %></p>
-            <a href="<%- level %>services/#<%= service.id %>" class="button--default">Learn more <span class="visually-hidden"><%= service.title %></span></a>
+            <a href="<%- level %>services/#<%= service.id %>" class="button--default">Learn more<span class="visually-hidden"> about <%= service.title %></span></a>
           </div>
           <% }) %>
         </div>
