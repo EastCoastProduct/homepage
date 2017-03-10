@@ -7,7 +7,7 @@ pageDescription: Future-Proofing a SaaS Platform
 pageHeadingImage: ../images/work-shots/sna-screenshot.png
 pageHeadingImageAlt: A screenshot from the Safety NetAccess project.
 id: sna
-published: true
+published: false
 layout: case-study.ejs
 ---
 
