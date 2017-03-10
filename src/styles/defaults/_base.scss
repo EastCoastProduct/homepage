@@ -123,27 +123,6 @@ section {
   &:last-child {
     margin-bottom: 0;
   }
-
-  .section--header {
-
-    .button--default {
-      margin-bottom: 1.5rem;
-    }
-
-    &:after { // clearfix
-      content: "";
-      display: table;
-      clear: both;
-    }
-
-    .text-heading-one,
-    .text-heading-two,
-    .text-heading-three {
-      //background-color: rgba(red, 0.5);
-      margin-right: 1rem;
-      margin-bottom: 0.375rem;
-    }
-  }
 }
 
 .container {
@@ -251,17 +230,6 @@ section {
 
     .section--header {
       margin-bottom: 0.5625rem;
-
-      .text-heading-one,
-      .text-heading-two,
-      .text-heading-three {
-        float: left;
-      }
-
-      .button--default {
-        float: right;
-        margin-bottom: 0;
-      }
     }
   }
 }

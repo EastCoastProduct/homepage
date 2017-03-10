@@ -47,3 +47,5 @@ sortOrder: 1
   <li><a href="/technologies/react-native/">React Native</a></li>
   <li><a href="/technologies/angular/">Angular</a></li>
 </ul>
+
+<a class="button--default" href="../contact">Ask about a managed project</a>
