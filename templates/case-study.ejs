@@ -13,5 +13,14 @@
       </section>
     </main>
     <% include partials/footer %>
+    <!-- browser controls easter egg -->
+    <script>
+      var toBeRemoved = document.getElementById("to-be-removed");
+      var closeBrowserButton = document.getElementById("close-browser-button");
+      closeBrowserButton.onclick = function() {
+        toBeRemoved.remove();
+      };
+    </script>
+    <!-- end of browser controls easter egg -->
   </body>
 </html>
