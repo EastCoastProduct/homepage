@@ -24,21 +24,25 @@
 
 .main--navigation-logo {
   display: block;
-  height: 0;
-  line-height: 0;
   width: 100%;
   max-width: 250px;
-  padding-bottom: 20%;
   margin: 0;
   border: none;
-  background: url(../images/logos/logo.svg) left center no-repeat;
-  background-size: contain;
-  text-indent: -9999px;
-  overflow: hidden;
+  transition: all 0.1s ease-in-out;
 
-  &:hover {
+  img {
+    -webkit-filter: drop-shadow( rgba($darkest, 1) 0 10px 20px );
+            filter: drop-shadow( rgba($darkest, 1) 0 10px 20px );
+  }
+
+  &:hover, &:focus {
     border: none;
     background-color: transparent !important;
+    transform: translate3d(0, -3px, 0);
+  }
+
+  &:active {
+    transform: translate3d(0, 3px, 0);
   }
 }
 
@@ -47,7 +51,7 @@
   margin: 1.5rem 0 1.5rem 0;
   width: 100%;
   font-family: Raleway, sans-serif;
-  font-size: 1rem;
+  font-size: 0.75rem;
 
   a {
     margin: 0 0.5rem;
@@ -66,7 +70,7 @@
   .button--major {
     margin: 24px 0 0 0;
     display: block;
-    width: 70%
+    width: 100%
   }
 }
 
@@ -85,6 +89,16 @@
   }
 }
 
+@media (min-width: 400px) {
+  .navigation--global {
+    font-size: 0.9375rem;
+
+    .button--major {
+      width: 75%;
+    }
+  }
+}
+
 @media (min-width: 700px) {
 
   .header--global {
@@ -98,8 +112,6 @@
     display: inline-block;
     width: 30%;
     margin: 0;
-    padding-bottom: 10%;
-    text-align: left;
   }
 
   .navigation--global {

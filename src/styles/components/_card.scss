@@ -28,6 +28,33 @@
   }
 }
 
+a.card { // use for cards that are a link
+  display: block;
+  transition: all 0.1s ease-in-out;
+  border: none;
+
+  &:hover,
+  &:focus {
+    border: none;
+    transform: translate3d(0, -3px, 0);
+    box-shadow: rgba($darkest, 0.2) 0 15px 30px;
+  }
+
+  &:active {
+    border: none;
+    box-shadow: rgba($darkest, 0.4) 0 5px 10px;
+  }
+
+  .link-surrogate {
+    border-bottom: 2px solid rgba($green, 0.5);
+    transition: all 0.2s linear;
+  }
+
+  &:hover .link-surrogate {
+    border-bottom: 2px solid rgba($green, 1);
+  }
+}
+
 @media (min-width: 500px) {
   .card {
 

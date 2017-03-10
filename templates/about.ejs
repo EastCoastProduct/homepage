@@ -78,16 +78,16 @@
           <header class="section--header">
             <h1 class="text-heading-one">Jobs</h1>
           </header>
-          <ul class="job-list">
+          <div class="job-list">
             <% collections.jobs.forEach(function(job) { %>
             <% if(job.published == true) { %>
-            <li class="job card">
-              <h2 class="text-heading-two"><a href="../jobs/<%= job.id %>"><%= job.pageHeading %></a></h2>
+            <a href="../jobs/<%= job.id %>" class="job card">
+              <h2 class="text-heading-two"><span class="link-surrogate"><%= job.pageHeading %></span></h2>
               <p>Location: <%- job.pageDescription %></p>
-            </li>
+            </a>
             <% } %>
             <% }) %>
-          </ul>
+          </div>
         </div><!-- end of .container -->
       </section>
     </main>
