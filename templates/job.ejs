@@ -6,14 +6,14 @@
     <main>
       <section id="contents">
         <div class="container">
-          <div class="card">
+          <div class="card targetable">
             <%- contents %>
           </div>
         </div>
       </section>
       <section id="apply">
         <div class="container">
-          <div class="card">
+          <div class="card targetable">
             <h2 class="text-heading-two">How To Apply</h2>
             <% collections.person.forEach(function(person){ %>
             <% if(person.id == hiringContactId) { %>

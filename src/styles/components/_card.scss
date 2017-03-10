@@ -55,6 +55,13 @@ a.card { // use for cards that are a link
   }
 }
 
+:target .card.targetable,
+.card.targetable:target {
+  box-shadow:
+    rgba($darkest, 0.15) 0 10px 20px,  // normal shadow
+    inset 0 0 0 4px rgba($yellow, 0.5); // targeted psuedo-border
+}
+
 @media (min-width: 500px) {
   .card {
 

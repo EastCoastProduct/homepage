@@ -10,7 +10,7 @@
             <h1 class="text-heading-one">Who we are</h1>
             <a href="<%- level %>about" class="button--default">Meet the team</a>
           </header>
-          <div class="card">
+          <div class="card targetable">
             <p class="paragraph--major">We are a group of expert designers, developers, and strategists. We work in small teams focused on only your project. We’ll find the right solutions to your challenges, together.</p>
           </div><!-- end of .card -->
         </div>
@@ -22,11 +22,11 @@
             <a href="<%- level %>work" class="button--default">Hear their stories</a>
           </header>
           <ul class="logo-grid">
-            <li id="innovationWomen" class="logo card">Innovation Women</li>
-            <li id="velir" class="logo card">Velir</li>
-            <li id="resilientCoders" class="logo card">Resilient Coders</li>
-            <li id="snapx" class="logo card">SNAPX</li>
-            <li id="cityAwake" class="logo card">City Awake</li>
+            <li id="innovationWomen" class="logo card targetable">Innovation Women</li>
+            <li id="velir" class="logo card targetable">Velir</li>
+            <li id="resilientCoders" class="logo card targetable">Resilient Coders</li>
+            <li id="snapx" class="logo card targetable">SNAPX</li>
+            <li id="cityAwake" class="logo card targetable">City Awake</li>
           </ul>
         </div>
       </section>
@@ -37,7 +37,7 @@
             <a href="<%- level %>services" class="button--default">Learn more <span class="visually-hidden">about what we do</span></a>
           </header>
           <% collections.services.forEach(function(service){ %>
-          <div class="services--container card">
+          <div class="card targetable">
             <h2 class="text-heading-two"><%= service.title %></h2>
             <% if(service.leadImage) { %>
             <img src="<%= service.leadImage %>" alt="<%= service.title %>" class="card-image--hang-right-wide" />

@@ -9,7 +9,7 @@
           <header class="section--header">
             <h1 class="text-heading-one">A simple mission: We like to help</h1>
           </header>
-          <div class="card">
+          <div class="card targetable">
             <p class="paragraph--major">There’s an opportunity for a services company to be more inclusive of their clients, more customer-centric, more cognizant of how to partner with clients to create an awesome team that gets projects done fast. We are that company. We believe in going above and beyond for our clients. We use our years of experience and network to help us be the best help our clients can buy.</p>
           </div>
         </div><!-- end of .container -->
@@ -21,7 +21,7 @@
           </header>
           <ul class="employee-list">
             <% collections.person.forEach(function(person){ %>
-            <li class="employee card">
+            <li class="employee card targetable">
               <div class="employee-photo-wrap">
                 <img src="../images/photos/team/<%= person.id%>.jpg" alt="Potrait of <%= person.name %>" class="employee-photo" />
               </div>
@@ -51,7 +51,7 @@
           </header>
           <ul class="value-list">
             <% collections.values.forEach(function(value) { %>
-            <li class="value card">
+            <li class="value card targetable">
               <div class="value-image-wrap">
                 <img src="<%= value.image %>" alt="Illustration." class="value-image" />
               </div>
@@ -68,7 +68,7 @@
           <header class="section--header">
             <h1 class="text-heading-one">Our offices</h1>
           </header>
-          <div class="card">
+          <div class="card targetable">
           </div>
         </div>
       </section>
@@ -81,7 +81,7 @@
           <div class="job-list">
             <% collections.jobs.forEach(function(job) { %>
             <% if(job.published == true) { %>
-            <a href="../jobs/<%= job.id %>" class="job card">
+            <a href="../jobs/<%= job.id %>" class="job card targetable">
               <h2 class="text-heading-two"><span class="link-surrogate"><%= job.pageHeading %></span></h2>
               <p>Location: <%- job.pageDescription %></p>
             </a>
