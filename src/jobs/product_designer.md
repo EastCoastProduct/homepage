@@ -20,7 +20,7 @@ layout: job.ejs
 
 <p>As a member of our team, the work you’ll be doing ranges from small MVPs for budding entrepreneurs to complex applications for much larger clients. As an early hire you’ll play a critical role in shaping how our company learns to practice design as a discipline across these wildly different types of projects.</p>
 
-<p>As we grow we’ll be prioritizing individual learning. We’re creating a curriculum focused on advancing UX, behavioral design, visual design, and product management principles. We believe that mentoring is required for effective growth and will be running every project in a way that emphasizes learning directly from the Director of Product Design and your fellow designers, and returning the favor by sharing what you learn with them. Dedicate yourself to trying new things on every project and you’ll advance quickly here. If you work with us we’re going to show you how to be the best product designer you can be.</p>
+<p>As we grow we’ll be prioritizing individual learning. We’re creating a curriculum focused on advancing UX, behavioral design, visual design, and product management principles. We believe that mentoring is required for effective growth and will be running every project in a way that emphasizes learning directly from the Director of Product Design and your fellow designers, and returning the favor by sharing what you learn with them. Dedicate yourself to trying new things on every project and you’ll advance quickly here.</p>
 
 <h2 class="text-heading-two">Skills and Qualifications</h2>
 
@@ -31,9 +31,7 @@ layout: job.ejs
 <p>User experience design principles, including:</p>
 
 <ul>
-  <li>User research</li>
-  <li>Interviewing</li>
-  <li>Information architecture</li>
+  <li>User research &amp; interviewing</li>
   <li>Usability testing</li>
   <li>Prototyping</li>
   <li>Comfort explaining concepts through visual mediums (ie, whiteboarding, sketching and/or mockups)</li>
@@ -43,10 +41,8 @@ layout: job.ejs
 
 <ul>
   <li>Personas</li>
-  <li>Empathy maps</li>
-  <li>Experience maps</li>
-  <li>User stories/job stories</li>
-  <li>Behavioral design principles</li>
+  <li>Empathy &amp; experience maps</li>
+  <li>User stories</li>
 </ul>
 
 <p>Visual design proficiency, including:</p>

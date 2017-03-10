@@ -3,7 +3,7 @@ level: ../
 titleTag: Hire us
 url: contact/index.html
 pageHeading: Hire us
-pageDescription: Ready to work with us? Just need advice? We meet you where you’re at, so drop us a line!
+pageDescription: Ready to get started? Just need advice? Drop us a line, we can't wait to meet you!
 pageHeadingImage: null
 pageHeadingImageAlt: null
 layout: contact.ejs
