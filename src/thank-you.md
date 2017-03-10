@@ -8,3 +8,5 @@ pageHeadingImage: null
 pageHeadingImageAlt: null
 layout: thank-you.ejs
 ---
+
+<img src="https://media.giphy.com/media/kshykenTpNoA0/giphy.gif" alt="A delightful GIF of a ticklish kitten." />
