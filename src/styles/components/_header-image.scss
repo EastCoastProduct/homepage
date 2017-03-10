@@ -32,6 +32,11 @@
       position: absolute;
       top: 15px;
       left: 15px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: rgba($lightest, 0.1);
+      }
 
       &:before,
       &:after {
@@ -44,6 +49,7 @@
         position: absolute;
         top: -1px;
         left: 15px;
+        pointer-events: none;
       }
 
       &:after {
@@ -58,6 +64,21 @@
       height: 25px;
       border: 1px solid $lightest;
       border-radius: 4px;
+      padding: 0 0.5em;
+      font-family: Raleway, sans-serif;
+      font-size: 0.75rem;
+      line-height: 25px;
+      overflow: hidden;
+
+      &:focus,
+      &:not(:empty) {
+        outline: none;
+        background-color: rgba($lightest, 0.1);
+
+        &:before {
+          content: "https://"
+        }
+      }
     }
   }
 }

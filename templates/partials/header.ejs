@@ -24,10 +24,10 @@
           <p class="page-heading--subtitle"><%- pageDescription %></p>
         <% } %>
         <% if(pageHeadingImage) { %>
-          <div class="header--image">
+          <div class="header--image" id="to-be-removed">
             <picture class="browser-chrome">
-              <span class="browser-buttons"></span>
-              <span class="browser-url-bar"></span>
+              <span class="browser-buttons" id="close-browser-button"></span>
+              <span class="browser-url-bar" contenteditable="true"></span>
               <img src="<%- level %>/<%- pageHeadingImage %>" alt="<%- pageHeadingImageAlt %>"/>
             </picture>
           </div>
