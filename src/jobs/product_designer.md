@@ -5,7 +5,7 @@ pageHeading: Product Designer
 pageDescription: Boston, MA
 pageHeadingImage:
 pageHeadingImageAlt:
-pageKeywords:
+pageKeywords: product designer, user experience designer, user experience research, behavioral design, visual design, user experience strategy, product management, competitive salary, flexible schedule, unlimited vacation, international travel
 id: product_designer
 hiringContactId: steve-hickey
 published: true

@@ -5,7 +5,7 @@ pageHeading: Safety NetAccess
 pageDescription: Future-Proofing a SaaS Platform
 pageHeadingImage: ../images/work-shots/sna-screenshot.png
 pageHeadingImageAlt: A screenshot from the Safety NetAccess project.
-pageKeywords:
+pageKeywords: safety netaccess, SaaS, platform, interface, design sprint, user interviews, prototype, prototyping, user testing, user experience, node.js, node, react, radius, nomadix, postgres, logianalytics, discovery, scale
 id: sna
 published: false
 layout: case-study.ejs
@@ -25,7 +25,7 @@ layout: case-study.ejs
 
 <h1 class="text-heading-one">Building for Scale</h1>
 
-<p>Rebuilding the platform so it’s built to scale gave SNA a brand new vertical for sales: its competitors. SNA can now license out the platform to other companies that operate in similar areas.. Not only can they provide a world-class wifi experience to customers like Hilton and Marriott, SNA can begin generating revenue from companies seeking to license the SNAPx technology.</p>
+<p>Rebuilding the platform so it’s built to scale gave SNA a brand new vertical for sales: its competitors. SNA can now license out the platform to other companies that operate in similar areas. Not only can they provide a world-class wifi experience to customers like Hilton and Marriott, SNA can begin generating revenue from companies seeking to license the SNAPx technology.</p>
 
 <h1 class="text-heading-one">Key Tech</h1>
 

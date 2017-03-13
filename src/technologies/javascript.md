@@ -5,7 +5,7 @@ pageHeading: JavaScript
 pageDescription: Lightweight, powerful, and ubiquitous.
 pageHeadingImage:
 pageHeadingImageAlt:
-pageKeywords:
+pageKeywords: javascript, applications, react, node.js, node, react native
 id: javascript
 published: true
 layout: technology.ejs
@@ -20,10 +20,10 @@ layout: technology.ejs
 <h2 class="text-heading-two">Projects we've used it on</h2>
 
 <ul>
-  <li><a href="../../case_study/vsnap">Vsnap</a></li>
+  <li><a href="../../work/vsnap">Vsnap</a></li>
   <li>Startup Rounds</li>
   <li>Resilient Coders</li>
-  <li><a href="../../case_study/social_good_calendar">City Awake and Timothy Smith Network</a></li>
+  <li><a href="../../work/social-impact-calendar">City Awake and Timothy Smith Network</a></li>
 </ul>
 
 <h2 class="text-heading-two">Why we use JavaScript</h2>

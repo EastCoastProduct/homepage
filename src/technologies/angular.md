@@ -5,7 +5,7 @@ pageHeading: Angular
 pageDescription: A complete frontend framework, maintained by Google.
 pageHeadingImage:
 pageHeadingImageAlt:
-pageKeywords:
+pageKeywords: angular, javascript, framework, frontend
 id: angular
 published: true
 layout: technology.ejs
@@ -20,7 +20,7 @@ layout: technology.ejs
 <h2 class="text-heading-two">Projects we've used it on</h2>
 
 <ul>
-  <li><a href="../../case_study/vsnap">Vsnap</a></li>
+  <li><a href="../../work/vsnap">Vsnap</a></li>
   <li>Startup Rounds</li>
 </ul>
 

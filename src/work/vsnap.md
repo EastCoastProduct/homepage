@@ -5,7 +5,7 @@ pageHeading: Vsnap
 pageDescription: Rebuilding for Scale
 pageHeadingImage: ../images/work-shots/vsnap-screenshot.png
 pageHeadingImageAlt: A screenshot from the Vsnap project.
-pageKeywords:
+pageKeywords: vsnap, SaaS, video messaging, prototype, javascript, acquisition, angular, node.js, node, api, api-first development, amazon web services, aws, postgres
 id: vsnap
 published: true
 layout: case-study.ejs
@@ -15,7 +15,7 @@ layout: case-study.ejs
 
 <h1 class="text-heading-one">Node.js</h1>
 
-<p>The team evaluated various languages and decided that the most performant choice was JavaScript. Selecting a popular, future-proof language, meant that it would be easier to hire developers down the line and ensure an abundant community of resources and support for further product development. The frontend was built in Angular.js and the backend was built in Node.js. </p>
+<p>The team evaluated various languages and decided that the most performant choice was JavaScript. Selecting a popular, future-proof language, meant that it would be easier to hire developers down the line and ensure an abundant community of resources and support for further product development. The frontend was built in Angular and the backend was built in Node.js. </p>
 
 <h1 class="text-heading-one">API-First Development</h1>
 

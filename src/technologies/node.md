@@ -5,7 +5,7 @@ pageHeading: Node.js
 pageDescription: It’s JavaScript, all the way down.
 pageHeadingImage:
 pageHeadingImageAlt:
-pageKeywords:
+pageKeywords: node.js, node, javascript, npm, full-stack
 id: node
 published: true
 layout: technology.ejs
@@ -20,10 +20,10 @@ layout: technology.ejs
 <h2 class="text-heading-two">Projects we've used it on</h2>
 
 <ul>
-  <li><a href="../../case_study/vsnap">Vsnap</a></li>
+  <li><a href="../../work/vsnap">Vsnap</a></li>
   <li>Startup Rounds</li>
   <li>Human Condition</li>
-  <li><a href="../../case_study/social_good_calendar">City Awake and Timothy Smith Network</a></li>
+  <li><a href="../../work/social-impact-calendar">City Awake and Timothy Smith Network</a></li>
 </ul>
 
 <h2 class="text-heading-two">Why we use Node</h2>

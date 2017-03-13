@@ -5,7 +5,7 @@ pageHeading: React
 pageDescription: Helping us build truly great user interfaces.
 pageHeadingImage:
 pageHeadingImageAlt:
-pageKeywords:
+pageKeywords: react, javascript, components
 id: react
 published: true
 layout: technology.ejs
@@ -22,7 +22,7 @@ layout: technology.ejs
 <h2 class="text-heading-two">Projects we've used it on</h2>
 
 <ul>
-  <li><a href="../../case_study/social_good_calendar">City Awake and Timothy Smith Network</a></li>
+  <li><a href="../../work/social-impact-calendar">City Awake and Timothy Smith Network</a></li>
   <li>Human Condition Safety</li>
   <li>Resilient Coders</li>
 </ul>
