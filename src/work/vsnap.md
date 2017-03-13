@@ -28,9 +28,8 @@ layout: case-study.ejs
 <h1 class="text-heading-one">Key Tech</h1>
 
 <ul>
-  <li><a href="../../technologies/JavaScript">JavaScript</a></li>
-  <li>Rails 4.2</li>
-  <li>Ruby 2.2.0</li>
-  <li>Vagrant</li>
-  <li>Heroku</li>
+  <li><a href="../../technologies/node">Node.js</a></li>
+  <li><a href="../../technologies/angular">Angular</a></li>
+  <li>Amazon Web Services (AWS)</li>
+  <li>Postgres</li>
 </ul>
