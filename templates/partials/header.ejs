@@ -1,10 +1,18 @@
-<header class="header--global">
+<div class="skip-links visually-hidden">
+  <ul>
+    <li><a href="#navigation">Skip to main navigation</a></li>
+    <li><a href="#main">Skip to main content</a></li>
+    <li><a href="#banner">Stay here in the header</a></li>
+    <li><a href="#contentinfo">Skip to the footer</a></li>
+  </ul>
+</div><!-- end of .skip-links -->
+<header class="header--global" role="banner" id="banner">
   <div class="container ">
     <a href="<%- level %>" class="main--navigation-logo">
       <img src="<%- level %>images/logos/logo.svg" />
       <span class="visually-hidden">East Coast Product</span>
     </a>
-    <nav class="navigation navigation--global">
+    <nav class="navigation--global" role="navigation" id="navigation">
       <a href="<%- level %>services" class="link link-services">Services</a>
       <a href="<%- level %>work" class="link link-work">Work</a>
       <a href="<%- level %>about" class="link link-about">About</a>

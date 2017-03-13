@@ -62,7 +62,8 @@
       line-height: 2;
     }
 
-    &:hover {
+    &:hover,
+    &:focus {
       border-bottom-color: $lightest;
     }
   }

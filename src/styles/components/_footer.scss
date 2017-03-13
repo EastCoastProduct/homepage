@@ -37,7 +37,8 @@
     a {
       border-bottom-color: rgba($lightest, 0.2);
 
-      &:hover {
+      &:hover,
+      &:focus {
         border-bottom-color: $lightest;
       }
     }
@@ -67,7 +68,8 @@
   width: 100%;
   border: none;
 
-  &:hover {
+  &:hover,
+  &:focus {
     border: none;
     background-color: transparent;
   }

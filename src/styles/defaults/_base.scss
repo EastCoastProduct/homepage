@@ -42,7 +42,8 @@ a {
   transition: all 0.2s linear;
   border-radius: 2px;
 
-  &:hover {
+  &:hover,
+  &:focus {
     border-bottom: 2px solid rgba($green, 1);
   }
 }
