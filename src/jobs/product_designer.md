@@ -1,11 +1,11 @@
 ---
 level: ../../
-titleTag: Product Designer
 url: jobs/product_designer/index.html
 pageHeading: Product Designer
 pageDescription: Boston, MA
-pageHeadingImage: null
-pageHeadingImageAlt: null
+pageHeadingImage:
+pageHeadingImageAlt:
+pageKeywords:
 id: product_designer
 hiringContactId: steve-hickey
 published: true

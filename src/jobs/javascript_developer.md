@@ -1,11 +1,11 @@
 ---
 level: ../../
-titleTag: JavaScript Developer
 url: jobs/javascript_developer/index.html
 pageHeading: JavaScript Developer
 pageDescription: Split, Croatia
-pageHeadingImage: null
-pageHeadingImageAlt: null
+pageHeadingImage:
+pageHeadingImageAlt:
+pageKeywords:
 id: javascript_developer
 hiringContactId: ivan-blazevic
 published: true

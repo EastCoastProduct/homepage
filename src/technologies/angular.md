@@ -1,11 +1,11 @@
 ---
 level: ../../
-titleTag: Angular
 url: technologies/angular/index.html
 pageHeading: Angular
 pageDescription: A complete frontend framework, maintained by Google.
-pageHeadingImage: null
-pageHeadingImageAlt: null
+pageHeadingImage:
+pageHeadingImageAlt:
+pageKeywords:
 id: angular
 published: true
 layout: technology.ejs

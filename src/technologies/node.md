@@ -1,11 +1,11 @@
 ---
 level: ../../
-titleTag: Node.js
 url: technologies/node/index.html
 pageHeading: Node.js
 pageDescription: It’s JavaScript, all the way down.
-pageHeadingImage: null
-pageHeadingImageAlt: null
+pageHeadingImage:
+pageHeadingImageAlt:
+pageKeywords:
 id: node
 published: true
 layout: technology.ejs

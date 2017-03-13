@@ -1,11 +1,11 @@
 ---
 level: ../../
-titleTag: JavaScript
 url: technologies/javascript/index.html
 pageHeading: JavaScript
 pageDescription: Lightweight, powerful, and ubiquitous.
-pageHeadingImage: null
-pageHeadingImageAlt: null
+pageHeadingImage:
+pageHeadingImageAlt:
+pageKeywords:
 id: javascript
 published: true
 layout: technology.ejs

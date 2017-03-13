@@ -1,11 +1,11 @@
 ---
 level: ../../
-titleTag: Vsnap
 url: work/vsnap/index.html
 pageHeading: Vsnap
 pageDescription: Rebuilding for Scale
 pageHeadingImage: ../images/work-shots/vsnap-screenshot.png
 pageHeadingImageAlt: A screenshot from the Vsnap project.
+pageKeywords:
 id: vsnap
 published: true
 layout: case-study.ejs

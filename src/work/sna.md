@@ -1,11 +1,11 @@
 ---
 level: ../../
-titleTag: Safety NetAccess
 url: work/sna/index.html
 pageHeading: Safety NetAccess
 pageDescription: Future-Proofing a SaaS Platform
 pageHeadingImage: ../images/work-shots/sna-screenshot.png
 pageHeadingImageAlt: A screenshot from the Safety NetAccess project.
+pageKeywords:
 id: sna
 published: false
 layout: case-study.ejs

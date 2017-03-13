@@ -1,11 +1,11 @@
 ---
 level: ../../
-titleTag: React Native
 url: technologies/react-native/index.html
 pageHeading: React Native
 pageDescription: Building native experiences with the web tech we’re already experts in.
-pageHeadingImage: null
-pageHeadingImageAlt: null
+pageHeadingImage:
+pageHeadingImageAlt:
+pageKeywords:
 id: react_native
 published: true
 layout: technology.ejs

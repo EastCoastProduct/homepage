@@ -1,11 +1,11 @@
 ---
 level: ../../
-titleTag: React
 url: technologies/react/index.html
 pageHeading: React
 pageDescription: Helping us build truly great user interfaces.
-pageHeadingImage: null
-pageHeadingImageAlt: null
+pageHeadingImage:
+pageHeadingImageAlt:
+pageKeywords:
 id: react
 published: true
 layout: technology.ejs

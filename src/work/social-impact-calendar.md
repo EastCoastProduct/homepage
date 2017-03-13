@@ -1,11 +1,11 @@
 ---
 level: ../../
-titleTag: City Awake and Timothy Smith Network
 url: work/social-impact-calendar/index.html
 pageHeading: Social Impact Calendar
 pageDescription: Harnessing discoverability to drive social engagement
 pageHeadingImage: ../images/work-shots/tsn-screenshot.png
 pageHeadingImageAlt: A screenshot from the Social Impact Calendar project.
+pageKeywords:
 id: social-impact-calendar
 published: true
 layout: case-study.ejs

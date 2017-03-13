@@ -1,11 +1,11 @@
 ---
 level: ../../
-titleTag: Executive Assistant
 url: jobs/executive_assistant/index.html
 pageHeading: Executive Assistant
 pageDescription: Boston, MA
-pageHeadingImage: null
-pageHeadingImageAlt: null
+pageHeadingImage:
+pageHeadingImageAlt:
+pageKeywords:
 id: executive_assistant
 hiringContactId: chris-swenor
 published: true

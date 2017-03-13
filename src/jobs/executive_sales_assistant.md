@@ -1,11 +1,11 @@
 ---
 level: ../../
-titleTag: Executive Sales Assistant
 url: jobs/executive_sales_assistant/index.html
 pageHeading: Executive Sales Assistant
 pageDescription: Boston, MA
-pageHeadingImage: null
-pageHeadingImageAlt: null
+pageHeadingImage:
+pageHeadingImageAlt:
+pageKeywords:
 id: executive_sales_assistant
 hiringContactId: chris-swenor
 published: false

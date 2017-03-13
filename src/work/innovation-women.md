@@ -1,11 +1,11 @@
 ---
 level: ../../
-titleTag: Innovation Women
 url: work/innovation-women/index.html
 pageHeading: Innovation Women
 pageDescription: From vision to MVP in 3 weeks
 pageHeadingImage: ../images/work-shots/innovation-women-screenshot.png
 pageHeadingImageAlt: A screenshot from the Innovation Women project.
+pageKeywords:
 id: innovation-women
 published: true
 layout: case-study.ejs
