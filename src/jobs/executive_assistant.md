@@ -1,6 +1,5 @@
 ---
-level: ../../
-url: jobs/executive_assistant/index.html
+url: /jobs/executive_assistant/index.html
 pageHeading: Executive Assistant
 pageDescription: Boston, MA
 pageHeadingImage:

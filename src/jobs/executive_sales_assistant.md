@@ -1,6 +1,5 @@
 ---
-level: ../../
-url: jobs/executive_sales_assistant/index.html
+url: /jobs/executive_sales_assistant/index.html
 pageHeading: Executive Sales Assistant
 pageDescription: Boston, MA
 pageHeadingImage:

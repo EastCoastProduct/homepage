@@ -1,6 +1,5 @@
 ---
-level: ../../
-url: technologies/node/index.html
+url: /technologies/node/index.html
 pageHeading: Node.js
 pageDescription: It’s JavaScript, all the way down.
 pageHeadingImage:
@@ -12,7 +11,7 @@ layout: technology.ejs
 ---
 
 <div class="card-image--hang-right-wide">
-  <img src="../../images/technology-icons/node-logo.svg" alt="The logo for the Node.js project." />
+  <img src="/images/technology-icons/node-logo.svg" alt="The logo for the Node.js project." />
 </div>
 
 <p>We’re big believers in JavaScript. It’s our language of choice for building progressive, modern web applications. And the best way to tie it all together is with <a href="https://nodejs.org/en/">Node.js</a>. Since JavaScript is already our language of choice on the frontend, Node lets us bring our existing expertise to the rest of the stack. With it’s event driven, I/O model, Node.js allows us to build fast, scalable applications for clients with a few users, or with thousands.</p>
@@ -20,10 +19,10 @@ layout: technology.ejs
 <h2 class="text-heading-two">Projects we've used it on</h2>
 
 <ul>
-  <li><a href="../../work/vsnap">Vsnap</a></li>
+  <li><a href="/work/vsnap">Vsnap</a></li>
   <li>Startup Rounds</li>
   <li>Human Condition</li>
-  <li><a href="../../work/social-impact-calendar">City Awake and Timothy Smith Network</a></li>
+  <li><a href="/work/social-impact-calendar">City Awake and Timothy Smith Network</a></li>
 </ul>
 
 <h2 class="text-heading-two">Why we use Node</h2>

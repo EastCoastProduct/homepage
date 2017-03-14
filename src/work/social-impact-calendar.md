@@ -1,9 +1,8 @@
 ---
-level: ../../
-url: work/social-impact-calendar/index.html
+url: /work/social-impact-calendar/index.html
 pageHeading: Social Impact Calendar
 pageDescription: Harnessing discoverability to drive social engagement
-pageHeadingImage: ../images/work-shots/tsn-screenshot.png
+pageHeadingImage: /images/work-shots/tsn-screenshot.png
 pageHeadingImageAlt: A screenshot from the Social Impact Calendar project.
 pageKeywords: social impact calendar, timothy smith network, cityawake, nonprofit, community, events, city of boston, design sprint, seo, isomorphic react, node.js, node, express
 id: social-impact-calendar
@@ -29,7 +28,7 @@ layout: case-study.ejs
 
 <ul>
   <li>Design Sprint Methodology</li>
-  <li><a href="../../technologies/node">Node.js</a></li>
+  <li><a href="/technologies/node">Node.js</a></li>
   <li>Express</li>
   <li>Isomorphic React</li>
 </ul>

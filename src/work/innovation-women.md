@@ -1,9 +1,8 @@
 ---
-level: ../../
-url: work/innovation-women/index.html
+url: /work/innovation-women/index.html
 pageHeading: Innovation Women
 pageDescription: From vision to MVP in 3 weeks
-pageHeadingImage: ../images/work-shots/innovation-women-screenshot.png
+pageHeadingImage: /images/work-shots/innovation-women-screenshot.png
 pageHeadingImageAlt: A screenshot from the Innovation Women project.
 pageKeywords: development, mvp, communication, ruby on rails, lean, javascript, ruby, rails, vagrant, heroku
 id: innovation-women
@@ -28,7 +27,7 @@ layout: case-study.ejs
 <h1 class="text-heading-one">Key Tech</h1>
 
 <ul>
-  <li><a href="../../technologies/javascript">JavaScript</a></li>
+  <li><a href="/technologies/javascript">JavaScript</a></li>
   <li>Rails 4.2</li>
   <li>Ruby 2.2.0</li>
   <li>Vagrant</li>

@@ -1,6 +1,5 @@
 ---
-level: ../../
-url: technologies/react/index.html
+url: /technologies/react/index.html
 pageHeading: React
 pageDescription: Helping us build truly great user interfaces.
 pageHeadingImage:
@@ -12,7 +11,7 @@ layout: technology.ejs
 ---
 
 <div class="card-image--hang-right-wide">
-  <img src="../../images/technology-icons/react-logo.svg" alt="Logo for the React project." />
+  <img src="/images/technology-icons/react-logo.svg" alt="Logo for the React project." />
 </div>
 
 <p>It feels like there's a new JavaScript UI library to learn every week now. But we only have eyes for one: <a href="https://facebook.github.io/react/">React</a>.</p>
@@ -22,7 +21,7 @@ layout: technology.ejs
 <h2 class="text-heading-two">Projects we've used it on</h2>
 
 <ul>
-  <li><a href="../../work/social-impact-calendar">City Awake and Timothy Smith Network</a></li>
+  <li><a href="/work/social-impact-calendar">City Awake and Timothy Smith Network</a></li>
   <li>Human Condition Safety</li>
   <li>Resilient Coders</li>
 </ul>

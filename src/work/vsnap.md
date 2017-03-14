@@ -1,9 +1,8 @@
 ---
-level: ../../
-url: work/vsnap/index.html
+url: /work/vsnap/index.html
 pageHeading: Vsnap
 pageDescription: Rebuilding for Scale
-pageHeadingImage: ../images/work-shots/vsnap-screenshot.png
+pageHeadingImage: /images/work-shots/vsnap-screenshot.png
 pageHeadingImageAlt: A screenshot from the Vsnap project.
 pageKeywords: vsnap, SaaS, video messaging, prototype, javascript, acquisition, angular, node.js, node, api, api-first development, amazon web services, aws, postgres
 id: vsnap
@@ -28,8 +27,8 @@ layout: case-study.ejs
 <h1 class="text-heading-one">Key Tech</h1>
 
 <ul>
-  <li><a href="../../technologies/node">Node.js</a></li>
-  <li><a href="../../technologies/angular">Angular</a></li>
+  <li><a href="/technologies/node">Node.js</a></li>
+  <li><a href="/technologies/angular">Angular</a></li>
   <li>Amazon Web Services (AWS)</li>
   <li>Postgres</li>
 </ul>

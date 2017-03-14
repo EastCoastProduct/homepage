@@ -1,9 +1,8 @@
 ---
-level: ../../
-url: work/sna/index.html
+url: /work/sna/index.html
 pageHeading: Safety NetAccess
 pageDescription: Future-Proofing a SaaS Platform
-pageHeadingImage: ../images/work-shots/sna-screenshot.png
+pageHeadingImage: /images/work-shots/sna-screenshot.png
 pageHeadingImageAlt: A screenshot from the Safety NetAccess project.
 pageKeywords: safety netaccess, SaaS, platform, interface, design sprint, user interviews, prototype, prototyping, user testing, user experience, node.js, node, react, radius, nomadix, postgres, logianalytics, discovery, scale
 id: sna
@@ -30,8 +29,8 @@ layout: case-study.ejs
 <h1 class="text-heading-one">Key Tech</h1>
 
 <ul>
-  <li><a href="../../technologies/node">Node.js</a></li>
-  <li><a href="../../technologies/react">React</a></li>
+  <li><a href="/technologies/node">Node.js</a></li>
+  <li><a href="/technologies/react">React</a></li>
   <li>Radius</li>
   <li>Nomadix</li>
   <li>Postgres</li>

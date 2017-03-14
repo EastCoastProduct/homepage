@@ -12,7 +12,7 @@
           <div class="work-list">
             <% collections.work.forEach(function(work) { %>
             <% if(work.published == true) { %>
-            <a href="../work/<%= work.id %>" class="work card">
+            <a href="/work/<%= work.id %>" class="work card">
               <div class="work-image-wrap">
                 <img src="<%= work.pageHeadingImage %>" alt="A screenshot from the <%- work.pageHeading %> project." class="work-image" />
               </div>

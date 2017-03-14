@@ -1,6 +1,5 @@
 ---
-level: ../../
-url: technologies/angular/index.html
+url: /technologies/angular/index.html
 pageHeading: Angular
 pageDescription: A complete frontend framework, maintained by Google.
 pageHeadingImage:
@@ -12,7 +11,7 @@ layout: technology.ejs
 ---
 
 <div class="card-image--hang-right-wide">
-  <img src="../../images/technology-icons/angular-logo.svg" alt="The logo for the Angular project." />
+  <img src="/images/technology-icons/angular-logo.svg" alt="The logo for the Angular project." />
 </div>
 
 <p>When looking for an all-in-one solution for our clients, we turn to <a href="https://angular.io/">Angular</a>. It’s a complete frontend framework that is incredibly reliable. Angular is great for clients that are looking for consistency without relying too heavily on third-party modules for necessary functionality. Its opinionated stance on how to do many common tasks means our team (and yours) doesn’t have to re-invent the wheel on every project, giving them the flexibility to prioritize work that will have the most meaningful impact on your users.</p>
@@ -20,7 +19,7 @@ layout: technology.ejs
 <h2 class="text-heading-two">Projects we've used it on</h2>
 
 <ul>
-  <li><a href="../../work/vsnap">Vsnap</a></li>
+  <li><a href="/work/vsnap">Vsnap</a></li>
   <li>Startup Rounds</li>
 </ul>
 

@@ -1,6 +1,5 @@
 ---
-level: ../../
-url: technologies/react-native/index.html
+url: /technologies/react-native/index.html
 pageHeading: React Native
 pageDescription: Building native experiences with the web tech we’re already experts in.
 pageHeadingImage:
@@ -12,7 +11,7 @@ layout: technology.ejs
 ---
 
 <div class="card-image--hang-right-wide">
-  <img src="../../images/technology-icons/react-native-icon.svg" alt="Icon for a React Native project running on a smartphone." />
+  <img src="/images/technology-icons/react-native-icon.svg" alt="Icon for a React Native project running on a smartphone." />
 </div>
 
 <p><a href="https://facebook.github.io/react-native/">React Native</a> lets us build native Android and iOS apps, but with the JavaScript we already know and love. As an agency we need to stay efficient and React Native lets us to do exactly that using a single codebase to release cross-platform mobile applications.</p>

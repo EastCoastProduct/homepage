@@ -11,7 +11,7 @@
           </header>
           <div class="card targetable">
             <p class="paragraph--major">We are a group of expert designers and developers, working together to build great product. We work in small teams focused on only your project, designed to find the right solutions to your problems.</p>
-            <a href="<%- level %>about" class="button--default">Meet the team</a>
+            <a href="/about" class="button--default">Meet the team</a>
           </div><!-- end of .card -->
         </div>
       </section>
@@ -28,7 +28,7 @@
             <li id="cityAwake" class="logo card targetable">City Awake</li>
             <li id="vsnap" class="logo card targetable">Vsnap</li>
           </ul>
-          <a href="<%- level %>work" class="button--default">Hear their stories</a>
+          <a href="/work" class="button--default">Hear their stories</a>
         </div>
       </section>
       <section id="services">
@@ -43,7 +43,7 @@
             <img src="<%= service.leadImage %>" alt="Illustration of equipment used for <%= service.title %>" class="card-image--hang-right-wide" />
             <% } %>
             <p><%= service.description %></p>
-            <a href="<%- level %>services/#<%= service.id %>" class="button--default">Learn more<span class="visually-hidden"> about <%= service.title %></span></a>
+            <a href="/services/#<%= service.id %>" class="button--default">Learn more<span class="visually-hidden"> about <%= service.title %></span></a>
           </div>
           <% }) %>
         </div>

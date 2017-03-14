@@ -8,17 +8,17 @@
 </div><!-- end of .skip-links -->
 <header class="header--global" role="banner" id="banner">
   <div class="container ">
-    <a href="<%- level %>" class="main--navigation-logo">
-      <img src="<%- level %>images/logos/logo.svg" />
+    <a href="/" class="main--navigation-logo">
+      <img src="/images/logos/logo.svg" />
       <span class="visually-hidden">East Coast Product</span>
     </a>
     <nav class="navigation--global" role="navigation" id="navigation">
-      <a href="<%- level %>services" class="link link-services">Services</a>
-      <a href="<%- level %>work" class="link link-work">Work</a>
-      <a href="<%- level %>about" class="link link-about">About</a>
-      <a href="<%- level %>jobs" class="link link-jobs">Jobs</a>
+      <a href="/services" class="link link-services">Services</a>
+      <a href="/work" class="link link-work">Work</a>
+      <a href="/about" class="link link-about">About</a>
+      <a href="/jobs" class="link link-jobs">Jobs</a>
       <a href="https://blog.eastcoastproduct.com" target="_blank" class="link">Blog</a>
-      <a href="<%- level %>contact" class="button--major">Hire Us</a>
+      <a href="/contact" class="button--major">Hire Us</a>
     </nav>
     <div class="page-heading">
       <% if(layout == "home.ejs") { %>
@@ -36,7 +36,7 @@
             <picture class="browser-chrome">
               <span class="browser-buttons" id="close-browser-button"></span>
               <span class="browser-url-bar" contenteditable="true"></span>
-              <img src="<%- level %>/<%- pageHeadingImage %>" alt="<%- pageHeadingImageAlt %>"/>
+              <img src="<%- pageHeadingImage %>" alt="<%- pageHeadingImageAlt %>"/>
             </picture>
           </div>
         <% } %>

@@ -1,6 +1,5 @@
 ---
-level: ../../
-url: jobs/javascript_developer/index.html
+url: /jobs/javascript_developer/index.html
 pageHeading: JavaScript Developer
 pageDescription: Split, Croatia
 pageHeadingImage:

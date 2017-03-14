@@ -1,6 +1,5 @@
 ---
-level: ../
-url: error/index.html
+url: /error/index.html
 pageHeading: Lost?
 pageDescription: That's ok, let's get you back on track.
 pageHeadingImage:

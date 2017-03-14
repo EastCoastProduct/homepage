@@ -7,7 +7,7 @@
   <!-- sharing preview on social media stuff -->
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@ECPBoston">
-    <meta name="twitter:url" property="og:url" content="https://eastcoastproduct.com/<%= url %>">
+    <meta name="twitter:url" property="og:url" content="https://eastcoastproduct.com<%= url %>">
     <% if(pageHeading) { %><meta name="twitter:title" property="og:title" content="<%= pageHeading %> | East Coast Product">
     <% } else { %><meta name="twitter:title" property="og:title" content="East Coast Product"><% } %>
     <% if(pageDescription) { %><meta name="twitter:description" property="og:description" content="<%= pageDescription %>"><% } %>
@@ -16,7 +16,7 @@
   <!-- SEO stuff -->
     <% if(pageDescription) { %><meta name="description" content="<%= pageDescription %>"><% } %>
     <% if(pageKeywords) { %><meta name="keywords" content="<%= pageKeywords %>" /><% } %>
-    <link rel="canonical" href="https://eastcoastproduct.com/<%= url %>" />
+    <link rel="canonical" href="https://eastcoastproduct.com<%= url %>" />
   <!-- end of SEO stuff -->
-  <link rel="stylesheet" href="<%= level + fingerprint['styles/main.css'] %>">
+  <link rel="stylesheet" href="/<%= fingerprint['styles/main.css'] %>">
 </head>

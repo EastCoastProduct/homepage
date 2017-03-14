@@ -12,7 +12,7 @@
           <div>
             <% collections.jobs.forEach(function(job) { %>
             <% if(job.published == true) { %>
-            <a href="../jobs/<%= job.id %>" class="job card targetable" id="<%= job.id %>">
+            <a href="/jobs/<%= job.id %>" class="job card targetable" id="<%= job.id %>">
               <h2 class="text-heading-two"><span class="link-surrogate"><%= job.pageHeading %></span></h2>
               <p>Location: <%- job.pageDescription %></p>
             </a>

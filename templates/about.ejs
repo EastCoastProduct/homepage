@@ -23,7 +23,7 @@
             <% collections.person.forEach(function(person){ %>
             <li class="employee card targetable">
               <div class="employee-photo-wrap">
-                <img src="../images/photos/team/<%= person.id%>.jpg" alt="Potrait of <%= person.name %>" class="employee-photo" />
+                <img src="/images/photos/team/<%= person.id%>.jpg" alt="Potrait of <%= person.name %>" class="employee-photo" />
               </div>
               <h2 class="text-heading-two employee-name"><%= person.name %></h2>
               <h3 class="paragraph--minor employee-title"><%= person.title %></h3>
@@ -81,7 +81,7 @@
           <div class="job-list">
             <% collections.jobs.forEach(function(job) { %>
             <% if(job.published == true) { %>
-            <a href="../jobs/<%= job.id %>" class="job card targetable">
+            <a href="/jobs/<%= job.id %>" class="job card targetable">
               <h2 class="text-heading-two"><span class="link-surrogate"><%= job.pageHeading %></span></h2>
               <p>Location: <%- job.pageDescription %></p>
             </a>
