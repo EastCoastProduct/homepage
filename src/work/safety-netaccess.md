@@ -12,11 +12,11 @@ layout: case-study.ejs
 
 <p class="paragraph--major">You visit a hotel, pull out your phone, and attempt to connect to the internet. After a few quick taps you’re connected. Seems simple enough, right?</p>
 
-<p class="paragraph--major">Behind those simple steps are a lot of moving parts that all come together to ensure you’re connected seamlessly to the internet. This is what Safety NetAccess (SNA) specializes in, serving hotels like Hilton and Marriott worldwide. SNA worked with East Coast Product to combine and expand the functionality of three different versions of SNAP into one fully-featured SaaS platform called SNAPx.</p>
+<p class="paragraph--major">Behind those simple steps are a lot of moving parts that all come together to ensure you’re connected seamlessly to the internet. This is what <a href="http://safetynetaccess.com/">Safety NetAccess</a> (SNA) specializes in, serving hotels like Hilton and Marriott worldwide. SNA worked with East Coast Product to combine and expand the functionality of three different versions of SNAP into one fully-featured SaaS platform called <a href="http://safetynetaccess.com/#networks-snapx">SNAPx</a>.</p>
 
 <h1 class="text-heading-one">Discovery</h1>
 
-<p>Using the design sprint methodology, we were able to understand the different ways users engaged with the old interface and optimize their experience with SNAPx. By conducting user interviews and testing prototypes, we discovered exactly what needed to be built before building it.</p>
+<p>Using the <a href="http://www.gv.com/sprint/">design sprint</a> methodology, we were able to understand the different ways users engaged with the old interface and optimize their experience with SNAPx. By conducting user interviews and testing prototypes, we discovered exactly what needed to be built before building it.</p>
 
 <h1 class="text-heading-one">Eliminating the Help Desk</h1>
 
@@ -35,4 +35,5 @@ layout: case-study.ejs
   <li>Nomadix</li>
   <li>Postgres</li>
   <li>LogiAnalytics</li>
+  <li><a href="http://www.gv.com/sprint/">Design Sprint</a></li>
 </ul>

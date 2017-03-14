@@ -10,7 +10,7 @@ published: true
 layout: case-study.ejs
 ---
 
-<p class="paragraph--major">Human Condition Safety builds tools to help prevent injuries on construction sites before they happen. The latest addition to the Human Condition toolkit is an application that organizes key safety and protocol information. By building a tool that can be used directly on work sites, information can be instantly updated and available to project leaders if an issue arises. Human Condition approached East Coast Product to validate their initial designs and develop  web and mobile applications that could potentially save lives. With a tight deadline, the East Coast Product team got to work designing and developing an MVP with the necessary functionality to further validate with potential clients.</p>
+<p class="paragraph--major"><a href="http://www.hcsafety.com/">Human Condition Safety</a> builds tools to help prevent injuries on construction sites before they happen. The latest addition to the Human Condition toolkit is an application that organizes key safety and protocol information. By building a tool that can be used directly on work sites, information can be instantly updated and available to project leaders if an issue arises. Human Condition approached East Coast Product to validate their initial designs and develop  web and mobile applications that could potentially save lives. With a tight deadline, the East Coast Product team got to work designing and developing an MVP with the necessary functionality to further validate with potential clients.</p>
 
 <h1 class="text-heading-one">Design Audit</h1>
 

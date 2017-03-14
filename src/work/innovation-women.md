@@ -10,7 +10,7 @@ published: true
 layout: case-study.ejs
 ---
 
-<p class="paragraph--major">Innovation Women set out to solve the glaring problem of male-dominated panels at technical and entrepreneurial events. With a tight deadline but no tech team, Bobbie Carlton, founder of Innovation Women, approached East Coast Product to build out her vision. We worked closely with the Innovation Women team to understand the business plan and objectives before diving into development. Staying agile throughout the development process was critical to the successful completion of the application. We were able to beat the deadline and spend plenty of time  testing market fit.</p>
+<p class="paragraph--major"><a href="http://www.innovationwomen.com/">Innovation Women</a> set out to solve the glaring problem of male-dominated panels at technical and entrepreneurial events. With a tight deadline but no tech team, Bobbie Carlton, founder of Innovation Women, approached East Coast Product to build out her vision. We worked closely with the Innovation Women team to understand the business plan and objectives before diving into development. Staying agile throughout the development process was critical to the successful completion of the application. We were able to beat the deadline and spend plenty of time  testing market fit.</p>
 
 <h1 class="text-heading-one">MVP Development</h1>
 

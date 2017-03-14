@@ -10,7 +10,7 @@ published: true
 layout: case-study.ejs
 ---
 
-<p class="paragraph--major">Vsnap is a SaaS video messaging platform for inside sales. The app humanizes sales interactions to help build sustained business relationships. As Vsnap grew and the user-base was better defined, it became clear to CEO Dave McLaughlin that the original application was not scalable. In December 2013 he brought in Chris Swenor as CTO and the East Coast Product development team to rebuild the app. After three months the application was completely rewritten in JavaScript and successfully re-launched. The rebuild resulted in the successful acquisition of Vsnap in April 2015.</p>
+<p class="paragraph--major"><a href="https://www.crunchbase.com/organization/vsnap#/entity">Vsnap</a> is a SaaS video messaging platform for inside sales. The app humanizes sales interactions to help build sustained business relationships. As Vsnap grew and the user-base was better defined, it became clear to CEO Dave McLaughlin that the original application was not scalable. In December 2013 he brought in Chris Swenor as CTO and the East Coast Product development team to rebuild the app. After three months the application was completely rewritten in JavaScript and successfully re-launched. The rebuild resulted in the successful acquisition of Vsnap in April 2015.</p>
 
 <h1 class="text-heading-one">Node.js</h1>
 
