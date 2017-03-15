@@ -7,7 +7,7 @@ pageHeadingImageAlt: A screenshot from the Startup Rounds project.
 pageHeadingImageFormat: desktop
 pageKeywords:
 id: startup-rounds
-published: true
+published: false
 layout: case-study.ejs
 sortOrder: 11
 ---

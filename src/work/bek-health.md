@@ -7,7 +7,7 @@ pageHeadingImageAlt: A screenshot from the Bek Health project.
 pageHeadingImageFormat: desktop
 pageKeywords:
 id: bek-health
-published: true
+published: false
 layout: case-study.ejs
 sortOrder: 1
 ---

@@ -7,7 +7,7 @@ pageHeadingImageAlt: A screenshot from the NEOs project.
 pageHeadingImageFormat: desktop
 pageKeywords:
 id: neos
-published: true
+published: false
 layout: case-study.ejs
 sortOrder: 8
 ---

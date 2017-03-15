@@ -7,7 +7,7 @@ pageHeadingImageAlt: A screenshot from the Vici Capital Partners project.
 pageHeadingImageFormat: desktop
 pageKeywords:
 id: vici-capital-partners
-published: true
+published: false
 layout: case-study.ejs
 sortOrder: 2
 ---

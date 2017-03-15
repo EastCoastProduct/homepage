@@ -7,7 +7,7 @@ pageHeadingImageAlt: A screenshot from the Wa11st project.
 pageHeadingImageFormat: mobile
 pageKeywords:
 id: wa11st
-published: true
+published: false
 layout: case-study.ejs
 sortOrder: 9
 ---

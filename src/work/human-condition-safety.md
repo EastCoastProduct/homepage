@@ -7,7 +7,7 @@ pageHeadingImageAlt: A screenshot from the Human Condition Safety project.
 pageHeadingImageFormat: desktop
 pageKeywords:
 id: human-condition-safety
-published: true
+published: false
 layout: case-study.ejs
 sortOrder: 3
 ---
