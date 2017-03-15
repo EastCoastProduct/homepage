@@ -8,6 +8,7 @@ pageKeywords:
 id: startup-rounds
 published: true
 layout: case-study.ejs
+sortOrder: 11
 ---
 
 <p class="paragraph--major"><a href="https://www.startuprounds.com/">Startup Rounds</a> is a platform that lets organizations create and host custom startup events as a way of fostering innovation and community. After running a few events on their their initial MVP, the Startup Rounds team approached East Coast Product for a full rebuild with the infrastructure necessary to scale and attract new users.</p>

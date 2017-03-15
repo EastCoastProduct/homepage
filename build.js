@@ -34,7 +34,8 @@ Metalsmith(__dirname)
       pattern: '_values/*.md'
     },
     work: {
-      pattern: 'work/*.md'
+      pattern: 'work/*.md',
+      sortBy: 'sortOrder'
     },
     jobs: {
       pattern: 'jobs/*.md'

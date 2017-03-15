@@ -8,6 +8,7 @@ pageKeywords:
 id: pirashield
 published: true
 layout: case-study.ejs
+sortOrder: 4
 ---
 
 <p class="paragraph--major"><a href="https://pirashield.com/">PiraShield</a> is a service that helps combat online piracy by scanning the web to locate pirated copies of your content and removing access to them. After finding initial success with their target market they wanted to figure out what they should build next in order to scale. They wanted to build something that better communicated the service they offer and its value over time to potential new customers.</p>

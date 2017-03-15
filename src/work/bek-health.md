@@ -8,6 +8,7 @@ pageKeywords:
 id: bek-health
 published: true
 layout: case-study.ejs
+sortOrder: 1
 ---
 
 <p class="paragraph--major">Bek Health is an organization that wants to connect cancer patients to trials that have the best chance of being improving their outcome as a patient. By optimizing the trial matching process cancer patients will get an opportunity to participate in the best trials for their condition, while cancer centers get better study results. To take this life-changing idea and make it a reality the team at Bek Health approached East Coast Product to help validate their concept and design a prototype to demo with potential investors.</p>

@@ -8,6 +8,7 @@ pageKeywords: safety netaccess, SaaS, platform, interface, design sprint, user i
 id: safety-netaccess
 published: true
 layout: case-study.ejs
+sortOrder: 6
 ---
 
 <p class="paragraph--major">You visit a hotel, pull out your phone, and attempt to connect to the internet. After a few quick taps you’re connected. Seems simple enough, right?</p>
