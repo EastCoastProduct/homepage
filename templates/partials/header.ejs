@@ -31,12 +31,21 @@
         <% if(pageDescription) { %>
           <p class="page-heading--subtitle"><%- pageDescription %></p>
         <% } %>
-        <% if(pageHeadingImage) { %>
+        <% if(pageHeadingImage && pageHeadingImageFormat == "desktop") { %>
           <div class="header--image" id="to-be-removed">
             <picture class="browser-chrome">
               <span class="browser-buttons" id="close-browser-button"></span>
               <span class="browser-url-bar" contenteditable="true"></span>
-              <img src="<%- pageHeadingImage %>" alt="<%- pageHeadingImageAlt %>"/>
+              <img src="<%- pageHeadingImage %>" alt="<%- pageHeadingImageAlt %>" />
+            </picture>
+          </div>
+        <% } %>
+        <% if(pageHeadingImage && pageHeadingImageFormat == "mobile") { %>
+          <div class="header--image">
+            <picture class="mobile-device">
+              <span class="mobile-camera"></span>
+              <span class="mobile-power-button" id="device-power-button"></span>
+              <img src="<%- pageHeadingImage %>" alt="<%- pageHeadingImageAlt %>" id="to-be-blanked" />
             </picture>
           </div>
         <% } %>

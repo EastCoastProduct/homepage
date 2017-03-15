@@ -4,6 +4,7 @@ pageHeading: Innovation Women
 pageDescription: From Vision to MVP in 3 Weeks
 pageHeadingImage: /images/work-shots/innovation-women-screenshot.png
 pageHeadingImageAlt: A screenshot from the Innovation Women project.
+pageHeadingImageFormat: desktop
 pageKeywords: development, mvp, communication, ruby on rails, lean, javascript, ruby, rails, vagrant, heroku
 id: innovation-women
 published: true

@@ -13,6 +13,7 @@
       </section>
     </main>
     <% include partials/footer %>
+    <% if(pageHeadingImageFormat == "desktop") { %>
     <!-- browser controls easter egg -->
     <script>
       var toBeRemoved = document.getElementById("to-be-removed");
@@ -22,5 +23,22 @@
       };
     </script>
     <!-- end of browser controls easter egg -->
+    <% } %>
+    <% if(pageHeadingImageFormat == "mobile") { %>
+    <!-- mobile device controls easter egg -->
+    <script>
+      var toBeBlanked = document.getElementById("to-be-blanked");
+      var devicePowerButton = document.getElementById("device-power-button");
+      toBeBlanked.style.opacity = '1';
+      devicePowerButton.onclick = function() {
+        if (toBeBlanked.style.opacity == '1') {
+          toBeBlanked.style.opacity = '0';
+        } else {
+          toBeBlanked.style.opacity = '1';
+        }
+      };
+    </script>
+    <!-- end of mobile device controls easter egg -->
+    <% } %>
   </body>
 </html>

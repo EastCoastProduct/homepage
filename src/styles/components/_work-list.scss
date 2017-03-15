@@ -16,6 +16,9 @@
 
   .work-image-wrap {
     margin: -0.9375rem -0.9375rem 0.9375rem -0.9375rem;
+    height: 0px;
+    overflow: hidden;
+    padding-bottom: 50%;
   }
 
   .work-image {

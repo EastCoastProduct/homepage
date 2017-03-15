@@ -4,6 +4,7 @@ pageHeading: Startup Rounds
 pageDescription: Streamlining Event Organization and Management
 pageHeadingImage: /images/work-shots/innovation-women-screenshot.png
 pageHeadingImageAlt: A screenshot from the Startup Rounds project.
+pageHeadingImageFormat: desktop
 pageKeywords:
 id: startup-rounds
 published: true

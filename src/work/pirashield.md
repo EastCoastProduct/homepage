@@ -4,6 +4,7 @@ pageHeading: PiraShield
 pageDescription: Using Design Thinking for Business Problems
 pageHeadingImage: /images/work-shots/pirashield-screenshot.png
 pageHeadingImageAlt: A screenshot from the Pirashield project.
+pageHeadingImageFormat: desktop
 pageKeywords:
 id: pirashield
 published: true

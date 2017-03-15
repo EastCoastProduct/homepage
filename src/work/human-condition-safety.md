@@ -4,6 +4,7 @@ pageHeading: Human Condition Safety
 pageDescription: Using Technology for Construction Safety
 pageHeadingImage: /images/work-shots/human-condition-safety-screenshot.png
 pageHeadingImageAlt: A screenshot from the Human Condition Safety project.
+pageHeadingImageFormat: desktop
 pageKeywords:
 id: human-condition-safety
 published: true

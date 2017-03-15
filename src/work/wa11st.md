@@ -2,8 +2,9 @@
 url: /work/wa11st/index.html
 pageHeading: Wa11st
 pageDescription: From Idea to Reality
-pageHeadingImage: /images/work-shots/innovation-women-screenshot.png
+pageHeadingImage: /images/work-shots/wa11st-screenshot.png
 pageHeadingImageAlt: A screenshot from the Wa11st project.
+pageHeadingImageFormat: mobile
 pageKeywords:
 id: wa11st
 published: true
