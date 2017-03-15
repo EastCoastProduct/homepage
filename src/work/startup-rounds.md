@@ -2,7 +2,7 @@
 url: /work/startup-rounds/index.html
 pageHeading: Startup Rounds
 pageDescription: Streamlining Event Organization and Management
-pageHeadingImage: /images/work-shots/innovation-women-screenshot.png
+pageHeadingImage: /images/work-shots/startup-rounds-screenshot.png
 pageHeadingImageAlt: A screenshot from the Startup Rounds project.
 pageHeadingImageFormat: desktop
 pageKeywords:
