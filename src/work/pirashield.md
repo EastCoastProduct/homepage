@@ -1,8 +1,8 @@
 ---
 url: /work/pirashield/index.html
-pageHeading: Pirashield
+pageHeading: PiraShield
 pageDescription: Using Design Thinking for Business Problems
-pageHeadingImage: /images/work-shots/innovation-women-screenshot.png
+pageHeadingImage: /images/work-shots/pirashield-screenshot.png
 pageHeadingImageAlt: A screenshot from the Pirashield project.
 pageKeywords:
 id: pirashield
@@ -12,7 +12,7 @@ layout: case-study.ejs
 
 <p class="paragraph--major"><a href="https://pirashield.com/">PiraShield</a> is a service that helps combat online piracy by scanning the web to locate pirated copies of your content and removing access to them. After finding initial success with their target market they wanted to figure out what they should build next in order to scale. They wanted to build something that better communicated the service they offer and its value over time to potential new customers.</p>
 
-<p class="paragraph--major">The Pirashield team approached East Coast Product to tackle that challenge. We decided to run a <a href="http://www.gv.com/sprint/">design sprint</a> with the team to further understand their users and explore what needed to be done to take Pirashield to the next level.</a>
+<p class="paragraph--major">The PiraShield team approached East Coast Product to tackle that challenge. We decided to run a <a href="http://www.gv.com/sprint/">design sprint</a> with the team to further understand their users and explore what needed to be done to take Pirashield to the next level.</a>
 
 <h1 class="text-heading-one">Understanding the Problem</h1>
 
