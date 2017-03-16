@@ -1,18 +1,18 @@
 ---
 url: /work/wa11st/index.html
-pageHeading: Wa11st
+pageHeading: WA11.ST
 pageDescription: From Idea to Reality
 pageHeadingImage: /images/work-shots/wa11st-screenshot.png
-pageHeadingImageAlt: A screenshot from the Wa11st project.
+pageHeadingImageAlt: A screenshot from the WA11.ST project.
 pageHeadingImageFormat: mobile
 pageKeywords:
 id: wa11st
-published: false
+published: true
 layout: case-study.ejs
 sortOrder: 9
 ---
 
-<p class="paragraph--major">When Tyler Carlin first approached the East Coast Product team, he had a brilliant idea; a fantasy sports application that takes established norms of daily fantasy and adds a unique twist to it. Tyler wanted to work with a team that would be able take his idea and make it a reality. Our goal was to help Tyler validate his idea and build out a clickable prototype that would eventually be used as pitch collateral during investor meetings. We worked with Tyler to design and validate what his application would before going to the effort and expense of  development. We were able to build out a full mockup and prototype of a mobile application that helped him raise his next round.</p>
+<p class="paragraph--major">When Tyler Carlin first approached the East Coast Product team, he had a brilliant idea; a fantasy sports application that takes established norms of daily fantasy and adds a unique twist to it. Tyler wanted to work with a team that would be able take his idea and make it a reality. Our goal was to help Tyler validate his idea and build out a clickable prototype that would eventually be used as pitch collateral during investor meetings. We worked with Tyler to design and validate how his application would function before going to the effort and expense of development. We were able to build out a full mockup and prototype of a mobile application that helped him raise his next round.</p>
 
 <h1 class="text-heading-one">Complex Idea, Simplified</h1>
 
