@@ -42,6 +42,7 @@ a.card { // use for cards that are a link
 
   &:active {
     border: none;
+    transform: translate3d(0, 3px, 0);
     box-shadow: rgba($darkest, 0.4) 0 5px 10px;
   }
 
