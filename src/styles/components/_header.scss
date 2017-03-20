@@ -30,11 +30,6 @@
   border: none;
   transition: all 0.1s ease-in-out;
 
-  img {
-    -webkit-filter: drop-shadow( rgba($darkest, 1) 0 10px 20px );
-            filter: drop-shadow( rgba($darkest, 1) 0 10px 20px );
-  }
-
   &:hover, &:focus {
     border: none;
     background-color: transparent !important;
