@@ -1,4 +1,5 @@
 const Metalsmith = require('metalsmith')
+
 const branch = require('metalsmith-branch')
 const cleanCSS = require('metalsmith-clean-css')
 const collections = require('metalsmith-collections')
@@ -10,6 +11,7 @@ const layouts = require('metalsmith-layouts')
 const markdown = require('metalsmith-markdown')
 const metadata = require('metalsmith-metadata')
 const permalinks = require('metalsmith-permalinks')
+const postcss = require('metalsmith-postcss')
 const redirect = require('metalsmith-redirect')
 const sass = require('metalsmith-sass')
 const serve = require('metalsmith-serve')
@@ -64,6 +66,18 @@ Metalsmith(__dirname)
   }))
   .use(sass({
     outputStyle: 'expanded',
+  }))
+  .use(postcss({
+    plugins: {
+      'postcss-unprefix': {},
+      'autoprefixer': {
+        browsers: [
+          '> 1%',
+          'last 2 versions',
+          'Firefox ESR'
+        ]
+      }
+    }
   }))
   .use(cleanCSS({
     files: 'styles/*.css',
