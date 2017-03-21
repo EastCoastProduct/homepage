@@ -5,7 +5,6 @@ pageDescription: Streamlining Event Organization and Management
 pageHeadingImage: /images/work-shots/startup-rounds-screenshot.png
 pageHeadingImageAlt: A screenshot from the Startup Rounds project.
 pageHeadingImageFormat: desktop
-pageKeywords:
 id: startup-rounds
 published: false
 layout: case-study.ejs

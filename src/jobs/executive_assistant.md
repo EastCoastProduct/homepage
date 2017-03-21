@@ -4,7 +4,6 @@ pageHeading: Executive Assistant
 pageDescription: Boston, MA
 pageHeadingImage:
 pageHeadingImageAlt:
-pageKeywords: executive assistant, competitive salary, flexible schedule, unlimited vacation, international travel
 id: executive_assistant
 hiringContactId: chris-swenor
 published: true

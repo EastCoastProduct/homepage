@@ -4,7 +4,6 @@ pageHeading: JavaScript
 pageDescription: Lightweight, powerful, and ubiquitous.
 pageHeadingImage:
 pageHeadingImageAlt:
-pageKeywords: javascript, applications, react, node.js, node, react native
 id: javascript
 published: true
 layout: technology.ejs

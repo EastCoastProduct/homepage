@@ -5,7 +5,6 @@ pageDescription: Using Technology in the Fight to Cure Cancer
 pageHeadingImage: /images/work-shots/bek-health-screenshot.png
 pageHeadingImageAlt: A screenshot from the Bek Health project.
 pageHeadingImageFormat: desktop
-pageKeywords:
 id: bek-health
 published: false
 layout: case-study.ejs

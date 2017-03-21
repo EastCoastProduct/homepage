@@ -5,7 +5,6 @@ pageDescription: Lighting Up a Greener Earth
 pageHeadingImage: /images/work-shots/neos-screenshot.png
 pageHeadingImageAlt: A screenshot from the NEOs project.
 pageHeadingImageFormat: desktop
-pageKeywords:
 id: neos
 published: false
 layout: case-study.ejs

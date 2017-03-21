@@ -4,7 +4,6 @@ pageHeading: JavaScript Developer
 pageDescription: Split, Croatia
 pageHeadingImage:
 pageHeadingImageAlt:
-pageKeywords: javascript developer, agile, javascript, html, css, node.js, webpack, gulp, git, competitive salary, flexible schedule, unlimited vacation, international travel
 id: javascript_developer
 hiringContactId: ivan-blazevic
 published: true

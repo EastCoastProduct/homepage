@@ -4,7 +4,6 @@ pageHeading: Executive Sales Assistant
 pageDescription: Boston, MA
 pageHeadingImage:
 pageHeadingImageAlt:
-pageKeywords:
 id: executive_sales_assistant
 hiringContactId: chris-swenor
 published: false

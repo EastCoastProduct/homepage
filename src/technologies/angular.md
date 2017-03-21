@@ -4,7 +4,6 @@ pageHeading: Angular
 pageDescription: A complete frontend framework, maintained by Google.
 pageHeadingImage:
 pageHeadingImageAlt:
-pageKeywords: angular, javascript, framework, frontend
 id: angular
 published: true
 layout: technology.ejs

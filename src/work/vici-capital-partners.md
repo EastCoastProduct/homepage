@@ -5,7 +5,6 @@ pageDescription: Designing a Platform for Innovation
 pageHeadingImage: /images/work-shots/vici-capital-partners-screenshot.png
 pageHeadingImageAlt: A screenshot from the Vici Capital Partners project.
 pageHeadingImageFormat: desktop
-pageKeywords:
 id: vici-capital-partners
 published: false
 layout: case-study.ejs

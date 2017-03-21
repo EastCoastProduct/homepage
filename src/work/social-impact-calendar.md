@@ -5,7 +5,6 @@ pageDescription: Harnessing Discoverability to Drive Social Engagement
 pageHeadingImage: /images/work-shots/social-impact-calendar-screenshot.png
 pageHeadingImageAlt: A screenshot from the Social Impact Calendar project.
 pageHeadingImageFormat: desktop
-pageKeywords: social impact calendar, timothy smith network, cityawake, nonprofit, community, events, city of boston, design sprint, seo, isomorphic react, node.js, node, express
 id: social-impact-calendar
 published: true
 layout: case-study.ejs

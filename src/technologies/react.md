@@ -4,7 +4,6 @@ pageHeading: React
 pageDescription: Helping us build truly great user interfaces.
 pageHeadingImage:
 pageHeadingImageAlt:
-pageKeywords: react, javascript, components
 id: react
 published: true
 layout: technology.ejs

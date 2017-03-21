@@ -5,7 +5,6 @@ pageDescription: Future-Proofing a SaaS Platform
 pageHeadingImage: /images/work-shots/safety-netaccess-screenshot.png
 pageHeadingImageAlt: A screenshot from the Safety NetAccess project.
 pageHeadingImageFormat: desktop
-pageKeywords: safety netaccess, SaaS, platform, interface, design sprint, user interviews, prototype, prototyping, user testing, user experience, node.js, node, react, radius, nomadix, postgres, logianalytics, discovery, scale
 id: safety-netaccess
 published: false
 layout: case-study.ejs

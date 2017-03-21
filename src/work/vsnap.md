@@ -5,7 +5,6 @@ pageDescription: Rebuilding for Scale
 pageHeadingImage: /images/work-shots/vsnap-screenshot.png
 pageHeadingImageAlt: A screenshot from the Vsnap project.
 pageHeadingImageFormat: desktop
-pageKeywords: vsnap, SaaS, video messaging, prototype, javascript, acquisition, angular, node.js, node, api, api-first development, amazon web services, aws, postgres
 id: vsnap
 published: true
 layout: case-study.ejs

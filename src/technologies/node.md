@@ -4,7 +4,6 @@ pageHeading: Node.js
 pageDescription: It’s JavaScript, all the way down.
 pageHeadingImage:
 pageHeadingImageAlt:
-pageKeywords: node.js, node, javascript, npm, full-stack
 id: node
 published: true
 layout: technology.ejs

@@ -4,7 +4,6 @@ pageHeading: React Native
 pageDescription: Building native experiences with the web tech we’re already experts in.
 pageHeadingImage:
 pageHeadingImageAlt:
-pageKeywords: react native, javascript, android, ios, mobile development, native app, native application
 id: react_native
 published: true
 layout: technology.ejs
