@@ -6,7 +6,7 @@ pageHeadingImage: /images/work-shots/startup-rounds-screenshot.png
 pageHeadingImageAlt: A screenshot from the Startup Rounds project.
 pageHeadingImageFormat: desktop
 id: startup-rounds
-published: false
+published: true
 layout: case-study.ejs
 sortOrder: 11
 ---
