@@ -6,7 +6,7 @@ pageHeadingImage: /images/work-shots/human-condition-safety-screenshot.png
 pageHeadingImageAlt: A screenshot from the Human Condition Safety project.
 pageHeadingImageFormat: desktop
 id: human-condition-safety
-published: false
+published: true
 layout: case-study.ejs
 sortOrder: 3
 ---
