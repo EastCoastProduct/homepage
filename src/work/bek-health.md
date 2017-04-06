@@ -1,12 +1,12 @@
 ---
 url: /work/bek-health/index.html
 pageHeading: BEKHealth
-pageDescription: Using Technology in the Fight to Cure Cancer
+pageDescription: The only fully integrated trial portfolio, patient recruitment and analytics solution
 pageHeadingImage: /images/work-shots/bek-health-screenshot.png
 pageHeadingImageAlt: A screenshot from the BEKHealth project.
 pageHeadingImageFormat: desktop
 id: bek-health
-published: false
+published: true
 layout: case-study.ejs
 sortOrder: 1
 ---
