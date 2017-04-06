@@ -1,9 +1,9 @@
 ---
 url: /work/bek-health/index.html
-pageHeading: Bek Health
+pageHeading: BEKHealth
 pageDescription: Using Technology in the Fight to Cure Cancer
 pageHeadingImage: /images/work-shots/bek-health-screenshot.png
-pageHeadingImageAlt: A screenshot from the Bek Health project.
+pageHeadingImageAlt: A screenshot from the BEKHealth project.
 pageHeadingImageFormat: desktop
 id: bek-health
 published: false
@@ -11,7 +11,7 @@ layout: case-study.ejs
 sortOrder: 1
 ---
 
-<p class="paragraph--major">Bek Health is an organization that wants to connect cancer patients to trials that have the best chance of being improving their outcome as a patient. By optimizing the trial matching process cancer patients will get an opportunity to participate in the best trials for their condition, while cancer centers get better study results. To take this life-changing idea and make it a reality the team at Bek Health approached East Coast Product to help validate their concept and design a prototype to demo with potential investors.</p>
+<p class="paragraph--major">BEKHealth’s mission is to accelerate the adoption of innovative therapies by substantially increasing patient participation rates in clinical research. Higher clinical trial participation rates within a health system produce better patient outcomes, lower costs and happier employees. Yet an unfortunately low percentage of patients participate in clinical research&mdash;only 3% of cancer patients enroll in a clinical study. To change this, the team at Bek Health approached East Coast Product to help validate their concept and design a prototype to demo with potential investors.</p>
 
 <h1 class="text-heading-one">User Validation to Help with Funding</h1>
 
