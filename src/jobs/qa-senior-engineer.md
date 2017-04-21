@@ -1,7 +1,7 @@
 ---
 url: /jobs/qa-senior-engineer/index.html
 pageHeading: Senior QA Engineer
-pageDescription: Split, Croatia
+pageDescription: Split or Zagreb, Croatia
 pageHeadingImage:
 pageHeadingImageAlt:
 id: qa-senior-engineer
@@ -10,7 +10,7 @@ published: true
 layout: job.ejs
 ---
 
-<p>Grow your career as a Senior QA Engineer at a growing company software development agency in Split alongside passionate JavaScript experts!</p>
+<p>Grow your career as a Senior QA Engineer at a growing company software development agency in Split and Zagreb alongside passionate JavaScript experts!</p>
 
 <p>We are looking to bring on motivated and talented individuals who share our passion for learning and development. At East Coast Product, building a diverse team with a collaborative work culture has always been a top priority. Since our founding, we have fostered a challenging and motivating work environment. With our sights set on employee satisfaction, we provide our team members with everything they will need grow their skills and expand their career.</p>
 
