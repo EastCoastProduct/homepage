@@ -1,6 +1,6 @@
 ---
 url: /jobs/qa-senior-engineer/index.html
-pageHeading: QA Senior Engineer
+pageHeading: Senior QA Engineer
 pageDescription: Split, Croatia
 pageHeadingImage:
 pageHeadingImageAlt:
