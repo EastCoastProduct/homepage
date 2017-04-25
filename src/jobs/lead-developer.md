@@ -12,7 +12,7 @@ layout: job.ejs
 
 <p>East Coast Product is looking for an experienced lead developer to help us build a new team in Zagreb.</p>
 
-<p>This person is the expert in web development and can come up with solutions to complex problems. They are a true expert in their specialty and very skilled in the entire web development process. They are a skilled communicator and can convey and assert technical authority when communicating with client leads. They are able to provide very precise estimations on complex technical challenges.</p>
+<p>This person is an expert in web development and can come up with solutions to complex problems. They are a true expert in their specialty and very skilled in the entire web development process. They are a skilled communicator and can convey and assert technical authority when communicating with client leads. They are able to provide very precise estimations on complex technical challenges.</p>
 
 <p>They are able to architect complex solutions and can support the team to finish projects on time and up to quality standards. They are able to oversee and make sure that multiple teams are on the track to successfully finish their respective projects. This person is able to provide guidance to more junior developers and help them grow professionally. They are able to look at the product from the client’s perspective and make sure that all client needs are satisfied.</p>
 
