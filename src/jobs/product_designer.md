@@ -6,6 +6,7 @@ pageHeadingImage:
 pageHeadingImageAlt:
 id: product_designer
 hiringContactId: steve-hickey
+jobType: designer
 published: false
 layout: job.ejs
 ---

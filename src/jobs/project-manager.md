@@ -6,6 +6,7 @@ pageHeadingImage:
 pageHeadingImageAlt:
 id: project-manager
 hiringContactId: ivan-blazevic
+jobType: other
 published: true
 layout: job.ejs
 ---

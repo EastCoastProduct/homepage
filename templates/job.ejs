@@ -17,10 +17,28 @@
             <h2 class="text-heading-two">How To Apply</h2>
             <% collections.person.forEach(function(person){ %>
             <% if(person.id == hiringContactId) { %>
-            <p>Please email our <%= person.title %>, <%= person.name %></a>, if you’re interested in applying for the position.</p>
-            <a href="mailto:<%= person.contact.email %>@eastcoastproduct.com" class="button--default" target="_blank">Email <%= person.name %></a>
+            <p>Please fill out the form below to apply. You can email our <%= person.title %> <%= person.name %></a> at <a href="mailto:<%= person.contact.email %>@eastcoastproduct.com" target="_blank"><%= person.contact.email %>@eastcoastproduct.com</a> if you'd like more information or you prefer to apply by email.</p>
             <% } %>
             <% }) %>
+
+            <!--[if lte IE 8]>
+            <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+            <![endif]-->
+            <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+            <script>
+              hbspt.forms.create({
+                css: '',
+                portalId: '502785',
+                <% if(jobType == "designer") { %>
+                  formId: 'f744ba57-7fc8-418e-8a6c-6181305d8804'
+                <% } else if(jobType == "developer") { %>
+                  formId: '05a26829-0cd8-4eca-82a3-94a6181d627c'
+                <% } else { %>
+                  formId: 'dcadf372-9ceb-488d-ab2c-465a92abf653'
+                <% } %>
+              });
+            </script>
+
           </div>
         </div>
       </section>

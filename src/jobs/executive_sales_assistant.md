@@ -6,6 +6,7 @@ pageHeadingImage:
 pageHeadingImageAlt:
 id: executive_sales_assistant
 hiringContactId: chris-swenor
+jobType: other
 published: false
 layout: job.ejs
 ---
