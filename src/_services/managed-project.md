@@ -28,7 +28,7 @@ sortOrder: 1
   <img src="/images/services-illustrations/design.svg" alt="Illustration of a designer's desktop." />
 </div>
 
-<p>A great product needs to be use easy to use <em>and</em> it needs to be built for the right users. Our process has been refined to tackle these challenges efficiently and effectively. We refine our user research and test prototypes on an ongoing basis so we have good answers before building. By approaching problems iteratively we can lower expenses and the risk associated with building the wrong product.</p>
+<p>A great product needs to be easy to use <em>and</em> it needs to be built for the right users. Our process has been refined to tackle these challenges efficiently and effectively. We refine our user research and test prototypes on an ongoing basis so we have good answers before building. By approaching problems iteratively we can lower expenses and the risk associated with building the wrong product.</p>
 
 <h2 class="text-heading-two">Full-stack JavaScript web development</h2>
 
