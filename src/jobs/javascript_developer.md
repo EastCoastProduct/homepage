@@ -1,7 +1,7 @@
 ---
 url: /jobs/javascript_developer/index.html
 pageHeading: JavaScript Developer
-pageDescription: Split, Croatia
+pageDescription: Split or Zagreb, Croatia
 pageHeadingImage:
 pageHeadingImageAlt:
 id: javascript_developer
@@ -11,7 +11,7 @@ published: true
 layout: job.ejs
 ---
 
-<p>If you are interested in becoming part of a growing team of JavaScript experts, growing your career, and building innovative and modern web applications for clients around the world: consider joining our office in Split, Croatia!</p>
+<p>If you are interested in becoming part of a growing team of JavaScript experts, growing your career, and building innovative and modern web applications for clients around the world: consider joining us in Split or Zagreb, Croatia!</p>
 
 <p>We are looking to bring on motivated, talented individuals who share our passion for learning and JavaScript. At East Coast Product, building a diverse team with a positive work culture has always been a top priority. Since our founding, we have fostered a stimulating and motivating work environment. With our sights set on employee satisfaction, we provide our team members with everything they will need grow their skills and expand their career.</p>
 
