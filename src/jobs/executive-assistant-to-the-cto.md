@@ -5,7 +5,7 @@ pageDescription: Split, Croatia
 pageHeadingImage:
 pageHeadingImageAlt:
 id: executive-assistant-to-the-cto
-hiringContactId: ivan-blazevic
+hiringContactId: hannah-fisher
 jobType: other
 published: true
 layout: job.ejs
