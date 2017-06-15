@@ -6,16 +6,16 @@ pageHeadingImage:
 pageHeadingImageAlt:
 id: product-manager
 hiringContactId: steve-hickey
-jobType:
-published: false
+jobType: product-manager
+published: true
 layout: job.ejs
 ---
 
-<p>Grow your career as a Product Manager in the Boston office of our growing software development agency.</p>
+<p>Advance your career as a Product Manager in the Boston office of our growing software development agency.</p>
 
-<p>We are looking to bring a motivated and talented individual who shares our passion for learning and development. At East Coast Product, building a diverse team with a collaborative work culture has always been a top priority. Since our founding, we have fostered a challenging and motivating work environment. With our sights set on employee satisfaction, we provide our team members with everything they will need grow their skills and expand their career.</p>
+<p>We are looking to bring a motivated and talented individual who shares our passion for learning and development. At East Coast Product, building a diverse team with a collaborative work culture is a top priority. Since our founding, we have fostered a challenging and motivating work environment. With our sights set on employee satisfaction, we provide our team members with everything they will need grow their skills and expand their career.</p>
 
-<p>The ideal candidate has 3-5 years of experience helping shepherd new products from idea to market. They will have experience with a few different flavors of Agile, and some opinions on what does and does not work about the various methodologies. They should have prior experience optimizing a team’s process to improve it over time and more effectively and predictably deliver shipped product.</p>
+<p>The ideal candidate has 3-5 years of experience helping shepherd new products from idea to market. They will have experience with a few different flavors of Agile (our current process is Scrum-like), and will have some opinions on what does and does not work about different approaches. It is critical that they have prior experience optimizing a team’s process to improve it over time and more effectively and predictably deliver shipped product.</p>
 
 <p>Early work for this position will primarily be leading a current project team on a complicated client project as we improve our process and our ability to deliver consistently good work. Over time this work will evolve to include research and discovery on early products and features, exploring ways to add value to our clients’ businesses, and teaching other team members foundational skills in product management. Our short-term needs are primarily tactical (getting things done) but we’re looking for someone who can evolve into a strategic asset and is interested in leadership in the company.</p>
 
@@ -42,7 +42,8 @@ layout: job.ejs
   <li>Carrying out research and discovery activities and folding new information back into the team’s execution.</li>
   <li>Teaching members of our team to execute on foundational product management skills such as writing user stories and estimating/planning.</li>
   <li>Helping define and improve the company’s product management process.</li>
-  <li>Set and manage client expectations as projects progress.</li>
+  <li>Set and manage client expectations as projects progress, especially around estimated deadlines.</li>
+  <li>Holding regular sprint retrospectives to help the team learn and improve their velocity and the quality of their delivery.</li>
 </ul>
 
 <h3 class="text-heading-three">Bonus Skills</h3>
@@ -61,3 +62,9 @@ layout: job.ejs
   <li>Casual company culture that values performance and teamwork.</li>
   <li>Opportunities for international travel.</li>
 </ul>
+
+<h2 class="text-heading-two">Application Process</h2>
+
+<p>Our plan is to solicit applications for two weeks, from June 19 to June 30. We will follow up with every applicant during the following week, either to schedule a brief phone screen before a formal interview, or to let you know we will not be pursuing your application.</p>
+
+<p>Please be aware that we are expecting a high volume of applications and will not be able to offer individual feedback.</p>
