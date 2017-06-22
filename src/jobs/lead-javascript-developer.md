@@ -1,17 +1,17 @@
 ---
-url: /jobs/lead-developer/index.html
-pageHeading: Lead Developer
+url: /jobs/lead-javascript-developer/index.html
+pageHeading: Lead JavaScript Developer
 pageDescription: Zagreb, Croatia
 pageHeadingImage:
 pageHeadingImageAlt:
-id: lead-developer
+id: lead-javascript-developer
 hiringContactId: ivan-blazevic
 jobType: developer
 published: true
 layout: job.ejs
 ---
 
-<p>East Coast Product is looking for an experienced lead developer to help us build a new team in Zagreb.</p>
+<p>East Coast Product is looking for an experienced Lead JavaScript Developer to help us build a new team in Zagreb.</p>
 
 <p>This person is an expert in web development and can come up with solutions to complex problems. They are a true expert in their specialty and very skilled in the entire web development process. They are a skilled communicator and can convey and assert technical authority when communicating with client leads. They are able to provide very precise estimations on complex technical challenges.</p>
 
