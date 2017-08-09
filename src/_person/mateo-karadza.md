@@ -1,5 +1,5 @@
 ---
-name: Mateo Karadza
+name: Mateo Karadža
 id: mateo-karadza
 numberId: 17
 title: Developer

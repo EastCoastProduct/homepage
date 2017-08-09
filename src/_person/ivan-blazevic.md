@@ -1,5 +1,5 @@
 ---
-name: Ivan Blazevic
+name: Ivan Blažević
 id: ivan-blazevic
 numberId: 2
 title: CTO & Cofounder
