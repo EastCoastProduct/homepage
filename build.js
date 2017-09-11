@@ -36,6 +36,10 @@ Metalsmith(__dirname)
       pattern: '_person/*.md',
       sortBy: 'numberId'
     },
+    mentions: {
+      pattern: '_mentions/*.md',
+      sortBy: 'numberId'
+    },
     values: {
       pattern: '_values/*.md'
     },

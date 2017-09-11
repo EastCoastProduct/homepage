@@ -54,6 +54,25 @@
           <% }) %>
         </div>
       </section>
+      <section id="mentions">
+        <div class="container">
+          <header class="section--header">
+            <h1 class="text-heading-one">Media mentions</h1>
+          </header>
+          <div class="mentions-list">
+            <% collections.mentions.forEach(function(mention){ %>
+            <a href="<%= mention.mentionURL %>" class="mention card">
+              <div class="mention-logo-wrap">
+                <img src="/images/mention-logos/<%= mention.publicationLogo %>" alt="Logo of <%= mention.publication %>" class="mention-logo" />
+              </div>
+              <h2 class="text-heading-two mention-title">
+                <span class="link-surrogate"><%= mention.mentionTitle %></h2></span>
+              <h3 class="paragraph--minor mention-date"><%= mention.publication %> | <%= mention.mentionDate %></h3>
+            </a><!-- end of .card -->
+            <% }) %>
+          </div><!-- end of .mentions-list -->
+        </div>
+      </section>
     </main>
     <% include partials/footer %>
   </body>

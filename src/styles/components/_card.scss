@@ -49,6 +49,7 @@ a.card { // use for cards that are a link
   .link-surrogate {
     border-bottom: 2px solid rgba($green, 0.5);
     transition: all 0.2s linear;
+    line-height: 1.5;
   }
 
   &:hover .link-surrogate {
