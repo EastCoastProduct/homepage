@@ -48,7 +48,8 @@
     margin-bottom: 1.875rem;
   }
 
-  .split-in-two {
+  .split-in-two,
+  .split-in-three {
     vertical-align: top;
     margin-bottom: 1.875rem;
   }
@@ -94,7 +95,7 @@
   }
 }
 
-@media (min-width: 700px) {
+@media (min-width: 500px) {
   .footer--global {
     padding-top: 7.5rem;
 
@@ -110,6 +111,17 @@
   .split-in-two {
     display: inline-block;
     width: 48.5%;
+    margin-right: 3%;
+    margin-bottom: 0;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  .split-in-three {
+    display: inline-block;
+    width: 31.333%;
     margin-right: 3%;
     margin-bottom: 0;
 
