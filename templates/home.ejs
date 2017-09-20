@@ -4,21 +4,27 @@
   <body class="area-home">
     <% include partials/header %>
     <main role="main" id="main">
-      <section id="team">
+      <section id="services">
         <div class="container">
           <header class="section--header">
-            <h1 class="text-heading-one">Who we are</h1>
+            <h1 class="text-heading-one">Our services</h1>
           </header>
-          <div class="card targetable">
-            <p class="paragraph--major">We are a group of expert designers and developers, working together to build great product. We work in small teams focused on only your project, designed to find the right solutions to your problems.</p>
-            <a href="/about" class="button--default">Meet the team</a>
-          </div><!-- end of .card -->
+          <% collections.services.forEach(function(service){ %>
+          <div class="card targetable" id="<%= service.id %>">
+            <h2 class="text-heading-two"><%= service.title %></h2>
+            <% if(service.leadImage) { %>
+            <img src="<%= service.leadImage %>" alt="Illustration of equipment used for <%= service.title %>" class="card-image--hang-right-wide" />
+            <% } %>
+            <p><%= service.description %></p>
+            <a href="/services/#<%= service.id %>" class="button--default">Learn more<span class="visually-hidden"> about <%= service.title %></span></a>
+          </div>
+          <% }) %>
         </div>
       </section>
       <section id="clients">
         <div class="container">
           <header class="section--header">
-            <h1 class="text-heading-one">Our clients and partners</h1>
+            <h1 class="text-heading-one">Clients and partners</h1>
           </header>
           <div class="logo-grid">
             <a href="/work/vsnap" id="vsnap" class="logo card targetable">Vsnap</a>
@@ -35,23 +41,6 @@
             <!--<a href="/work/safety-netaccess" id="safety-netaccess" class="logo card targetable">Safety NetAccess</a>-->
           </div>
           <a href="/work" class="button--default">Hear their stories</a>
-        </div>
-      </section>
-      <section id="services">
-        <div class="container">
-          <header class="section--header">
-            <h1 class="text-heading-one">Services we offer</h1>
-          </header>
-          <% collections.services.forEach(function(service){ %>
-          <div class="card targetable" id="<%= service.id %>">
-            <h2 class="text-heading-two"><%= service.title %></h2>
-            <% if(service.leadImage) { %>
-            <img src="<%= service.leadImage %>" alt="Illustration of equipment used for <%= service.title %>" class="card-image--hang-right-wide" />
-            <% } %>
-            <p><%= service.description %></p>
-            <a href="/services/#<%= service.id %>" class="button--default">Learn more<span class="visually-hidden"> about <%= service.title %></span></a>
-          </div>
-          <% }) %>
         </div>
       </section>
       <section id="mentions">

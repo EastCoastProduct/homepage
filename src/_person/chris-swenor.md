@@ -1,6 +1,7 @@
 ---
 name: Chris Swenor
 id: chris-swenor
+active: true
 numberId: 1
 title: CEO & Cofounder
 bio: Ringleader of this circus. Passionate about all things software, and lean startup evangelist.

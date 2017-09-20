@@ -1,7 +1,8 @@
 ---
 name: Zvonimir Rajniš
 id: zvonimir-rajnis
-numberId: 20
+active: false
+numberId: 
 title: Developer
 bio: Zvonimir is a JavaScript enthusiast who likes to listen to funk, eat pizza and play football.
 areas:

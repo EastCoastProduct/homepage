@@ -1,7 +1,8 @@
 ---
 name: Mateo Karadža
 id: mateo-karadza
-numberId: 17
+active: false
+numberId: 
 title: Developer
 bio: A young programmer passionate about technology and entrepreneurship.
 areas:

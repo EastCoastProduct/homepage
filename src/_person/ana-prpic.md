@@ -1,7 +1,8 @@
 ---
 name: Ana Prpić
 id: ana-prpic
-numberId: 11
+active: false
+numberId: 
 title: Quality Assurance Engineer
 bio: Lover of all things coffee especially when paired with a good book.. Ana lives by the one rule of good QA’s, “when you’re good at your job, most people shouldn’t know you exist.”
 areas:

@@ -1,7 +1,8 @@
 ---
 name: Andro Bubica
 id: andro-bubica
-numberId: 13
+active: false
+numberId: 
 title: Developer
 bio: Andro comes, he sees, he debugs.
 areas:

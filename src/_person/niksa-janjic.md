@@ -1,7 +1,8 @@
 ---
 name: Nikša Janjić
 id: niksa-janjic
-numberId: 5
+active: false
+numberId: 
 title: Developer
 bio: Nikša is a JavaScript developer giving life to modern single page web applications, and slowly figuring out a way to do the same for mobile.
 areas:

@@ -1,7 +1,8 @@
 ---
 name: Steph Bond
 id: steph-bond
-numberId: 9
+active: false
+numberId: 
 title: Product Designer
 bio: Steph designs digital experiences that matter and can be found drawing on walls.
 areas:

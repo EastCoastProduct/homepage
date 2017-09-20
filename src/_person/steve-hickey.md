@@ -1,6 +1,7 @@
 ---
 name: Steve Hickey
 id: steve-hickey
+active: true
 numberId: 3
 title: Director of Product Design & Strategy
 bio: Steve is a designer, UX strategist and product design educator cultivating a simple, no-bullshit approach to building things that matter.

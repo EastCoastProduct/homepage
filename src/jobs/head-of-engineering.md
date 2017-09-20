@@ -1,0 +1,74 @@
+---
+url: /jobs/head-of-engineering/index.html
+pageHeading: Head of Engineering
+pageDescription: "Location: Boston, MA"
+pageHeadingImage:
+pageHeadingImageAlt:
+id: head-of-engineering
+hiringContactId: carla-cornejo
+jobType: developer
+published: true
+layout: job.ejs
+---
+
+<p>East Coast Product is looking for an experienced Head of Engineering to help us build a team of expert remote developers and help shape the company as we continue to grow.</p>
+
+<h2 class="text-heading-two">About You</h2>
+
+<p>You’re a JavaScript expert that can quickly come up with solutions to complex problems. You demonstrate a deep understanding of the entire web development process.</p>
+
+<p>You’re a skilled communicator that conveys technical authority when communicating with clients and you make sure you understand the product from the client’s perspective.</p>
+
+<p>You’re committed to diversity & inclusion and have a demonstrated history of promoting a learning culture. You have an entrepreneurial mind-set and aren’t afraid to try new ways of doing things. You look forward to working shoulder-to-shoulder with a small management team that is motivated by employee happiness and client satisfaction.</p>
+
+<h2 class="text-heading-two">About the Job</h2>
+
+<p>As the Head of Engineering at ECP, you’ll oversee multiple project teams and make sure they’re on the track to complete tasks at the level of quality we expect.</p>
+
+<h2 class="text-heading-two">Main Responsibilities</h2>
+
+<ul>
+  <li>Convey complex technological concepts to clients with ease and authority, starting during the sales process and through the life of the contract.</li>
+  <li>Architect solutions to complex problems and make sure that project teams meet deadlines and produce quality code.</li>
+  <li>Ensure that software we produce meets best practices for quality, security, modifiability, and extensibility.</li>
+  <li>Keep up with the latest technology trends and introducing them to the team.</li>
+  <li>Recruit and grow the development team based on business needs.</li>
+  <li>Responsible for the professional development of all developers.</li>
+  <li>Work closely with the Director of Operations and Director of Design to refine operational strategy to continuously improve service delivery.</li>
+</ul>
+
+<h2 class="text-heading-two">Skills and Qualifications</h2>
+
+<ul>
+  <li>Expert in JavaScript.</li>
+  <li>Deep knowledge and understanding of modern front-end frameworks.</li>
+  <li>Understanding of Node.js and related frameworks like Express or Koa.</li>
+  <li>Experience with asynchronous programming and its quirks and workarounds.</li>
+  <li>Skilled in application optimization for speed and scalability.</li>
+  <li>Desire to attain new skills in business, management, and technology.</li>
+  <li>Demonstrated effective team management skills.</li>
+  <li>Excellent written and spoken communication in English.</li>
+</ul>
+
+<h2 class="text-heading-two">Bonus Points</h2>
+
+<ul>
+  <li>Interested in machine learning and/or the Blockchain.</li>
+  <li>Published writer/blogger.</li>
+  <li>Open source contributions.</li>
+</ul>
+
+<h2 class="text-heading-two">Benefits</h2>
+
+<ul>
+  <li>Competitive salary commensurate on experience.</li>
+  <li>Flexible work schedule and generous vacation time.</li>
+  <li>Inclusive company culture that values performance and teamwork.</li>
+  <li>Opportunities for international travel.</li>
+</ul>
+
+<h2 class="text-heading-two">Our Values</h2>
+
+<p>Here at East Coast Product, we know that experience and qualifications come in different shapes and sizes so please consider applying if your experience is close to what we’ve described. Above all, we value passion and a willingness to learn.</p>
+
+<p>All applicants will be considered without regard to race, color, national origin, religion, sexual orientation, sex, age, marital or parental status, disability, gender identity or expression.</p>

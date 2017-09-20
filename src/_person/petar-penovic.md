@@ -1,7 +1,8 @@
 ---
 name: Petar Penović
 id: petar-penovic
-numberId: 4
+active: false
+numberId: 
 title: Developer
 bio: Petar writes JavaScript code for a wage.
 areas:

@@ -1,7 +1,8 @@
 ---
 name: Carla Cornejo
 id: carla-cornejo
-numberId: 7
+active: true
+numberId: 2
 title: Director of Operations
 bio: Following in the strong tradition of operations managers before her, Carla does all the things.
 areas:

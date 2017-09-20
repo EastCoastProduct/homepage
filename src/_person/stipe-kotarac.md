@@ -1,6 +1,7 @@
 ---
 name: Stipe Kotarac
 id: stipe-kotarac
+active: false
 numberId: 18
 title: Developer
 bio: Fluent in binary. Proficient in meat drying.

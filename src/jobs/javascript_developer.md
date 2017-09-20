@@ -1,17 +1,17 @@
 ---
 url: /jobs/javascript_developer/index.html
 pageHeading: JavaScript Developer
-pageDescription: Split or Zagreb, Croatia
+pageDescription: "Location: Remote"
 pageHeadingImage:
 pageHeadingImageAlt:
 id: javascript_developer
-hiringContactId: ivan-blazevic
+hiringContactId: carla-cornejo
 jobType: developer
 published: true
 layout: job.ejs
 ---
 
-<p>If you are interested in becoming part of a growing team of JavaScript experts, growing your career, and building innovative and modern web applications for clients around the world: consider joining us in Split or Zagreb, Croatia!</p>
+<p>If you are interested in becoming part of a growing team of JavaScript experts, growing your career, and building innovative and modern web applications for clients around the world: consider joining our team at East Coast Product</p>
 
 <p>We are looking to bring on motivated, talented individuals who share our passion for learning and JavaScript. At East Coast Product, building a diverse team with a positive work culture has always been a top priority. Since our founding, we have fostered a stimulating and motivating work environment. With our sights set on employee satisfaction, we provide our team members with everything they will need grow their skills and expand their career.</p>
 
@@ -40,12 +40,25 @@ layout: job.ejs
   <li>Proficient understanding of code versioning tools, such as Git.</li>
 </ul>
 
+<h2 class="text-heading-two">Bonus Points</h2>
+
+<ul>
+  <li>Interested in machine learning and/or the Blockchain.</li>
+  <li>Published writer/blogger.</li>
+  <li>Open source contributions.</li>
+</ul>
+
 <h2 class="text-heading-two">Benefits</h2>
 
 <ul>
   <li>Competitive salary commensurate on experience.</li>
-  <li>Flexible work schedule.</li>
-  <li>Unlimited vacation with a 4 week minimum.</li>
-  <li>Casual company culture that values performance and teamwork.</li>
+  <li>Flexible work schedule and generous vacation time.</li>
+  <li>Inclusive company culture that values performance and teamwork.</li>
   <li>Opportunities for international travel.</li>
 </ul>
+
+<h2 class="text-heading-two">Our Values</h2>
+
+<p>Here at East Coast Product, we know that experience and qualifications come in different shapes and sizes so please consider applying if your experience is close to what we’ve described. Above all, we value passion and a willingness to learn.</p>
+
+<p>All applicants will be considered without regard to race, color, national origin, religion, sexual orientation, sex, age, marital or parental status, disability, gender identity or expression.</p>

@@ -1,7 +1,8 @@
 ---
 name: Phillip McKee
 id: phillip-mckee
-numberId: 8
+active: false
+numberId: 5
 title: Marketing Manager
 bio: Beer, Board Games, and Biz Dev; Phil does that and everything in-between.
 areas:

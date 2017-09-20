@@ -1,7 +1,7 @@
 ---
 url: /about/index.html
-pageHeading: Meet the team
-pageDescription: 22 people, 3 offices, 1000’s of lines of code, more pixels than we can count, and 1 happy family.
+pageHeading: About East Coast Product
+pageDescription: 1000s of lines of code, more pixels than we can count, and 1 big happy family.
 pageHeadingImage:
 pageHeadingImageAlt:
 layout: about.ejs

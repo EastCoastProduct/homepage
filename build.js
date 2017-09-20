@@ -58,7 +58,8 @@ Metalsmith(__dirname)
   .use(ignore([
     '**/_person/**',
     '**/_values/**',
-    '**/_services/**'
+    '**/_services/**',
+    '**/_mentions/**'
   ]))
   .use(permalinks({
     pattern: './:directory',
