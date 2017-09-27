@@ -33,8 +33,6 @@ permalink: false
   <li>
     <a href="/jobs">Jobs</a>
     <ul>
-      <li><a href="/jobs/javascript_developer">JavaScript Developer</a></li>
-      <li><a href="/jobs/product_designer">Product Designer</a></li>
       <li><a href="/jobs/head-of-engineering">Head of Engineering</a></li>
     </ul>
   </li>
