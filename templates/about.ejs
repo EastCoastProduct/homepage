@@ -14,6 +14,44 @@
           </div>
         </div><!-- end of .container -->
       </section>
+
+      <section id="values">
+        <div class="container">
+          <header class="section--header">
+            <h1 class="text-heading-one">Our values</h1>
+          </header>
+          <ul class="value-list">
+            <% collections.values.forEach(function(value) { %>
+            <li class="value card targetable">
+              <!--<div class="value-image-wrap">
+                <img src="<%= value.image %>" alt="Illustration." class="value-image" />
+              </div>restore when new illustrations are ready-->
+              <h2 class="text-heading-two"><%= value.title %></h2>
+              <p class="paragraph--minor"><%= value.description %></p>
+            </li>
+            <% }) %>
+          </ul>
+        </div><!-- end of .container -->
+      </section>
+
+      <section id="jobs">
+        <div class="container">
+          <header class="section--header">
+            <h1 class="text-heading-one">Jobs</h1>
+          </header>
+          <div class="job-list">
+            <% collections.jobs.forEach(function(job) { %>
+            <% if(job.published == true) { %>
+            <a href="/jobs/<%= job.id %>" class="job card targetable">
+              <h2 class="text-heading-two"><span class="link-surrogate"><%= job.pageHeading %></span></h2>
+              <p><%- job.pageDescription %></p>
+            </a>
+            <% } %>
+            <% }) %>
+          </div>
+        </div><!-- end of .container -->
+      </section>
+
       <section id="team">
         <div class="container">
           <header class="section--header">
@@ -44,41 +82,6 @@
             <% } %>
             <% }) %>
           </ul><!-- end of .employees-list -->
-        </div><!-- end of .container -->
-      </section>
-      <section id="values">
-        <div class="container">
-          <header class="section--header">
-            <h1 class="text-heading-one">Our values</h1>
-          </header>
-          <ul class="value-list">
-            <% collections.values.forEach(function(value) { %>
-            <li class="value card targetable">
-              <!--<div class="value-image-wrap">
-                <img src="<%= value.image %>" alt="Illustration." class="value-image" />
-              </div>restore when new illustrations are ready-->
-              <h2 class="text-heading-two"><%= value.title %></h2>
-              <p class="paragraph--minor"><%= value.description %></p>
-            </li>
-            <% }) %>
-          </ul>
-        </div><!-- end of .container -->
-      </section>
-      <section id="jobs">
-        <div class="container">
-          <header class="section--header">
-            <h1 class="text-heading-one">Jobs</h1>
-          </header>
-          <div class="job-list">
-            <% collections.jobs.forEach(function(job) { %>
-            <% if(job.published == true) { %>
-            <a href="/jobs/<%= job.id %>" class="job card targetable">
-              <h2 class="text-heading-two"><span class="link-surrogate"><%= job.pageHeading %></span></h2>
-              <p><%- job.pageDescription %></p>
-            </a>
-            <% } %>
-            <% }) %>
-          </div>
         </div><!-- end of .container -->
       </section>
     </main>

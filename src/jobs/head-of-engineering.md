@@ -11,7 +11,9 @@ published: true
 layout: job.ejs
 ---
 
-<p>East Coast Product is looking for an experienced Head of Engineering to help us build a team of expert remote developers and help shape the company as we continue to grow.</p>
+<p>East Coast Product is a design and development agency that specializes in staff augmentation for the entrepreneur, enterprise, and everyone in between. With on-demand experts, we provide a boost to existing product teams to help them hit their next milestone.</p>
+
+<p>We are looking for an experienced Head of Engineering to help us build a team of expert remote developers and help shape the company as we continue to grow.</p>
 
 <h2 class="text-heading-two">About You</h2>
 
@@ -21,9 +23,11 @@ layout: job.ejs
 
 <p>You’re committed to diversity & inclusion and have a demonstrated history of promoting a learning culture. You have an entrepreneurial mind-set and aren’t afraid to try new ways of doing things. You look forward to working shoulder-to-shoulder with a small management team that is motivated by employee happiness and client satisfaction.</p>
 
+<p>You have experience working with a mostly remote team and can contribute actively as we build our best practices around hiring and managing remotely.</p>
+
 <h2 class="text-heading-two">About the Job</h2>
 
-<p>As the Head of Engineering at ECP, you’ll oversee multiple project teams and make sure they’re on the track to complete tasks at the level of quality we expect.</p>
+<p>As the Head of Engineering at ECP, you’ll oversee multiple project teams and make sure they’re on track to complete tasks at the level of quality we expect.</p>
 
 <h2 class="text-heading-two">Main Responsibilities</h2>
 
@@ -69,6 +73,6 @@ layout: job.ejs
 
 <h2 class="text-heading-two">Our Values</h2>
 
-<p>Here at East Coast Product, we know that experience and qualifications come in different shapes and sizes so please consider applying if your experience is close to what we’ve described. Above all, we value passion and a willingness to learn.</p>
+<p>Here at East Coast Product, we know that experience and qualifications come in different shapes and sizes so please consider applying if your experience is close to what we’ve described. Above all, we value passion and a willingness to learn. To learn more about what we stand for, please check our <a href="/about/#values">Values</a> and the <a href="/code-of-conduct">ECP Code of Conduct</a>.</p>
 
 <p>All applicants will be considered without regard to race, color, national origin, religion, sexual orientation, sex, age, marital or parental status, disability, gender identity or expression.</p>
