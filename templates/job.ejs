@@ -15,11 +15,7 @@
         <div class="container">
           <div class="card targetable">
             <h2 class="text-heading-two">How To Apply</h2>
-            <% collections.person.forEach(function(person){ %>
-            <% if(person.id == hiringContactId) { %>
-            <p>Please fill out the form below to apply. You can email our <%= person.title %> <%= person.name %></a> at <a href="mailto:<%= person.contact.email %>@eastcoastproduct.com" target="_blank"><%= person.contact.email %>@eastcoastproduct.com</a> if you'd like more information or you prefer to apply by email.</p>
-            <% } %>
-            <% }) %>
+            <p>Please fill out the form below to apply.</p>
 
             <!--[if lte IE 8]>
             <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
