@@ -7,42 +7,63 @@ pageHeadingImageAlt:
 id: javascript_developer
 hiringContactId: carla-cornejo
 jobType: developer
-published: false
+published: true
 layout: job.ejs
 ---
 
-<p>If you are interested in becoming part of a growing team of JavaScript experts, growing your career, and building innovative and modern web applications for clients around the world: consider joining our team at East Coast Product</p>
+<p>East Coast Product is a design and development agency that specializes in staff augmentation for the entrepreneur, enterprise, and everyone in between. With on-demand experts, we provide a boost to existing product teams to help them hit their next milestone.</p>
 
-<p>We are looking to bring on motivated, talented individuals who share our passion for learning and JavaScript. At East Coast Product, building a diverse team with a positive work culture has always been a top priority. Since our founding, we have fostered a stimulating and motivating work environment. With our sights set on employee satisfaction, we provide our team members with everything they will need grow their skills and expand their career.</p>
+<p>We are looking for JavaScript Developers that use the newest technologies to tackle development challenges and build advanced applications to help shape the company as we continue to grow.</p>
 
-<h2 class="text-heading-two">Responsibilities</h2>
+<h2 class="text-heading-two">About You</h2>
+
+<p>You are a JavaScript expert that can come up with solutions to complex problems. You demonstrate a deep understanding of the entire web development process.</p>
+
+<p>You are focused on the quality and maintainability of your code. You lead by example, writing pragmatic but elegant code with technical rigor and attention to detail.</p>
+
+<p>You are committed to diversity & inclusion and promote a learning culture. You support and mentor your team members, empowering them to do their best work even in a remote environment.</p>
+
+<p>You are curious, intelligent, and have an incessant need to improve. You ask questions and research to continually grow and hone your skills. You have an entrepreneurial mindset and aren’t afraid to try new ways of doing things. You’re comfortable with unknowns, working with new teams, and asking questions to get up to speed quickly.</p>
+
+<p>You have experience working with a mostly remote team and you're excited to actively contribute as we define our best practices.</p>
+
+<h2 class="text-heading-two">About the Job</h2>
+
+<p>As a developer at ECP, you’ll be working on projects of all sizes from small MVPs for budding entrepreneurs to complex applications for much larger companies. You’ll play a meaningful role in crafting how our company practices development as a discipline across these wildly different types of projects.</p>
+
+<h3 class="text-heading-three">Main Responsibilities</h3>
 
 <ul>
+  <li>Understand the client’s definition of success and align your efforts to help them meet their goals.</li>
   <li>Develop new product features and new applications within an Agile environment.</li>
   <li>Build reusable code and libraries for future use.</li>
-  <li>Write well designed, testable, efficient code by using the best software development practices.</li>
-  <li>Cooperate with web designers to match visual design intent.</li>
+  <li>Write well-designed, testable, efficient code using the latest development best practices.</li>
+  <li>Collaborate with designers to implement and improve design comps.</li>
   <li>Optimize applications for maximum speed and scalability.</li>
   <li>Stay up-to-date on emerging technologies.</li>
-  <li>Strive to continuously improve the development process.</li>
+  <li>Contribute to the continuous improvement of the development process.</li>
 </ul>
 
-<h2 class="text-heading-two">Skills and Qualifications</h2>
+<h3 class="text-heading-three">Skills and Qualifications</h3>
 
 <ul>
   <li>Strong proficiency in JavaScript.</li>
-  <li>Understanding of front end technologies, such as HTML5 and CSS3.</li>
-  <li>Understanding of the nature of asynchronous programming and its quirks and workarounds.</li>
-  <li>Good understanding of modern front-end frameworks, experience with React is a plus.</li>
+  <li>Experience with frontend technologies, such as HTML5 and CSS3.</li>
+  <li>Understands of the nature of asynchronous programming, its quirks, and workarounds.</li>
+  <li>Strong understanding of modern frontend frameworks, experience with React is a plus.</li>
   <li>Proficient understanding of cross-browser compatibility issues and ways to work around such issues.</li>
-  <li>Familiarity with Node.js a plus.</li>
   <li>Familiarity with build tools, such as Webpack and Gulp.</li>
-  <li>Proficient understanding of code versioning tools, such as Git.</li>
+  <li>Proficiency in code versioning tools, such as Git.</li>
+  <li>Excellent written and spoken communication in English.</li>
+  <li>Available during East Coast hours (roughly 9am-6pm EST).</li>
 </ul>
 
-<h2 class="text-heading-two">Bonus Points</h2>
+<h3 class="text-heading-three">Bonus Points</h3>
 
 <ul>
+  <li>Experience with pair programming.</li>
+  <li>Familiarity with Node.js.</li>
+  <li>Experience working with remote teams.
   <li>Interested in machine learning and/or the Blockchain.</li>
   <li>Published writer/blogger.</li>
   <li>Open source contributions.</li>
@@ -59,6 +80,6 @@ layout: job.ejs
 
 <h2 class="text-heading-two">Our Values</h2>
 
-<p>Here at East Coast Product, we know that experience and qualifications come in different shapes and sizes so please consider applying if your experience is close to what we’ve described. Above all, we value passion and a willingness to learn.</p>
+<p>Here at East Coast Product, we know that experience and qualifications come in different shapes and sizes so please consider applying if your experience is close to what we’ve described. Above all, we value passion and a willingness to learn. To learn more about what we stand for, please check our <a href="/about/#values">Values</a> and the <a href="/code-of-conduct">ECP Code of Conduct</a>.</p>
 
 <p>All applicants will be considered without regard to race, color, national origin, religion, sexual orientation, sex, age, marital or parental status, disability, gender identity or expression.</p>

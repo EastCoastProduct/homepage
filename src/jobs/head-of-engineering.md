@@ -29,7 +29,7 @@ layout: job.ejs
 
 <p>As the Head of Engineering at ECP, you’ll oversee multiple project teams and make sure they’re on track to complete tasks at the level of quality we expect.</p>
 
-<h2 class="text-heading-two">Main Responsibilities</h2>
+<h3 class="text-heading-three">Main Responsibilities</h3>
 
 <ul>
   <li>Convey complex technological concepts to clients with ease and authority, starting during the sales process and through the life of the contract.</li>
@@ -41,7 +41,7 @@ layout: job.ejs
   <li>Work closely with the Director of Operations and Director of Design to refine operational strategy to continuously improve service delivery.</li>
 </ul>
 
-<h2 class="text-heading-two">Skills and Qualifications</h2>
+<h3 class="text-heading-three">Skills and Qualifications</h3>
 
 <ul>
   <li>Expert in JavaScript.</li>
@@ -54,7 +54,7 @@ layout: job.ejs
   <li>Excellent written and spoken communication in English.</li>
 </ul>
 
-<h2 class="text-heading-two">Bonus Points</h2>
+<h3 class="text-heading-three">Bonus Points</h3>
 
 <ul>
   <li>Interested in machine learning and/or the Blockchain.</li>
