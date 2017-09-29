@@ -1,5 +1,4 @@
-const Metalsmith = require('metalsmith')
-
+const Metalsmith =    require('metalsmith')
 const branch =        require('metalsmith-branch')
 const cleanCSS =      require('metalsmith-clean-css')
 const collections =   require('metalsmith-collections')
@@ -9,7 +8,6 @@ const fingerprint =   require('metalsmith-fingerprint')
 const htmlMinifier =  require('metalsmith-html-minifier')
 const ignore =        require('metalsmith-ignore')
 const layouts =       require('metalsmith-layouts')
-const markdown =      require('metalsmith-markdown')
 const metadata =      require('metalsmith-metadata')
 const permalinks =    require('metalsmith-permalinks')
 const postcss =       require('metalsmith-postcss')
@@ -28,36 +26,35 @@ Metalsmith(__dirname)
   .use(drafts())
   .use(collections({
     pages: {
-        pattern: '*.md'
+        pattern: '**'
     },
     services: {
-      pattern: '_services/*.md',
+      pattern: '_services/**',
       sortBy: 'sortOrder'
     },
     person: {
-      pattern: '_person/*.md',
+      pattern: '_person/**',
       sortBy: 'sortOrder'
     },
     mentions: {
-      pattern: '_mentions/*.md',
+      pattern: '_mentions/**',
       sortBy: 'sortOrder'
     },
     values: {
-      pattern: '_values/*.md',
+      pattern: '_values/**',
       sortBy: 'sortOrder'
     },
     work: {
-      pattern: 'work/*.md',
+      pattern: 'work/**',
       sortBy: 'sortOrder'
     },
     jobs: {
-      pattern: 'jobs/*.md'
+      pattern: 'jobs/**'
     },
     technologies: {
-      pattern: 'technologies/*.md'
+      pattern: 'technologies/**'
     }
   }))
-  .use(markdown())
   .use(ignore([
     '**/_person/**',
     '**/_values/**',
