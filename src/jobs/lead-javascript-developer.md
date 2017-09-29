@@ -7,7 +7,7 @@ pageHeadingImageAlt:
 id: lead-javascript-developer
 hiringContactId: ivan-blazevic
 jobType: developer
-published: false
+draft: true
 layout: job.ejs
 ---
 

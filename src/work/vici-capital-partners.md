@@ -6,9 +6,9 @@ pageHeadingImage: /images/work-shots/vici-capital-partners-screenshot.png
 pageHeadingImageAlt: A screenshot from the Vici Capital Partners project.
 pageHeadingImageFormat: desktop
 id: vici-capital-partners
-published: false
 layout: case-study.ejs
 sortOrder: 2
+draft: true
 ---
 
 <p class="paragraph--major"><a href="http://www.vicicp.com/">Vici Capital Partners</a> is an innovation consulting firm whose approach drives large-scale changes to drive earnings growth and reductions in expenses in complex organizations. Their program uses a digital idea hub to promote momentum and consensus building within their client organizations. East Coast Product was brought on by Vici to augment their team while preparing to launch an improved version of the idea hub. Our refresh of the interface and experience means that Vici Capital Partners’ clients can now track their progress in implementing the strategies devised by their project groups.</p>

@@ -6,4 +6,5 @@ publicationLogo: boston-globe-logo.png
 mentionDate: October 30, 2015
 id: mention-boston-globe
 numberId: 3
+draft: false
 ---

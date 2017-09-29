@@ -5,6 +5,7 @@ description: As a team lead, hiring is the hardest job you have. Even when you c
 leadImage: /images/services-illustrations/staff-augmentation.svg
 template: partials/service.ejs
 sortOrder: 1
+draft: false
 ---
 
 <div class="card-image--hang-right-wide">

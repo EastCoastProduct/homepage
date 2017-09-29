@@ -7,7 +7,7 @@ pageHeadingImageAlt:
 id: product_designer
 hiringContactId: carla-cornejo
 jobType: designer
-published: false
+draft: true
 layout: job.ejs
 ---
 

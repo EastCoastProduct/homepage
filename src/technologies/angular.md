@@ -5,8 +5,8 @@ pageDescription: A complete frontend framework, maintained by Google.
 pageHeadingImage:
 pageHeadingImageAlt:
 id: angular
-published: true
 layout: technology.ejs
+draft: false
 ---
 
 <div class="card-image--hang-right-wide">

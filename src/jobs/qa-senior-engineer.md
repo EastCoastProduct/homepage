@@ -7,7 +7,7 @@ pageHeadingImageAlt:
 id: qa-senior-engineer
 hiringContactId: ivan-blazevic
 jobType: developer
-published: false
+draft: true
 layout: job.ejs
 ---
 

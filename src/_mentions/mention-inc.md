@@ -6,4 +6,5 @@ publicationLogo: inc-logo.png
 mentionDate: January 11, 2017
 id: mention-inc
 numberId: 2
+draft: false
 ---

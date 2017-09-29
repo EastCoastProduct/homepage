@@ -5,8 +5,8 @@ pageDescription: Building native experiences with the web tech we’re already e
 pageHeadingImage:
 pageHeadingImageAlt:
 id: react_native
-published: true
 layout: technology.ejs
+draft: false
 ---
 
 <div class="card-image--hang-right-wide">

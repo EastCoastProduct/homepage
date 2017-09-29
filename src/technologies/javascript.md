@@ -5,8 +5,8 @@ pageDescription: Lightweight, powerful, and ubiquitous.
 pageHeadingImage:
 pageHeadingImageAlt:
 id: javascript
-published: true
 layout: technology.ejs
+draft: false
 ---
 
 <div class="card-image--hang-right-wide">

@@ -6,9 +6,9 @@ pageHeadingImage: /images/work-shots/neos-screenshot.png
 pageHeadingImageAlt: A screenshot from the NEOs project.
 pageHeadingImageFormat: desktop
 id: neos
-published: false
 layout: case-study.ejs
 sortOrder: 8
+draft: true
 ---
 
 <p class="paragraph--major"><a href="http://www.neos-ict.com/">NEOs</a> is an energy efficiency technology consultant that was tasked with building a tool to connect energy efficient street lamps all across Croatia. With a strict deadline, NEOs approached East Coast Product to augment their product team and build a clean user interface that lets Croatian cities and towns track LED life span and schedule brightness changes to optimize energy efficiency. Together, we beat the deadline and built a product that has been implemented in over 150,000 street lamps in Croatia.</p>

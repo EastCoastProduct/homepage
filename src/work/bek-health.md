@@ -6,9 +6,9 @@ pageHeadingImage: /images/work-shots/bek-health-screenshot.png
 pageHeadingImageAlt: A screenshot from the BEKHealth project.
 pageHeadingImageFormat: desktop
 id: bek-health
-published: true
 layout: case-study.ejs
 sortOrder: 1
+draft: false
 ---
 
 <p class="paragraph--major">BEKHealth’s mission is to accelerate the adoption of innovative therapies by substantially increasing patient participation rates in clinical research. Higher clinical trial participation rates within a health system produce better patient outcomes, lower costs and happier employees. Yet an unfortunately low percentage of patients participate in clinical research&mdash;only 3% of cancer patients enroll in a clinical study. To change this, the team at Bek Health approached East Coast Product to help validate their concept and design a prototype to demo with potential investors.</p>

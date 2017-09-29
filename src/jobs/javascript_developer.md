@@ -7,7 +7,7 @@ pageHeadingImageAlt:
 id: javascript_developer
 hiringContactId: carla-cornejo
 jobType: developer
-published: true
+draft: true
 layout: job.ejs
 ---
 

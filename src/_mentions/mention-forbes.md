@@ -6,4 +6,5 @@ publicationLogo: forbes-logo.png
 mentionDate: May 11, 2017
 id: mention-forbes
 numberId: 1
+draft: false
 ---

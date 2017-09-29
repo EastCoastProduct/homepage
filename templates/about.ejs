@@ -41,12 +41,10 @@
           </header>
           <div class="job-list">
             <% collections.jobs.forEach(function(job) { %>
-            <% if(job.published == true) { %>
             <a href="/jobs/<%= job.id %>" class="job card targetable">
               <h2 class="text-heading-two"><span class="link-surrogate"><%= job.pageHeading %></span></h2>
               <p><%- job.pageDescription %></p>
             </a>
-            <% } %>
             <% }) %>
           </div>
         </div><!-- end of .container -->
@@ -59,7 +57,6 @@
           </header>
           <ul class="employee-list">
             <% collections.person.forEach(function(person){ %>
-            <% if(person.active == true) { %>
             <li class="employee card targetable">
               <div class="employee-photo-wrap">
                 <img src="/images/photos/team/<%= person.id%>.jpg" alt="Potrait of <%= person.name %>" class="employee-photo" />
@@ -79,7 +76,6 @@
                 <% if(person.contact.spotlight) { %>  <li><span class="icon icon--spotlight-darkest"></span><a href="<%= person.contact.spotlight %>" target="_blank">Spotlight</a></li><% } %>
               </ul>
             </li><!-- end of .card -->
-            <% } %>
             <% }) %>
           </ul><!-- end of .employees-list -->
         </div><!-- end of .container -->

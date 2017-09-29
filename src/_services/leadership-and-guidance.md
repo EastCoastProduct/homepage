@@ -5,6 +5,7 @@ description: Sometimes your team just needs a little push in the right direction
 leadImage: /images/services-illustrations/discovery.svg
 template: partials/service.ejs
 sortOrder: 2
+draft: false
 ---
 
 <a class="button--default" href="/contact#experts">Talk to an expert</a>

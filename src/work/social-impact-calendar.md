@@ -6,9 +6,9 @@ pageHeadingImage: /images/work-shots/social-impact-calendar-screenshot.png
 pageHeadingImageAlt: A screenshot from the Social Impact Calendar project.
 pageHeadingImageFormat: desktop
 id: social-impact-calendar
-published: true
 layout: case-study.ejs
 sortOrder: 10
+draft: false
 ---
 
 <p class="paragraph--major">The leaders of a network of nonprofits and community groups in Boston had trouble communicating events to their target demographics and potential volunteers. They had no centralized channel for discovery of new events and reaching new audiences, and each organization relied on individual marketing efforts, making it difficult for volunteers and the broader public to find relevant events and resources. It became clear to them that there had a to be a central hub to tackle this problem. East Coast Product partnered with a <a href="https://www.boston.gov/">City of Boston</a> community initiative led by <a href="https://www.cityawake.org/">City Awake</a> and the <a href="http://timothysmithnetwork.org/">Timothy Smith Network</a> (TSN) to build out a Social Impact Calendar, an app that serves to connect the people of Boston, especially black and latino youth, with community events and services.</p>

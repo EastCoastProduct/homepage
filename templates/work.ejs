@@ -8,7 +8,6 @@
         <div class="container">
           <div class="work-list">
             <% collections.work.forEach(function(work) { %>
-            <% if(work.published == true) { %>
             <a href="/work/<%= work.id %>" class="work card">
               <div class="work-image-wrap">
                 <img src="<%= work.pageHeadingImage %>" alt="A screenshot from the <%- work.pageHeading %> project." class="work-image" />
@@ -16,7 +15,6 @@
               <h2 class="text-heading-two work-project-tagline"><span class="link-surrogate"><%- work.pageHeading %></span></h2>
               <p class="paragraph--minor work-client-name"><%- work.pageDescription %></p>
             </a>
-            <% } %>
             <% }) %>
           </div>
         </div>

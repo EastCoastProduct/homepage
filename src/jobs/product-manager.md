@@ -7,7 +7,7 @@ pageHeadingImageAlt:
 id: product-manager
 hiringContactId: steve-hickey
 jobType: product-manager
-published: false
+draft: true
 layout: job.ejs
 ---
 

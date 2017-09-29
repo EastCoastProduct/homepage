@@ -5,8 +5,8 @@ pageDescription: Helping us build truly great user interfaces.
 pageHeadingImage:
 pageHeadingImageAlt:
 id: react
-published: true
 layout: technology.ejs
+draft: false
 ---
 
 <div class="card-image--hang-right-wide">

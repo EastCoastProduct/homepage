@@ -6,9 +6,9 @@ pageHeadingImage: /images/work-shots/safety-netaccess-screenshot.png
 pageHeadingImageAlt: A screenshot from the Safety NetAccess project.
 pageHeadingImageFormat: desktop
 id: safety-netaccess
-published: false
 layout: case-study.ejs
 sortOrder: 6
+draft: true
 ---
 
 <p class="paragraph--major">You visit a hotel, pull out your phone, and attempt to connect to the internet. After a few quick taps you’re connected. Seems simple enough, right?</p>

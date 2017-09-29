@@ -7,7 +7,7 @@ pageHeadingImageAlt:
 id: head-of-engineering
 hiringContactId: carla-cornejo
 jobType: developer
-published: true
+draft: false
 layout: job.ejs
 ---
 
