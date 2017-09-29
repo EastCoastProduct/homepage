@@ -3,7 +3,6 @@ const branch =        require('metalsmith-branch')
 const cleanCSS =      require('metalsmith-clean-css')
 const collections =   require('metalsmith-collections')
 const drafts =        require('metalsmith-drafts')
-const excerpts =      require('metalsmith-excerpts')
 const fingerprint =   require('metalsmith-fingerprint')
 const htmlMinifier =  require('metalsmith-html-minifier')
 const ignore =        require('metalsmith-ignore')
@@ -14,7 +13,7 @@ const postcss =       require('metalsmith-postcss')
 const redirect =      require('metalsmith-redirect')
 const sass =          require('metalsmith-sass')
 const serve =         require('metalsmith-serve')
-const sitemap =       require('metalsmith-mapsite')
+const mapsite =       require('metalsmith-mapsite')
 
 Metalsmith(__dirname)
   .clean(true)
@@ -22,7 +21,6 @@ Metalsmith(__dirname)
   .use(redirect({
     '/levelupdev/next': 'https://www.meetup.com/Level-Up-Development/events/238408755/'
   }))
-  .use(excerpts())
   .use(drafts())
   .use(collections({
     pages: {
@@ -65,7 +63,7 @@ Metalsmith(__dirname)
     pattern: './:directory',
     relative: false
   }))
-  .use(sitemap({
+  .use(mapsite({
     hostname:  'https://eastcoastproduct.com',
     omitIndex: true
   }))
