@@ -5,6 +5,6 @@ publication: Startup.hr
 publicationLogo: startup-hr-logo.png
 mentionDate: February 7, 2017
 id: mention-startup-hr
-numberId: 6
+sortOrder: 6
 draft: false
 ---

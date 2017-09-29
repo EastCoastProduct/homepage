@@ -36,14 +36,15 @@ Metalsmith(__dirname)
     },
     person: {
       pattern: '_person/*.md',
-      sortBy: 'numberId'
+      sortBy: 'sortOrder'
     },
     mentions: {
       pattern: '_mentions/*.md',
-      sortBy: 'numberId'
+      sortBy: 'sortOrder'
     },
     values: {
-      pattern: '_values/*.md'
+      pattern: '_values/*.md',
+      sortBy: 'sortOrder'
     },
     work: {
       pattern: 'work/*.md',

@@ -5,6 +5,6 @@ publication: Huffington Post
 publicationLogo: huffington-post-logo.png
 mentionDate: April 21, 2017
 id: mention-huffington-post
-numberId: 4
+sortOrder: 4
 draft: false
 ---

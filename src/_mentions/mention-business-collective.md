@@ -5,6 +5,6 @@ publication: Business Collective
 publicationLogo: business-collective-logo.png
 mentionDate: November 2, 2016
 id: mention-business-collective
-numberId: 5
+sortOrder: 5
 draft: false
 ---
