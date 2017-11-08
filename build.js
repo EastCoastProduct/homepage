@@ -26,10 +26,6 @@ Metalsmith(__dirname)
     pages: {
         pattern: '**'
     },
-    services: {
-      pattern: '_services/**',
-      sortBy: 'sortOrder'
-    },
     person: {
       pattern: '_person/**',
       sortBy: 'sortOrder'
@@ -56,7 +52,6 @@ Metalsmith(__dirname)
   .use(ignore([
     '**/_person/**',
     '**/_values/**',
-    '**/_services/**',
     '**/_mentions/**'
   ]))
   .use(permalinks({

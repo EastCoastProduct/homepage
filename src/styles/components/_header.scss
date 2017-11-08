@@ -15,10 +15,10 @@
     left: 0;
     right: 0;
     bottom: 0;
-    @include bottom-left($lightest-gray);
+    @include bottom-left($lightest);
     background-size: 100% 100%;
-    -webkit-filter: drop-shadow( rgba($darkest, 0.5) 0 -10px 20px );
-            filter: drop-shadow( rgba($darkest, 0.5) 0 -10px 20px );
+    -webkit-filter: drop-shadow( rgba($dark-gray, 0.5) 0 -5px 20px );
+            filter: drop-shadow( rgba($dark-gray, 0.5) 0 -5px 20px );
   }
 }
 
@@ -51,7 +51,7 @@
   a {
     margin: 0 0.5rem;
     border-bottom-color: rgba($lightest, 0.2);
-    text-shadow: rgba($darkest, 1) 0 10px 20px;
+    text-shadow: rgba($dark-gray, 1) 0 5px 20px;
 
     &.link {
       line-height: 2;
@@ -81,7 +81,7 @@
   margin-top: 1.875rem;
 
   h1, p {
-    text-shadow: rgba($darkest, 1) 0 10px 20px;
+    text-shadow: rgba($dark-gray, 1) 0 5px 20px;
   }
 }
 

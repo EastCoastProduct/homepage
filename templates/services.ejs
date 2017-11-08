@@ -4,19 +4,75 @@
   <body class="area-services">
     <% include partials/header %>
     <main role="main" id="main">
-      <% collections.services.forEach(function(service) { %>
-      <section id="<%= service.id %>">
+
+      <section id="intro">
         <div class="container">
-          <header class="section--header">
-            <h1 class="text-heading-one"><%- service.title %></h1>
-          </header>
-          <div class="card targetable">
-            <p class="paragraph--major"><%- service.description %></p>
-            <%- service.contents %>
-          </div>
+          <p class="paragraph--major">Everything is difficult when you’re growing, especially hiring. You already have 1000 things to worry about. Putting the wrong people on your team shouldn’t be one of them.</p>
         </div><!-- end of .container -->
       </section>
-      <% }) %>
+
+      <section id="how-does-it-work">
+        <div class="container">
+          <header class="section--header">
+            <h2 class="text-heading-two">How does it work?</h2>
+          </header>
+          <p>Our solution is simple: hire our team. We’ve already carefully selected great people and trained them to be better, and we support their continued career growth. The process is easy:</p>
+          <ol>
+            <li>After an initial consult we can recommend the right skills and experience levels to meet your short-term growth needs. Our people get started fast. They’ll be productive in less than a month.</li>
+            <li>Our people have the experience to increase your current team’s momentum. After being embedded in your day-to-day we can recommend and implement ways for you to deliver better product faster.</li>
+            <li>When you’re ready, we’ll help you recruit and hire permanent staff to replace our team.</li>
+          </ol>
+        </div><!-- end of .container -->
+      </section>
+
+      <section id="hire-on-my-own">
+        <div class="container">
+          <header class="section--header">
+            <h2 class="text-heading-two">Why not hire on my own?</h2>
+          </header>
+          <p>Hiring quickly while hiring well is one of the hardest parts of running a growing company. It’s very difficult to find good people under the best circumstances, and it usually takes months to recruit and hire them. You don’t have that kind of time.</p>
+          <p>On top of that, the danger of a bad hire is so much higher at this stage of your company. The people you bring to the table now are going to have huge influence in your future company, good and bad.</p>
+          <p>If you have to fire someone then you’ll be back at square one with your growth goals, and you might even be missing some equity as a result. These problems are a horrible drag on morale and productivity.</p>
+          <p>If you want to grow confidently you need the time and attention to hire well. Bringing us in to fill your immediate needs will give you those things. Our experience recruiting, interviewing and building great teams is an irreplaceable asset to your growth.</p>
+        </div><!-- end of .container -->
+      </section>
+
+      <section id="working-with-a-recruiter">
+        <div class="container">
+          <header class="section--header">
+            <h2 class="text-heading-two">What about working with a recruiter?</h2>
+          </header>
+          <p>Recruiting in tech is nothing but a numbers game. The incentive of a recruiter is to put as many butts in as many seats as they can, as fast as they can. There’s no concern for quality!</p>
+          <p>We want you to grow quickly and grow competently. Our people aren’t one-size-fits-all commodities, they come from the product world. They’re designers, developers and leaders. They care about the work and they care about doing it well. For them, this job is about passion.</p>
+        </div><!-- end of .container -->
+      </section>
+
+      <section id="roles">
+        <div class="container">
+          <header class="section--header">
+            <h2 class="text-heading-two">What roles can you fill?</h2>
+          </header>
+          <h3 class="text-heading-three">UX designers</h3>
+          <p>Great products needs to be easy to use and built for the right users. Our designers have been trained to tackle these challenges. They believe in the power of user research, and in testing assumptions with prototypes to de-risk build decisions. They can design beautiful user interfaces and help your team make sure they work well.</p>
+          <p>Best of all: they can train your team to work more effectively with designers. We’ll help you build the structures that will let future design hires in your company be successful and create lasting value in your product.</p>
+          <h3 class="text-heading-three">Full-stack JavaScript Developers</h3>
+          <p>Our developers specialize in building flexible, fast and scalable web applications using Node.js, Express and React. Most importantly, they love JavaScript.</p>
+          <p>Why JavaScript? Simply put, we think hiring people with deep JavaScript proficiency creates a quicker path to full-stack expertise. And even though React is our favorite tool, because our people study the language they can be productive in other frameworks like Angular and Vue. They can even build native apps in React Native.</p>
+          <h3 class="text-heading-three">Leadership</h3>
+          <p>Growth has a lot of challenges. Sometimes you’ll already know what do and just need the right team to do it. Other times you’ll need help pushing everyone in the same direction. That’s where our leadership team can step in and help.</p>
+          <p>We’ve done all sorts of things to help our clients. The ones that keep coming up are:</p>
+          <ul>
+            <li>1-day consulting workshops</li>
+            <li>Design sprints for new idea development</li>
+            <li>Leadership training and mentoring</li>
+            <li>Short-term CTO/CDO assistance</li>
+            <li>Operations streamlining</li>
+            <li>Hiring process creation and implementation</li>
+          </ul>
+          <p>Our leadership team’s been in the startup game for a while, so if you’re having a problem there’s a good chance we’ve seen it and seen it solved.</p>
+        </div><!-- end of .container -->
+      </section>
+
     </main>
     <% include partials/footer %>
   </body>

@@ -4,45 +4,33 @@
   <body class="area-home">
     <% include partials/header %>
     <main role="main" id="main">
+
       <section id="services">
         <div class="container">
           <header class="section--header">
-            <h1 class="text-heading-one">Our services</h1>
+            <h1 class="text-heading-one">What we do</h1>
           </header>
-          <% collections.services.forEach(function(service){ %>
-          <div class="card targetable" id="<%= service.id %>">
-            <h2 class="text-heading-two"><%= service.title %></h2>
-            <% if(service.leadImage) { %>
-            <img src="<%= service.leadImage %>" alt="Illustration of equipment used for <%= service.title %>" class="card-image--hang-right-wide" />
-            <% } %>
-            <p><%= service.description %></p>
-            <a href="/services/#<%= service.id %>" class="button--default">Learn more<span class="visually-hidden"> about <%= service.title %></span></a>
-          </div>
-          <% }) %>
+          <p class="paragraph--major">East Coast Product is a team of agency-trained designers, developers and leaders that can help you grow your company faster and more confidently.</p>
+          <p class="paragraph--major">Our people join your team fast, make it run better, and help you replace them with permanent hires. We free you up to focus on your product while we create the processes and structure to support sustained team growth.</p>
+          <a href="/services" class="button--default">Learn more about our services</a>
         </div>
       </section>
+
       <section id="clients">
         <div class="container">
           <header class="section--header">
             <h1 class="text-heading-one">Clients and partners</h1>
           </header>
           <div class="logo-grid">
-            <a href="/work/vsnap" id="vsnap" class="logo card targetable">Vsnap</a>
-            <a href="/work/innovation-women" id="innovation-women" class="logo card targetable">Innovation Women</a>
-            <a href="/work/human-condition-safety" id="human-condition-safety" class="logo card targetable">Human Condition Safety</a>
-            <a href="/work/bek-health" id="bek-health" class="logo card targetable">BEKHealth</a>
-            <a href="/work/pirashield" id="pirashield" class="logo card targetable">PiraShield</a>
-            <!--<a href="/work/vici-capital-partners" id="vici-capital-partners" class="logo card targetable">Vici Capital Partners</a>-->
-            <a href="/work/social-impact-calendar" id="city-awake" class="logo card targetable">City Awake</a>
-            <a href="/work/wa11st" id="wa11st" class="logo card targetable">Wa11st</a>
-            <a href="/work/startup-rounds" id="startup-rounds" class="logo card targetable">Startup Rounds</a>
-            <a href="http://www.resilientcoders.org/" id="resilient-coders" class="logo card targetable">Resilient Coders</a>
-            <a href="https://www.velir.com/" id="velir" class="logo card targetable">Velir</a>
-            <!--<a href="/work/safety-netaccess" id="safety-netaccess" class="logo card targetable">Safety NetAccess</a>-->
+            <div id="vsnap" class="logo card targetable">Vsnap</div>
+            <div id="human-condition-safety" class="logo card targetable">Human Condition Safety</div>
+            <div id="vici-capital-partners" class="logo card targetable">Vici Capital Partners</div>-->
+            <div id="resilient-coders" class="logo card targetable">Resilient Coders</div>
+            <div id="velir" class="logo card targetable">Velir</div>
           </div>
-          <a href="/work" class="button--default">Hear their stories</a>
         </div>
       </section>
+
       <section id="mentions">
         <div class="container">
           <header class="section--header">
@@ -62,6 +50,7 @@
           </div><!-- end of .mentions-list -->
         </div>
       </section>
+      
     </main>
     <% include partials/footer %>
   </body>

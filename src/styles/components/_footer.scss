@@ -18,16 +18,16 @@
     left: 0;
     right: 0;
     top: 0;
-    @include top-left($lightest-gray);
+    @include top-left($lightest);
     background-size: 100% 100%;
-    -webkit-filter: drop-shadow( rgba($darkest, 0.5) 0 10px 20px );
-            filter: drop-shadow( rgba($darkest, 0.5) 0 10px 20px );
+    -webkit-filter: drop-shadow( rgba($dark-gray, 0.5) 0 5px 20px );
+            filter: drop-shadow( rgba($dark-gray, 0.5) 0 5px 20px );
   }
 
   .text-heading-two,
   p,
   li a {
-    text-shadow: rgba($darkest, 1) 0 10px 20px;
+    text-shadow: rgba($dark-gray, 1) 0 5px 20px;
   }
 
   li {
@@ -80,17 +80,17 @@
     overflow: hidden;
     border-radius: 6px;
     margin-bottom: 0.75rem;
-    box-shadow: rgba($darkest, 1) 0 10px 20px;
+    box-shadow: rgba($dark-gray, 1) 0 5px 20px;
     transition: all 0.1s ease-in-out;
   }
 
   &:hover img, &:focus img {
-    box-shadow: rgba($darkest, 0.8) 0 15px 30px;
+    box-shadow: rgba($dark-gray, 0.8) 0 10px 30px;
     transform: translate3d(0, -3px, 0);
   }
 
   &:active img {
-    box-shadow: rgba($darkest, 1) 0 5px 10px;
+    box-shadow: rgba($dark-gray, 1) 0 5px 10px;
     transform: translate3d(0, 3px, 0);
   }
 }
