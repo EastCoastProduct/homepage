@@ -45,7 +45,6 @@
   display: inline-block;
   margin: 1.5rem 0 1.5rem 0;
   width: 100%;
-  font-family: Raleway, sans-serif;
   font-size: 0.75rem;
 
   a {
@@ -63,7 +62,7 @@
     }
   }
 
-  .button--major {
+  .button--default {
     margin: 24px 0 0 0;
     display: block;
     width: 100%
@@ -89,7 +88,7 @@
   .navigation--global {
     font-size: 0.9375rem;
 
-    .button--major {
+    .button--default {
       width: 75%;
     }
   }
@@ -117,7 +116,7 @@
     float: right;
     text-align: right;
 
-    .button--major {
+    .button--default {
       display: inline-block;
       margin: 0 0 0 0.5rem;
       width: auto;
