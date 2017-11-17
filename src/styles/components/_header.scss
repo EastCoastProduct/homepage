@@ -1,9 +1,6 @@
 .header--global {
   background-color: $light-blue;
-  //background-image: linear-gradient(to bottom, $dark-gray, $light-gray);
-  //color: $lightest;
   padding-top: 1.875rem;
-  //-webkit-font-smoothing: antialiased;
   position: relative;
 
   &:after {
@@ -50,7 +47,6 @@
   a {
     margin: 0 0.5rem;
     border-bottom-color: rgba($blue, 0.2);
-    //text-shadow: rgba($dark-gray, 1) 0 5px 20px;
 
     &.link {
       line-height: 2;
@@ -78,10 +74,6 @@
 
 .page-heading {
   margin-top: 1.875rem;
-
-  h1, p {
-    //text-shadow: rgba($dark-gray, 1) 0 5px 20px;
-  }
 }
 
 @media (min-width: 400px) {
