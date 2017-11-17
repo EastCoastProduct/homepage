@@ -1,9 +1,9 @@
 .header--global {
-  background-color: $dark-gray;
-  background-image: linear-gradient(to bottom, $dark-gray, $light-gray);
-  color: $lightest;
+  background-color: $light-blue;
+  //background-image: linear-gradient(to bottom, $dark-gray, $light-gray);
+  //color: $lightest;
   padding-top: 1.875rem;
-  -webkit-font-smoothing: antialiased;
+  //-webkit-font-smoothing: antialiased;
   position: relative;
 
   &:after {
@@ -17,8 +17,8 @@
     bottom: 0;
     @include bottom-left($lightest);
     background-size: 100% 100%;
-    -webkit-filter: drop-shadow( rgba($dark-gray, 0.5) 0 -5px 20px );
-            filter: drop-shadow( rgba($dark-gray, 0.5) 0 -5px 20px );
+    -webkit-filter: drop-shadow( rgba($dark-gray, 0.15) 0 -5px 20px );
+            filter: drop-shadow( rgba($dark-gray, 0.15) 0 -5px 20px );
   }
 }
 
@@ -49,8 +49,8 @@
 
   a {
     margin: 0 0.5rem;
-    border-bottom-color: rgba($lightest, 0.2);
-    text-shadow: rgba($dark-gray, 1) 0 5px 20px;
+    border-bottom-color: rgba($blue, 0.2);
+    //text-shadow: rgba($dark-gray, 1) 0 5px 20px;
 
     &.link {
       line-height: 2;
@@ -58,7 +58,7 @@
 
     &:hover,
     &:focus {
-      border-bottom-color: $lightest;
+      border-bottom-color: $blue;
     }
   }
 
@@ -73,14 +73,14 @@
 .area-work .link-work,
 .area-about .link-about,
 .area-jobs .link-jobs {
-  border-bottom-color: $lightest !important;
+  border-bottom-color: $blue !important;
 }
 
 .page-heading {
   margin-top: 1.875rem;
 
   h1, p {
-    text-shadow: rgba($dark-gray, 1) 0 5px 20px;
+    //text-shadow: rgba($dark-gray, 1) 0 5px 20px;
   }
 }
 
