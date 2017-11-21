@@ -145,7 +145,7 @@ li {
 .text-heading-one {
   font-size: 1.5rem;        // 24px
   line-height: 1.25;        // 30px
-  margin-bottom: 0.9375rem; // 15px
+  margin-bottom: 1.9375rem; // 15px
 }
 
 .text-heading-two {
@@ -158,6 +158,39 @@ li {
   font-size: 1rem;        // 16px
   line-height: 1.5;       // 24px
   margin-bottom: 0.75rem; // 12px
+}
+
+.quote {
+  margin-bottom: 6rem;
+  border-left: 2px solid $blue;
+  padding-left: 1.5rem;
+
+  blockquote {
+    margin: 0;
+    position: relative;
+
+    &:before {
+      content: "“";
+      display: block;
+      position: absolute;
+      top: -0.25rem;
+      left: -2rem;
+      font-size: 3rem;
+      font-weight: bold;
+      font-weight: 700;
+      color: $blue;
+      background-color: $lightest;
+      height: 2rem;
+    }
+  }
+
+  figcaption {
+    font-style: italic;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
 }
 
 .visually-hidden {
@@ -251,7 +284,7 @@ li {
   .text-heading-one {
     font-size: 2.25rem;       // 36px
     line-height: 1.333;       // 48px
-    margin-bottom: 0.9375rem; // 15px
+    margin-bottom: 1.875rem;  // 30px
   }
 
   .text-heading-two {
