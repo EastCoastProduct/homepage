@@ -1,31 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="800px" height="280px" viewBox="0 0 800 280" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="900px" height="280px" viewBox="0 0 900 280" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
     <title>workspace-illustration</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="123" y="37" width="48" height="8"></rect>
-        <rect id="path-2" x="123" y="99" width="48" height="8"></rect>
-    </defs>
+    <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="alt-color-1" transform="translate(-156.000000, -307.000000)">
+        <g id="alt-color-3" transform="translate(-156.000000, -307.000000)">
             <g id="workspace-illustration" transform="translate(156.000000, 307.000000)">
-                <g id="desk" transform="translate(0.000000, 126.000000)">
-                    <rect id="Rectangle-4" fill="#D5AD74" x="0" y="0" width="800" height="12"></rect>
-                    <rect id="Rectangle-5" fill="#D5AD74" x="32" y="14" width="16" height="140"></rect>
-                    <rect id="Rectangle-5" fill="#D5AD74" x="50" y="14" width="194" height="140"></rect>
-                    <rect id="Rectangle-5" fill="#D5AD74" x="246" y="14" width="16" height="140"></rect>
-                    <g id="Rectangle-5">
-                        <use fill="#D5AD74" fill-rule="evenodd" xlink:href="#path-1"></use>
-                        <rect stroke="#DFEEFF" stroke-width="2" x="122" y="36" width="50" height="10"></rect>
-                    </g>
-                    <g id="Rectangle-5">
-                        <use fill="#D5AD74" fill-rule="evenodd" xlink:href="#path-2"></use>
-                        <rect stroke="#DFEEFF" stroke-width="2" x="122" y="98" width="50" height="10"></rect>
-                    </g>
-                    <rect id="Rectangle-5" fill="#D5AD74" x="752" y="14" width="16" height="140"></rect>
+                <g id="desk" transform="translate(100.000000, 126.000000)" fill="#D5AD74">
+                    <rect id="Rectangle-4" x="0" y="0" width="800" height="12"></rect>
+                    <rect id="Rectangle-5" x="32" y="14" width="16" height="140"></rect>
+                    <path d="M50,14 L244,14 L244,154 L50,154 L50,14 Z M121,35 L121,47 L173,47 L173,35 L121,35 Z M121,97 L121,109 L173,109 L173,97 L121,97 Z" id="Combined-Shape"></path>
+                    <rect id="Rectangle-5" x="246" y="14" width="16" height="140"></rect>
+                    <rect id="Rectangle-5" x="123" y="37" width="48" height="8"></rect>
+                    <rect id="Rectangle-5" x="123" y="99" width="48" height="8"></rect>
+                    <rect id="Rectangle-5" x="752" y="14" width="16" height="140"></rect>
                 </g>
-                <g id="book-stack" transform="translate(618.000000, 52.000000)">
+                <g id="book-stack" transform="translate(718.000000, 52.000000)">
                     <g id="book" transform="translate(4.000000, 52.000000)">
                         <rect id="Rectangle" fill="#7AC488" x="0" y="0" width="94" height="20"></rect>
                         <rect id="Rectangle" fill="#B1D9A8" x="0" y="0" width="94" height="10"></rect>
@@ -51,7 +42,7 @@
                         <rect id="Rectangle-9" fill="#15B0BF" x="0" y="18" width="42" height="2"></rect>
                     </g>
                 </g>
-                <g id="laptop" transform="translate(400.000000, 0.000000)">
+                <g id="laptop" transform="translate(500.000000, 0.000000)">
                     <rect id="Rectangle-750" fill="#E6E6E6" x="0" y="114" width="210" height="6"></rect>
                     <path d="M0,120 L210,120 L210,122 C210,123.104569 209.109364,124 208.005568,124 L1.99443167,124 C0.892937473,124 0,123.11227 0,122 L0,120 Z" id="Rectangle-750" fill="#B3B3B3"></path>
                     <path d="M16,6.00179395 C16,2.68709468 18.6894377,0 21.9988005,0 L188.001199,0 C191.314246,0 194,2.68550776 194,6.00179395 L194,112 L16,112 L16,6.00179395 Z" id="Rectangle-750" fill="#1C2B33"></path>
@@ -94,10 +85,26 @@
                     <rect id="Rectangle-762" fill="#1C2B33" x="44" y="78" width="52" height="2"></rect>
                     <rect id="Rectangle-762" fill="#1C2B33" x="44" y="82" width="30" height="2"></rect>
                 </g>
-                <g id="coffee-mug" transform="translate(326.000000, 82.000000)">
+                <g id="coffee-mug" transform="translate(426.000000, 82.000000)">
                     <path d="M0,1.99749218 C0,0.894307712 0.891941149,0 1.9999204,0 L32.0000796,0 C33.1046051,0 34,0.896660339 34,1.99749218 L34,34.0012616 C34,38.4188428 30.4256661,42 26.0070286,42 L7.99297144,42 C3.57857521,42 0,38.4191036 0,34.0012616 L0,1.99749218 Z" id="Rectangle-6" fill="#ED404E"></path>
                     <path d="M34,6 L39,6 C41.7614237,6 44,8.24402624 44,11.0058389 L44,28.9941611 C44,31.7588096 41.7558048,34 39,34 L34,34 L34,6 Z M34,10 L34,30 L38.0020869,30 C39.1017394,30 40,29.1086907 40,28.0092049 L40,11.9907951 C40,10.8982124 39.1055038,10 38.0020869,10 L34,10 Z" id="Combined-Shape" fill="#ED404E"></path>
                     <path d="M0,1.99749218 C0,0.894307712 0.894513756,0 1.99406028,0 L16,0 L16,42 L8,42 C3.581722,42 0,38.4191036 0,34.0012616 L0,1.99749218 Z" id="Rectangle-6" fill="#D42635"></path>
+                </g>
+                <g id="potted-plant" transform="translate(0.000000, 31.000000)">
+                    <g id="leaf" transform="translate(27.375555, 86.533778) rotate(-12.000000) translate(-27.375555, -86.533778) translate(16.375555, 45.533778)">
+                        <polygon id="Path-2" fill="#7AC488" points="10.968379 0 0 68.9440965 4.68576373 78.9850188 16.1219701 81.4142881 21.936758 68.9440965"></polygon>
+                        <polygon id="Path-2" fill="#B1D9A8" points="10.968379 0 0 68.9440965 4.68556734 78.984598 10.9653115 80.3182065"></polygon>
+                    </g>
+                    <g id="leaf" transform="translate(52.960005, 63.984044) rotate(7.000000) translate(-52.960005, -63.984044) translate(36.960005, 1.484044)">
+                        <polygon id="Path-2" fill="#7AC488" points="16 0 0 102.169492 10.3368635 124.67188 22.3485443 123.194672 32 102.169492"></polygon>
+                        <polygon id="Path-2" fill="#B1D9A8" points="16 0 0 102.169492 10.3394027 124.669209 16.0011727 123.974031"></polygon>
+                    </g>
+                    <g id="Group-2" transform="translate(0.000000, 127.000000)">
+                        <polygon id="Rectangle-10" fill="#F48C27" points="4 22 84 22 64 102 24 102"></polygon>
+                        <polygon id="Rectangle-10" fill="#DD5E44" points="4 22 24 22 34 102 24 102"></polygon>
+                        <rect id="Rectangle-7" fill="#F48C27" x="0" y="0" width="88" height="20"></rect>
+                        <rect id="Rectangle-7" fill="#DD5E44" x="0" y="0" width="28" height="20"></rect>
+                    </g>
                 </g>
             </g>
         </g>
