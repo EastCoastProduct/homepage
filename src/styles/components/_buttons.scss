@@ -25,17 +25,17 @@
 .button--default {
   @include button;
   background-color: $blue;
-  box-shadow: $blue-shade 0 4px 0, rgba($dark-gray, 0.3) 0 5px 20px;
+  box-shadow: $blue-shade 0 4px 0, rgba($blue-shade, 0.3) 0 5px 20px;
   margin-bottom: 20px; // set margin to separate multiple buttons
 
   &:only-of-type { margin-bottom: 0; } // and unset margin when buttons are alone
 
   &:hover, &:focus {
-    box-shadow: $blue-shade 0 4px 0, rgba($dark-gray, 0.2) 0 10px 30px;
+    box-shadow: $blue-shade 0 4px 0, rgba($blue-shade, 0.2) 0 10px 30px;
   }
 
   &:active {
-    box-shadow: $blue-shade 0 4px 0, rgba($dark-gray, 0.4) 0 5px 10px;
+    box-shadow: $blue-shade 0 4px 0, rgba($blue-shade, 0.4) 0 5px 10px;
   }
 
   .header--global &,

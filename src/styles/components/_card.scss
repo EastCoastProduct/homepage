@@ -3,7 +3,7 @@
   padding: 0.9375rem 0.9375rem 1.125rem 0.9375rem;
   margin-bottom: 1.875rem;
   border-radius: 6px;
-  box-shadow: rgba($dark-gray, 0.15) 0 5px 20px;
+  box-shadow: rgba($blue-shade, 0.15) 0 5px 20px;
   list-style-type: none; // if <li>
   margin-left: 0; // if <li>
   overflow: hidden; // mask images that run to edges
@@ -37,13 +37,13 @@ a.card { // use for cards that are a link
   &:focus {
     border: none;
     transform: translate3d(0, -3px, 0);
-    box-shadow: rgba($dark-gray, 0.2) 0 10px 30px;
+    box-shadow: rgba($blue-shade, 0.2) 0 10px 30px;
   }
 
   &:active {
     border: none;
     transform: translate3d(0, 3px, 0);
-    box-shadow: rgba($dark-gray, 0.4) 0 5px 10px;
+    box-shadow: rgba($blue-shade, 0.4) 0 5px 10px;
   }
 
   .link-surrogate {
@@ -60,7 +60,7 @@ a.card { // use for cards that are a link
 :target .card.targetable,
 .card.targetable:target {
   box-shadow:
-    rgba($dark-gray, 0.15) 0 10px 20px,  // normal shadow
+    rgba($blue-shade, 0.15) 0 10px 20px,  // normal shadow
     inset 0 0 0 4px rgba($blue, 0.5); // targeted psuedo-border
 }
 

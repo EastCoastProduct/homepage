@@ -42,8 +42,8 @@ section {
       bottom: 0;
       @include bottom-left($lightest);
       background-size: 100% 100%;
-      -webkit-filter: drop-shadow( rgba($dark-gray, 0.15) 0 -5px 20px );
-              filter: drop-shadow( rgba($dark-gray, 0.15) 0 -5px 20px );
+      -webkit-filter: drop-shadow( rgba($blue-shade, 0.15) 0 -5px 20px );
+              filter: drop-shadow( rgba($blue-shade, 0.15) 0 -5px 20px );
     }
 
     &:last-child:after {
