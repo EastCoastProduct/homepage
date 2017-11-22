@@ -5,6 +5,10 @@
   img {
     width: 100%;
     display: block;
+
+    .area-home & {
+      max-width: 800px;
+    }
   }
 
   .browser-chrome {
