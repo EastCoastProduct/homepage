@@ -52,15 +52,15 @@
               <p class="paragraph--minor employee-bio"><%= person.bio %></p>
               <p class="paragraph--minor"><strong><%= person.name.split(" ")[0] %> is an expert in:</strong> <br><%= person.areas %>.</p>
               <ul class="list--minor employee-contact">
-                <% if(person.contact.email) { %>      <li><span class="icon icon--email-darkest"></span><a href="mailto:<%= person.contact.email %>@eastcoastproduct.com" target="_blank">Email me</a></li><% } %>
-                <% if(person.contact.schedule) { %>   <li><span class="icon icon--calendar-darkest"></span><a href="<%= person.contact.schedule %>" target="_blank">Schedule time with me</a></li><% } %>
+                <% if(person.contact.email) { %>      <li><span class="icon icon--email-darkest"></span><a href="mailto:<%= person.contact.email %>@eastcoastproduct.com" target="_blank" rel="noopener">Email me</a></li><% } %>
+                <% if(person.contact.schedule) { %>   <li><span class="icon icon--calendar-darkest"></span><a href="<%= person.contact.schedule %>" target="_blank" rel="noopener">Schedule time with me</a></li><% } %>
                 <% if(person.contact.tel) { %>        <li><span class="icon icon--phone-darkest"></span><a href="tel:<%= person.contact.tel %>">Call me</a></li><% } %>
-                <% if(person.contact.facebook) { %>   <li><span class="icon icon--facebook-darkest"></span><a href="<%= person.contact.facebook %>" target="_blank">Facebook</a></li><% } %>
-                <% if(person.contact.twitter) { %>    <li><span class="icon icon--twitter-darkest"></span><a href="<%= person.contact.twitter %>" target="_blank">Twitter</a></li><% } %>
-                <% if(person.contact.linkedin) { %>   <li><span class="icon icon--linkedin-darkest"></span><a href="<%= person.contact.linkedin %>" target="_blank">LinkedIn</a></li><% } %>
-                <% if(person.contact.github) { %>     <li><span class="icon icon--github-darkest"></span><a href="<%= person.contact.github %>" target="_blank">Github</a></li><% } %>
-                <% if(person.contact.dribbble) { %>   <li><span class="icon icon--dribbble-darkest"></span><a href="<%= person.contact.dribbble %>" target="_blank">Dribbble</a></li><% } %>
-                <% if(person.contact.spotlight) { %>  <li><span class="icon icon--spotlight-darkest"></span><a href="<%= person.contact.spotlight %>" target="_blank">Spotlight</a></li><% } %>
+                <% if(person.contact.facebook) { %>   <li><span class="icon icon--facebook-darkest"></span><a href="<%= person.contact.facebook %>" target="_blank" rel="noopener">Facebook</a></li><% } %>
+                <% if(person.contact.twitter) { %>    <li><span class="icon icon--twitter-darkest"></span><a href="<%= person.contact.twitter %>" target="_blank" rel="noopener">Twitter</a></li><% } %>
+                <% if(person.contact.linkedin) { %>   <li><span class="icon icon--linkedin-darkest"></span><a href="<%= person.contact.linkedin %>" target="_blank" rel="noopener">LinkedIn</a></li><% } %>
+                <% if(person.contact.github) { %>     <li><span class="icon icon--github-darkest"></span><a href="<%= person.contact.github %>" target="_blank" rel="noopener">Github</a></li><% } %>
+                <% if(person.contact.dribbble) { %>   <li><span class="icon icon--dribbble-darkest"></span><a href="<%= person.contact.dribbble %>" target="_blank" rel="noopener">Dribbble</a></li><% } %>
+                <% if(person.contact.spotlight) { %>  <li><span class="icon icon--spotlight-darkest"></span><a href="<%= person.contact.spotlight %>" target="_blank" rel="noopener">Spotlight</a></li><% } %>
               </ul>
             </li><!-- end of .card -->
             <% } %>
