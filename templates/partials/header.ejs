@@ -17,7 +17,7 @@
       <!--<a href="/work" class="link link-work">Work</a>-->
       <a href="/about" class="link link-about">About</a>
       <a href="/jobs" class="link link-jobs">Jobs</a>
-      <a href="https://blog.eastcoastproduct.com" target="_blank" rel="noopener" class="link">Blog</a>
+      <a href="/posts" class="link link-posts">Blog</a>
       <a href="/contact" class="button--default">Hire Us</a>
     </nav>
     <div class="page-heading">
@@ -26,6 +26,9 @@
         <div class="header--image">
           <img src="<%- pageHeadingImage %>" alt="<%- pageHeadingImageAlt %>"/>
         </div>
+      <% } else if(layout == "post.ejs") { %>
+        <h1 class="page-heading--title"><%- pageHeading %></h1>
+        <p class="page-heading--subtitle">By <%- pageDescription %> | <%- pageDate %></p>
       <% } else { %>
         <h1 class="page-heading--title"><%- pageHeading %></h1>
         <% if(pageDescription) { %>

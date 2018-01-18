@@ -47,6 +47,10 @@ Metalsmith(__dirname)
     },
     technologies: {
       pattern: 'technologies/**'
+    },
+    posts: {
+      pattern: 'posts/**',
+      sortBy: 'pageDate'
     }
   }))
   .use(ignore([
