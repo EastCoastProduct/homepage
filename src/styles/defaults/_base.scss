@@ -61,6 +61,7 @@ section {
   max-width: 930px;
   padding: 0 0.9375rem;
   margin: 0 auto;
+  overflow: auto;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -204,6 +205,30 @@ li {
   width: 1px;
 }
 
+.post-image {
+  display: block;
+  margin: 0 0 1.5rem 0; // 24px
+}
+
+.full-width {
+  width: 100%;
+  max-width: 100%;
+}
+
+.hang-left {
+  float: left;
+  margin-right: 2%;
+  margin-top: 7px;
+  max-width: 49%;
+}
+
+.hang-right {
+  float: right;
+  margin-left: 2%;
+  margin-top: 7px;
+  max-width: 49%;
+}
+
 @media (min-width: 700px) {
 
   main {
@@ -304,5 +329,14 @@ li {
     .section--header {
       margin-bottom: 0.5625rem;
     }
+  }
+
+  .hang-left {
+    max-width: 32%;
+  }
+
+  .hang-right {
+    margin-right: 25.75%;
+    max-width: 32%;
   }
 }
