@@ -2,6 +2,7 @@ const Metalsmith =    require('metalsmith')
 const branch =        require('metalsmith-branch')
 const cleanCSS =      require('metalsmith-clean-css')
 const collections =   require('metalsmith-collections')
+const dateFormatter = require('metalsmith-date-formatter')
 const drafts =        require('metalsmith-drafts')
 const fingerprint =   require('metalsmith-fingerprint')
 const htmlMinifier =  require('metalsmith-html-minifier')
@@ -50,8 +51,17 @@ Metalsmith(__dirname)
     },
     posts: {
       pattern: 'posts/**',
-      sortBy: 'pageDate'
+      sortBy: 'pageDate',
+      reverse: true
     }
+  }))
+  .use(dateFormatter({
+    dates: [
+      {
+        key: 'pageDate',
+        format: 'MMMM DD, YYYY'
+      }
+    ]
   }))
   .use(ignore([
     '**/_person/**',

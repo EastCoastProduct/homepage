@@ -41,7 +41,8 @@
   "license": "ISC",
   "devDependencies": {
     "gulp-s3": "^0.3.0",
-    "gulp-shell": "^0.5.2"
+    "gulp-shell": "^0.5.2",
+    "metalsmith-date-formatter": "^1.0.2"
   },
   "repository": {
     "type": "git",

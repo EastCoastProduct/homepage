@@ -8,6 +8,7 @@
   background-color: #fff;
   font-size: 1rem;
   line-height: 1.6;
+  margin: 0 0 1.5rem 0; // 24px
 }
 
 .table th {
@@ -41,36 +42,4 @@
 
 .table-row-label {
   font-weight: bold;
-}
-
-@media screen and (max-width: 700px) {
-  .table {
-    font-size: 0.75rem;
-  }
-
-  .table tr {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-  }
-
-  .table td, .table th {
-    display: block;
-    width: 50%;
-  }
-
-  .table th {
-    text-align: center;
-    font-size: 0.9375rem;
-  }
-
-  .table th:first-child,
-  .table td:first-child {
-    text-align: center;
-    width: 100%;
-  }
-
-  .table th:first-child {
-    display: none;
-  }
 }
