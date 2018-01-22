@@ -50,7 +50,7 @@ Metalsmith(__dirname)
       pattern: 'technologies/**'
     },
     posts: {
-      pattern: 'posts/**',
+      pattern: 'blog/**',
       sortBy: 'pageDate',
       reverse: true
     }
