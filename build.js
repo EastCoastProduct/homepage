@@ -17,7 +17,8 @@ Metalsmith(__dirname)
   .clean(true)
   .destination('./build')
   .use(redirect({
-    '/levelupdev/next': 'https://www.meetup.com/Level-Up-Development/events/238408755/'
+    '/levelupdev/next': 'https://www.meetup.com/Level-Up-Development/events/238408755/',
+    '/jobs/javascript-developer': 'https://eastcoastproduct.com/jobs/senior-javascript-developer/'
   }))
   .use(drafts())
   .use(collections({
