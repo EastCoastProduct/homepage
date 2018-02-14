@@ -3,7 +3,6 @@ const cleanCSS =      require('metalsmith-clean-css')
 const collections =   require('metalsmith-collections')
 const drafts =        require('metalsmith-drafts')
 const fingerprint =   require('metalsmith-fingerprint')
-const htmlMinifier =  require('metalsmith-html-minifier')
 const ignore =        require('metalsmith-ignore')
 const layouts =       require('metalsmith-layouts')
 const metadata =      require('metalsmith-metadata')
@@ -89,7 +88,6 @@ Metalsmith(__dirname)
     engine: 'ejs',
     directory: './templates/'
   }))
-  .use(htmlMinifier())
   .use(serve({
     http_error_files: {
       404: "/error.html"
