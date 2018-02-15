@@ -70,6 +70,19 @@
   }
 }
 
+.form-submit-message {
+  display: none;
+}
+
+#when-form-submitted:target {
+  .form-submit-message {
+    display: block;
+  }
+  .contact-form-wrapper {
+    display: none;
+  }
+}
+
 @media (min-width: 700px) {
   .contact-form-wrapper {
     max-width: 65.667%;

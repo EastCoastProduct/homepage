@@ -20,10 +20,12 @@
           <header class="section--header">
             <h1 class="text-heading-one">I'd like to talk about a project</h1>
           </header>
-          <div class="card targetable">
-
+          <div class="card targetable" id="when-form-submitted">
+            <p class="form-submit-message">Thanks! We'll be in touch soon. <a href="/contact/">Click</a> here if you want to fill the form out again.</p>
             <div class="contact-form-wrapper">
-              <form action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSdaxTKxUSWx4AbC9qVkV3ti3i0DG_Sm0lv3-27IkcC5qJiHRg/formResponse" class="contact-form" id="contact-form" method="post">
+              <script type="text/javascript">var submitted=false;</script>
+              <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='/contact/#when-form-submitted';}"></iframe>
+              <form action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSdaxTKxUSWx4AbC9qVkV3ti3i0DG_Sm0lv3-27IkcC5qJiHRg/formResponse" class="contact-form" id="contact-form" method="post" target="hidden_iframe" onsubmit="submitted=true;">
                 <div class="contact-form-field">
                   <label for="entry.591189110">First name</label>
                   <input id="entry.591189110" class="contact-input" type="text" name="entry.591189110" required>
@@ -76,23 +78,6 @@
                 </div>
                 <input type="submit" value="Get in touch" class="contact-button primary large">
               </form><!-- end of form -->
-              <!-- fix later<script>
-                $('#contact-form').submit(function(e) {
-                  e.preventDefault();
-                  $.ajax({
-                    url: "url to google form responses",
-                    data: $(this).serialize(),
-                    type: "POST",
-                    dataType: "xml",
-                    success: function(data) {
-                      console.log('Submission successful');
-                    },
-                    error: function(xhr, status, error) {
-                      console.log('Submission failed: ' + error);
-                    }
-                  });
-                });
-              </script>-->
             </div>
           </div>
         </div>
