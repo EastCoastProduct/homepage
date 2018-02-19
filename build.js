@@ -23,29 +23,29 @@ Metalsmith(__dirname)
   .use(drafts())
   .use(collections({
     pages: {
-        pattern: '**'
+        pattern: '**.html'
     },
     person: {
-      pattern: '_person/**',
+      pattern: '_person/**.html',
       sortBy: 'sortOrder'
     },
     mentions: {
-      pattern: '_mentions/**',
+      pattern: '_mentions/**.html',
       sortBy: 'sortOrder'
     },
     values: {
-      pattern: '_values/**',
+      pattern: '_values/**.html',
       sortBy: 'sortOrder'
     },
     work: {
-      pattern: 'work/**',
+      pattern: 'work/**.html',
       sortBy: 'sortOrder'
     },
     jobs: {
-      pattern: 'jobs/**'
+      pattern: 'jobs/**.html'
     },
     technologies: {
-      pattern: 'technologies/**'
+      pattern: 'technologies/**.html'
     }
   }))
   .use(ignore([
